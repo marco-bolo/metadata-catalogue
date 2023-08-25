@@ -1,0 +1,178 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+   
+    "@type": "Dataset",
+    "@id": "URL:  Optional. A URL that resolves to *this* JSON-LD document, NOT the URL of the Dataset that this JSON-LD document describes. To link to the Dataset itself, please use 'url' and/or 'identifier')",
+   "distribution": {"@type": "https://schema.org/DataDownload"}, 
+   "includedInDataCatalog": {"@type": "https://schema.org/DataCatalog"},
+   "measurementTechnique": [
+    "Text: A technique, method or technology used in an Observation, StatisticalVariable or Dataset (or DataDownload, DataCatalog), corresponding to the method used for measuring the corresponding variable(s) (for datasets, described using variableMeasured; for Observation, a StatisticalVariable).",
+    "URL",
+    {"@type": "https://schema.org/MeasurementMethodEnum"}
+   ],
+   "variableMeasured": [
+    "Text: A technique, method or technology used in an Observation, StatisticalVariable or Dataset (or DataDownload, DataCatalog), corresponding to the method used for measuring the corresponding variable(s) (for datasets, described using variableMeasured; for Observation, a StatisticalVariable).",
+    {"@type": "https://schema.org/Property"},
+    {"@type": "https://schema.org/PropertyValue"},
+    {"@type": "https://schema.org/StatisticalVariable"}
+   ],
+  
+    "about": "Text or controlled vocabulary/ontology, singly or as an array: The subject matter of this CreativeWork",
+    "abstract": "Text: A descriptive summary of a CreativeWork",
+    "accountablePerson": {"@type": "https://schema.org/Person"},
+    "acquireLicensePage": [
+        "URL",
+        {"@type": "https://schema.org/CreativeWork"}
+    ],
+    "archivedAt": [
+        "URL",
+        {"@type": "https://schema.org/WebPage"}
+    ],
+    "associatedMedia": {"@type": "https://schema.org/MediaObject"},
+    "audience": {"@type": "https://schema.org/Audience"},
+    "author": [
+      {"@type": "https://schema.org/Person"},
+      {"@type": "https://schema.org/Organization"}
+    ],
+    "citation": [
+        "Text: A textual citation to other work relevant to this CreativeWork",
+        {"@type": "https://schema.org/CreativeWork"}
+    ],
+    "conditionsOfAccess": "Text: Description of conditions that affect the availability of, or method(s) of access to, an item.",
+
+    "contentReferenceTime": {"@type": "https://schema.org/DateTime"},
+    "contributor": [
+        {"@type": "https://schema.org/Organization"},
+        {"@type": "https://schema.org/Person"}
+    ],
+   
+  "copyrightHolder":  [
+        {"@type": "https://schema.org/Organization"},
+        {"@type": "https://schema.org/Person"}
+    ],
+    "copyrightNotice": "Text. Text of a notice appropriate for describing the copyright aspects of this Creative Work",
+    "copyrightYear": {"@type": "https://schema.org/Number"},
+  
+    "correction": [
+        "Text:  description of a correction to the CreativeWork",
+        "URL",
+        {"@type": "https://schema.org/CorrectionComment"}
+    ],
+    "countryOfOrigin": {"@type": "https://schema.org/Country"},
+    "creativeWorkStatus": [
+        "Text: Description of the status of this CreativeWork in terms of its stage in a lifecycle",
+        {"@type": "https://schema.org/DefinedTerm"}
+    ],
+    "creditText": "Text: Text used to credit person(s) and/or organization(s) associated with this CreativeWork",
+    "dateCreated": [
+        {"@type": "https://schema.org/Date"},
+        {"@type": "https://schema.org/DateTime"}
+    ],
+    "dateModified": [
+        {"@type": "https://schema.org/Date"},
+        {"@type": "https://schema.org/DateTime"}
+    ],
+    "datePublished": [
+        {"@type": "https://schema.org/Date"},
+        {"@type": "https://schema.org/DateTime"}
+    ],
+    "discussionUrl": "URL",
+    "editor": {"@type": "https://schema.org/Person"},
+    "educationalUse": [
+        "Text:  Description of the purpose of this CreativeWork in the context of education",
+        {"@type": "https://schema.org/DefinedTerm"}
+    ],
+    "encoding": {"@type": "https://schema.org/MediaObject"},
+    "encodingFormat": [
+        "Text: Textual description of the media type typically expressed using a MIME format (see IANA site [http://www.iana.org/assignments/media-types/media-types.xhtml] and MDN reference [https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types]), e.g. application/zip for a SoftwareApplication binary, audio/mpeg for .mp3 etc. ",
+        "URL"
+    ],
+    "funder": [
+        {"@type": "https://schema.org/Organization"},
+        {"@type": "https://schema.org/Person"}
+    ],
+    "funding": {"@type": "https://schema.org/Grant"},
+    "hasPart": {"@type": "https://schema.org/CreativeWork"},
+    "inLanguage": [
+        "Text: The language of the content or performance or used in an action.",
+        {"@type": "https://schema.org/Language"}
+    ],
+    "isAccessibleForFree": {"@type": "https://schema.org/Boolean"},
+    "isBasedOn": [
+        {"@type": "https://schema.org/CreativeWork"},
+        {"@type": "https://schema.org/Product"},
+        "URL"
+    ],
+    "isPartOf": [
+        {"@type": "https://schema.org/CreativeWork"},
+        "URL"
+    ],
+    "keywords": [
+        "Text: Keywords or tags used to describe the CreativeWork.",
+        {"@type": "https://schema.org/DefinedTerm"},
+        "URL"
+    ],
+    "license": [
+        "URL",
+        {"@type": "https://schema.org/CreativeWork"}
+    ],
+    "locationCreated": {"@type": "https://schema.org/Place"},
+    "mainEntity": {"@type": "https://schema.org/Thing"},
+    "maintainer":  [
+        {"@type": "https://schema.org/Organization"},
+        {"@type": "https://schema.org/Person"}
+    ],
+    "position": [
+        "Integer: An integer which expresses the position of an item in a series or sequence of items.",
+        "Text: A textual description of the position of an item in a series or sequence of items."
+    ],
+    "provider": [
+        {"@type": "https://schema.org/Organization"},
+        {"@type": "https://schema.org/Person"}
+    ],
+    "publication": {"@type": "https://schema.org/PublicationEvent"},
+    "publisher": [
+        {"@type": "https://schema.org/Organization"},
+        {"@type": "https://schema.org/Person"}
+    ],
+    "publishingPrinciples": [
+        {"@type": "https://schema.org/CreativeWork"},
+        {"@type": "https://schema.org/URL"}
+    ],
+    "review": {"@type": "https://schema.org/Review"},
+    "sdDatePublished": {"@type": "https://schema.org/Date"},
+    "size": "Text: Text indicating the phyiscal size of the CreativeWork (if appropriate). DefinedTerm or QuantitativeValue or SizeSpecification are also valid Types",
+    "spatial": "A more general property for any space-related information about this CreativeWork. This can be expressed as text or using the properties associated with the Place Type",
+    "spatialCoverage": {"@type": "https://schema.org/Place"},
+    "temporal": "A more general property for any time-related information about this CreativeWork. This can be expressed as text or using the properties associated with the DateTime Type",
+    "temporalCoverage": [
+        {"@type": "https://schema.org/DateTime"},
+        "Text",
+        "URL"
+    ],
+    "version": ["https://schema.org/Text", "https://schema.org/Number"],
+
+    
+    "additionalType": [
+        "Text: An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax.",
+        "URL"
+      ],
+      "alternateName": "Text: An alternative name for this Thing.",
+      "description": "Text: Free text which describes this Thing.",
+      "disambiguatingDescription": "Text: A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation",
+      "identifier": [
+          {"@type": "https://schema.org/PropertyValue"},
+          "Text - The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See background notes for more details.",
+          "URL"
+      ],
+      "mainEntityOfPage": [
+        "URL",
+        {"@type": "https://schema.org/CreativeWork"}
+      ],
+      "name": "Text: The name of the item.",
+      "sameAs": "URL",
+      "subjectOf": "URL",
+      "url": "URL - the URL to the item described by this JSON-LD document"
+}
