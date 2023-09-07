@@ -1,4 +1,4 @@
-name: Generate Data
+name: Generate reports
 
 on:
   workflow_dispatch:

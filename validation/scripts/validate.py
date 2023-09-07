@@ -33,7 +33,7 @@ output = ""
 
 for dataset_filename in dataset_files:
 
-    output = output + f"## {dataset_filename}\n\n"
+    output = output + f"## [{dataset_filename}](https://lab.marcobolo-project.eu/dataset-catalogue/{dataset_filename})\n\n"
 
     dataset_file = open(dataset_filename, "r")
     jsonld = dataset_file.read()
