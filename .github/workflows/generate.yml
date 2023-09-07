@@ -1,0 +1,31 @@
+name: Generate Data
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install -r validation/scripts/requirements.txt
+      - name: Generate reports
+        run: PYTHONPATH=. python validation/scripts/validate.py
+      - name: Commit reports
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git checkout -b reports
+          git add docs/_includes
+          git commit -m "Update reports"
+          git push --force origin reports

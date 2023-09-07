@@ -2,4 +2,6 @@
 layout: home
 ---
 
-This page will host automatically generated metadata validation reports.
+This page hosts automatically generated validation reports for dataset metadata hosted in this repository.
+
+{% include datasets.html %}

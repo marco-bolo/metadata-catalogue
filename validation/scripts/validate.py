@@ -29,17 +29,27 @@ def validate_rdf(jsonld: str):
 
 dataset_files = [os.path.join("datasets", f) for f in os.listdir("datasets") if os.path.isfile(os.path.join("datasets", f))]
 
+output = ""
+
 for dataset_filename in dataset_files:
 
-    print(dataset_filename)
+    output = output + f"## {dataset_filename}\n\n"
 
     dataset_file = open(dataset_filename, "r")
     jsonld = dataset_file.read()
     dataset_file.close()
 
     json_ok, json_results = validate_json(jsonld)
+    output = output + f"- JSON valid: {json_ok}\n\n"
+
     if json_ok:
         rdf_ok, rdf_results = validate_rdf(jsonld)
-        print(rdf_results)
+        output = output + f"- RDF valid: {rdf_ok}\n\n"
 
-    print(json_ok, rdf_ok)
+    if not rdf_ok:
+
+        output = output + f"```\n{rdf_results}\n```"
+
+    output_file = open("docs/_includes/datasets.html", "w")
+    output_file.writelines(output)
+    output_file.close()
