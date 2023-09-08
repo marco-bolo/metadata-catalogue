@@ -8,7 +8,6 @@
 </ul>
 
 {% if dataset.rdf_results %}
-<h4>RDF validation results</h4>
 <table class="table table-condensed">
 	<tr>
 		<th>Severity</th>
@@ -17,7 +16,17 @@
 	</tr>
 	{% for result in dataset.rdf_results %}
 	<tr>
-		<td>{{ result.resultSeverity }}</td>
+		<td>
+			{% if result.resultSeverity == "http://www.w3.org/ns/shacl#Violation" %}
+			<span class="badge bg-danger">Violation</span>
+			{% endif %}
+			{% if result.resultSeverity == "http://www.w3.org/ns/shacl#Warning" %}
+			<span class="badge bg-warning text-dark">Warning</span>
+			{% endif %}
+			{% if result.resultSeverity == "http://www.w3.org/ns/shacl#Info" %}
+			<span class="badge bg-light text-dark">Info</span>
+			{% endif %}
+		</td>
 		<td>{{ result.resultPath }}</td>
 		<td>{{ result.resultMessage }}</td>
 	</tr>
