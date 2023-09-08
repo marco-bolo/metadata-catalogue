@@ -1,0 +1,28 @@
+{% for dataset in datasets %}
+
+<h2><a href="{{ dataset.document_url }}" target="_blank">{{ dataset.filename }}</a></h2>
+
+<ul>
+	<li>JSON valid: {{ dataset.json_valid }}</li>
+	<li>RDF valid: {{ dataset.rdf_valid }}</li>
+</ul>
+
+{% if dataset.rdf_results %}
+<h4>RDF validation results</h4>
+<table class="table table-condensed">
+	<tr>
+		<th>Severity</th>
+		<th>Path</th>
+		<th>Message</th>
+	</tr>
+	{% for result in dataset.rdf_results %}
+	<tr>
+		<td>{{ result.resultSeverity }}</td>
+		<td>{{ result.resultPath }}</td>
+		<td>{{ result.resultMessage }}</td>
+	</tr>
+	{% endfor %}
+</table>
+{% endif %}
+
+{% endfor %}
