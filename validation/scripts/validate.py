@@ -5,6 +5,7 @@ import json
 from jinja2 import Environment, FileSystemLoader
 from datetime import datetime
 from pyld import jsonld
+from rdflib.plugins.sparql import prepareQuery
 
 
 DATASET_FOLDER = "datasets"
@@ -22,15 +23,15 @@ def validate_json(jsonld: str):
     return True, None
 
 
-def validate_rdf(jsonld: str):
+def validate_rdf(jsonld: str) -> tuple[bool, rdflib.Graph, rdflib.Graph]:
     dataset_graph = rdflib.Graph()
     dataset_graph.parse(data=jsonld, format="json-ld")
     conforms, results_graph, results_text = validate(dataset_graph, shacl_graph=shape_graph, inference="rdfs")
 
     if conforms:
-        return True, None
+        return True, None, dataset_graph
     else:
-        return False, results_graph
+        return False, results_graph, dataset_graph
 
 
 def get_dataset_files() -> list:
@@ -56,21 +57,37 @@ def validate_datasets() -> dict:
         doc = dataset_file.read()
         dataset_file.close()
 
+        dataset = {
+            "filename": dataset_filename,
+            "document_url": f"{REPO_URL}/blob/main/{dataset_filename}",
+            "rdf_results": {}
+        }
+
         json_ok, json_results = validate_json(doc)
+        dataset["json_valid"] = json_ok
+
         if json_ok:
             framed = jsonld.frame(json.loads(doc), {
                 "@context": {},
                 "@type": "http://schema.org/Dataset"
             })
-            rdf_ok, rdf_results = validate_rdf(json.dumps(framed))
+            rdf_ok, rdf_results, dataset_graph = validate_rdf(json.dumps(framed))
+            dataset["rdf_valid"] = rdf_ok
 
-        dataset = {
-            "filename": dataset_filename,
-            "document_url": f"{REPO_URL}/blob/main/{dataset_filename}",
-            "json_valid": json_ok,
-            "rdf_valid": rdf_ok,
-            "rdf_results": {}
-        }
+        if rdf_ok:
+            from rdflib import Namespace
+            schema = Namespace("http://schema.org/")
+            query = prepareQuery("""
+                SELECT ?name
+                WHERE {
+                ?dataset a schema:Dataset ;
+                        schema:name ?name .
+                }
+            """, initNs={"schema": "http://schema.org/"})
+            res = dataset_graph.query(query)
+            for row in res:
+                dataset["name"] = row[0].toPython()
+                break
 
         if not rdf_ok:
             for subject, predicate, obj in rdf_results:

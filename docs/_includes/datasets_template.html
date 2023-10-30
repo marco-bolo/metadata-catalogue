@@ -3,9 +3,10 @@
 
 {% for dataset in datasets %}
 
-<h2><a href="{{ dataset.document_url }}" target="_blank">{{ dataset.filename }}</a></h2>
+<h2>{% if dataset.name %}{{ dataset.name }}{% else %}(name missing){% endif %}</h2>
 
 <ul>
+	<li>Document: <a href="{{ dataset.document_url }}" target="_blank">{{ dataset.filename }}</a></li>
 	<li>JSON valid: {{ dataset.json_valid }}</li>
 	<li>RDF valid: {{ dataset.rdf_valid }}</li>
 </ul>
