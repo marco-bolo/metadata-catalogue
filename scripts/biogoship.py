@@ -73,11 +73,17 @@ def create_dataset() -> dict:
                 "encodingFormat": "https://maq.sourceforge.net/fastq.shtml"
             }
         ],
-        "about": [
+        "about": [],
+        "publishingPrinciples": [
             {
                 "@id": "https://www.goosocean.org/eov/microbial_biomass_diversity",
-                "@type": "https://www.goosocean.org/eov",
-                "name": "Microbial biomass and diversity EOV"
+                "@type": "CreativeWork",
+                "name": "Microbial biomass and diversity EOV",
+                "author": {
+                    "@type": "Organization",
+                    "@id": "https://goosocean.org",
+                    "name": "GOOS"
+                }
             }
         ]
     }

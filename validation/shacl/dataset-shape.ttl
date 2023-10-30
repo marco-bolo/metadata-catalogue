@@ -11,7 +11,8 @@ mboval:DatasetCommonShape
     shacl:message "MARCO-BOLO Dataset validation set" ;
     shacl:property
         mboval:nameResourceProperty,
-        mboval:descriptionResourceProperty
+        mboval:descriptionResourceProperty,
+        mboval:publishingPrinciplesResourceProperty
     .
 
 mboval:nameResourceProperty
@@ -28,4 +29,12 @@ mboval:descriptionResourceProperty
     shacl:nodeKind shacl:Literal ;
     shacl:minCount 1 ;
     shacl:message "Description is required" ;
+    .
+
+mboval:publishingPrinciplesResourceProperty
+    a shacl:PropertyShape ;
+    shacl:path schema:publishingPrinciples ;
+    shacl:nodeKind shacl:IRI ;
+    shacl:minCount 1 ;
+    shacl:message "Publishing principles is required" ;
     .

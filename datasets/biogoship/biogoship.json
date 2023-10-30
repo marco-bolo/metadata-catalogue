@@ -59,11 +59,6 @@
             ],
             "about": [
                 {
-                    "@id": "https://www.goosocean.org/eov/microbial_biomass_diversity",
-                    "@type": "https://www.goosocean.org/eov",
-                    "name": "Microbial biomass and diversity EOV"
-                },
-                {
                     "@id": "https://biogoship.org/cruise/AE1319"
                 },
                 {
@@ -86,6 +81,18 @@
                 },
                 {
                     "@id": "https://biogoship.org/cruise/P18"
+                }
+            ],
+            "publishingPrinciples": [
+                {
+                    "@id": "https://www.goosocean.org/eov/microbial_biomass_diversity",
+                    "@type": "CreativeWork",
+                    "name": "Microbial biomass and diversity EOV",
+                    "author": {
+                        "@type": "Organization",
+                        "@id": "https://goosocean.org",
+                        "name": "GOOS"
+                    }
                 }
             ],
             "spatialCoverage": {
