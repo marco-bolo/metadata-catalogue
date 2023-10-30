@@ -3,6 +3,8 @@ import rdflib
 from pyshacl import validate
 import json
 from jinja2 import Environment, FileSystemLoader
+from datetime import datetime
+from pyld import jsonld
 
 
 DATASET_FOLDER = "datasets"
@@ -43,17 +45,24 @@ def get_dataset_files() -> list:
 def validate_datasets() -> dict:
     dataset_files = get_dataset_files()
 
-    context = {"datasets": []}
+    context = {
+        "time": datetime.now(),
+        "datasets": []
+    }
 
     for dataset_filename in dataset_files:
 
         dataset_file = open(dataset_filename, "r")
-        jsonld = dataset_file.read()
+        doc = dataset_file.read()
         dataset_file.close()
 
-        json_ok, json_results = validate_json(jsonld)
+        json_ok, json_results = validate_json(doc)
         if json_ok:
-            rdf_ok, rdf_results = validate_rdf(jsonld)
+            framed = jsonld.frame(json.loads(doc), {
+                "@context": {},
+                "@type": "http://schema.org/Dataset"
+            })
+            rdf_ok, rdf_results = validate_rdf(json.dumps(framed))
 
         dataset = {
             "filename": dataset_filename,

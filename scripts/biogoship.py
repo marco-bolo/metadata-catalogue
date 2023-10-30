@@ -170,7 +170,7 @@ def create_graph() -> dict:
 
     return {
         "@context": {
-            "@vocab": "https://schema.org/",
+            "@vocab": "http://schema.org/",
             "geosparql": "http://www.opengis.net/ont/geosparql#"
         },
         "@graph": [
