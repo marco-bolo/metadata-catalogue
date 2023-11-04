@@ -9,6 +9,9 @@
 	<li>Document: <a href="{{ dataset.document_url }}" target="_blank">{{ dataset.filename }}</a></li>
 	<li>JSON valid: {{ dataset.json_valid }}</li>
 	<li>RDF valid: {{ dataset.rdf_valid }}</li>
+	{% if dataset.rdf_valid %}
+	<li><a href="https://pieterprovoost.be/jsonld-viz?url={{ dataset.document_url_raw }}" target="_blank">Visualize graph</a></li>
+	{% endif %}
 </ul>
 
 {% if dataset.rdf_results %}

@@ -10,6 +10,7 @@ from rdflib.plugins.sparql import prepareQuery
 
 DATASET_FOLDER = "datasets"
 REPO_URL = "https://github.com/marco-bolo/dataset-catalogue"
+REPO_URL_RAW = "https://raw.githubusercontent.com/marco-bolo/dataset-catalogue"
 
 shape_graph = rdflib.Graph()
 shape_graph.parse("validation/shacl/dataset-shape.ttl", format="turtle")
@@ -60,6 +61,7 @@ def validate_datasets() -> dict:
         dataset = {
             "filename": dataset_filename,
             "document_url": f"{REPO_URL}/blob/main/{dataset_filename}",
+            "document_url_raw": f"{REPO_URL_RAW}/main/{dataset_filename}",
             "rdf_results": {}
         }
 
