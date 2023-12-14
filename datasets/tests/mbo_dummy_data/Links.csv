@@ -1,0 +1,11 @@
+"DatasetIdentifier","SourceDataset","MissingSource_Dataset","RelevantCitations"
+"VLIZdataset1","VLIZdataset8",,"https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.68"
+"VLIZdataset2","VLIZdataset9",,"https://dx.doi.org/10.3897/bdj.8.e57236,  https://dx.doi.org/10.5670/oceanog.2021.supplement.02-09, https://dx.doi.org/10.3897/bdj.8.e57236
+   "
+"VLIZdataset3","VLIZdataset1",,
+"VLIZdataset4","VLIZdataset2",,
+"VLIZdataset5","VLIZdataset3, VLIZdataset4",,
+"VLIZdataset6","VLIZdataset3, VLIZdataset4",,
+"VLIZdataset7","VLIZdataset4",,
+"VLIZdataset8","not published","please contact … for further information.","https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.68"
+"VLIZdataset9"," "," ","https://dx.doi.org/10.3897/bdj.8.e57236, https://dx.doi.org/10.5670/oceanog.2021.supplement.02-09, https://dx.doi.org/10.3897/bdj.8.e57236"
