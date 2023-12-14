@@ -1,0 +1,3 @@
+This folder contains the test material for the datasets description work. 
+The first tests were to collect metadata about datasets via a googlesheet and to then turn that into RDF via a templating approach The (test) googlesheet with some (test) datasets described there can be found on https://docs.google.com/spreadsheets/d/1Wmjpvj4FI8RK926RU3XsM8yDyKGG53PLZFhfiugIRSk/edit#gid=0 
+A cleaned-up version of that (e.g. removing the extra rows and comments therein) was used as the test dataset to create the RDF
