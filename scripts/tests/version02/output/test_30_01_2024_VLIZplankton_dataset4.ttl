@@ -1,0 +1,52 @@
+@prefix schema: <https://schema.org/> . 
+@prefix dcat: <https://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/#> . 
+@prefix dct: <http://purl.org/dc/terms/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+@base <https://marco-bolo.test.example/VLIZplankton_dataset4> . 
+<> 
+    a schema:Dataset, dcat:Dataset, prov:Entity ;
+    schema:name 'LifeWatch Observatory: phytoplankton imagery results (2017-present)'^^xsd:string ;
+    schema:description '''In the framework of the Lifewatch marine observatory, a number of fixed stations in the Belgian Part of the North Sea (BPNS) are visited using RV Simon Stevin. A grid of nine stations covers the coastal zone and are sampled monthly; eight additional stations, located further at sea, are sampled on a seasonal basis. Samples are taken using a 55mum mesh size Apstein net and fixed in Lugol's iodine solution. In the lab, the samples are processed using a VS-4 FlowCAM model at 4X magnification, size range imaged is 55-300mum. The identification of the image data is done with the use of a classifier and followed by a manual validation step. This provides micro- and phytoplankton observations since May 2017, mainly covering diatoms, dinoflagellates and cilliates. This dataset contains  results from these phytoplankton observations and which are published in EurOBIS.'''^^xsd:string ;
+    schema:version '5'^^xsd:string ;
+    schema:encodingFormat 'DwCA files'^^xsd:string ;
+    schema:keywords 'Biodiversity'^^xsd:string, 'Phytoplankton'^^xsd:string, ''^^xsd:string ;
+    schema:distribution 'https://doi.org/10.14284/544'^^xsd:anyURI ; 
+    schema:isBasedOn </VLIZplankton_dataset3> ;
+    schema:license 'https://creativecommons.org/licenses/by/4.0/'^^xsd:anyURI ;
+    dct:temporal [ 
+        a dct:PeriodOfTime ;
+        dcat:startDate '2017-05-01'^^xsd:string ; 
+    ] ;
+    dct:spatial [
+        a dct:Location ;
+        dct:identifier <http://marineregions.org/mrgid/2399> ;
+    ] ;
+    schema:variableMeasured  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=148899>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=11>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=146232>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=19542>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=115057> ;
+    schema:variableMeasured  <http://rs.tdwg.org/dwc/terms/Taxon>,  <https://vocab.nerc.ac.uk/collection/S25/current/BE004249/> ;
+    dct:bibliographicCitation 'Flanders Marine Institute (VLIZ), Belgium (2018): LifeWatch observatory data: phytoplankton observations by imaging flow cytometry (FlowCam) in the Belgian Part of the North Sea ( https://doi.org/10.14284/544)'^^xsd:string ;
+    dct:relation <https://dx.doi.org/10.3897/bdj.8.e57236>,  <https://dx.doi.org/10.5670/oceanog.2021.supplement.02-09>,  <https://dx.doi.org/10.3897/BDJ.10.e81208> ;
+    dct:publisher [ 
+        a schema:Organisation ;
+        schema:identifier <https://edmo.seadatanet.org/report/422> ;
+        schema:name 'Flanders Marine Institute'^^xsd:string ;
+        schema:email 'data@vliz.be'^^xsd:string ;
+        schema:address 'BE'^^xsd:string ;
+        schema:mainEntityOfPage <https://www.vliz.be/en> ;
+    ] ;
+    dcat:contactPoint [ 
+        a schema:Person ;
+        schema:identifier <https://orcid.org/0000-0001-9191-9104> ;
+        schema:name 'Rune Lagaisse'^^xsd:string ;
+        schema:email 'rune.lagaisse@vliz.be'^^xsd:string ;
+        schema:address 'BE'^^xsd:string ;
+        schema:mainEntityOfPage <https://www.vliz.be/en/imis?module=person&amp;persid=39431> ;
+        schema:affiliation <https://edmo.seadatanet.org/report/422> ;
+    ] ;
+
+    
+    schema:sdPublisher 'Kexter'^^xsd:string ;
+.

@@ -1,0 +1,26 @@
+@prefix schema: <https://schema.org/> . 
+@prefix dcat: <https://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/#> . 
+@prefix dct: <http://purl.org/dc/terms/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+@base <https://marco-bolo.test.example/VLIZplankton_dataset6> . 
+<> 
+    a schema:Dataset, dcat:Dataset, prov:Entity ;
+    schema:name 'EOVs from LifeWatch Observatory: phytoplankton and zooplankton diversity PH3'^^xsd:string ;
+    schema:description 'I still need to get this from VLIZ'^^xsd:string ; 
+    schema:isBasedOn </VLIZplankton_dataset2> ; 
+    schema:isBasedOn </VLIZplankton_dataset4> ;
+    dct:spatial [
+        a dct:Location ;
+        dct:identifier <http://marineregions.org/mrgid/2399> ;
+    ] ;
+
+    
+    schema:sdPublisher 'Kexter'^^xsd:string ; 
+    schema:sdDatePublished 'I still need to get this from VLIZ'^^xsd:string ; 
+    schema:conditionsOfAccess 'These data are in progress under Marco Bolo'^^xsd:string ;
+    schema:variableMeasured  'EOVs: changes in phytoplankton and zooplankton diversity (Pelagic Habitat indicator 3)'^^xsd:string ;
+.

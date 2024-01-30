@@ -1,0 +1,10 @@
+AgentKey,Type,ID,Name,AffiliationAgentKey,URL,Email,Country
+VLIZ,Organisation,https://edmo.seadatanet.org/report/422,Flanders Marine Institute,,https://www.vliz.be/en,data@vliz.be,BE
+Kexter,Person,https://orcid.org/0000-0002-5911-1536,Katrina Exter,VLIZ,https://marineinfo.org/imis?module=person&persid=35548,katrina.exter@vliz.be,BE
+JonasM,Person,https://orcid.org/0000-0002-8781-7915,Jonas Mortelmans,VLIZ,https://www.vliz.be/en/imis?module=person&persid=26622,jonas.mortelmans@vliz.be,BE
+KlaasD,Person,https://orcid.org/0000-0002-8559-3508,Klaas Deneudt,VLIZ,https://www.vliz.be/en/imis?module=person&persid=3362,klaas.deneudt@vliz.be,BE
+RuneL,Person,https://orcid.org/0000-0001-9191-9104,Rune Lagaisse,VLIZ,https://www.vliz.be/en/imis?module=person&persid=39431,rune.lagaisse@vliz.be,BE
+MBO,Project,none,Marco-Bolo,,https://marcobolo-project.eu,info@marcobolo-project.eu,EU
+LW-BE,Project,none,LifeWatch Belgium,,https://www.lifewatch.be/, info@lifewatch.be,BE
+JulieM,Person,https://orcid.org/0000-0002-7481-0626,Julie Muyle,VLIZ,https://www.vliz.be/en/imis?module=person&persid=38210,julie.muyle@vliz.be,BE
+LuzAM,Person,https://orcid.org/0000-0001-5960-7972,Luz Amadei Martinez,VLIZ,https://www.vliz.be/en/imis?module=person&persid=34178,luz.amadeimartinez@ugent.be,BE

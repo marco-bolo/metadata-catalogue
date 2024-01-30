@@ -1,0 +1,328 @@
+{#-
+input files:
+    - /input/DummyData_Description.csv as _ 
+    - /input/DummyData_Agents.csv as Agents
+-#}
+
+{% include 'includes/prefixes.ttl' %}
+
+@base <https://marco-bolo.test.example/{{_.DatasetIdentifier}}> . {#todo: decide on baseURL#}
+
+{#- Description info #}
+<> 
+    a schema:Dataset, dcat:Dataset, prov:Entity ;
+    {%- if _.DatasetTitle %}
+    schema:name {{_.DatasetTitle | ttl("xsd:string") | safe }} ;
+    {%- endif %}
+    {%- if _.DatasetDescription %}
+    schema:description {{_.DatasetDescription | ttl("xsd:string") | safe }} ;
+    {%- endif %}
+    {%- if _.DatasetVersion %}
+    schema:version {{_.DatasetVersion | ttl("xsd:string") | safe }} ;
+    {%- endif %}
+    {%- if _.DataTypes %}
+    schema:encodingFormat {% for dt in _.DataTypes.split(" | ") %}{{ dt.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}
+    {%- endif %}
+    {%- if _.Keywords %}
+    schema:keywords {% for keyw in _.Keywords.split(" | ") %}{{ keyw.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}
+    {%- endif %}
+    {%- if _.DataLandingPageURL %}
+    schema:distribution {{ _.DataLandingPageURL | ttl("xsd:anyURI") | safe }} ; 
+    {%- endif %}
+	
+    {%- if _.SourceDatasetIdentifier %}
+    {%- for source_dataset in _.SourceDatasetIdentifier.split(" | ") %}
+        {%- if source_dataset == "not published" %}
+    schema:isBasedOn [
+        a schema:CreativeWork ; 
+        schema:creativeWorkStatus "not published"^^xsd:string ;
+    ] ; 
+        {%- elif source_dataset.startswith('http') %} {#published dataset with URL reference #}
+    schema:isBasedOn <{{source_dataset}}> ; 
+        {%- else %} {#published dataset in spreadsheet#}
+    schema:isBasedOn </{{source_dataset.strip()}}> ; 
+        {%- endif %}
+    {%- endfor %}
+    {%- endif %}
+
+    {#- Licence -#}
+    {%- if _.Licence %}
+        {%- if _.Licence.startswith('http') %}
+    schema:license {{_.Licence | ttl("xsd:anyURI") | safe }} ;
+        {%- else %}
+    schema:license {{_.Licence | ttl("xsd:string") | safe }} ;
+        {%- endif %} 
+    {%- endif %}
+
+    {#- temporal coverage -#}
+    {%- if _.DataStartDate or _.DataEndDate %}
+    dct:temporal [ 
+        a dct:PeriodOfTime ;
+        {%- if _.DataStartDate %}
+        dcat:startDate {{_.DataStartDate | ttl("xsd:string") | safe }} ; {#todo: convert back to date#}
+        {%- endif %}
+        {%- if _.DataEndDate %}
+        dcat:endDate {{_.DataEndDate | ttl("xsd:string") | safe }} ; {#todo: convert back to date#}
+        {%- endif %}
+    ] ;
+    {%- endif %}
+    {#- spatial coverage- #}
+    {%- if _.SpatialCoverageMarineRegion or _.SpatialCoverageWKT %}
+    dct:spatial [
+        a dct:Location ;
+        {%- if _.SpatialCoverageMarineRegion %}
+        dct:identifier <{{_.SpatialCoverageMarineRegion}}> ;
+        {%- endif %}
+        {%- if _.CoordinateProjection and _.SpatialCoverageWKT %}
+            {%- if _.CoordinateProjection.startswith("http") %}  {#todo include mapping to full URL when only string is given#}
+        locn:geometry """<{{_.CoordinateProjection}}> {{_.SpatialCoverageWKT}}"""^^geosparql:wktLiteral ;
+            {%- endif %}
+        {%- elif _.SpatialCoverageWKT %}
+        locn:geometry """{{_.SpatialCoverageWKT }}"""^^geosparql:wktLiteral ;
+        {%- endif %}
+    ] ;
+    {%- endif %}
+    {#- taxonomic coverage -#}
+    {%- if _.TaxonomicCoverage %}
+    schema:variableMeasured {% for var in _.TaxonomicCoverage.split(" | ") %} <{{var.strip()}}>{{ " ;" if loop.last else ", " }}{% endfor %}  
+    {%- endif %}
+    {#- measured variables -#}
+    {%- if _.VariablesMeasured %}
+    schema:variableMeasured {% for var in _.VariablesMeasured.split(" | ") %} <{{var.strip()}}>{{ " ;" if loop.last else ", " }}{% endfor %}  
+    {%- endif %}
+
+    {#- Citation -#}    
+    {%- if _.DatasetCitation %}
+    dct:bibliographicCitation {{_.DatasetCitation | ttl("xsd:string") | safe }} ; 
+    {%- endif %}
+
+    {#- other relevant citations -#}
+    {%- if _.RelevantCitations %}
+    dct:relation {%- for cit in _.RelevantCitations.split(" | ") %} <{{cit.strip()}}>{{ " ;" if loop.last else ", " }}{% endfor %}
+    {%- endif %}
+
+    {#- dataproviders -#}
+    {%- if _.DataProviderAgent %}
+    {%- for contact in _.DataProviderAgent.split(" | ") %}
+        {%- for agent in sets['Agents'] %}
+            {%- if agent.AgentKey == contact %}
+    dct:publisher [ 
+        a schema:{{agent.Type}} ; 
+        {%- if agent.ID %}
+        schema:identifier <{{agent.ID}}> ; 
+        {%- endif %}
+        {%- if agent.Name %}
+        schema:name {{agent.Name | ttl("xsd:string") | safe }} ; 
+        {%- endif %}
+        {%- if agent.Email %}
+        schema:email {{agent.Email | ttl("xsd:string") | safe }} ; 
+        {%- endif %}
+        {%- if agent.Country %}
+        schema:address {{agent.Country | ttl("xsd:string") | safe }} ; 
+        {%- endif %}
+        {%- if agent.URL %}
+        schema:mainEntityOfPage <{{agent.URL}}> ; 
+        {%- endif %}
+        {#- Agent affiliations -#}
+        {%- for affil_agent in sets['Agents'] %}
+        {%- if agent.AffiliationAgentKey == affil_agent.AgentKey %}
+            {%- if affil_agent.ID %}
+        schema:affiliation <{{affil_agent.ID}}> ;
+            {%- else %}
+        schema:affiliation [
+            a schema:{{affil_agent.Type}} ; 
+            {%- if affil_agent.Name %}
+            schema:name {{affil_agent.Name | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.Email %}
+            schema:email {{affil_agent.Email | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.Country %}
+            schema:address {{affil_agent.Country | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.URL %}
+            schema:mainEntityOfPage <{{affil_agent.URL}}> ; 
+            {%- endif %}
+        ] ;
+            {%- endif %}
+        {%- endif %}
+        {%- endfor%}
+    ] ; 
+    {%- endif %}
+    {%- endfor%}
+
+    {%- endfor %}
+    {%- endif %}
+
+    {#- contactpoints -#}
+    {%- if _.DataContactAgent %}
+    {%- for contact in _.DataContactAgent.split(" | ") %}
+        {%- for agent in sets['Agents'] %}
+        {%- if agent.AgentKey == contact %}
+    dcat:contactPoint [ 
+        a schema:{{agent.Type}} ; 
+        {%- if agent.ID %}
+        schema:identifier <{{agent.ID}}> ; 
+        {%- endif %}
+        {%- if agent.Name %}
+        schema:name {{agent.Name | ttl("xsd:string") | safe }} ; 
+        {%- endif %}
+        {%- if agent.Email %}
+        schema:email {{agent.Email | ttl("xsd:string") | safe }} ; 
+        {%- endif %}
+        {%- if agent.Country %}
+        schema:address {{agent.Country | ttl("xsd:string") | safe }} ; 
+        {%- endif %}
+        {%- if agent.URL %}
+        schema:mainEntityOfPage <{{agent.URL}}> ; 
+        {%- endif %}
+
+        {%- for affil_agent in sets['Agents'] %}
+        {%- if agent.AffiliationAgentKey == affil_agent.AgentKey %}
+            {%- if affil_agent.ID %}
+        schema:affiliation <{{affil_agent.ID}}> ;
+            {%- else %}
+        schema:affiliation [
+            a schema:{{affil_agent.Type}} ; 
+            {%- if affil_agent.Name %}
+            schema:name {{affil_agent.Name | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.Email %}
+            schema:email {{affil_agent.Email | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.Country %}
+            schema:address {{affil_agent.Country | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.URL %}
+            schema:mainEntityOfPage <{{affil_agent.URL}}> ; 
+            {%- endif %}
+            ] ;        
+            {%- endif %}
+        {%- endif %}
+        {%- endfor %}
+    ] ; 
+        {%- endif %}
+        {%- endfor%}
+    {%- endfor %}
+    {%- endif %}
+
+    {#- funders -#}
+    {%- if _.FunderAgent %}
+    {%- for funder in _.FunderAgent.split(" | ") %}
+        {%- for agent in sets['Agents'] %}
+        {%- if agent.Agentkey == funder %}
+    schema:funder [
+        a schema:{{agent.Type}} ; 
+        {%- if agent.ID %}
+        schema:identifier <{{agent.ID}}> ; 
+        {%- endif %}
+        {%- if agent.Name %}
+        schema:name {{agent.Name | ttl("xsd:string")}} ; 
+        {%- endif %}
+        {%- if agent.Email %}
+        schema:email {{agent.Email | ttl("xsd:string")}} ; 
+        {%- endif %}
+        {%- if agent.Country %}
+        schema:address {{agent.Country | ttl("xsd:string")}} ; 
+        {%- endif %}
+        {%- if agent.URL %}
+        schema:mainEntityOfPage <{{agent.URL}}> ; 
+        {%- endif %}
+
+        {%- for affil_agent in sets['Agents'] %}
+        {%- if agent.AffiliationAgentKey == affil_agent.AgentKey %}
+            {%- if affil_agent.ID %}
+        schema:affiliation <{{affil_agent.ID}}> ; 
+            {%- else %}
+        schema:affiliation [
+            a schema:{{affil_agent.Type}} ; 
+            {%- if affil_agent.Name %}
+            schema:name {{affil_agent.Name | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.Email %}
+            schema:email {{affil_agent.Email | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.Country %}
+            schema:address {{affil_agent.Country | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.URL %}
+            schema:mainEntityOfPage <{{affil_agent.URL}}> ; 
+            {%- endif %}
+        ] ;        
+            {%- endif %}    
+        {%- endif %}
+        {%- endfor %}
+    ] ; 
+        {%- endif %}
+        {%- endfor %}
+    {%- endfor %}
+    {%- endif %}
+
+    {#contributors#}
+    {%- if _.DataContributorAgents %}
+    {%- for contributor in _.DataContributorAgents.split(" | ") %}
+        {%- for agent in sets['Agents'] %}
+        {%- if agent.Agentkey == contributor %}   
+    schema:contributor [
+        a schema:{{agent.Type}} ; 
+        {%- if agent.ID %}
+        schema:identifier <{{agent.ID}}> ; 
+        {%- endif %}
+        {%- if agent.Name %}
+        schema:name {{agent.Name | ttl("xsd:string") | safe }} ; 
+        {%- endif %}
+        {%- if agent.Email %}
+        schema:email {{agent.Email | ttl("xsd:string") | safe }} ; 
+        {%- endif %}
+        {%- if agent.Country %}
+        schema:address {{agent.Country | ttl("xsd:string") | safe }} ; 
+        {%- endif %}
+        {%- if agent.URL %}
+        schema:mainEntityOfPage <{{agent.URL}}> ; 
+        {%- endif %}
+
+        {%- for affil_agent in sets['Agents'] %}
+        {%- if agent.AffiliationAgentKey == affil_agent.AgentKey %}
+            {%- if affil_agent.ID %}
+        schema:affiliation <{{affil_agent.ID}}> ; 
+            {%- else %}
+        schema:affiliation [
+            a schema:{{affil_agent.Type}} ; 
+            {%- if affil_agent.Name %}
+            schema:name {{affil_agent.Name | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.Email %}
+            schema:email {{affil_agent.Email | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.Country %}
+            schema:address {{affil_agent.Country | ttl("xsd:string") | safe }} ; 
+            {%- endif %}
+            {%- if affil_agent.URL %}
+            schema:mainEntityOfPage <{{affil_agent.URL}}> ; 
+            {%- endif %}
+        ] ;        
+            {%- endif %}        
+        {%- endif %}
+        {%- endfor%}
+    ] ; 
+        {%- endif %}
+        {%- endfor %} 
+    {%- endfor %}
+    {%- endif %}
+
+    {%- if _.DatasetDescriber %}
+    schema:sdPublisher {{_.DatasetDescriber | ttl("xsd:string") | safe }} ;
+    {%- endif %}
+    {%- if _.InProgressDataDate %} 
+    schema:sdDatePublished {{ _.InProgressDataDate | ttl("xsd:string") | safe }} ; {#todo: convert back to date#} 
+    {%- endif %}
+    {%- if _.NotAccessibleData %}
+    schema:conditionsOfAccess {{ _.NotAccessibleData | ttl("xsd:string") | safe }} ; 
+    {%- endif %}
+    {%- if _.EOVDescription %}
+    schema:variableMeasured {% for eov in _.EOVDescription.split(" | ") %} {{eov.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}  
+    {%- endif %}
+    {%- if _.IndicatorDescription %}
+    schema:variableMeasured {% for ind in _.IndicatorDescription.split(" | ") %} {{ind.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}  
+    {%- endif %}
+.
