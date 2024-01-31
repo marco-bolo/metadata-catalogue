@@ -8,7 +8,7 @@ from pyld import jsonld
 from rdflib.plugins.sparql import prepareQuery
 
 
-DATASET_FOLDER = "datasets"
+DATASET_FOLDERS = ["datasets", "datasets-sandbox"]
 REPO_URL = "https://github.com/marco-bolo/dataset-catalogue"
 REPO_URL_RAW = "https://raw.githubusercontent.com/marco-bolo/dataset-catalogue"
 
@@ -37,10 +37,11 @@ def validate_rdf(jsonld: str) -> tuple[bool, rdflib.Graph, rdflib.Graph]:
 
 def get_dataset_files() -> list:
     dataset_files = []
-    for root, dirs, files in os.walk("datasets"):
-        for file in files:
-            if file.endswith(".json") or file.endswith(".jsonld"):
-                dataset_files.append(os.path.join(root, file))
+    for dataset_folder in DATASET_FOLDERS:
+        for root, dirs, files in os.walk(dataset_folder):
+            for file in files:
+                if file.endswith(".json") or file.endswith(".jsonld"):
+                    dataset_files.append(os.path.join(root, file))
     return dataset_files
 
 
