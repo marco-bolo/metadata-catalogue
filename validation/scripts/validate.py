@@ -106,8 +106,13 @@ def validate_datasets() -> dict:
 
 
 environment = Environment(loader=FileSystemLoader("docs/_includes/"))
-template = environment.get_template("datasets_template.html")
+
+context = validate_datasets()
+datasets_template = environment.get_template("datasets_template.html")
+sitemap_template = environment.get_template("sitemap_template.xml")
 
 with open("docs/_includes/datasets.html", mode="w", encoding="utf-8") as html_file:
-    context = validate_datasets()
-    html_file.write(template.render(context))
+    html_file.write(datasets_template.render(context))
+
+with open("docs/_includes/sitemap.xml", mode="w", encoding="utf-8") as xml_file:
+    xml_file.write(sitemap_template.render(context))
