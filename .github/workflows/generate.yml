@@ -27,5 +27,6 @@ jobs:
           git config --global user.name "GitHub Actions"
           git checkout -b reports
           git add docs/_includes
+          git add docs/sitemap.xml
           git commit -m "Update reports"
           git push --force origin reports
