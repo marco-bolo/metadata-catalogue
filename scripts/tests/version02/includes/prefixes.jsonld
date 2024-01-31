@@ -1,0 +1,9 @@
+"@context" : {
+    "schema": "https://schema.org/",
+    "dcat": "https://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "dwc": "http://rs.tdwg.org/dwc/terms/#",
+    "dct": "http://purl.org/dc/terms/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+} , 

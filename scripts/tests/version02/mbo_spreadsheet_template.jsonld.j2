@@ -1,0 +1,196 @@
+{
+    {% include 'includes/prefixes.jsonld' %}
+    "@id": "https://marco-bolo.test.example/{{_.DatasetIdentifier}}",
+    "@type": "Dataset",
+    "schema:name": {%- if _.DatasetTitle %}"{{_.DatasetTitle}}"{% else %} "None"{%- endif %},  
+    "schema:description": {%- if _.DatasetDescription %}"{{_.DatasetDescription}}"{% else %}"None"{%- endif %},
+    "schema:version": {%- if _.DatasetVersion %}"{{_.DatasetVersion}}"{% else %}"None"{%- endif %},    
+    "schema:encodingFormat": {%- if _.DataTypes %}[{% for dt in _.DataTypes.split(" | ") %}"{{ dt.strip() }}"{{ "" if loop.last else ", " }}{% endfor %}]{% else %}"None"{%- endif %},    
+    "schema:keywords": {%- if _.Keywords %}[{% for keyw in _.Keywords.split(" | ") %}"{{ keyw.strip() }}"{{ "" if loop.last else ", " }}{% endfor %}]{% else %}"None"{%- endif %},
+    "schema:distribution": {%- if _.DataLandingPageURL %}"{{ _.DataLandingPageURL}}"{% else %}"None"{%- endif %},
+    "schema:isBasedOn": 
+    {%- if _.SourceDatasetIdentifier %} 
+    [
+        {%- for source_dataset in _.SourceDatasetIdentifier.split(" | ") %}
+            {%- if source_dataset == "not published" %}
+            {
+            "@type": "schema:CreativeWork",
+            "schema:creativeWorkStatus": "not published"
+            },
+            {%- elif source_dataset.startswith('http') %} "{{source_dataset}}" 
+            {%- else %} "/{{source_dataset.strip()}}" {#todo: figure out how baseURL works in json-ld#}
+            {%- endif %} 
+            {{ "" if loop.last else ", " }}
+        {%- endfor %} 
+    ]
+    {%- else %} 
+    "None"
+    {%- endif %} ,
+    {#- Licence #}
+    "schema:license": {%- if _.Licence %}"{{_.Licence}}" {% else %}"None"{%- endif %},
+    {#- temporal coverage #}
+    "dct:temporal":  {%- if _.DataStartDate or _.DataEndDate %}
+        {
+        "@type": "dct:PeriodOfTime" ,
+        "dcat:startDate": {%- if _.DataStartDate %}"{{_.DataStartDate}}"{% else %} "None"{%- endif %},
+        "dcat:endDate": {%- if _.DataEndDate %}"{{_.DataEndDate}}"{% else %} "None"{%- endif %}
+        } 
+        {%- else %} 
+        "None" 
+        {%- endif %} , 
+    {#- spatial coverage #}
+    "dct:spatial": 
+        {
+        "@type": "dct:Location" ,
+        "dct:identifier": {%- if _.SpatialCoverageMarineRegion %}"{{_.SpatialCoverageMarineRegion}}"{%else%}"None"{%- endif %},
+        "locn:geometry": 
+         {#todo: figure out how wkt literals work in json-ld#}
+            {%- if _.CoordinateProjection and _.CoordinateProjection.startswith("http") %} "{{_.CoordinateProjection}} {{_.SpatialCoverageWKT}}"
+            {%- elif _.SpatialCoverageWKT %} "{{_.SpatialCoverageWKT }}" 
+            {%- else %} "None"
+            {%- endif %} 
+        } ,
+    {#- taxonomic coverage #}
+    "dwc:associatedTaxa": {%- if _.TaxonomicCoverage %}[{% for var in _.TaxonomicCoverage.split(" | ") %} "{{var.strip()}}"{{ "" if loop.last else ", " }}{% endfor %}]{% else %} "None"{%- endif %},
+    {#- measured variables #}
+    "schema:variableMeasured": {%- if _.VariablesMeasured %}[{% for var in _.VariablesMeasured.split(" | ") %} "{{var.strip()}}"{{ "" if loop.last else ", " }}{% endfor %}]{% else %} "None"{%- endif %},
+    {#- Citation #}    
+    "dct:bibliographicCitation": {%- if _.DatasetCitation %}"{{_.DatasetCitation}}"{% else %} "None" {%- endif %} , 
+    {#- other relevant citations #}
+    "dct:relation": {%- if _.RelevantCitations %}[{%- for cit in _.RelevantCitations.split(" | ") %} "{{cit.strip()}}"{{ "" if loop.last else ", " }}{% endfor %}]{% else %} "None"{%- endif %},
+    {#- dataproviders #}
+    {%- if _.DataProviderAgent %}
+    {%- for contact in _.DataProviderAgent.split(" | ") %}
+        {%- for agent in sets['Agents'] %}
+            {%- if agent.AgentKey == contact %}
+    "dct:publisher": { 
+        "@type": "schema:{{agent.Type}}" , 
+        "schema:identifier": {%- if agent.ID %}"{{agent.ID}}"{%else%}"None"{%- endif %}, 
+        "schema:name": {%- if agent.Name %}"{{agent.Name}}"{%else%}"None"{%- endif %} , 
+        {#- Agent affiliations -#}
+        {%- for affil_agent in sets['Agents'] %}
+        {%- if agent.AffiliationAgentKey == affil_agent.AgentKey %}
+            {%- if affil_agent.ID %}
+        "schema:affiliation": "{{affil_agent.ID}}" ,
+            {%- else %}
+        "schema:affiliation" {
+            "@type": "schema:{{affil_agent.Type}}" ,             
+            "schema:name": {%- if affil_agent.Name %}"{{affil_agent.Name}}"{%else%}"None"{%- endif %} ,
+            "schema:email": {%- if affil_agent.Email %}"{{affil_agent.Email}}"{%else%}"None"{%- endif %} ,            
+            "schema:address": {%- if affil_agent.Country %}"{{affil_agent.Country}}"{%else%}"None"{%- endif %} ,
+            "schema:mainEntityOfPage": {%- if affil_agent.URL %}"{{affil_agent.URL}}"{%else%}"None"{%- endif %} 
+        } , 
+            {%- endif %}
+        {%- endif %}
+        {%- endfor%}
+        "schema:mainEntityOfPage": {%- if agent.URL %}"{{agent.URL}}"{%else%}"None"{%- endif %} ,
+        "schema:email": {%- if agent.Email %}"{{agent.Email}}"{%else%}"None"{%- endif %} , 
+        "schema:address": {%- if agent.Country %}"{{agent.Country}}"{%else%}"None"{%- endif %} 
+    } , 
+    {%- endif %}
+    {%- endfor%}
+    {%- endfor %}
+    {%- endif %}
+    {#- contactpoints -#}
+    {%- if _.DataContactAgent %}
+    {%- for contact in _.DataContactAgent.split(" | ") %}
+        {%- for agent in sets['Agents'] %}
+        {%- if agent.AgentKey == contact %}
+    "dcat:contactPoint": {
+        "@type": "schema:{{agent.Type}}" , 
+        "schema:identifier": {%- if agent.ID %}"{{agent.ID}}"{%else%} "None"{%- endif %},
+        "schema:name": {%- if agent.Name %}"{{agent.Name}}"{%else%} "None"{%- endif %},
+        {%- for affil_agent in sets['Agents'] %}
+        {%- if agent.AffiliationAgentKey == affil_agent.AgentKey %}
+            {%- if affil_agent.ID %}
+        "schema:affiliation": "{{affil_agent.ID}}" ,
+            {%- else %}
+        schema:affiliation {
+            "@type": "schema:{{affil_agent.Type}}" ,
+            "schema:name": {%- if affil_agent.Name %}"{{affil_agent.Name}}"{%else%}"None"{%- endif %} ,
+            "schema:email": {%- if affil_agent.Email %}"{{affil_agent.Email}}"{%else%}"None"{%- endif %},
+            "schema:address": {%- if affil_agent.Country %}"{{affil_agent.Country}}"{%else%}"None"{%- endif %},
+            "schema:mainEntityOfPage": {%- if affil_agent.URL %}"{{affil_agent.URL}}"{%else%}"None"{%- endif %},
+            } ,      
+            {%- endif %}
+        {%- endif %}
+        {%- endfor %}
+        "schema:email": {%- if agent.Email %}"{{agent.Email}}"{%else%} "None"{%- endif %} ,
+        "schema:address": {%- if agent.Country %} "{{agent.Country}}"{%else%} "None" {%- endif %},
+        "schema:mainEntityOfPage": {%- if agent.URL %}"{{agent.URL}}"{%else%} "None" {%- endif %}
+    } , 
+        {%- endif %}
+        {%- endfor%}
+    {%- endfor %}
+    {%- endif %}
+
+    {#- funders -#}
+    {%- if _.FunderAgent %}
+    {%- for funder in _.FunderAgent.split(" | ") %}
+        {%- for agent in sets['Agents'] %}
+        {%- if agent.Agentkey == funder %}
+    "schema:funder": {
+        "@type": "schema:{{agent.Type}}" , 
+        "schema:identifier": {%- if agent.ID %}"{{agent.ID}}"{%else%} "None"{%- endif %},
+        "schema:name": {%- if agent.Name %}"{{agent.Name}}"{%else%} "None"{%- endif %},
+        {%- for affil_agent in sets['Agents'] %}
+        {%- if agent.AffiliationAgentKey == affil_agent.AgentKey %}
+            {%- if affil_agent.ID %}
+        "schema:affiliation": "{{affil_agent.ID}}" ,
+            {%- else %}
+        "schema:affiliation": {
+            "@type": "schema:{{affil_agent.Type}}" , 
+            "schema:name": {%- if affil_agent.Name %}"{{affil_agent.Name}}"{%else%}"None"{%- endif %}, 
+            "schema:email": {%- if affil_agent.Email %}"{{affil_agent.Email}}"{%else%}"None" {%- endif %}, 
+            "schema:address": {%- if affil_agent.Country %}"{{affil_agent.Country}}"{%else%}"None" {%- endif %}, 
+            "schema:mainEntityOfPage": {%- if affil_agent.URL %}"{{affil_agent.URL}}"{%else%}"None" {%- endif %}, 
+        } ,        
+            {%- endif %}    
+        {%- endif %}
+        {%- endfor %}
+        "schema:email": {%- if agent.Email %}"{{agent.Email}}"{%else%} "None"{%- endif %}" ,
+        "schema:address": {%- if agent.Country %} "{{agent.Country}}"{%else%} "None" {%- endif %},
+        "schema:mainEntityOfPage": {%- if agent.URL %}"{{agent.URL}}"{%else%} "None" {%- endif %}
+    } ,
+        {%- endif %}
+        {%- endfor %}
+    {%- endfor %}
+    {%- endif %}
+    {#- contributors #}
+    {%- if _.DataContributorAgents %}
+    {%- for contributor in _.DataContributorAgents.split(" | ") %}
+        {%- for agent in sets['Agents'] %}
+        {%- if agent.Agentkey == contributor %}   
+    "schema:contributor": {
+        "@type": "schema:{{agent.Type}}" , 
+        "schema:identifier": {%- if agent.ID %}"{{agent.ID}}" {%else%} "None"{%- endif %}, 
+        "schema:name": {%- if agent.Name %}"{{agent.Name}}" {%else%} "None"{%- endif %}, 
+        {%- for affil_agent in sets['Agents'] %}
+        {%- if agent.AffiliationAgentKey == affil_agent.AgentKey %}
+            {%- if affil_agent.ID %}
+        "schema:affiliation": "{{affil_agent.ID}}" , 
+            {%- else %}
+        "schema:affiliation": {
+            "@type": "schema:{{affil_agent.Type}}" , 
+            "schema:name": {%- if affil_agent.Name %}"{{affil_agent.Name}}"{%else%}"None"{%- endif %}, 
+            "schema:email": {%- if affil_agent.Email %}"{{affil_agent.Email}}"{%else%}"None" {%- endif %}, 
+            "schema:address": {%- if affil_agent.Country %}"{{affil_agent.Country}}"{%else%}"None" {%- endif %}, 
+            "schema:mainEntityOfPage": {%- if affil_agent.URL %}"{{affil_agent.URL}}"{%else%}"None" {%- endif %}, 
+        } ,        
+            {%- endif %}        
+        {%- endif %}
+        {%- endfor %}
+        "schema:email": {%- if agent.Email %}"{{agent.Email}}" {%else%} "None"{%- endif %}, 
+        "schema:address": {%- if agent.Country %}"{{agent.Country}}"{%else%} "None"{%- endif %}, 
+        "schema:mainEntityOfPage": {%- if agent.URL %}"{{agent.URL}}" {%else%} "None"{%- endif %}
+    } ,  
+        {%- endif %}
+        {%- endfor %} 
+    {%- endfor %}
+    {%- endif %}
+    "schema:sdPublisher": {%- if _.DatasetDescriber %}"{{_.DatasetDescriber}}"{% else %} "None"{%- endif %},
+    "schema:sdDatePublished": {%- if _.InProgressDataDate %} "{{ _.InProgressDataDate}}"{% else %} "None"{%- endif %}, 
+    "schema:conditionsOfAccess": {%- if _.NotAccessibleData %}"{{ _.NotAccessibleData}}" {% else %} "None"{%- endif %} ,
+    "dcat:theme": {%- if _.EOVDescription %}[{% for eov in _.EOVDescription.split(" | ") %} "{{eov.strip()}}"{{ "" if loop.last else ", " }}{% endfor %}]{% else %}"None"{%- endif %},  
+    "dct:subject": {%- if _.IndicatorDescription %}[{% for ind in _.IndicatorDescription.split(" | ") %} "{{ind.strip()}}"{{ "" if loop.last else ", " }}{% endfor %}]{% else %} "None"{%- endif %} 
+}
