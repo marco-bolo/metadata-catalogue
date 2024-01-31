@@ -11,15 +11,23 @@
     a schema:Dataset, dcat:Dataset, prov:Entity ;
     schema:name 'LifeWatch Observatory: FlowCam outputs (2017-present)'^^xsd:string ;
     schema:description '''In the framework of the Lifewatch marine observatory, a number of fixed stations in the Belgian Part of the North Sea (BPNS) are visited using RV Simon Stevin. A grid of nine stations covers the coastal zone and are sampled monthly; eight additional stations, located further at sea, are sampled on a seasonal basis. Samples are taken using a 55mum mesh size Apstein net and fixed in Lugol's iodine solution. In the lab, the samples are processed using a VS-4 FlowCAM model at 4X magnification, size range imaged is 55-300mum. The identification of the image data is done with the use of a classifier and followed by a manual validation step. This provides micro- and phytoplankton observations since May 2017, mainly covering diatoms, dinoflagellates and cilliates. This dataset contains the outputs from the FlowCam: images and classifications.'''^^xsd:string ;
+    schema:version "None"^^xsd:string ;
     schema:encodingFormat 'images'^^xsd:string, 'spreadsheets'^^xsd:string ;
     schema:keywords 'Phytoplankton'^^xsd:string, 'FlowCam'^^xsd:string ;
+    schema:distribution "None"^^xsd:string ;
+    schema:isBasedOn "None"^^xsd:string ; ;
     schema:license 'https://creativecommons.org/licenses/by/4.0/'^^xsd:anyURI ;
+    dct:temporal "None"^^xsd:string ;
     dct:spatial [
         a dct:Location ;
         dct:identifier <http://marineregions.org/mrgid/2399> ;
     ] ;
+    dwc:associatedTaxa "None"^^xsd:string ;
+    schema:variableMeasured "None"^^xsd:string ;
+    dct:bibliographicCitation "None"^^xsd:string ;
+    dct:relation "None"^^xsd:string ;
     dct:publisher [ 
-        a schema:Organisation ;
+        a schema:Organization ;
         schema:identifier <https://edmo.seadatanet.org/report/422> ;
         schema:name 'Flanders Marine Institute'^^xsd:string ;
         schema:email 'data@vliz.be'^^xsd:string ;
@@ -38,5 +46,8 @@
 
     
     schema:sdPublisher 'Kexter'^^xsd:string ;
+    schema:sdDatePublished "None"^^xsd:string ;
     schema:conditionsOfAccess 'These data are stored in a local database that is not web-connected. We would need advice about where to publish these and what metadata to add'^^xsd:string ;
+    dcat:theme "None"^^xsd:string ;
+    dct:subject "None"^^xsd:string ;
 .

@@ -11,39 +11,53 @@ input files:
 {#- Description info #}
 <> 
     a schema:Dataset, dcat:Dataset, prov:Entity ;
+     
     {%- if _.DatasetTitle %}
     schema:name {{_.DatasetTitle | ttl("xsd:string") | safe }} ;
-    {%- endif %}
+    {%- else %}
+    schema:name "None"^^xsd:string ;
+    {%- endif %} 
     {%- if _.DatasetDescription %}
     schema:description {{_.DatasetDescription | ttl("xsd:string") | safe }} ;
-    {%- endif %}
+    {%- else %}
+    schema:description "None"^^xsd:string ;
+    {%- endif %} 
     {%- if _.DatasetVersion %}
     schema:version {{_.DatasetVersion | ttl("xsd:string") | safe }} ;
-    {%- endif %}
+    {%- else %}
+    schema:version "None"^^xsd:string ;
+    {%- endif %} 
     {%- if _.DataTypes %}
     schema:encodingFormat {% for dt in _.DataTypes.split(" | ") %}{{ dt.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}
-    {%- endif %}
+    {%- else %}
+    schema:encodingFormat "None"^^xsd:string ; 
+    {%- endif %} 
     {%- if _.Keywords %}
     schema:keywords {% for keyw in _.Keywords.split(" | ") %}{{ keyw.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}
-    {%- endif %}
+    {%- else %}
+    schema:keywords "None"^^xsd:string ; 
+    {%- endif %}    
     {%- if _.DataLandingPageURL %}
-    schema:distribution {{ _.DataLandingPageURL | ttl("xsd:anyURI") | safe }} ; 
-    {%- endif %}
-	
+    schema:distribution {{ _.DataLandingPageURL | ttl("xsd:anyURI") | safe }}; 
+    {%- else %}
+    schema:distribution "None"^^xsd:string ;
+    {%- endif %} 
     {%- if _.SourceDatasetIdentifier %}
-    {%- for source_dataset in _.SourceDatasetIdentifier.split(" | ") %}
-        {%- if source_dataset == "not published" %}
+        {%- for source_dataset in _.SourceDatasetIdentifier.split(" | ") %}
+            {%- if source_dataset == "not published" %}
     schema:isBasedOn [
         a schema:CreativeWork ; 
         schema:creativeWorkStatus "not published"^^xsd:string ;
     ] ; 
-        {%- elif source_dataset.startswith('http') %} {#published dataset with URL reference #}
+            {%- elif source_dataset.startswith('http') %} {#published dataset with URL reference #}
     schema:isBasedOn <{{source_dataset}}> ; 
-        {%- else %} {#published dataset in spreadsheet#}
-    schema:isBasedOn </{{source_dataset.strip()}}> ; 
-        {%- endif %}
-    {%- endfor %}
-    {%- endif %}
+            {%- else %} {#published dataset in spreadsheet#}
+    schema:isBasedOn  </{{source_dataset.strip()}}> ; 
+            {%- endif %}
+        {%- endfor %}
+    {%- else %}
+    schema:isBasedOn "None"^^xsd:string ; 
+    {%- endif %} ;
 
     {#- Licence -#}
     {%- if _.Licence %}
@@ -52,6 +66,8 @@ input files:
         {%- else %}
     schema:license {{_.Licence | ttl("xsd:string") | safe }} ;
         {%- endif %} 
+    {%- else %}
+    schema:license "None"^^xsd:string ; 
     {%- endif %}
 
     {#- temporal coverage -#}
@@ -65,6 +81,8 @@ input files:
         dcat:endDate {{_.DataEndDate | ttl("xsd:string") | safe }} ; {#todo: convert back to date#}
         {%- endif %}
     ] ;
+    {%- else %}
+    dct:temporal "None"^^xsd:string ;
     {%- endif %}
     {#- spatial coverage- #}
     {%- if _.SpatialCoverageMarineRegion or _.SpatialCoverageWKT %}
@@ -81,24 +99,34 @@ input files:
         locn:geometry """{{_.SpatialCoverageWKT }}"""^^geosparql:wktLiteral ;
         {%- endif %}
     ] ;
+    {%- else %}
+    dct:spatial "None"^^xsd:string ;
     {%- endif %}
     {#- taxonomic coverage -#}
     {%- if _.TaxonomicCoverage %}
-    schema:variableMeasured {% for var in _.TaxonomicCoverage.split(" | ") %} <{{var.strip()}}>{{ " ;" if loop.last else ", " }}{% endfor %}  
+    dwc:associatedTaxa {% for var in _.TaxonomicCoverage.split(" | ") %} <{{var.strip()}}>{{ " ;" if loop.last else ", " }}{% endfor %}  
+    {%- else %}
+    dwc:associatedTaxa "None"^^xsd:string ;
     {%- endif %}
     {#- measured variables -#}
     {%- if _.VariablesMeasured %}
     schema:variableMeasured {% for var in _.VariablesMeasured.split(" | ") %} <{{var.strip()}}>{{ " ;" if loop.last else ", " }}{% endfor %}  
+    {%- else %}
+    schema:variableMeasured "None"^^xsd:string ;
     {%- endif %}
 
     {#- Citation -#}    
     {%- if _.DatasetCitation %}
     dct:bibliographicCitation {{_.DatasetCitation | ttl("xsd:string") | safe }} ; 
+    {%- else %}
+    dct:bibliographicCitation "None"^^xsd:string ;
     {%- endif %}
 
     {#- other relevant citations -#}
     {%- if _.RelevantCitations %}
     dct:relation {%- for cit in _.RelevantCitations.split(" | ") %} <{{cit.strip()}}>{{ " ;" if loop.last else ", " }}{% endfor %}
+    {%- else %}
+    dct:relation "None"^^xsd:string ;
     {%- endif %}
 
     {#- dataproviders -#}
@@ -152,6 +180,8 @@ input files:
     {%- endfor%}
 
     {%- endfor %}
+    {%- else %}
+    dct:publisher "None"^^xsd:string ;
     {%- endif %}
 
     {#- contactpoints -#}
@@ -204,6 +234,8 @@ input files:
         {%- endif %}
         {%- endfor%}
     {%- endfor %}
+    {%- else %}
+    dcat:contactPoint "None"^^xsd:string ;
     {%- endif %}
 
     {#- funders -#}
@@ -256,6 +288,8 @@ input files:
         {%- endif %}
         {%- endfor %}
     {%- endfor %}
+    {%- else %}
+    schema:funder "None"^^xsd:string ;
     {%- endif %}
 
     {#contributors#}
@@ -308,21 +342,33 @@ input files:
         {%- endif %}
         {%- endfor %} 
     {%- endfor %}
+    {%- else %}
+    schema:contributor "None"^^xsd:string ;
     {%- endif %}
 
     {%- if _.DatasetDescriber %}
     schema:sdPublisher {{_.DatasetDescriber | ttl("xsd:string") | safe }} ;
+    {%- else %}
+    schema:sdPublisher "None"^^xsd:string ;
     {%- endif %}
     {%- if _.InProgressDataDate %} 
     schema:sdDatePublished {{ _.InProgressDataDate | ttl("xsd:string") | safe }} ; {#todo: convert back to date#} 
+    {%- else %}
+    schema:sdDatePublished "None"^^xsd:string ;
     {%- endif %}
     {%- if _.NotAccessibleData %}
     schema:conditionsOfAccess {{ _.NotAccessibleData | ttl("xsd:string") | safe }} ; 
+    {%- else %}
+    schema:conditionsOfAccess "None"^^xsd:string ;
     {%- endif %}
     {%- if _.EOVDescription %}
-    schema:variableMeasured {% for eov in _.EOVDescription.split(" | ") %} {{eov.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}  
+    dcat:theme {% for eov in _.EOVDescription.split(" | ") %} {{eov.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}  
+    {%- else %}
+    dcat:theme "None"^^xsd:string ;
     {%- endif %}
     {%- if _.IndicatorDescription %}
-    schema:variableMeasured {% for ind in _.IndicatorDescription.split(" | ") %} {{ind.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}  
+    dct:subject {% for ind in _.IndicatorDescription.split(" | ") %} {{ind.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}  
+    {%- else %}
+    dct:subject "None"^^xsd:string ;
     {%- endif %}
 .

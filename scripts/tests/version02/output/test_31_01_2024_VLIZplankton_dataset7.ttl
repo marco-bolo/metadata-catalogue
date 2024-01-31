@@ -1,0 +1,40 @@
+@prefix schema: <https://schema.org/> . 
+@prefix dcat: <https://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/#> . 
+@prefix dct: <http://purl.org/dc/terms/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+@base <https://marco-bolo.test.example/VLIZplankton_dataset7> . 
+<> 
+    a schema:Dataset, dcat:Dataset, prov:Entity ;
+    schema:name 'EOVs from LifeWatch Observatory: phytoplankton and zooplankton communities PH1'^^xsd:string ;
+    schema:description 'I still need to get this from VLIZ'^^xsd:string ;
+    schema:version "None"^^xsd:string ;
+    schema:encodingFormat "None"^^xsd:string ;
+    schema:keywords "None"^^xsd:string ;
+    schema:distribution "None"^^xsd:string ; 
+    schema:isBasedOn  </VLIZplankton_dataset2> ; 
+    schema:isBasedOn  </VLIZplankton_dataset4> ; ;
+    schema:license "None"^^xsd:string ;
+    dct:temporal "None"^^xsd:string ;
+    dct:spatial [
+        a dct:Location ;
+        dct:identifier <http://marineregions.org/mrgid/2399> ;
+    ] ;
+    dwc:associatedTaxa "None"^^xsd:string ;
+    schema:variableMeasured "None"^^xsd:string ;
+    dct:bibliographicCitation "None"^^xsd:string ;
+    dct:relation "None"^^xsd:string ;
+    dct:publisher "None"^^xsd:string ;
+    dcat:contactPoint "None"^^xsd:string ;
+
+    
+    schema:contributor "None"^^xsd:string ;
+    schema:sdPublisher 'Kexter'^^xsd:string ; 
+    schema:sdDatePublished 'I still need to get this from VLIZ'^^xsd:string ; 
+    schema:conditionsOfAccess 'These data are in progress under Marco Bolo'^^xsd:string ;
+    dcat:theme  'EOVs: changes in phytoplankton and zooplankton communities (Pelagic Habitat indicator 1)'^^xsd:string ;
+    dct:subject "None"^^xsd:string ;
+.

@@ -14,8 +14,8 @@
     schema:version '7'^^xsd:string ;
     schema:encodingFormat 'DwCA files'^^xsd:string ;
     schema:keywords 'Marine Genomics'^^xsd:string, 'Zooplankton'^^xsd:string ;
-    schema:distribution 'https://doi.org/10.14284/584'^^xsd:anyURI ; 
-    schema:isBasedOn </VLIZplankton_dataset1> ;
+    schema:distribution 'https://doi.org/10.14284/584'^^xsd:anyURI; 
+    schema:isBasedOn  </VLIZplankton_dataset1> ; ;
     schema:license 'https://creativecommons.org/licenses/by/4.0/'^^xsd:anyURI ;
     dct:temporal [ 
         a dct:PeriodOfTime ;
@@ -25,10 +25,12 @@
         a dct:Location ;
         dct:identifier <http://marineregions.org/mrgid/2399> ;
     ] ;
+    dwc:associatedTaxa "None"^^xsd:string ;
     schema:variableMeasured  <http://rs.tdwg.org/dwc/terms/Taxon>,  <https://vocab.nerc.ac.uk/collection/S25/current/BE005887/> ;
     dct:bibliographicCitation 'Flanders Marine Institute (VLIZ), Belgium (2022): LifeWatch observatory data: zooplankton observations in the Belgian Part of the North Sea (https://doi.org/10.14284/584)'^^xsd:string ;
+    dct:relation "None"^^xsd:string ;
     dct:publisher [ 
-        a schema:Organisation ;
+        a schema:Organization ;
         schema:identifier <https://edmo.seadatanet.org/report/422> ;
         schema:name 'Flanders Marine Institute'^^xsd:string ;
         schema:email 'data@vliz.be'^^xsd:string ;
@@ -38,5 +40,8 @@
 
     
     schema:sdPublisher 'Kexter'^^xsd:string ;
-    schema:variableMeasured  ''^^xsd:string ;
+    schema:sdDatePublished "None"^^xsd:string ;
+    schema:conditionsOfAccess "None"^^xsd:string ;
+    dcat:theme  ''^^xsd:string ;
+    dct:subject "None"^^xsd:string ;
 .

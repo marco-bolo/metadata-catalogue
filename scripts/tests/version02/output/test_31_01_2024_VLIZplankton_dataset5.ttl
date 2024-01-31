@@ -10,16 +10,30 @@
 <> 
     a schema:Dataset, dcat:Dataset, prov:Entity ;
     schema:name 'EOVs from LifeWatch Observatory: zooplankton abundance PH2'^^xsd:string ;
-    schema:description 'I still need to get this from VLIZ'^^xsd:string ; 
-    schema:isBasedOn </VLIZplankton_dataset2> ;
+    schema:description 'I still need to get this from VLIZ'^^xsd:string ;
+    schema:version "None"^^xsd:string ;
+    schema:encodingFormat "None"^^xsd:string ;
+    schema:keywords "None"^^xsd:string ;
+    schema:distribution "None"^^xsd:string ; 
+    schema:isBasedOn  </VLIZplankton_dataset2> ; ;
+    schema:license "None"^^xsd:string ;
+    dct:temporal "None"^^xsd:string ;
     dct:spatial [
         a dct:Location ;
         dct:identifier <http://marineregions.org/mrgid/2399> ;
     ] ;
+    dwc:associatedTaxa "None"^^xsd:string ;
+    schema:variableMeasured "None"^^xsd:string ;
+    dct:bibliographicCitation "None"^^xsd:string ;
+    dct:relation "None"^^xsd:string ;
+    dct:publisher "None"^^xsd:string ;
+    dcat:contactPoint "None"^^xsd:string ;
 
     
+    schema:contributor "None"^^xsd:string ;
     schema:sdPublisher 'Kexter'^^xsd:string ; 
     schema:sdDatePublished 'I still need to get this from VLIZ'^^xsd:string ; 
     schema:conditionsOfAccess 'These data are in progress under Marco Bolo'^^xsd:string ;
-    schema:variableMeasured  'EOVs: changes in zooplankton abundance (Pelagic Habitat indicator 2)'^^xsd:string ;
+    dcat:theme  'EOVs: changes in zooplankton abundance (Pelagic Habitat indicator 2)'^^xsd:string ;
+    dct:subject "None"^^xsd:string ;
 .

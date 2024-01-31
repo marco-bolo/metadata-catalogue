@@ -14,8 +14,8 @@
     schema:version '5'^^xsd:string ;
     schema:encodingFormat 'DwCA files'^^xsd:string ;
     schema:keywords 'Biodiversity'^^xsd:string, 'Phytoplankton'^^xsd:string, ''^^xsd:string ;
-    schema:distribution 'https://doi.org/10.14284/544'^^xsd:anyURI ; 
-    schema:isBasedOn </VLIZplankton_dataset3> ;
+    schema:distribution 'https://doi.org/10.14284/544'^^xsd:anyURI; 
+    schema:isBasedOn  </VLIZplankton_dataset3> ; ;
     schema:license 'https://creativecommons.org/licenses/by/4.0/'^^xsd:anyURI ;
     dct:temporal [ 
         a dct:PeriodOfTime ;
@@ -25,12 +25,12 @@
         a dct:Location ;
         dct:identifier <http://marineregions.org/mrgid/2399> ;
     ] ;
-    schema:variableMeasured  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=148899>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=11>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=146232>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=19542>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=115057> ;
+    dwc:associatedTaxa  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=148899>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=11>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=146232>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=19542>,  <https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=115057> ;
     schema:variableMeasured  <http://rs.tdwg.org/dwc/terms/Taxon>,  <https://vocab.nerc.ac.uk/collection/S25/current/BE004249/> ;
     dct:bibliographicCitation 'Flanders Marine Institute (VLIZ), Belgium (2018): LifeWatch observatory data: phytoplankton observations by imaging flow cytometry (FlowCam) in the Belgian Part of the North Sea ( https://doi.org/10.14284/544)'^^xsd:string ;
     dct:relation <https://dx.doi.org/10.3897/bdj.8.e57236>,  <https://dx.doi.org/10.5670/oceanog.2021.supplement.02-09>,  <https://dx.doi.org/10.3897/BDJ.10.e81208> ;
     dct:publisher [ 
-        a schema:Organisation ;
+        a schema:Organization ;
         schema:identifier <https://edmo.seadatanet.org/report/422> ;
         schema:name 'Flanders Marine Institute'^^xsd:string ;
         schema:email 'data@vliz.be'^^xsd:string ;
@@ -49,4 +49,8 @@
 
     
     schema:sdPublisher 'Kexter'^^xsd:string ;
+    schema:sdDatePublished "None"^^xsd:string ;
+    schema:conditionsOfAccess "None"^^xsd:string ;
+    dcat:theme "None"^^xsd:string ;
+    dct:subject "None"^^xsd:string ;
 .
