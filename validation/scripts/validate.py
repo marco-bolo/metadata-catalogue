@@ -114,5 +114,5 @@ sitemap_template = environment.get_template("sitemap_template.xml")
 with open("docs/_includes/datasets.html", mode="w", encoding="utf-8") as html_file:
     html_file.write(datasets_template.render(context))
 
-with open("docs/_includes/sitemap.xml", mode="w", encoding="utf-8") as xml_file:
+with open("docs/sitemap.xml", mode="w", encoding="utf-8") as xml_file:
     xml_file.write(sitemap_template.render(context))
