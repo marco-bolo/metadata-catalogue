@@ -361,8 +361,8 @@ input files:
     {%- else %}
     schema:conditionsOfAccess "None"^^xsd:string ;
     {%- endif %}
-    {%- if _.EOVDescription %}
-    dcat:theme {% for eov in _.EOVDescription.split(" | ") %} {{eov.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}  
+    {%- if _.EVDescription %}
+    dcat:theme {% for eov in _.EVDescription.split(" | ") %} {{eov.strip() | ttl("xsd:string") | safe }}{{ " ;" if loop.last else ", " }}{% endfor %}  
     {%- else %}
     dcat:theme "None"^^xsd:string ;
     {%- endif %}
