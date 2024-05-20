@@ -1,0 +1,96 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=4452",
+    "distribution": "http://marineinfo.org/id/dataset/4452.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Area of sample {sampled area} from the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Macrobenthos monitoring in function of the disposal of dredged material.",
+    "citation": "Bio-environmental research group; Institute of Agricultural and Fisheries research (ILVO), Belgium; (2019): Macrobenthos monitoring in function of dredge disposal monitoring in the Belgian part of the North Sea.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2013-11-05",
+    "dateModified": "2019-11-20",
+    "isPartOf": "http://marineinfo.org/id/dataset/1043",
+    "keywords":
+    [
+        {
+            "name":"Dredging",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Macrobenthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/2160",
+        "http://marineinfo.org/id/institute/12745"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/institute/13428"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        { 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 2.716 51.241 , 3.278 51.241 , 3.278 51.472 , 2.716 51.472 , 2.716 51.241 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2004-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Sampling area: The five dumping locations along the Belgian coast Sampling frequency: Autumn-spring sampling before 2010, afterwards only autumn sampling. Since 2012, dumping site Nieuwpoort and Oostende were only samples once over a three year period, the other sites yearly.",
+    "identifier": "4452",
+    "name": "Macrobenthos monitoring in function of dredge disposal monitoring in the Belgian part of the North Sea",
+    "sameAs": "http://marineinfo.org/id/dataset/4452",
+    "url": "http://marineinfo.org/id/dataset/4452"
+}

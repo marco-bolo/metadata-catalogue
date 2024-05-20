@@ -1,0 +1,78 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5261",
+    "distribution": "http://marineinfo.org/id/dataset/5261.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Benthos abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Benthos biomass",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The dataset comprises data on the substrate type and benthos from 14 samples colected in NW Black Sea in the August 1998. The quantitative (1/133 m2) undisturbed sediment samples were taken with a multicorer Mark II-400, the integral 0-15 cm layer of surface sediment were retained, preserved in 4% formaldehyde. The database comprises taxonomic and quantitative data (density and wet weight biomass per square meter) for 28 macrobenthic species and 2 supraspecific groups.",
+    "citation": "Teaca, A.; Begun, T.; Muresan, M.; National Research and Development Institute for Marine Geology and Geoecology – GeoEcoMar, Romania (2016): Benthos data collected in the Black Sea during the IAEA Cruise in 1998",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2016-04-27",
+    "dateModified": "2016-06-30",
+    "keywords":
+    [
+        {
+            "name":"Historical data",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/33132",
+        "http://marineinfo.org/id/institute/5678"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/33132",
+        "http://marineinfo.org/id/institute/5678"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 29.1667 43.74833333 , 31.165 43.74833333 , 31.165 46.41817 , 29.1667 46.41817 , 29.1667 43.74833333 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Romania" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5689" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1998-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "1988-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "5261",
+    "name": "Benthos data collected in the Black Sea during the IAEA Cruise in 1998",
+    "sameAs": "http://marineinfo.org/id/dataset/5261",
+    "url": "http://marineinfo.org/id/dataset/5261"
+}

@@ -1,0 +1,83 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=4044",
+    "distribution": "http://marineinfo.org/id/dataset/4044.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Biomass",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Water depth",
+            "description":"Water depth at the sampling location",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The data were collected by the IBSS staff during a monitoring campaign in Sevastopol Bay (Black Sea) from 1952 to 1963. This dataset contains abundance (individuals per liter) and biomass (mg/m³) data for phytoplankton taxa. No additional metadata is available.",
+    "citation": "IBSS. 1952-1963. Phytoplankton monitoring data from Sevastopol Bay (Black Sea) from 1952 to 1963. Institute of Biology of the Southern Seas of the National Academy of Sciences of Ukraine.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2013-01-21",
+    "dateModified": "2022-08-09",
+    "keywords":
+    [
+        {
+            "name":"Biological monitoring",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/21436",
+        "http://marineinfo.org/id/institute/4738"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/21436",
+        "http://marineinfo.org/id/institute/4738", 
+        "http://marineinfo.org/id/institute/4738"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 33.5 44.62 , 33.5 44.62 , 33.5 44.62 , 33.5 44.62 , 33.5 44.62 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Black Sea" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 33.5087 44.62281 , 33.5087 44.62281 , 33.5087 44.62281 , 33.5087 44.62281 , 33.5087 44.62281 ))" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3319" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1952-7-18" ,
+            "http://www.w3.org/ns/dcat#endDate" : "1963-6-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "version": "1",
+    "identifier": "4044",
+    "name": "Phytoplankton monitoring data from Sevastopol Bay (Black Sea) from 1952 to 1963",
+    "sameAs": "http://marineinfo.org/id/dataset/4044",
+    "url": "http://marineinfo.org/id/dataset/4044"
+}

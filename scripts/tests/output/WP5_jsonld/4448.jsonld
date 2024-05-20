@@ -1,0 +1,98 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=4448",
+    "distribution": "http://marineinfo.org/id/dataset/4448.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Length of sampling track",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Epibenthos and demersal fish monitoring in function of dredge disposal monitoring",
+    "citation": "Bio-environmental research group; Institute of Agricultural and Fisheries research (ILVO), Belgium; (2015): Epibenthos and demersal fish monitoring in function of dredge disposal monitoring in the Belgian part of the North Sea.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2013-11-05",
+    "dateModified": "2016-06-21",
+    "isPartOf": "http://marineinfo.org/id/dataset/1045",
+    "keywords":
+    [
+        {
+            "name":"Epibenthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Fish",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/2160",
+        "http://marineinfo.org/id/institute/12745"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/institute/13428"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "North Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2350" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 2.7235 51.2367 , 3.2871 51.2367 , 3.2871 51.4783 , 2.7235 51.4783 , 2.7235 51.2367 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2004-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Trawl samples were taken within the disposal site and outside the disposal site (close neigbourhood) (classic controle/impact design).",
+    "identifier": "4448",
+    "name": "Epibenthos and demersal fish monitoring in function of dredge disposal monitoring in the Belgian part of the North Sea",
+    "sameAs": "http://marineinfo.org/id/dataset/4448",
+    "url": "http://marineinfo.org/id/dataset/4448"
+}

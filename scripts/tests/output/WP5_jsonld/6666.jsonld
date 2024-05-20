@@ -1,0 +1,96 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6666",
+    "distribution": "http://marineinfo.org/id/dataset/6666.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Area of sample {sampled area} from the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sub-sampling coefficient",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "French benthic invertebrates composition and abundance taxa data are collected during REBENT monitoring surveys on the English Channel / Bay of Biscay coasts and during RSLFAU monitoring surveys on Mediterranean coast. Protocols are implemented in the Water Framework Directive.",
+    "citation": "REBENT network (2019). Benthic invertebrates abundance data in ODV format from French REBENT network. SEANOE. https://doi.org/10.17882/60681",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2021-02-25",
+    "dateModified": "2021-03-16",
+    "isPartOf": "http://marineinfo.org/id/dataset/4412",
+    "keywords":
+    [
+        {
+            "name":"European Water Framework Directive (WFD)",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/institute/12934", 
+        "http://marineinfo.org/id/institute/14706", 
+        "http://marineinfo.org/id/institute/14708", 
+        "http://marineinfo.org/id/institute/8356", 
+        "http://marineinfo.org/id/institute/1397", 
+        "http://marineinfo.org/id/institute/14270", 
+        "http://marineinfo.org/id/institute/14271", 
+        "http://marineinfo.org/id/institute/1989", 
+        "http://marineinfo.org/id/institute/4652", 
+        "http://marineinfo.org/id/institute/14709", 
+        "http://marineinfo.org/id/institute/14266", 
+        "http://marineinfo.org/id/institute/14710", 
+        "http://marineinfo.org/id/institute/14268", 
+        "http://marineinfo.org/id/institute/13135", 
+        "http://marineinfo.org/id/institute/722", 
+        "http://marineinfo.org/id/institute/14703", 
+        "http://marineinfo.org/id/institute/9626", 
+        "http://marineinfo.org/id/institute/14712", 
+        "http://marineinfo.org/id/institute/14272", 
+        "http://marineinfo.org/id/institute/14730"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Mediterranean Sea" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 2.99004 41.3894 , 9.5834 41.3894 , 9.5834 43.7558 , 2.99004 43.7558 , 2.99004 41.3894 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Corsica" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3779" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2003-7-9" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2018-4-6" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "6666",
+    "name": "Benthic invertebrates abundance data from French REBENT network",
+    "sameAs": "http://marineinfo.org/id/dataset/6666",
+    "url": "http://marineinfo.org/id/dataset/6666"
+}

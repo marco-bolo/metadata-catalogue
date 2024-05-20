@@ -1,0 +1,80 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2454",
+    "distribution": "http://marineinfo.org/id/dataset/2454.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Data collected within various monitoring programmes and surveys. Standard zoobenthos techniques using benthic grabbers and species analyses for counts and weights on species level.",
+    "citation": "Stockholm University, Gothenburg University, Umeå University, Linnaeus University, Swedish Agency for Marine and Water Management, Swedish Environmental Protection Agency and Swedish Meterological and Hydrological Institute (2020). National zoobenthos monitoring in Sweden since 1971.",
+    "conditionsOfAccess": "CC0 enables scientists, educators, artists and other creators and owners of copyright- or database-protected content to waive those interests in their works and thereby place them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2010-07-08",
+    "dateModified": "2021-04-29",
+    "isPartOf": "http://marineinfo.org/id/dataset/2136",
+    "keywords":
+    [
+        {
+            "name":"Long-term monitoring",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/institute/4480"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/institute/13153", 
+        "http://marineinfo.org/id/institute/4480"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Baltic" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2401" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Kattegat" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2374" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Skagerrak" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2379" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 10.57167 55 , 24.10917 55 , 24.10917 65.83122 , 10.57167 65.83122 , 10.57167 55 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1971-5-28" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "&lt;p&gt;Zoobenthos have been monitored in Sweden since 1971. The national monitoring program was initiated by the Swedish Environmental Protection Agency and is now financed by the Swedish Agency for Marine and Water Management.&lt;/p&gt; &lt;p&gt;Monitoring is performed by Stockholm University, Gothenburg University, Umeå University and Linnaeus University.&lt;/p&gt; &lt;p&gt;Data are stored in the Swedish Ocean Archive database (SHARK), by the Swedish Meteorological and Hydrological Institute.&lt;/p&gt; &lt;p&gt;The purpose of the monitoring program is to detect long term and short term changes in the soft bottom macrozoobenthos (&gt;1mm) communities. Changes in the macrofauna community can indicate changes in environmental threats like eutrophication, environmental toxins and climate change.&lt;/p&gt; &lt;p&gt;Data are collected and analyzed according to Leonardsson K., 2004. (In Swedish) Metodbeskrivning för provtagning och analys av mjukbottenlevande makroevertebrater I marin miljö. Umeå universitet, Institutionen för ekologi och geovetenskap, 26 p (https://www.havochvatten.se/download/18.1690613b166605675de898f4/1539942622449/rapport-umu-metodbeskrivning-provtagning-analys-mjukbottenlevande-makroevertebrater-i-marin-miljo.pdf) or similar methods. Information about the program and the methods are available in Swedish at https://www.havochvatten.se/hav/vagledning--lagar/vagledningar/ovriga-vagledningar/undersokningstyper-for-miljoovervakning/undersokningstyper/mjukbottenlevande-makrofauna-trend--och-omradesovervakning.html and https://www.havochvatten.se/hav/vagledning--lagar/vagledningar/ovriga-vagledningar/undersokningstyper-for-miljoovervakning/undersokningstyper/sediment---basundersokning.html&lt;/p&gt; &lt;p&gt;Data are collected and analyzed according to Leonardsson K., 2004. (In Swedish) Metodbeskrivning för provtagning och analys av mjukbottenlevande makroevertebrater I marin miljö. Umeå universitet, Institutionen för ekologi och geovetenskap, 26 p (https://www.havochvatten.se/download/18.1690613b166605675de898f4/1539942622449/rapport-umu-metodbeskrivning-provtagning-analys-mjukbottenlevande-makroevertebrater-i-marin-miljo.pdf) or similar methods.&lt;/p&gt;",
+    "identifier": "2454",
+    "name": "SHARK - National zoobenthos monitoring in Sweden since 1971",
+    "sameAs": "http://marineinfo.org/id/dataset/2454",
+    "url": "http://marineinfo.org/id/dataset/2454"
+}

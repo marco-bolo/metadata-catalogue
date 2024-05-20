@@ -1,0 +1,89 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2969",
+    "distribution": "http://marineinfo.org/id/dataset/2969.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Biomass",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The dataset contains the monitoring data on abundance and biomass of 26 mesozooplankton species and life stages in Sevastopol Bay and inshore waters off Crimean coast of the Black Sea from September 1999 to December 2011 (about 15.224 measurements).",
+    "citation": "Finenko, G.; Abolmasova, G.; Datsyk, N.; Anninsky, B.; Romanova, Z. (2012). Mesozooplankton abundance and biomass in Sevastopol Bay and inshore waters  off the Crimean Coasts of the Black Sea. Institute of Biology of the Southern Seas NASU.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2012-02-28",
+    "dateModified": "2013-01-02",
+    "keywords":
+    [
+        {
+            "name":"Inshore waters",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Mesozooplankton",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/25926",
+        "http://marineinfo.org/id/institute/4738"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/25927",
+        "http://marineinfo.org/id/institute/4738", 
+        "http://marineinfo.org/id/person/25928",
+        "http://marineinfo.org/id/institute/4738", 
+        "http://marineinfo.org/id/person/25931",
+        "http://marineinfo.org/id/institute/4738", 
+        "http://marineinfo.org/id/institute/4738"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 33.45 44.61 , 33.58 44.61 , 33.58 44.62 , 33.45 44.62 , 33.45 44.61 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Crimea" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 33.443 44.599 , 33.584 44.599 , 33.584 44.625 , 33.443 44.625 , 33.443 44.599 ))" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3738" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1999-9-23" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2011-12-14" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "version": "1",
+    "identifier": "2969",
+    "name": "Mesozooplankton abundance and biomass in Sevastopol Bay and inshore waters off the Crimean Coasts of the Black Sea",
+    "sameAs": "http://marineinfo.org/id/dataset/2969",
+    "url": "http://marineinfo.org/id/dataset/2969"
+}
