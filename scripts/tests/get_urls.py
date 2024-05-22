@@ -21,8 +21,8 @@ def get_mi_json(mi_urls:list, output_path:str) -> None:
             print(f"Failed to retrieve data. HTTP Status code: {response.status_code}")
 
 # WP5
-WP5_dataset_description = 'scripts/tests/input/MBO_WP5_dataset_description.csv'
-df = pd.read_csv(WP5_dataset_description)
+WP5_dataset_description = 'scripts/tests/input/MBO_WP5_description_added.tsv'
+df = pd.read_csv(WP5_dataset_description, sep='\t')
 WP5_mi_urls = [url for url in df['DataLandingPageURL'].dropna() if url.startswith('http')]
 get_mi_json(WP5_mi_urls, 'scripts/tests/input/WP5_json')
 

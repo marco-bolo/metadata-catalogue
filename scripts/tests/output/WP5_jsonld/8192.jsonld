@@ -13,18 +13,18 @@
             "@type":"PropertyValue"
         }
     ] ,
-    "abstract": "Phytoplankton abundance data collected within the framework of the RADIALES time series monitoring program, carried out by the CSIC-IEO. The sampling is undertaken monthly from 1989 at five stations in North and Northwest Spanish shelf. Samples were taken at several depth strata using Niskin bottles mounted on a CTD rosette. They were fixed with Lugol and preserved until they were analysed at the laboratory under the inverted microscope following the Utermöhl method.",
+    "abstract": "&#34;Phytoplankton abundance data collected within the framework of the RADIALES time series monitoring program, carried out by the CSIC-IEO. The sampling is undertaken monthly from 1989 at five stations in North and Northwest Spanish shelf.Samples were taken at several depth strata using Niskin bottles mounted on a CTD rosette. They were fixed with Lugol and preserved until they were analysed at the laboratory under the inverted microscope following the Utermöhl method.&#34;",
     "citation": "Isla A, Aierbe E, Bode A, González-Quirós R, Nogueira E, Scharek R, Valdés L; IEO-CSIC (2022) Phytoplankton abundance and composition from the RADIALES time series programme (N-NW Spain).",
     "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
     "creativeWorkStatus": "Completed",
     "dateCreated": "2023-01-23",
     "dateModified": "2023-07-04",
     "hasPart": [
-        "http://marineinfo.org/id/dataset/4408" ,
-        "http://marineinfo.org/id/dataset/4409" ,
-        "http://marineinfo.org/id/dataset/4410" ,
-        "http://marineinfo.org/id/dataset/4406" ,
-        "http://marineinfo.org/id/dataset/4407" 
+      "http://marineinfo.org/id/dataset/4408" ,
+      "http://marineinfo.org/id/dataset/4409" ,
+      "http://marineinfo.org/id/dataset/4410" ,
+      "http://marineinfo.org/id/dataset/4406" ,
+      "http://marineinfo.org/id/dataset/4407" 
     ] ,
     "keywords":
     [

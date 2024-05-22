@@ -1,0 +1,99 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6458",
+    "distribution": "http://marineinfo.org/id/dataset/6458.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Length (Standard Length) of biological entity specified elsewhere {SL}",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SL01XX01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Length (Standard Length) of biological entity specified elsewhere {SL}",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SL01XX01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Programa Poseidon is marine biodiversity citizen science project delivered by ECOAQUA Institute, University Las Palmas de Gran Canaria (ECOAQUA), supported by Fundacion Biodiversidad (2014-2015). In 2014 is established web platform, where target groups as scuba divers, whale watchers, environmentalist, etc. could introduce photo, location and other information on observed marine species.  In the period of two years were registered more than 7000 observations by more than 400 users. All the reported observations where validated by ECOAQUA Ichthyology experts team, and finally encoded applying EU-nomen or WORMS classification.",
+    "citation": "ECOAQUA institute, University Las Palmas de Gran Canaria; Spain; (2015): Programa Poseidon - Citizen Science Project Results",
+    "conditionsOfAccess": "CC0 enables scientists, educators, artists and other creators and owners of copyright- or database-protected content to waive those interests in their works and thereby place them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2020-05-07",
+    "dateModified": "2022-08-16",
+    "keywords":
+    [
+        {
+            "name":"Citizen participation",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Citizen science",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"diver",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine species",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/39006",
+        "http://marineinfo.org/id/institute/14509"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/17227",
+        "http://marineinfo.org/id/institute/14509", 
+        "http://marineinfo.org/id/person/39006",
+        "http://marineinfo.org/id/institute/14509", 
+        "http://marineinfo.org/id/person/9426",
+        "http://marineinfo.org/id/institute/14509", 
+        "http://marineinfo.org/id/person/39007",
+        "http://marineinfo.org/id/institute/14509", 
+        "http://marineinfo.org/id/person/12998",
+        "http://marineinfo.org/id/institute/14509", 
+        "http://marineinfo.org/id/institute/14509"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        { 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -18.02946568 27.6337332 , -13.44865434 27.6337332 , -13.44865434 29.23304703 , -18.02946568 29.23304703 , -18.02946568 27.6337332 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2010-12-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2015-12-3" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "POSEIDON was a citizen science programme for public users to submit sightings of marine species in the Canary Islands (www.programaposeidon.eu). The project was supported by the Fundacion Biodiversidad of the Spanish Ministry of Agriculture, Fisheries and Environment and run between 2014 and 2015.   The specific objectives of POSEIDON project wer: 1- Enrich official biodiversity database with many hard to collect data from marine and coastal species  2- Improve scientific knowledge of the distributional pattern of marine species in the all Macaronesian Region and, particularly in each macaronesian archipelago.    3- Increase the data to assess the seasonality or migratory aspects on certain marine species, linking its presence or absence in a certain archipelago with migratory routes or climate change effects 4- Contribute to disseminate among different sectorial groups, the value of field data collection of marine species and habitats as well as the intrinsic valorization of marine life. The online portal required the citizen / volunteer to register marine life sightings using a current email address. The following elements are included in each sighting: GPS coordinate, sighting date, sighting time, dive duration, the minimum depth, the maximum depth, water temperature, species seen, the size of the species (classified into juvenile and adult), the number of individuals seen, whether a photograph was taken and the environment it was seen in. Each sighting is then validated by a researcher in  the Research Institute ECOAQUA of the Univ, of Las Palmas de Gran Canaria to ensure the species reported corresponds with the photo uploaded.&#34;",
+    "identifier": "6458",
+    "name": "Programa Poseidon - Citizen Science Project Results",
+    "sameAs": "http://marineinfo.org/id/dataset/6458",
+    "url": "http://marineinfo.org/id/dataset/6458"
+}

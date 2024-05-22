@@ -1,0 +1,86 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=4438",
+    "distribution": "http://marineinfo.org/id/dataset/4438.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Phytoplankton abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Phytoplankton abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Phytoplankton biomass",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Zooplankton abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Zooplankton biomass",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The IMR zooplankton database holds North Sea data on species composition (abundance), size fractionated biomass as well as biomass for particular zooplankton groups obtained from standard seasonal transects (Utsira-StartPoint, Feie-Shetland, Hanstholm-Aberdeen, Torungen-Hirtshals) and a regional coverage of the northern North Sea and Skagerrak during April-May. Data on species composition are limited.",
+    "citation": "Falkenhaug, T. (2014). IMR Zooplankton North Sea. Institute of Marine Research, Norway",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2013-11-04",
+    "dateModified": "2015-03-06",
+    "keywords":
+    [
+        {
+            "name":"Phytoplankton",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/10960",
+        "http://marineinfo.org/id/institute/3900"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/10960",
+        "http://marineinfo.org/id/institute/3900"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "North Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2350" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -1.66567 56.9833 , 10.8247 56.9833 , 10.8247 61.1617 , -1.66567 61.1617 , -1.66567 56.9833 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1989-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "4438",
+    "name": "IMR Zooplankton North Sea",
+    "sameAs": "http://marineinfo.org/id/dataset/4438",
+    "url": "http://marineinfo.org/id/dataset/4438"
+}

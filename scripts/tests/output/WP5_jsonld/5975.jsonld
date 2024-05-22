@@ -1,0 +1,97 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5975",
+    "distribution": "http://marineinfo.org/id/dataset/5975.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance category of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL06/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The lack of gelatinous blooms data reveals scant attention to such phenomena due to their irregular occurrence (Boero et al. 2008), to modern publication trends that give no importance to observations (Boero 2013b), to current monitoring programs that usually do not cover jellyfish (Riisgård et al. 2012) and to the lack of remote sensing tools to detect jellyfish. From 2009 the Italian project Occhio alla Medusa started involving citizens to record sightings of gelatinous organisms. In 2010 till 2015, the Italian popular science magazine FOCUS supported the campaign dedicating a webpage and releasing a smartphone app to upload records.",
+    "citation": "Boero Ferdinando, Piraino Stefano, Zampardi Serena;  (2019) - Jellyfish sightings along the Italian coastline from 2009 to 2017",
+    "conditionsOfAccess": "CC0 enables scientists, educators, artists and other creators and owners of copyright- or database-protected content to waive those interests in their works and thereby place them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2018-07-18",
+    "dateModified": "2019-03-04",
+    "keywords":
+    [
+        {
+            "name":"Citizen science",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Gelatinous zooplankton",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Jellyplankton: jellyfish blooms",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/35795",
+        "http://marineinfo.org/id/institute/5366"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/1921",
+        "http://marineinfo.org/id/institute/5366", 
+        "http://marineinfo.org/id/person/8354",
+        "http://marineinfo.org/id/institute/5366", 
+        "http://marineinfo.org/id/person/35795",
+        "http://marineinfo.org/id/institute/5366"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 7.580715 35.494938 , 18.519819 35.494938 , 18.519819 45.930454 , 7.580715 45.930454 , 7.580715 35.494938 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Adriatic Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3314" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Ionian Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3351" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Ligurian Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3363" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Tyrrhenian Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3386" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2009-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2017-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "From 2013 we started to collect data also from the web. In 2016 we opened a facebook page “Meteo Meduse” to replace the app. Species of gelatinous macrozooplancton including Cnidaria, Ctenophora, and Thaliacea, have been sighted by citizens recording date of observation, species name or genus, location, abundance as number of individuals per square meter, coordinates and a picture. We validate about 6000 records of bloom events from 2009-2017 and the collection is still continuing by email and the fb page.",
+    "identifier": "5975",
+    "name": "Jellyfish Sightings Along the Italian Coastline from 2009 to 2017",
+    "sameAs": "http://marineinfo.org/id/dataset/5975",
+    "url": "http://marineinfo.org/id/dataset/5975"
+}

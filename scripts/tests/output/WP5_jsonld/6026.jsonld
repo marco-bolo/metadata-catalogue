@@ -1,0 +1,93 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6026",
+    "distribution": "http://marineinfo.org/id/dataset/6026.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (breeding pairs) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SOVO0001/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count of birds",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sample duration",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The dataset contains counts of breeding birds on small Estonian sea islands and islets located in Estonian territorial waters and recorded during national monitoring programme. The overall goal of monitoring is to monitor changes in the composition and abundance of bird species nesting on the small islands",
+    "citation": "Estonian Ornithological Society (2019): Breeding avifauna of small Estonian islands and islets, national monitoring 1957-2016",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2018-07-31",
+    "dateModified": "2019-05-06",
+    "keywords":
+    [
+        {
+            "name":"Breeding birds",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/37695",
+        "http://marineinfo.org/id/institute/8976"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/institute/6082"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Baltic Proper" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4372" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Finland Gulf" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2407" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Riga Gulf" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2409" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Hiiurnaa" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2444" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Estonia" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2110" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 21.766522445123 57.89356369225 , 26.535711436045 57.89356369225 , 26.535711436045 59.677301863523 , 21.766522445123 59.677301863523 , 21.766522445123 57.89356369225 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1957-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2016-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "6026",
+    "name": "Breeding avifauna of small Estonian islands and islets, national monitoring 1957-2016",
+    "sameAs": "http://marineinfo.org/id/dataset/6026",
+    "url": "http://marineinfo.org/id/dataset/6026"
+}

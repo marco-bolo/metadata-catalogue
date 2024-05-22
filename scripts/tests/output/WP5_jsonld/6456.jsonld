@@ -1,0 +1,85 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6456",
+    "distribution": "http://marineinfo.org/id/dataset/6456.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Length of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The dataset PHYTOENVDELTA contains the weekly values of abundance (cells/L) for more than 200 taxa of marine planktonic microalgae at 10 sampling stations located in the two embayments of the Ebro delta, together with the physico-chemical parameters (temperature (°C), salinity, oxygen saturation (%) measured at the same sampling stations during 30 years (1990-2019)",
+    "citation": "Fernández-Tejedor, Margarita; Delgado,Maximino;  Diogène, Jorge; Institute of Agriculture and Food Research and Technology  (IRTA); 2020. Phytoplankton abundance and composition and physico-chemical parameters in the Ebro delta embayments (Alfacs Bay and Fangar Bay, North Western Mediterranean)  during 1990-2019",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2020-05-06",
+    "dateModified": "2020-05-07",
+    "keywords":
+    [
+        {
+            "name":"Embayments",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"physico-chemical core parameters",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "publisher" : [
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/38955",
+        "http://marineinfo.org/id/institute/11875", 
+        "http://marineinfo.org/id/person/38956",
+        "http://marineinfo.org/id/institute/5250", 
+        "http://marineinfo.org/id/person/38958",
+        "http://marineinfo.org/id/institute/11875"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 0.597816696 40.60760002 , 0.764788315 40.60760002 , 0.764788315 40.81059303 , 0.597816696 40.81059303 , 0.597816696 40.60760002 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Ebro Delta" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3414" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1990-5-15" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2019-12-30" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "alternateName": "PHYTOENVDELTA",
+    "description": "The dataset PHYTOENVDELTA contains results of the Phytoplankton Monitoring Program in the main shellfish growing areas of Catalonia located in the Ebro delta. The program was officially launched in 1990 in order to comply with the legislation on official control, and has maintained weekly sampling frequency at 10 stations in total, 5 in each bay until present. Integrated seawater samples are taken from a boat using a silicone hose at all 10 stations, in addition surface and bottom water samples are taken at two central stations, one in each bay. Analysis is conducted using inverted microscopy (Utermöhl method). At each sampling station, seawater temperature, salinity and dissolved oxygen profiles are measured in situ using portable multiparametric probes. Identification is conducted to the lowest taxonomical level for the method. Phytoplankton sampling and analysis are accredited under ISO 17025",
+    "identifier": "6456",
+    "name": "Phytoplankton abundance and composition and physico-chemical parameters in the Ebro delta embayments (Alfacs Bay and Fangar Bay, North Western Mediterranean)  during 1990-2019",
+    "sameAs": "http://marineinfo.org/id/dataset/6456",
+    "url": "http://marineinfo.org/id/dataset/6456"
+}

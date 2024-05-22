@@ -1,0 +1,162 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6462",
+    "distribution": "http://marineinfo.org/id/dataset/6462.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Diameter of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OBSINDDM/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Proportion of coralligenous colonies Subgroup: with percentage necrosis &gt;=10%",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/PCRCNC10/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Proportion of Corallium rubrum colonies (ITIS: 202513: WoRMS 125416) Size: diameter &gt;=7mm",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/PCCRDI01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Proportion of Corallium rubrum colonies (ITIS: 202513: WoRMS 125416) Size: height &gt;=100mm",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/PCCRHT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Specimen height of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SPHGXX01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "This dataset compiles data on geographic and depth distribution, demography, population and mortality, of different habitat-forming invertebrate species dwelling the Mediterranean coralligenous assemblages.",
+    "citation": "Linares, Cristina; Figuerola, Laura; Gómez-Gras, Daniel; Pagès-Escolà, Marta; Olvera, Àngela, Aubach, Àlex; Amate, Roger; Figuerola, Blanca; Kersting, Diego; Ledoux, Jean-Baptiste; López-Sanz, Àngel; López-Sendino, Paula; Medrano, Alba; Garrabou, Joaquim; (2020); CorMedNet- Distribution and demographic data of habitat-forming invertebrate species from Mediterranean coralligenous assemblages between 1882 and 2019",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2020-05-15",
+    "dateModified": "2024-04-10",
+    "keywords":
+    [
+        {
+            "name":"Conservation",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Demography",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"diver",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Mortality",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/39023",
+        "http://marineinfo.org/id/institute/14511"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/39023",
+        "http://marineinfo.org/id/institute/14511", 
+        "http://marineinfo.org/id/person/39024",
+        "http://marineinfo.org/id/institute/14511", 
+        "http://marineinfo.org/id/person/39220",
+        "http://marineinfo.org/id/institute/5250", 
+        "http://marineinfo.org/id/person/39025",
+        "http://marineinfo.org/id/institute/14511", 
+        "http://marineinfo.org/id/person/39030",
+        "http://marineinfo.org/id/institute/5250", 
+        "http://marineinfo.org/id/person/39026",
+        "http://marineinfo.org/id/institute/14511", 
+        "http://marineinfo.org/id/person/39031",
+        "http://marineinfo.org/id/institute/5250", 
+        "http://marineinfo.org/id/person/38921",
+        "http://marineinfo.org/id/institute/5250", 
+        "http://marineinfo.org/id/person/39027",
+        "http://marineinfo.org/id/institute/14511", 
+        "http://marineinfo.org/id/person/39032",
+        "http://marineinfo.org/id/institute/5250", 
+        "http://marineinfo.org/id/person/39033",
+        "http://marineinfo.org/id/institute/5250", 
+        "http://marineinfo.org/id/person/39034",
+        "http://marineinfo.org/id/institute/5250", 
+        "http://marineinfo.org/id/person/39028",
+        "http://marineinfo.org/id/institute/14511", 
+        "http://marineinfo.org/id/person/10033",
+        "http://marineinfo.org/id/institute/5250"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -6.048 31.71775 , 35.98775 31.71775 , 35.98775 45.68883 , -6.048 45.68883 , -6.048 31.71775 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Adriatic Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3314" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Aegean" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3315" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Alboran Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3324" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Eastern Mediterranean" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4280" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Ionian Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3351" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Western Mediterranean" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4279" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1882-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2019-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "This dataset gathers published scientific papers, as well as grey literature and technical reports. We used different search strategies in the ISI Web of Knowledge and Google Scholar, introducing distinct sets of keywords, and contacts with researchers across the Mediterranean.    The dataset provides information about the survey year, geographic coordinates, marine ecoregion, protection status of the geographic location, depth distribution range, species name, type of study conducted (distribution, demographic, population genetics or other), sampling methods, and different demographic parameters when available (i.e. density, colony height, recruitment, and mortality rates).  The dataset includes available information of different habitat-forming marine invertebrate species, including key species such as octocorals and bryozoans, among others.  The published scientific papers, grey literature, and technical reports include both in situ SCUBA sampling, and video or photo surveys.",
+    "identifier": "6462",
+    "name": "CorMedNet- Distribution and demographic data of habitat-forming invertebrate species from Mediterranean coralligenous assemblages between 1882 and 2019.",
+    "sameAs": "http://marineinfo.org/id/dataset/6462",
+    "url": "http://marineinfo.org/id/dataset/6462"
+}

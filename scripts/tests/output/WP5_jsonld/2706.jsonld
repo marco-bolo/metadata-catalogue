@@ -1,0 +1,87 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2706",
+    "distribution": "http://marineinfo.org/id/dataset/2706.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Over 645 sightings of cetacean groups (of one and more individuals) have been recorded in the Black Sea, Azov Sea and Kerch Strait during the period from 1993 to 2010 inclusive.",
+    "citation": "Cetacean sightings in the Black Sea, Sea of Azov and Kerch Strait (CetSiBS). 2011. Dataset assembled by A.Birkun, Jr. and S.Krivokhizhin. EMODNet.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2010-11-03",
+    "dateModified": "2022-08-16",
+    "keywords":
+    [
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"surface vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/20775",
+        "http://marineinfo.org/id/institute/9985"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/20775",
+        "http://marineinfo.org/id/institute/9985", 
+        "http://marineinfo.org/id/institute/9985"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 30.2 41.53 , 41.75 41.53 , 41.75 46.58 , 30.2 46.58 , 30.2 41.53 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Azov Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3320" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Black Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3319" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Kerch Strait" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3737" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1993-8-15" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2010-9-21" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "version": "1",
+    "alternateName": "CetSiBS",
+    "description": "Most the data were obtained by means of special cetacean line transect aerial and vessel-based surveys conducted by trained observers. Some data were colllected during cetacean photo-identification studies. The dataset is accompanied with the estimated values of cetacean density and abundance. For the most recent 5 years of data collection, only presence data are made available, for data older than 5 years, abundance data is made available.",
+    "identifier": "2706",
+    "name": "Cetacean sightings in the Black Sea, Sea of Azov and Kerch Strait",
+    "sameAs": "http://marineinfo.org/id/dataset/2706",
+    "url": "http://marineinfo.org/id/dataset/2706"
+}

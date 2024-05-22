@@ -1,0 +1,77 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6508",
+    "distribution": "http://marineinfo.org/id/dataset/6508.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "This series is part of the long term planktonic monitoring of Villefranche-sur-mer, which is one of the oldest and richest in the world. It aims at describing the dynamics of the mesozooplankton community. The data collection and processing has been funded by several projects over its lifetime. It is currently supported directly by the Institut de la Mer de Villefranche (IMEV), as part of its long term monitoring effort, and by the MOOSE program of the Research Infrastructure ILICO. This dataset contains the planktonic organisms collected by a WP2 net (200μm mesh) and therefore cover organisms from 200µm to ~2cm.",
+    "citation": "Sorbonne Université/CNRS - Institut de la Mer de Villefranche (IMEV), Sorbonne Université/CNRS - Laboratoire d&#39;Océanographie de Villefranche (LOV); 2020; Plankton community in WP2 net (200µm), DYFAMED point, Ligurian Sea, France",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2020-05-20",
+    "dateModified": "2023-08-08",
+    "keywords":
+    [
+        {
+            "name":"EcoTaxa",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Imaging",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"ZooSCAN",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/39098",
+        "http://marineinfo.org/id/institute/4875"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/institute/14258", 
+        "http://marineinfo.org/id/institute/4875"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 7.85 43.366667 , 7.9 43.366667 , 7.9 43.416667 , 7.85 43.416667 , 7.85 43.366667 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Ligurian Sea" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 7.85 43.367 , 7.9 43.367 , 7.9 43.417 , 7.85 43.417 , 7.85 43.367 ))" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3363" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2001-6-29" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2018-9-21" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "&#34;WP2 net (200μm mesh) hauled vertically from 100m to the surface. Sample preserved in 4% buffered formalin and stored over the long term at the Centre de Collections Planctoniques de Villefranche (CCPv). Sample scanned on a ZooScan, images processed with ZooProcess and sorted taxonomically on EcoTaxa, within the Plateforme d&#39;Imagerie Quantitative de Villefranche (PIQv). The PIQv and CCPv platforms are part of EMBRC-France, a national Research Infrastructure supported by ANR, under the reference ANR-10-INSB-02.",
+    "identifier": "6508",
+    "name": "Plankton community in WP2 net (200µm), DYFAMED point, Ligurian Sea, France",
+    "sameAs": "http://marineinfo.org/id/dataset/6508",
+    "url": "http://marineinfo.org/id/dataset/6508"
+}

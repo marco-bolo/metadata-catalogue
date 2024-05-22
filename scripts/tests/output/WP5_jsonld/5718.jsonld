@@ -1,0 +1,74 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5718",
+    "distribution": "http://marineinfo.org/id/dataset/5718.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "We provide datasets that include parameters regarding phytoplankton community, primary production and chl a measurements. Chlorophyll a concentrations analysis started from 1972 till 2017 and included coastal and open waters stations. Phytoplankton community analysis consist of datasets started from 1952-2017 while primary production measurements were obtained from 1962.",
+    "citation": "Phytoplankton research group; Institute of oceanography and fisheries (2018). Phytoplankton community and primary production time series in the coastal and open waters at the Adriatic Sea (2002-2015)",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2017-07-03",
+    "dateModified": "2019-01-28",
+    "keywords":
+    [
+        {
+            "name":"Diatoms",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/11026",
+        "http://marineinfo.org/id/institute/2337",  
+        "http://marineinfo.org/id/person/34977",
+        "http://marineinfo.org/id/institute/2337"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/34974",
+        "http://marineinfo.org/id/institute/2337", 
+        "http://marineinfo.org/id/person/34975",
+        "http://marineinfo.org/id/institute/2337", 
+        "http://marineinfo.org/id/person/34976",
+        "http://marineinfo.org/id/institute/2337"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 15.01205 42.26833333 , 18.1330667 42.26833333 , 18.1330667 44.487356 , 15.01205 44.487356 , 15.01205 42.26833333 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Adriatic Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3314" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1966-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2017-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Datasets were gained from projects Vir- Konavle started from 1976. This project included coastal stations along Middle and South Adraitic and was performed seasonaly. National monitoring programe Jadran started 1998 and among coastal stations, measurements were performed at  open waters  (three transects across Adriatic). The project was active till 2012.  Operational and regulatory monitoring of transitional and coastal waters of 2014-2018 is ongoing project. Primary production has been measured monthly form 1962 on two station in coastal and open waters.",
+    "identifier": "5718",
+    "name": "Phytoplankton community and primary production time series in the coastal and open waters at the Adriatic Sea (2002-2015)",
+    "sameAs": "http://marineinfo.org/id/dataset/5718",
+    "url": "http://marineinfo.org/id/dataset/5718"
+}

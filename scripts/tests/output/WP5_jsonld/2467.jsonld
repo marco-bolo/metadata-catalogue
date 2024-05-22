@@ -1,0 +1,103 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2467",
+    "distribution": "http://marineinfo.org/id/dataset/2467.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Benthos abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Dry weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Macrobenthos biomass",
+            "description":"Ash-free dry weight biomass of macrofauna species",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Zoobenthos data from Polish Exclusive Economic Zone of the Baltic Sea collected in frame of the Polish Monitoring Programme. Data include information on species composition, abundance and biomass (wet and dry) of zoobenthos community for the period of 1979-2012.",
+    "citation": "Polish Monitoring Programme - Monitoring of the Baltic Sea, Poland; (2016), PMS, IMWM Database: zoobenthos",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2010-07-09",
+    "dateModified": "2016-06-30",
+    "isPartOf": "http://marineinfo.org/id/dataset/2462",
+    "keywords":
+    [
+        {
+            "name":"Benthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Long-term monitoring",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Monitoring",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Zoobenthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/23231",
+        "http://marineinfo.org/id/institute/11212"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/institute/13177", 
+        "http://marineinfo.org/id/institute/11212"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Southern Baltic" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2449" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 14.25 54.06667 , 19.70667 54.06667 , 19.70667 55.555 , 14.25 55.555 , 14.25 54.06667 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1979-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2012-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "2467",
+    "name": "Polish Monitoring Programme - Monitoring of the Baltic Sea: zoobenthos",
+    "sameAs": "http://marineinfo.org/id/dataset/2467",
+    "url": "http://marineinfo.org/id/dataset/2467"
+}

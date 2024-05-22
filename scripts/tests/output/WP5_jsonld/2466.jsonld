@@ -1,0 +1,90 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2466",
+    "distribution": "http://marineinfo.org/id/dataset/2466.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Zooplankton abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Zooplankton biomass",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Zooplankton data from Polish Exclusive Economic Zone of the Baltic Sea collected in frame of the Polish Monitoring Programme. Data include information on species composition, abundance and biomass of zooplankton community for the period of 2002-2012.",
+    "citation": "Polish Monitoring Programme - Monitoring of the Baltic Sea, Poland; (2014), PMS, IMWM Database: zooplankton",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2010-07-09",
+    "dateModified": "2014-09-15",
+    "isPartOf": "http://marineinfo.org/id/dataset/2462",
+    "keywords":
+    [
+        {
+            "name":"Long-term monitoring",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Monitoring",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Zooplankton",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/23231",
+        "http://marineinfo.org/id/institute/11212"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/institute/13177"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Southern Baltic" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2449" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 14.25 53.67333 , 19.585 53.67333 , 19.585 55.555 , 14.25 55.555 , 14.25 53.67333 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2002-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2012-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "2466",
+    "name": "Polish Monitoring Programme - Monitoring of the Baltic Sea: zooplankton",
+    "sameAs": "http://marineinfo.org/id/dataset/2466",
+    "url": "http://marineinfo.org/id/dataset/2466"
+}

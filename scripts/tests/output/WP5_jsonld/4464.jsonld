@@ -1,0 +1,76 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=4464",
+    "distribution": "http://marineinfo.org/id/dataset/4464.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The first “organized” and regular biological observations at the time series station C1 in the Gulf of Trieste, North Adriatic Sea, date back to the early 1970s and were initiated by the University of Trieste. A regular monthly sampling for hydrological, chemical as well as biological (phytoplankton and zooplankton in several size classes) analysis began later, in 1986. The time series station C1, initiated by the University of Trieste, was later taken care by the Laboratory of Marine Biology of Trieste after its formal institution in December 1979 and, since October 2005, by the Department of Biological Oceanography, now Division of Oceanography (OCE) of OGS, Istituto Nazionale di Oceanografia e Geofisica Sperimentale of Trieste. ",
+    "citation": "de Olazabal, A.; Fonda-Umani, S. (2014). Mesozooplankton  North Adriatic-Gulf of Trieste LTER time-series. National Institute of Oceanography and Experimental Geophysics (OGS)",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2013-11-06",
+    "dateModified": "2022-08-01",
+    "keywords":
+    [
+        {
+            "name":"Monthly",
+            "inDefinedTermSet":"Transportation Research Thesaurus",
+            "termCode":"3",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Time series",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/28800",
+        "http://marineinfo.org/id/institute/4325",  
+        "http://marineinfo.org/id/person/29147",
+        "http://marineinfo.org/id/institute/4325"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/29147",
+        "http://marineinfo.org/id/institute/4325"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 13.71 45.70083333 , 13.71 45.70083333 , 13.71 45.70083333 , 13.71 45.70083333 , 13.71 45.70083333 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Adriatic Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3314" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1998-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2005-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Since 2006 the time series station C1 has been formally included in the Italian network of long term ecological research sites (LTER-Italy) as part of the northern Adriatic LTER site. Scientific responsible from 1998 to 2005: Serena Fonda Umani, Univ. Trieste -  Principal data originator: Alessandra De Olazabal",
+    "identifier": "4464",
+    "name": "Mesozooplankton North Adriatic-Gulf of Trieste LTER time-series",
+    "sameAs": "http://marineinfo.org/id/dataset/4464",
+    "url": "http://marineinfo.org/id/dataset/4464"
+}

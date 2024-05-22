@@ -28,7 +28,7 @@
             "@type":"PropertyValue"
         }
     ] ,
-    "abstract": "The North Atlantic and Arctic Isopoda dataset contains three parts: 1. Distribution records collected from literature; 2. Distribution records of specimens collected by the BIOICE project (Benthic Invertebrates of Icelandic waters 1992-2004); 3. Distribution records of specimens collected by the IceAGE project (Icelandic marine animals: Genetics and Ecology, since 2011). This dataset contains distribution data regarding the 2nd group, isopods occurrences sampled during the BIOICE project",
+    "abstract": "The North Atlantic and Arctic Isopoda dataset contains three parts: 1. Distribution records collected from literature; 2. Distribution records of specimens collected by the BIOICE project (Benthic Invertebrates of Icelandic waters 1992-2004); 3. Distribution records of specimens collected by the IceAGE project (Icelandic marine animals: Genetics and Ecology, since 2011).This dataset contains distribution data regarding the 2nd group, isopods occurrences sampled during the BIOICE project",
     "citation": "Brix, S.; Malyutina, M; Schnurr, S., Riehl, T.; Kürzel, K.; Stransky, B.; Brökeland W.; Eichsteller A.; Siebert, A.; Svavarsson, J.; (2020). North Atlantic and Arctic Isopoda sampled during the BIOICE project",
     "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
     "creativeWorkStatus": "Completed",

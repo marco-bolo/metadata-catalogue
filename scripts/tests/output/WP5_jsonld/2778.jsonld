@@ -1,0 +1,73 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2778",
+    "distribution": "http://marineinfo.org/id/dataset/2778.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Data of mesozooplankton are collecting continuously at least twice a year in the northeastern Black Sea from 1994 to present time. Currently, only data until 2005 will be made available.",
+    "citation": "Shiganova, T. Zooplankton from the north-eastern Black Sea for 1994-2005. P.P. Shirshov Institute of Oceanology, Russian Academy of Sciences, Russia.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2011-02-14",
+    "dateModified": "2022-08-10",
+    "keywords":
+    [
+        {
+            "name":"Long term follow up",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/5457",
+        "http://marineinfo.org/id/institute/2991"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/institute/2991"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 29.11 41.83 , 41.25 41.83 , 41.25 46.55 , 29.11 46.55 , 29.11 41.83 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Black Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3319" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1994-8-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2005-10-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "version": "1",
+    "description": "Samples of zooplankton were collected by vertical hauls by Juday net (Opening mouth diameter 37 cm; square 0,1 m2; mesh size 180 micro m). Data sets comprises species composition, abundance and biomass in m2 and m3. Wet weight  of the zooplankton organisms was determined from equation: W = aL3, where L is length of organism (mm), and &#39;a&#39; is the coefficient calculated from the nomograms of Chislenko (1968).",
+    "identifier": "2778",
+    "name": "Zooplankton from the north-eastern Black Sea for 1994-2005",
+    "sameAs": "http://marineinfo.org/id/dataset/2778",
+    "url": "http://marineinfo.org/id/dataset/2778"
+}

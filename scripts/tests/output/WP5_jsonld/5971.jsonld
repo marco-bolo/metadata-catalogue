@@ -1,0 +1,114 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5971",
+    "distribution": "http://marineinfo.org/id/dataset/5971.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Occurrence of biota",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Phytoplankton abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Phytoplankton abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Presence or absence of biological entity specified elsewhere by using 0 or 1 binary classification",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/PRESABS1/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sample duration",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Size class (calculated) of biological entity specified elsewhere in the water body by calculation using the HELCOME COMBINE guidelines",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL15/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The monitoring at station SOMLIT-Astan (north of Roscoff - France, Western English Channel) was designed to study long term changes in phytoplankton communities in a global change context (diversity, phenology).",
+    "citation": "Rigaut-Jalabert, F; Simon, N; Hoebeke, M; (2019): Long-term monitoring of the phytoplankton at the SOMLIT-Astan Station in the Western English Channel from 2000 to present",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2018-07-13",
+    "dateModified": "2019-08-01",
+    "keywords":
+    [
+        {
+            "name":"Data",
+            "inDefinedTermSet":"Assemble KO Types",
+            "termCode":"8",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine biodiversity",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine sampling",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Phytoplankton community",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "publisher" : [  
+        "http://marineinfo.org/id/person/35782",
+        "http://marineinfo.org/id/institute/1397"
+    ] ,
+    "creator" : [ 
+        "http://marineinfo.org/id/person/35782",
+        "http://marineinfo.org/id/institute/1397", 
+        "http://marineinfo.org/id/person/11004",
+        "http://marineinfo.org/id/institute/1397", 
+        "http://marineinfo.org/id/person/35783",
+        "http://marineinfo.org/id/institute/1397"
+    ] ,
+    "contributor": [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "SOMLIT-Astan" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.983 48.778 , -3.983 48.778 , -3.983 48.778 , -3.983 48.778 , -3.983 48.778 ))" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5372" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.968333 48.771667 , -3.968333 48.771667 , -3.968333 48.771667 , -3.968333 48.771667 , -3.968333 48.771667 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        },
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2000-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Phytoplankton communities are monitored twice a month according to the SOMLIT monitoring program (Service d&#39;Observation en Milieu Littoral : http://somlit.epoc.u-bordeaux1.fr/fr/), national network performing measurements of hydrological parameters. SOMLIT-Astan phytoplankton monitoring contains :1/  Microphytoplankton - Species abundances (according to Utermöhl method microphytoplankton abundances - number of cells per liter) ; 2/ Microphytoplankton - Species semi-quantitative occurrences (20µm net haul, occurrence code : &#34;1&#34; present, &#34;2&#34; numerous, &#34;3&#34;dominant) ; 3/ Functionnal group abundances (Flowcytometry - number of cells per milliliter) : pico-, nano-phytoplankton, heterotrophic and autotrophic bacteria. The datasets that are provided include only occurrence data determined through methods 1 and 2. Flow cytometry is thus not included. Sampling methods are summarised in http://ipt.sb-roscoff.fr/ipt/resource?r=phytoplankton_somlit-astan",
+    "identifier": "5971",
+    "name": "Long-term Monitoring of the Phytoplankton at the SOMLIT-Astan Station in the Western English Channel from 2000 to Present",
+    "sameAs": "http://marineinfo.org/id/dataset/5971",
+    "url": "http://marineinfo.org/id/dataset/5971"
+}

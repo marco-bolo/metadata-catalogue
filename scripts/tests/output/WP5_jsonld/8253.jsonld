@@ -28,7 +28,7 @@
             "@type":"PropertyValue"
         }
     ] ,
-    "abstract": "<p>Long term measurements of benthos composition in the Eastern Scheldt. Conducted by Royal Netherlands Institute for Sea Research for scientific purposes (1959-2015).</p>",
+    "abstract": "&lt;p&gt;Long term measurements of benthos composition in the Eastern Scheldt. Conducted by Royal Netherlands Institute for Sea Research for scientific purposes (1959-2015).&lt;/p&gt;",
     "citation": "NIOZ (2023) Benthos Oosterschelde 1959-2015",
     "conditionsOfAccess": "CC0 enables scientists, educators, artists and other creators and owners of copyright- or database-protected content to waive those interests in their works and thereby place them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.",
     "dateCreated": "2023-03-23",
