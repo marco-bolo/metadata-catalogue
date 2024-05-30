@@ -1,0 +1,103 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=8193",
+    "distribution": "http://marineinfo.org/id/dataset/8193.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Dry weight biomass of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL09/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "&#34;Zooplankton abundance and biomass data collected within the framework of the RADIALES time series monitoring programme, carried out by the CSIC-IEO. The sampling is undertaken monthly from 1991 at a series of stations located along five transects perpendicular to the North and Northwest Spanish coastline.  ",
+    "citation": "Isla A, Aierbe E, Bode A, González-Quirós R, Nogueira E, Valdés L; IEO-CSIC (2022) Zooplankton abundance and biomass from the RADIALES time series programme (N-NW Spain)  ",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2023-01-23",
+    "dateModified": "2023-07-04",
+    "hasPart": [
+      "http://marineinfo.org/id/dataset/4400",
+      "http://marineinfo.org/id/dataset/4401",
+      "http://marineinfo.org/id/dataset/4402",
+      "http://marineinfo.org/id/dataset/4403",
+      "http://marineinfo.org/id/dataset/4404",
+      "http://marineinfo.org/id/dataset/4398",
+      "http://marineinfo.org/id/dataset/4399"
+    ] ,
+    "keywords": [
+        {
+            "name":"Abundance",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Biomass",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Species composition",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Time series",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/42014",
+        "http://marineinfo.org/id/person/42015",
+        "http://marineinfo.org/id/person/42016",
+        "http://marineinfo.org/id/person/5460",
+        "http://marineinfo.org/id/person/20180",
+        "http://marineinfo.org/id/person/28784"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/42014"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/42014"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -8.958 42.142 , -3.783 42.142 , -3.783 44.333 , -8.958 44.333 , -8.958 42.142 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1989-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2021-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Sampling protocol varied slightly beween transects: oblique hauls with a 200 µm mesh-size Bongo (stations off Vigo) or Juday-Bogorov (Coruña) net; vertical hauls with 200 µm mesh-size WP2 net (off Cudillero and Gijón transects, and Santander from 2013 onwards); and oblique hauls with 250 µm mesh-size Juday-Bogorov (Santander until 2013). The nets were towed from 100 m (50 m for the Juday-Bogorov at the Santander transect) or 5 m above the bottom at shallower stations to the surface.  In all cases, the samples for abundance were preserved in 4% tetraborate-buffered formaldehyde for subsequent counting and taxonomic identification under a stereoscopic microscope. The biomass samples were filtered and dried at 60 ºC during 48 h before weighing to estimate the dry weight. The samples for biomass collected with the WP2 net (Cudillero, Gijón, and Santander since 2013) were split into three size-fractions: 200-500 µm, 500-1000 µm, and &gt; 1000 µm. &#34;",
+    "identifier": "8193",
+    "name": "Zooplankton abundance and biomass from the RADIALES time series programme (N-NW Spain)",
+    "sameAs": "http://marineinfo.org/id/dataset/8193",
+    "url": "http://marineinfo.org/id/dataset/8193"
+}

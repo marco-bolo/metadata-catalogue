@@ -1,0 +1,60 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=8252",
+    "distribution": "http://marineinfo.org/id/dataset/8252.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Ash-free dry weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL03/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "citation": "NIOZ (2023) Benthos Westerschelde 1963-2012",
+    "conditionsOfAccess": "CC0 enables scientists, educators, artists and other creators and owners of copyright- or database-protected content to waive those interests in their works and thereby place them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.",
+    "dateCreated": "2023-03-23",
+    "dateModified": "2023-03-23",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "creator" : [
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/11923"
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Westerschelde" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4752" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 3.587677 51.33645 , 4.246143 51.33645 , 4.246143 51.458212 , 3.587677 51.458212 , 3.587677 51.33645 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "identifier": "8252",
+    "name": "Benthos Westerschelde 1963-2012",
+    "sameAs": "http://marineinfo.org/id/dataset/8252",
+    "url": "http://marineinfo.org/id/dataset/8252"
+}

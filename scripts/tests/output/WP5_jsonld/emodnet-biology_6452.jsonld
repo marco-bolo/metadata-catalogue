@@ -1,0 +1,67 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6452",
+    "distribution": "http://marineinfo.org/id/dataset/6452.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The Phytoplankton National Monitoring Programme for the identification and enumeration of phytoplanktonic species is an important measurement in the detection of those species which may form a Harmful Algal Bloom event. Where favourable environmental conditions occur, some species may form &#39;blooms&#39; where high cell densities may cause water discolouration, foaming, mass mortalities of fish, shellfish, invertebrate and benthic organisms through oxygen depletion or produce biotoxins which can accumulate in species of filter feeding bi-valve molluscs, which can cause a variety of human illnesses if consumed when placed on the market for human consumption.",
+    "citation": "Marine Institute, Ireland; (2002): National Monitoring Programme for Phytoplankton Species occurrence in Aquaculture Production Areas",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2020-05-05",
+    "dateModified": "2020-05-11",
+    "keywords": [
+        {
+            "name":"Biological monitoring",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Harmful algal blooms",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/5828"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Irish Exclusive Economic Zone" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -10.56889 51.47306 , -6.02972 51.47306 , -6.02972 55.28389 , -10.56889 55.28389 , -10.56889 51.47306 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2002-11-18" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2020-4-29" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Since the 1980&#39;s, the Marine Institute have been operating a monitoring programme for the detection of these phytoplanktonic species via microscopy (method accredited to ISO 17025 standards) and have been publishing results of this analysis on a daily basis to competent authorities (The Food Safety Authority of Ireland&amp; Sea-Fisheries Protection Authority) and industry. Samples are currently taken on a weekly basis from Classified Production shellfish aquaculture areas all around the Irish Coastline (up to approx. 100 production areas from Co. Louth - Co. Donegal), with a smaller number of samples taken from finfish aquaculture production sites. Samples are submitted to MI laboratories in Bantry &amp; Galway for analysis where sample details, analysis and results are inputted, stored in, and generated from the Harmful Algal Blooms database (HABs - SQL Server database developed in-house), which has been in operation since 2002. These results are published from HABs and are publicly available through MI website; webapps.marine.ie/habs and are tabulated and graphed to show the occurrence, trends and patterns of HAB events, where all results from 2002 - current date can be downloaded per production area. This monitoring programme is in accordance with the relevant EU Legislation (627/2019), where the results feed into the NMP for marine biotoxins in shellfish.",
+    "identifier": "6452",
+    "name": "National Monitoring Programme for Phytoplankton Species occurrence in Aquaculture Production Areas",
+    "sameAs": "http://marineinfo.org/id/dataset/6452",
+    "url": "http://marineinfo.org/id/dataset/6452"
+}

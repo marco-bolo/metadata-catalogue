@@ -1,0 +1,84 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5980",
+    "distribution": "http://marineinfo.org/id/dataset/5980.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Data collections",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Depth (spatial coordinate) relative to water surface in the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The Royal Belgian Institute of Natural Sciences Belgian Marine Invertebrates collection contains 135 digitised specimens over 14 taxa (mostly species). This dataset only contains the marine species of the collection. The following classes are included: Bivalvia Linnaeus, 1758, Cephalopoda Cuvier, 1797, Gastropoda Cuvier, 1797, Polyplacophora Gray, 1821.",
+    "citation": "Samyn, Y., Semal, P. (2020) Royal Belgian Institute of Natural Sciences Belgian Marine Invertebrates collection",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2018-07-19",
+    "dateModified": "2022-07-19",
+    "keywords": [
+        {
+            "name":"Biological collections",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/244"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/31981",
+        "http://marineinfo.org/id/person/16113"
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 2.45 50.75 , 4.5 50.75 , 4.5 55.2 , 2.45 55.2 , 2.45 50.75 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1800-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2015-8-8" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "5980",
+    "name": "Royal Belgian Institute of Natural Sciences Belgian Marine Invertebrates Collection (belgianmarineinvertebrates)",
+    "sameAs": "http://marineinfo.org/id/dataset/5980",
+    "url": "http://marineinfo.org/id/dataset/5980"
+}

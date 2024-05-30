@@ -1,0 +1,91 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6577",
+    "distribution": "http://marineinfo.org/id/dataset/6577.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Concentration of oxygen {O2 CAS 7782-44-7} per unit volume of the water body dissolved plus reactive particulate phase",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/DOXYZZXX/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Electrical conductivity of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"pH (total scale) {pHT} of the water body by computation",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/PHTLWCAL/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Practical salinity of the water body by conductivity cell and computation using UNESCO 1983 algorithm",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/PSALPR01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Temperature of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "A 21-year fisheries-independent monitoring dataset was used to explore fish community diversity across a latitudinal gradient to quantify how diversity has changed and relate those changes in diversity to changes in the abiotic environment. Additionally, this study spans a biogeographic transition zone, providing insight into future species assemblages across regions of relatively high species diversity.",
+    "citation": "Troast Brittany, Paperno Richard, Cook Geoffrey (2019). Multi-decadal shifts in fish community diversity across a dynamic biogeographic transition zone. SEANOE. https://doi.org/10.17882/70325",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical terms. This license is often compared to “copyleft” free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2020-10-12",
+    "dateModified": "2020-11-04",
+    "keywords": [
+        {
+            "name":"Species diversity",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/39481",
+        "http://marineinfo.org/id/person/39482",
+        "http://marineinfo.org/id/person/39483"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -80.85867 27.65037 , -80.36652 27.65037 , -80.36652 28.8069 , -80.85867 28.8069 , -80.85867 27.65037 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "florida" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -80.95 27.42803 , -80.249817 27.42803 , -80.249817 29.044607 , -80.95 29.044607 , -80.95 27.42803 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1997-1-27" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2017-12-12" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Location: Indian River Lagoon, Florida, USA Methods: Spatial and temporal beta diversity was quantified latitudinally with “best derived breaks” determined by using chronological cluster analyses.  Multiple indices of alpha diversity were quantified, including species richness, Shannon diversity, Simpson diversity, and Pielou’s evenness. AIC model selection and environmental fit tests were performed to link patterns of diversity and species assemblages with the abiotic environment. Results: Evidence of a biogeographic transition zone was supported by data spanning the entire study period; the largest break in species assemblage occurred near 28°N. Fine scale analyses using small and large seine catches were noisier than broad analyses but indicated a northern shift in location of the biogeographic transition zone. Beta-diversity was generally dominated by species turnover/balance versus nestedness/gradient components, implying that changes were driven by species sorting associated with the physical environment. Excluding the summation of all environmental variables, temperature and dissolved oxygen best describe patterns of diversity and species composition. Main Conclusions: Over years less affected by disturbances, large and small seine catch data suggest the fish community assemblage and location of the biogeographic transition zone has shifted 9 km and 21 km to the north. If the trends observed in these years were to continue from 1999 until the year 2100, a 111 km to 243 km shift in fish communities could be expected. Variation in rates of movement based on gear type suggest novel species assemblages could ensue.",
+    "identifier": "6577",
+    "name": "Multi-decadal shifts in fish community diversity across a dynamic biogeographic transition zone",
+    "sameAs": "http://marineinfo.org/id/dataset/6577",
+    "url": "http://marineinfo.org/id/dataset/6577"
+}

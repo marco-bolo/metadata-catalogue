@@ -1,0 +1,96 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5974",
+    "distribution": "http://marineinfo.org/id/dataset/5974.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Biomass",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Species composition, abundance and biomass of phytoplankton in the coastal waters of Zmiinyi island in the Black Sea in 2004-2015.",
+    "citation": "Gazyetov Ye., Derezyuk N., Medinets V. (2019) Phytoplankton data in the coastal waters of Zmiinyi Island in the Black Sea in 2004-2015.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2018-07-18",
+    "dateModified": "2019-03-29",
+    "keywords": [
+        {
+            "name":"Abundance estimation",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine phytoplankton",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Phytoplankton biomass",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/35796",
+        "http://marineinfo.org/id/person/35797",
+        "http://marineinfo.org/id/person/1973"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/35796"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/1973"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 30.19 45.24 , 30.21 45.24 , 30.21 45.26 , 30.19 45.26 , 30.19 45.24 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Black Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3319" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Danube Delta" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3735" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2004-6-18" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2015-12-19" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Odessa National I.I. Mechnikov University phytoplankton dataset collected in the Zmiinyi Island coastal waters in the Black Sea in the framework of national research projects funded by Ministry of Science and Education of Ukraine in 2004-2015. This dataset include about 25262 records of abundance and 25262 records of wet weight biomass for about 476 phytoplankton species in 1524 samples. Phytoplankton sampling was performed using 5 l Niskin bottle.",
+    "identifier": "5974",
+    "name": "Phytoplankton in the Coastal Waters of Zmiinyi Island in the Black Sea (2004-2015)",
+    "sameAs": "http://marineinfo.org/id/dataset/5974",
+    "url": "http://marineinfo.org/id/dataset/5974"
+}

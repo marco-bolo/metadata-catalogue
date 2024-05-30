@@ -1,0 +1,97 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=4541",
+    "distribution": "http://marineinfo.org/id/dataset/4541.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Benthos abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Benthos biomass",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Hyperbenthic decanted crustacea collected with Rothlisberg-Piercy sledge, hauls 5-10 min bottomtime. All samples after 2012 are preserved on board in ethanol. Taxa identified as detailed as possible. Specimens kept at Bergen Museum, Bergen, Norway.",
+    "citation": "Buhl-Mortensen, L. (2014). MAREANO - Base-line mapping of hyperbenthic crustacea fauna obtained with RP-sledge. Institute of Marine Research, Norway",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2014-02-24",
+    "dateModified": "2022-07-20",
+    "isPartOf": [
+      "http://marineinfo.org/id/dataset/4435"
+    ] ,
+    "keywords": [
+        {
+            "name":"Baseline studies",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Ecological baseline studies",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Museum collections",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/17858"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/17858"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Norwegian Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2353" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 3.033 62.303 , 36.608333333333 62.303 , 36.608333333333 80.171483333333 , 3.033 80.171483333333 , 3.033 62.303 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Barents Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4247" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2006-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2011-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "4541",
+    "name": "MAREANO - Base-line mapping of hyperbenthic crustacea fauna obtained with RP-sledge",
+    "sameAs": "http://marineinfo.org/id/dataset/4541",
+    "url": "http://marineinfo.org/id/dataset/4541"
+}

@@ -33,7 +33,7 @@
     {%- endif %}
     {#- "about"#}
     {%- if _.datasetrec.EngAbstract %}
-    "abstract": "{{_.datasetrec.EngAbstract | replace(' \n',' ') | replace(' \t',' ') }}",
+    "abstract": "{{_.datasetrec.EngAbstract | replace('\r\n',' ') | replace('\r\t',' ') | replace('\n',' ') | replace('\t',' ') }}",
     {%- endif %}
     {#- "accountablePerson"#}
     {#- "acquireLicensePage"#}
@@ -42,7 +42,7 @@
     {#- "audience"#}
     {#- "author"#}
     {%- if _.datasetrec.Citation %}
-    "citation": "{{_.datasetrec.Citation}}",
+    "citation": "{{_.datasetrec.Citation | replace('\r\n',' ') | replace('\r\t',' ') | replace('\n',' ') | replace('\t',' ') }}",
     {%- endif %}
     {%- if _.datasetrec.AccConstrDescription %}
     "conditionsOfAccess": "{{_.datasetrec.AccConstrDescription | safe }}",
@@ -75,7 +75,8 @@
     {%- if _.children %}
     "hasPart": [ 
       {%- for child in _.children %}
-      "http://marineinfo.org/id/dataset/{{child.DasID}}" ,
+      "http://marineinfo.org/id/dataset/{{child.DasID}}"
+      {%- if not loop.last %}, {%- endif %}
       {%- endfor %}
     ] , 
     {%- endif %}
@@ -83,13 +84,15 @@
     {#- "isAccessibleForFree"#}
     {#- "isBasedOn"#}
     {%- if _.parents %}
-    {%- for parent in _.parents %}
-    "isPartOf": "http://marineinfo.org/id/dataset/{{parent.DasID}}",
-    {%- endfor %}
+    "isPartOf": [
+      {%- for parent in _.parents %}
+      "http://marineinfo.org/id/dataset/{{parent.DasID}}"
+      {%- if not loop.last %}, {%- endif %}
+      {%- endfor %}
+    ] , 
     {%- endif %}
     {%- if _.keywords %}
-    "keywords":
-    [
+    "keywords": [
         {%- for keyw in _.keywords %}
         {
             {%- if keyw.ThesaurusTerm %}
@@ -116,49 +119,49 @@
     {#- "provider"#}
     {#- "publication"#}
     {%- if _.ownerships %}
-    "publisher" : [
+    {%- set creators = [] %}
+    {%- set contributors = [] %}
+    {%- set publishers = [] %}
     {%- for ownership in _.ownerships %}
-    {%- if ownership.RoleID == 24 %} {#contact#} {#note: in case of no contact -> empty lists are allowed in json-ld #}
-      {%- if ownership.PersID %}
-        "http://marineinfo.org/id/person/{{ownership.PersID}}",
+      {%- if ownership.RoleID == 61 %}
+        {%- set _ = creators.append(ownership) %}
+      {%- elif ownership.RoleID == 24 %}
+        {%- set _ = publishers.append(ownership) %}
+      {%- else %}
+        {%- set _ = contributors.append(ownership) %}
       {%- endif %}
-      {%- if ownership.InsID %}
-        "http://marineinfo.org/id/institute/{{ownership.InsID}}",
-      {%- endif %}
+    {%- endfor %}
     {%- endif %}
+    "creator" : [
+    {%- for ownership in creators %}
+      {%- if ownership.PersID %}
+        "http://marineinfo.org/id/person/{{ownership.PersID}}"
+      {%- elif ownership.InsID %}
+        "http://marineinfo.org/id/institute/{{ownership.InsID}}"
+      {%- endif %}
+      {%- if not loop.last %}, {%- endif %}
+    {%- endfor %}
+    ] ,
+    "contributor": [
+    {%- for ownership in contributors %}
+      {%- if ownership.PersID %}
+        "http://marineinfo.org/id/person/{{ownership.PersID}}"
+      {%- elif ownership.InsID %}
+        "http://marineinfo.org/id/institute/{{ownership.InsID}}"
+      {%- endif %}
+      {%- if not loop.last %}, {%- endif %}
+    {%- endfor %}
+    ] ,
+    "publisher" : [
+    {%- for ownership in publishers %}
+      {%- if ownership.PersID %}
+        "http://marineinfo.org/id/person/{{ownership.PersID}}"
+      {%- elif ownership.InsID %}
+        "http://marineinfo.org/id/institute/{{ownership.InsID}}"
+      {%- endif %}
+      {%- if not loop.last %}, {%- endif %}
     {%- endfor %}
     ] , 
-    {%- endif %}
-    
-    {%- if _.ownerships %}
-    "creator" : [
-    {%- for ownership in _.ownerships %}
-    {%- if ownership.RoleID == 61 %} {#creator#}
-      {%- if ownership.PersID %}
-        "http://marineinfo.org/id/person/{{ownership.PersID}}",
-      {%- endif %}
-      {%- if ownership.InsID %}
-        "http://marineinfo.org/id/institute/{{ownership.InsID}}",
-      {%- endif %}
-    {%- endif %}
-    {%- endfor %}
-    ] ,
-    {%- endif %}
-    
-    {%- if _.ownerships %}
-    "contributor": [
-    {%- for ownership in _.ownerships %}
-    {%- if ownership.RoleID == 24 and ownership.RoleID == 61 %}{#all other owership types - because not supported by DCAT#}
-      {%- if ownership.PersID %}
-        "http://marineinfo.org/id/person/{{ownership.PersID}}",
-      {%- endif %}
-      {%- if ownership.InsID %}
-        "http://marineinfo.org/id/institute/{{ownership.InsID}}",
-      {%- endif %}
-    {%- endif %}
-    {%- endfor %}
-    ] ,
-    {%- endif %}
     {#- "publishingPrinciples"#}
     {#- "review"#}
     {#- "sdDatePublished"#}
@@ -208,7 +211,7 @@
     "alternateName": "{{_.datasetrec.Acronym}}",
     {%- endif %}
     {%- if _.datasetrec.EngDescr %}
-    "description": "{{_.datasetrec.EngDescr | replace('\n', ' ') | replace('\t', ' ') }}",
+    "description": "{{_.datasetrec.EngDescr | replace('\r\n',' ') | replace('\r\t',' ') | replace('\n',' ') | replace('\t',' ') }}",
     {%- endif %}
     {%- if _.datasetrec.OrigDescr %}
     "disambiguatingDescription": "{{_.datasetrec.OrigDescr}}",

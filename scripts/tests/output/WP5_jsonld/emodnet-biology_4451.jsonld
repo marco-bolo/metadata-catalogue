@@ -1,0 +1,92 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=4451",
+    "distribution": "http://marineinfo.org/id/dataset/4451.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Area of sample {sampled area} from the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Macrobenthos monitoring in function of aggregate extraction activities. The samples were taken following a impact/control design at the locations were aggregate extraction is expected or occur.",
+    "citation": "Bio-environmental research group; Institute of Agricultural and Fisheries research (ILVO), Belgium; (2019): Macrobenthos monitoring in function of aggregate extraction activities in the Belgian part of the North Sea",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2013-11-05",
+    "dateModified": "2019-11-20",
+    "isPartOf": [
+      "http://marineinfo.org/id/dataset/1043"
+    ] ,
+    "keywords": [
+        {
+            "name":"Macrobenthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/13428"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/2160"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "North Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2350" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 2.49427 51.226 , 2.918 51.226 , 2.918 51.69 , 2.49427 51.69 , 2.49427 51.226 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2004-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Sampling area: Aggregate extraction zones in the Belgian Part of the North sea Sampling frequency: The sampling events are mainly in autumn and depending on the research needs also in spring or another moment. Sampling at each zone is done yearly or in a cyclus of once in three years, depending on intensity of the extraction activity",
+    "identifier": "4451",
+    "name": "Macrobenthos monitoring in function of aggregate extraction activities in the Belgian part of the North Sea",
+    "sameAs": "http://marineinfo.org/id/dataset/4451",
+    "url": "http://marineinfo.org/id/dataset/4451"
+}

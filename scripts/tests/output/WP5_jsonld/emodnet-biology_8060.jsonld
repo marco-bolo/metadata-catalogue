@@ -1,0 +1,63 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=8060",
+    "distribution": "http://marineinfo.org/id/dataset/8060.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of phytoplankton per unit volume of the water body by optical microscopy",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/PU00M00Z/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "IHCantabria with the support of the Regional Government of Cantabria has been carried out since 2005 the monitoring of the coastal waters of Cantabria in accordance with the Water Framework Directive. Here is included the abundance of phytoplankton obtained from field campaigns in the coast and identified in the laboratory.",
+    "citation": "Puente A (2022): Littoral Monitoring Network of Cantabria (Phytoplankton). ",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "dateCreated": "2022-05-02",
+    "dateModified": "2022-05-06",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/35798"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/13713"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -4.384 43.397 , -3.21 43.397 , -3.21 43.519 , -4.384 43.519 , -4.384 43.397 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Cantabrian Sea" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -4.49090840734 43.3671976862 , -3.17021745171 43.3671976862 , -3.17021745171 43.5188647127 , -4.49090840734 43.5188647127 , -4.49090840734 43.3671976862 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2005-8-7" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2015-12-3" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Project Data The objective of the project is to support the Government of Cantabria in the implementation of the Water Framework Directive (2000/60/EC). Among other tasks, in 2005 the &#34;Coastline Quality Network of Cantabria&#34; was launched, within which an analysis of the quality of water, sediments and certain biological indicators is carried out, in the transitional and coastal water masses of Cantabria. The methodology used to cell counting was Utermohl method (Utermohl, 1958).  Title ASSESSMENT OF THE CONDITION OF THE TRANSITIONAL AND COASTAL WATER BODIES OF CANTABRIA Funding Government of Cantabria Study Area Description Coast and estuaries of Cantabria (North of Spain)",
+    "identifier": "8060",
+    "name": "Littoral Monitoring Network of Cantabria (Phytoplankton)",
+    "sameAs": "http://marineinfo.org/id/dataset/8060",
+    "url": "http://marineinfo.org/id/dataset/8060"
+}

@@ -1,0 +1,67 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6668",
+    "distribution": "http://marineinfo.org/id/dataset/6668.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "This dataset consists of analysed phytoplankton data from the years 2001-2017 inclusive collected in UK waters from the SmartBuoy moorings at Celtic Deep, Dowsing, Gabbard/West Gabbard/WestGabbard2, Warp and Liverpool Bay using WMS and EDU automated water samplers. SmartBuoys consist of a 4 meter tall stainless steel frame with a fibreglass toroid for buoyancy. Instruments are attached at a nominal 1 meter depth to the frame. The water samplers collect into pre-spiked bags containing acidified Lugols Iodine on a pre-determined cycle over the course of a deployment. Following recovery these samples were analysed for a full community of phytoplankton species using the Utermohl method on high-power inverted microscopes. Phytoplankton cell counts are abundance values reported in Cells per Litre.",
+    "citation": "Milligan and Bear (2019). SmartBuoy Marine Observational Network - Phytoplankton Data 2001-2017. Cefas, UK. V2. doi: https://doi.org/10.14466/CefasDataHub.58",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2021-03-01",
+    "dateModified": "2022-09-12",
+    "keywords": [
+        {
+            "name":"mooring",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/4230"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/14022",
+        "http://marineinfo.org/id/institute/1169",
+        "http://marineinfo.org/id/institute/1169"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/14022"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "United Kingdom Exclusive Economic Zone" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5696" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -6.082 51.25 , 2.335 51.25 , 2.335 53.535 , -6.082 53.535 , -6.082 51.25 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2001-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2018-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "6668",
+    "name": "SmartBuoy Marine Observational Network - UK Waters Phytoplankton Data 2001-2017",
+    "sameAs": "http://marineinfo.org/id/dataset/6668",
+    "url": "http://marineinfo.org/id/dataset/6668"
+}
