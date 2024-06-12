@@ -77,9 +77,7 @@ def validate_datasets() -> dict:
             rdf_ok, rdf_results, dataset_graph = validate_rdf(json.dumps(framed))
             dataset["rdf_valid"] = rdf_ok
 
-        if rdf_ok:
-            from rdflib import Namespace
-            schema = Namespace("http://schema.org/")
+        try:
             query = prepareQuery("""
                 SELECT ?name
                 WHERE {
@@ -91,6 +89,8 @@ def validate_datasets() -> dict:
             for row in res:
                 dataset["name"] = row[0].toPython()
                 break
+        except Exception:
+            print(f"Could not retrieve dataset name for {dataset_filename}")
 
         if not rdf_ok:
             for subject, predicate, obj in rdf_results:
