@@ -1,0 +1,92 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=4450",
+    "distribution": "http://marineinfo.org/id/dataset/4450.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Length of sampling track",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Epibenthos and demersal fish monitoring at long-term monitoring stations Trawl samples were taken within the disposal site and outside the disposal site (close neigbourhood) (classic controle/impact design).  Sampling activities were in February-March and in September/October. A 8 meter shrimp beam trawl (22 mm mesh in the cod end) equipped with a bolder chain was used.The net was towed during 30 or 15 minutes at an average speed of 4 knots.",
+    "citation": "Bio-environmental research group; Institute of Agricultural and Fisheries research (ILVO), Belgium; (2015): Epibenthos and demersal fish monitoring at long-term monitoring stations in the Belgian part of the North Sea",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2013-11-05",
+    "dateModified": "2015-11-30",
+    "isPartOf": [
+      "http://marineinfo.org/id/dataset/1045"
+    ] ,
+    "keywords": [
+        {
+            "name":"Epibenthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Fish",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/13428"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/2160"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 2.3335 51.1815 , 3.2615 51.1815 , 3.2615 51.8665 , 2.3335 51.8665 , 2.3335 51.1815 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1979-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "4450",
+    "name": "Epibenthos and demersal fish monitoring at long-term monitoring stations in the Belgian part of the North Sea",
+    "sameAs": "http://marineinfo.org/id/dataset/4450",
+    "url": "http://marineinfo.org/id/dataset/4450"
+}

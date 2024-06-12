@@ -1,0 +1,105 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2196",
+    "distribution": "http://marineinfo.org/id/dataset/2196.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Diversity",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Monitoring of species richness, abundances of all macrobenthic species, biomass, sediment grain size, temperature and salinity. The experiment was designed to study long-term changes in community structure in response to global change (climatic change) and local anthropogenis pressures (e.g. eutrophication).",
+    "citation": "HOUBIN C, THIEBAUT É, HOEBEKE M (2019): Specific diversity data of macrobenthic communities in the &#34;Rivière de Morlaix&#34; study site in the English Channel from 1977 to 1996.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2010-01-04",
+    "dateModified": "2019-08-01",
+    "keywords": [
+        {
+            "name":"Benthic macrofauna",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Benthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Biodiversity",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Data",
+            "inDefinedTermSet":"Assemble KO Types",
+            "termCode":"8",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Long-term monitoring",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Sampling",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/1397"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/1397",
+        "http://marineinfo.org/id/person/18587",
+        "http://marineinfo.org/id/person/8432",
+        "http://marineinfo.org/id/person/35783"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/11004"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Riviere de Morlaix" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.868 48.654 , -3.868 48.654 , -3.868 48.654 , -3.868 48.654 , -3.868 48.654 ))" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5373" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.84333333 48.59444444 , -3.84333333 48.59444444 , -3.84333333 48.59444444 , -3.84333333 48.59444444 , -3.84333333 48.59444444 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1977-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "1996-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "version": "1",
+    "description": "Muddy sand macrobenthic communities were monitored five times a year at the &#34;Rivière de Morlaix&#34; site. Macrofauna were sampled using a Smith McIntyre grab covering a surface of 0.1 m2. Ten replicates are collected at each sampling date. After collection, the sediment was sieved (1 mm circular mesh) and the retained material was fixed with 10% neutralised formalin prior to analysis in the lab. In the laboratory, organisms were sorted, identified to species level and stored in a 70% ethanol solution. The parameters which are measured are: (1) total and specific abundances, (2) specific richness.",
+    "identifier": "2196",
+    "name": "Specific diversity data of macrobenthic communities in the &#34;Rivière de Morlaix&#34; study site in the English Channel from 1977 to 1996",
+    "sameAs": "http://marineinfo.org/id/dataset/2196",
+    "url": "http://marineinfo.org/id/dataset/2196"
+}

@@ -1,0 +1,103 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6021",
+    "distribution": "http://marineinfo.org/id/dataset/6021.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Biovolume (calculated) of biological entity specified elsewhere per unit volume of the water body by calculation using the HELCOME COMBINE guidelines",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL14/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Phytoplankton abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Phytoplankton abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Phytoplankton biomass",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Trophic status of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/CTROPH01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The dataset contains abundance and biomass for different taxonomical units of phytoplankton (from phylum to species, according to identification accuracy) sampled from Estonian open and coastal waters in the Baltic Sea. Samples are collected with Ferrybox method (sampling depth appr. 5m) or by pooling samples from discrete depths (1, 5 and 10m) in national monitoring stations. Phytoplankton identification and enumeration was carried out using microscopy, biomass calculations were done using volume formulas provided by HELCOM-PEG (phytoplankton expert group) and published in http://www.ices.dk/marine-data/data-portals/Pages/DOME.aspx (PEG BIOVOLUME).",
+    "citation": "Estonian Marine Institute, University of Tartu and Marine Systems Institute, Tallinn University of Technology (2019): Phytoplankton composition, biomass and abundance in Estonian territorial waters 1993-2016",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2018-07-30",
+    "dateModified": "2022-08-01",
+    "keywords": [
+        {
+            "name":"Time series",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/3000",
+        "http://marineinfo.org/id/institute/8977"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/35786"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/37185"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Finland Gulf" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2407" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Riga Gulf" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2409" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Hiiurnaa" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2444" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Estonia" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2110" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 19.2023 57.616667 , 28.008333 57.616667 , 28.008333 59.916667 , 19.2023 59.916667 , 19.2023 57.616667 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1994-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2016-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "6021",
+    "name": "Phytoplankton composition, biomass and abundance in Estonian territorial waters 1993-2016",
+    "sameAs": "http://marineinfo.org/id/dataset/6021",
+    "url": "http://marineinfo.org/id/dataset/6021"
+}

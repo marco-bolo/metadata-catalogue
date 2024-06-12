@@ -1,0 +1,100 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6541",
+    "distribution": "http://marineinfo.org/id/dataset/6541.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Fish and marine invertebrates caught with trawl surveys (fish and shrimp trawls) from the Mediterranean continental shelf and upper slope of Israel from 1990 to 2012 (1990-1994, 2000, and 2008-2012).",
+    "citation": "Edelist, D., Rilov, G., Golani, D., Carlton, J.T. &amp; Spanier, E. (2020) Fish and marine invertebrates from the Israeli Eastern Mediterranean Sea.",
+    "conditionsOfAccess": "CC0 enables scientists, educators, artists and other creators and owners of copyright- or database-protected content to waive those interests in their works and thereby place them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2020-07-29",
+    "dateModified": "2021-10-20",
+    "keywords": [
+        {
+            "name":"Fish",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Invasive species",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine invertebrates",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Mediterranean Sea",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Trawls",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/39311"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/1878",
+        "http://marineinfo.org/id/person/37305",
+        "http://marineinfo.org/id/person/39245",
+        "http://marineinfo.org/id/person/14569",
+        "http://marineinfo.org/id/person/39313",
+        "http://marineinfo.org/id/person/39312"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/39311"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Eastern Mediterranean" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4280" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1990-4-6" ,
+            "http://www.w3.org/ns/dcat#endDate" : "1994-10-30" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        },
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2000-1-30" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2000-11-21" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        },
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2008-11-4" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2012-6-22" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Surveys took place by onboard trawlers (fish and shrimp trawls) fishing the Israeli continental shelf and upper slope. Data were extracted from hauls replicating commercial trawl hauls, that is, the skippers were asked to perform their own routes within a given depth, location or time and they are therefore hybrids between fisheries dependent and independent surveys.  Study Extent : South-eastern Mediterranean Sea (Israeli continental shelf and upper slope). Depth range 8-180.5 meters. Method step description:  Historical and modern catch data of Israeli trawlers were used to evaluate trends in abundance, biomass and diversity of Levantine fishes and marine invertebrates. Historical data were collected from trawl hauls from 1990 to 1994. Current data were collected in trawl hauls conducted in 2000 and between 2008 and 2011, covering the same fishing fields and depth range on the continental shelf and upper slope.  Funding : This study was partially supported by grants from the Israeli Ministry of Agriculture and Rural Development, and the Ministry of Environmental Protection (D.E., D.G., E.S.), as well as the Maurice Hatter Grant for Maritime Studies and the Rieger Foundation Fellowship for Environmental Studies (D.E.). We also thank Dr Oren Sonin for collecting the 1990s trawl data, Dr Tamara Shiganova for providing data on fish invasions in the Black and Caspian Seas as well as E. Schwindt, A. Bortolus and A. Solari for contributing data on Argentinean invasions.",
+    "identifier": "6541",
+    "name": "Fish and marine invertebrates from the Israeli Eastern Mediterranean Sea",
+    "sameAs": "http://marineinfo.org/id/dataset/6541",
+    "url": "http://marineinfo.org/id/dataset/6541"
+}

@@ -1,0 +1,233 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=4687",
+    "distribution": "http://marineinfo.org/id/dataset/4687.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of artificial fibres per unit volume of the water body by image analysis",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/FIB01ZIA/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of organic and mineral detritus per unit volume of the water body by image analysis",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/DET01ZIA/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of unidentified animal biota (ITIS: 202423: WoRMS 2) per unit volume of the water body by image analysis",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AUN08103/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Concentration of ammonium {NH4+ CAS 14798-03-9} per unit volume of the water body dissolved plus reactive particulate &lt;0.2um phase by filtration and colorimetric autoanalysis",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AMONAAD5/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Concentration of chlorophyll-a {chl-a CAS 479-61-8} per unit volume of the water body particulate &gt;GF/F phase by filtration, acetone extraction and high performance liquid chromatography (HPLC)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/CPHLHPP1/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Concentration of phosphate {PO43- CAS 14265-44-2} per unit volume of the water body dissolved plus reactive particulate &lt;0.2um phase by filtration and colorimetric autoanalysis",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/PHOSAAD5/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Electrical conductivity of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Practical salinity of the water body by conductivity cell and computation using UNESCO 1983 algorithm",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/PSALPR01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sub-sampling coefficient",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Temperature of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Volume of sample",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Zooplankton",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "In the framework of the Lifewatch marine observatory a number of fixed stations on the Belgian Part of the North  Sea (BPNS) are visited on a monthly or seasonal basis using the RV Simon Stevin. A grid of nine stations covers the coastal zone and are sampled monthly. Eight additional stations, located further at sea, are sampled on a seasonal basis.   This dataset contains zooplankton observations in  the Belgian Part of the North Sea (BPNS) since 2012.  Zooplankton is sampled by vertical WP2 net tows, samples scanned with  ZooScanner and identification with plankton analyser software, followed  by manual validation.",
+    "citation": "Flanders Marine Institute (VLIZ), Belgium (2022): LifeWatch observatory data: zooplankton observations in the Belgian Part of the North Sea",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2015-01-20",
+    "dateModified": "2023-01-23",
+    "keywords": [
+        {
+            "name":"Data",
+            "inDefinedTermSet":"Assemble KO Types",
+            "termCode":"8",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine Genomics",
+            "inDefinedTermSet":"Assemble Sectors",
+            "termCode":"10",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"research vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Simon Stevin",
+            "inDefinedTermSet":"ICES Platform codes (C17)",
+            "termCode":"14",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Zooplankton",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/36"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/36",
+        "http://marineinfo.org/id/institute/36"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/36"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 0.7481867 50.1015429 , 3.96861133 50.1015429 , 3.96861133 52.11949487 , 0.7481867 52.11949487 , 0.7481867 50.1015429 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2012-7-24" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "4687",
+    "name": "LifeWatch observatory data: zooplankton observations by imaging (ZooScan) in the Belgian Part of the North Sea",
+    "sameAs": "http://marineinfo.org/id/dataset/4687",
+    "url": "http://marineinfo.org/id/dataset/4687"
+}

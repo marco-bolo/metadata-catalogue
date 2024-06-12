@@ -1,0 +1,90 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2695",
+    "distribution": "http://marineinfo.org/id/dataset/2695.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Temperature of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Species composition, abundance and biomasss of zooplankton at selected layers from the seabed to the surface. Approximately 100 species included in the database.",
+    "citation": "Pavel Lyumkis. Zooplankton in the Ukrainia Black Sea shelf (1989-2005). Ukrainian Scientific Centre of Ecology of the Sea.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2010-11-03",
+    "dateModified": "2022-08-11",
+    "keywords": [
+        {
+            "name":"Abundance",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Biomass",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"ship",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Zooplankton",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/23642"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/9404"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/23642"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 29.7 42 , 41 42 , 41 46.71 , 29.7 46.71 , 29.7 42 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Black Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3319" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1989-7-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2005-1-19" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "version": "1",
+    "description": "Dataset contains zooplankton data obtained during ecological monitoring in the Black Sea, Ukrainian part 1996-2005.  For data 1992-1993: Sampling was done by Juday net N49 mesh size = 0,168 mm. Samples were taken by standard depths from 200m (or bottom) to surface – 5 layers in deep-water regions. Also additional samples were taken every 25 m in limits 200-25m. In limits 25m – surface number of samples were taken according thermohaline water structure. Samples were sorted by macro and mezo plankton. Mezoplankton was analyzed under binocular directly on ship board. Abundance of each species was calculated according standard methods, for most abundant species adult and copepodit stages were calculated. Structure of both combs (Mnemiopsis and Pleurobrachia) population was identified by 3-9 size classes with body length measurements.  1996 - 2006: Sampling instrument - Jedy&#39;s net N 49, mesh size = 0,168 mm; fixation: formalin; sampling surface area - arranged as per sampling depths from the surface to the sea bed; depth of sampling - on standard levels, m.  References: &lt;ul&gt; &lt;li&gt;Research of the ecosystem of the Black Sea, collected scientific essays under the editorship of V. Medinets, Vol. 1, Odessa, &#34;IREN-POLIGRAF&#34;, 1994, p. 4-16 (in Russian) &lt;li&gt;Environmental Series, 7. Copyright by United Nations Development Programme, New York. Anon. 2002 Environmental State of the Black Sea. Report 1996-2000. Astroprint, Odessa. (in Ukrainian)",
+    "identifier": "2695",
+    "name": "Zooplankton in the Ukrainia Black Sea shelf (1989-2005)",
+    "sameAs": "http://marineinfo.org/id/dataset/2695",
+    "url": "http://marineinfo.org/id/dataset/2695"
+}

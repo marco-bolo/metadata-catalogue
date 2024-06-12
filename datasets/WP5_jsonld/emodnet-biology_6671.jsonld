@@ -1,0 +1,67 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6671",
+    "distribution": "http://marineinfo.org/id/dataset/6671.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sampling protocol",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sea-floor depth (below unspecified datum) {bathymetric depth} in the water body by echo sounder",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/MBANESND/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The macrozoobenthos dataset includes a number of  243 samples collected in the Northern part of the Romanian littoral between Sulina and Chituc from 10 m to 57m depths. Van Veen grab with a sampling area of 0.05 m2 was employed as a macrozoobenthos sampler. One replicate  was collected at every station. Sampling was done in spring, summer and autumn mounths.The samples have been analyzed qualitative (number of species) and quantitative (densities and biomasses). The macroinvertebrates have been identified at species level. Dataset contains abundance data (ind/m2) and biomass (g/m2). The macroinvertebrates have been identified at species level.",
+    "citation": "Dumitrache C.;  Filimon A.; (2021).  Macrozoobenthos data collected in  the northern part of the Romanian littoral (Danube mouths) between 2000-2010. NIMRD - National Institute for Marine Research and Development   &#34; Grigore Antipa&#34;",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "dateCreated": "2021-03-09",
+    "dateModified": "2021-03-09",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/person/34909",
+        "http://marineinfo.org/id/person/34911"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/34909"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/34909"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 28.767 44.28 , 30.29 44.28 , 30.29 45.144 , 28.767 45.144 , 28.767 44.28 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Black Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3319" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2000-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2010-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "6671",
+    "name": "Macrozoobenthos collected in the northern part of the Romanian littoral (Danube mouths) between 2000-2010",
+    "sameAs": "http://marineinfo.org/id/dataset/6671",
+    "url": "http://marineinfo.org/id/dataset/6671"
+}

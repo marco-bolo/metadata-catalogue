@@ -1,0 +1,115 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5725",
+    "distribution": "http://marineinfo.org/id/dataset/5725.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Area of sample {sampled area} from the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Ash-free dry weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL03/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Biomass",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Description of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/BDDESC01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Dry weight biomass (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Dry weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The POHJE database includes data on benthic macrofauna, covering the Finnish coastal areas as well as the offshore areas of the Baltic Sea. The quantitative data mainly stem  from the Finnish national monitoring program and statutory monitoring programs, but also data from surveys and research projects are included. In total the database contain aproximately 100 000 quantitative records including developmental stages, with a time span from 1965 to present. The database is regularly maintained and data is added continuously.",
+    "citation": "Finnish Environment Institute SYKE; (2018); Finnish Baltic Sea benthic monitoring, POHJE database",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2017-07-06",
+    "dateModified": "2018-04-13",
+    "keywords": [
+        {
+            "name":"Long-term monitoring",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Species distribution",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/5301"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/34982",
+        "http://marineinfo.org/id/person/34983"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/34983"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Baltic" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2401" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 11.13833 54.45 , 28.805 54.45 , 28.805 65.77428 , 11.13833 65.77428 , 11.13833 54.45 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1965-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "5725",
+    "name": "Finnish Baltic Sea benthic monitoring, POHJE database",
+    "sameAs": "http://marineinfo.org/id/dataset/5725",
+    "url": "http://marineinfo.org/id/dataset/5725"
+}

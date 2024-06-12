@@ -1,0 +1,132 @@
+{
+    "@context":
+    {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6401",
+    "distribution": "http://marineinfo.org/id/dataset/6401.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Description of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/BDDESC01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Salinity of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Temperature of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The North Atlantic and Arctic Isopoda dataset contains three parts: 1. Distribution records collected from literature; 2. Distribution records of specimens collected by the BIOICE project (Benthic Invertebrates of Icelandic waters 1992-2004); 3. Distribution records of specimens collected by the IceAGE project (Icelandic marine animals: Genetics and Ecology, since 2011).  This dataset contains distribution data regarding the 2nd group, isopods occurrences sampled during the BIOICE project",
+    "citation": "Brix, S.; Malyutina, M; Schnurr, S., Riehl, T.; Kürzel, K.; Stransky, B.; Brökeland W.; Eichsteller A.; Siebert, A.; Svavarsson, J.; (2020). North Atlantic and Arctic Isopoda sampled during the BIOICE project",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2020-02-24",
+    "dateModified": "2020-02-24",
+    "keywords": [
+        {
+            "name":"Filter feeders",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Predators",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Scavengers",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/18005",
+        "http://marineinfo.org/id/person/37466",
+        "http://marineinfo.org/id/person/37281",
+        "http://marineinfo.org/id/person/37465",
+        "http://marineinfo.org/id/person/37470",
+        "http://marineinfo.org/id/person/37470",
+        "http://marineinfo.org/id/person/37282",
+        "http://marineinfo.org/id/person/34271",
+        "http://marineinfo.org/id/person/37466",
+        "http://marineinfo.org/id/person/9104",
+        "http://marineinfo.org/id/person/18009",
+        "http://marineinfo.org/id/person/18007"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/18007",
+        "http://marineinfo.org/id/person/11203",
+        "http://marineinfo.org/id/person/37284",
+        "http://marineinfo.org/id/person/37285"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/18007"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Faeroe I." , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2467" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Greenland" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2260" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Iceland" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2129" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Norway" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5686" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Svalbard" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5642" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -29.91266721 60.0360804 , -7.917333024 60.0360804 , -7.917333024 69.24950028 , -29.91266721 69.24950028 , -29.91266721 60.0360804 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1992-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2004-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "6401",
+    "name": "North Atlantic and Arctic Isopoda sampled during the BIOICE project",
+    "sameAs": "http://marineinfo.org/id/dataset/6401",
+    "url": "http://marineinfo.org/id/dataset/6401"
+}
