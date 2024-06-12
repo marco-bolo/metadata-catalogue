@@ -20,7 +20,8 @@ for folder in folders:
 today = date.today().strftime("%Y-%m-%d")
 
 with open(os.path.join("datasets", "sitemap.xml"), "w") as f:
-    f.write("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">\n")
+    f.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
+    f.write("<urlset xmlns=\"https://www.sitemaps.org/schemas/sitemap/0.9/\">\n")
     for url in urls:
         f.write(f"<url><loc>{url}</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n")
     f.write("</urlset>")
