@@ -6,7 +6,7 @@
             <url>
                 <loc>{{ dataset.document_url }}</loc>
                 <lastmod>{{ time }}</lastmod>
-                <changefreq>weekly</changefreq>
+                <changefreq>daily</changefreq>
                 <priority>1</priority>
             </url>
         {% endif %}
