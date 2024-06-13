@@ -4,7 +4,7 @@
     {% for dataset in datasets %}
         {% if dataset.filename.startswith("datasets/") %}
             <url>
-                <loc>{{ dataset.document_url }}</loc>
+                <loc>{{ dataset.document_url_raw }}</loc>
                 <lastmod>{{ time }}</lastmod>
                 <changefreq>daily</changefreq>
                 <priority>1</priority>
