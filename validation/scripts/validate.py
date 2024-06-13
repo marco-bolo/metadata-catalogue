@@ -3,7 +3,7 @@ import rdflib
 from pyshacl import validate
 import json
 from jinja2 import Environment, FileSystemLoader
-from datetime import datetime
+from datetime import date
 from pyld import jsonld
 from rdflib.plugins.sparql import prepareQuery
 
@@ -49,7 +49,7 @@ def validate_datasets() -> dict:
     dataset_files = get_dataset_files()
 
     context = {
-        "time": datetime.now(),
+        "time": date.today().strftime("%Y-%m-%d"),
         "datasets": []
     }
 
