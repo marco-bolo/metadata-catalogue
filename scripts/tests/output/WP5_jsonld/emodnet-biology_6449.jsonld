@@ -74,6 +74,43 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Cephalopoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11707"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Elasmobranchia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=None"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Elasmobranchia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=None"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Macro-invertebrata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=None"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "In addition to the commercially exploited fish, elasmobranch, cephalopod and crustacean species, and an amount of macroinvertebrate species are also caught. These are sampled in a similar way to the groundfish, identified by species (or higher taxa where not practical to ID at sea), and total weight as well as counts are recorded where possible. An internal review of this data was undertaken in 2019 to check for spatial and temporal consistency in abundance and taxonomy with the standardised data set being made available here.",
     "identifier": "6449",
     "name": "Groundfish Survey Invertebrate Data",

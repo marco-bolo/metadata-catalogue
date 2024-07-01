@@ -86,6 +86,50 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacillariophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chlorophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=802"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dictyochophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146232"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Euglenoidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=582177"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Prymnesiophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=115057"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "&#34;Phytoplankton data collected in the Black Sea between 1960 and 1970 and processed by Hilarius Skolka and Nicolae Bodeanu. This dataset contains abundance data (cells per liter) and biomass (mg/m3) for individual phytoplankton taxa. Samples were taken by 1L Nansen bottle at  standard depths. The standard sedimentation technique for samples preparation (Morozova-Vodianitkaia, 1954) was used. Data were collected from coastal/shallow to shelf Romanian waters  from various transects such as: Constanta, Chituc, Tuzla, Portita, Mangalia etc. Phytoplankton abundance was counted by specialists using data sheets which contained abundance per station. After counting all the individuals from a subsample under the microscope, the scientific team calculated the total phytoplankton abundance and biomass. For each record the maximum and minimum sampling depth is recorded.&#34;",
     "identifier": "5651",
     "name": "Romanian Black Sea Phytoplankton data from 1961 to 1970",

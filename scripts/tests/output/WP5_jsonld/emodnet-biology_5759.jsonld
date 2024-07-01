@@ -100,6 +100,85 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Anthozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1292"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Asteroidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Bivalvia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinoidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123082"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gastropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hexanauplia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=889925"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Malacostraca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1071"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ophiuroidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123084"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ostracoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1078"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pycnogonida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1302"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "The monitoring is directed and the dataset is maintained by Rijkswaterstaat, the executing body of the Dutch Ministery for Infrastructure and Environment. Publication of the dataset has been facilitated by Deltares, The Netherlands.",
     "identifier": "5759",
     "name": "Dutch long term monitoring of macrobenthos in the Dutch Continental Economical Zone of the North Sea",

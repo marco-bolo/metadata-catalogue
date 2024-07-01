@@ -60,6 +60,64 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cnidaria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1267"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinodermata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1806"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Nemertea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=152391"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phoronida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1789"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Platyhelminthes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=793"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "6671",
     "name": "Macrozoobenthos collected in the northern part of the Romanian littoral (Danube mouths) between 2000-2010",
     "sameAs": "http://marineinfo.org/id/dataset/6671",

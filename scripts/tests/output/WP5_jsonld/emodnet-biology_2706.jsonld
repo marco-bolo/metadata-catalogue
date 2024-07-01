@@ -78,6 +78,36 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Delphinus delphis ponticus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=368870"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phocoena phocoena relicta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=368868"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Tursiops truncatus ponticus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=368871"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "version": "1",
     "alternateName": "CetSiBS",
     "description": "Most the data were obtained by means of special cetacean line transect aerial and vessel-based surveys conducted by trained observers. Some data were colllected during cetacean photo-identification studies. The dataset is accompanied with the estimated values of cetacean density and abundance. For the most recent 5 years of data collection, only presence data are made available, for data older than 5 years, abundance data is made available.",

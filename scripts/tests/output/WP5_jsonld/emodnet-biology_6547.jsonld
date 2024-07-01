@@ -120,6 +120,57 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Balaenoptera physalus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137091"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Caretta caretta (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137205"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Delphinus delphis",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137094"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Grampus griseus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137098"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Stenella coeruleoalba",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137107"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Tursiops truncatus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137111"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ziphius cavirostris",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137127"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "alternateName": "GAIA_IONIAN_2008-2018",
     "identifier": "6547",
     "name": "Ionian Sea mega-fauna monitoring employing a sailing vessel along random tracks from 2008 to 2018",

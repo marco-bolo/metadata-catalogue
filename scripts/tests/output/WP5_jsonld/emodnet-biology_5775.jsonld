@@ -97,6 +97,64 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bivalvia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ciliophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cirripedia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1082"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cladocera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=155670"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Copepoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gastropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Rotifera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=14260"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5775",
     "name": "Zooplankton data collected in the Romanian Black Sea waters between 1973 and 1980",
     "sameAs": "http://marineinfo.org/id/dataset/5775",

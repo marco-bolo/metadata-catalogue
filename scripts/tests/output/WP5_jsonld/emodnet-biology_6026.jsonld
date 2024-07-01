@@ -86,6 +86,43 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Anseriformes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2681"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Aves",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1836"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Charadriiformes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2682"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pelecaniformes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2684"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Podicipediformes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2685"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "6026",
     "name": "Breeding avifauna of small Estonian islands and islets, national monitoring 1957-2016",
     "sameAs": "http://marineinfo.org/id/dataset/6026",

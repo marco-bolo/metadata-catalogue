@@ -61,6 +61,22 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacillariophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinoflagellata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146203"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Datasets were gained from projects Vir- Konavle started from 1976. This project included coastal stations along Middle and South Adraitic and was performed seasonaly. National monitoring programe Jadran started 1998 and among coastal stations, measurements were performed at  open waters  (three transects across Adriatic). The project was active till 2012.  Operational and regulatory monitoring of transitional and coastal waters of 2014-2018 is ongoing project. Primary production has been measured monthly form 1962 on two station in coastal and open waters.",
     "identifier": "5718",
     "name": "Phytoplankton community and primary production time series in the coastal and open waters at the Adriatic Sea (2002-2015)",

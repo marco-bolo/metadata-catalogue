@@ -85,6 +85,22 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Brachiopoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1803"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Craniata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=104019"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5982",
     "name": "Royal Belgian Institute of Natural Sciences Brachiopoda Collection (Brachiopoda)",
     "sameAs": "http://marineinfo.org/id/dataset/5982",

@@ -86,6 +86,36 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Cnidaria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1267"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ctenophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1248"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Thaliacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=22626"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Thaliacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=22626"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "From 2013 we started to collect data also from the web. In 2016 we opened a facebook page “Meteo Meduse” to replace the app. Species of gelatinous macrozooplancton including Cnidaria, Ctenophora, and Thaliacea, have been sighted by citizens recording date of observation, species name or genus, location, abundance as number of individuals per square meter, coordinates and a picture. We validate about 6000 records of bloom events from 2009-2017 and the collection is still continuing by email and the fb page.",
     "identifier": "5975",
     "name": "Jellyfish Sightings Along the Italian Coastline from 2009 to 2017",

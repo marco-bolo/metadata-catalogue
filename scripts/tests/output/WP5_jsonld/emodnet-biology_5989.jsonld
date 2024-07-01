@@ -85,6 +85,22 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1837"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Reptilia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1838"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5989",
     "name": "Royal Belgian Institute of Natural Sciences Mammalia Collection (Mammalia)",
     "sameAs": "http://marineinfo.org/id/dataset/5989",

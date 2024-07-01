@@ -87,6 +87,29 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Actinopterygii",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10194"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Elasmobranchii",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10193"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Petromyzontidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101163"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "The survey used commercial inshore vessels to sample with a light 2-meter beam trawl deployed at fixed (prime) stations, towed for a duration of 10-minues, with varying coverage of the British Isles over the time-series period. From 2000 onwards actual shot and haul positions were recorded, whereas prior to this a single generic position was given for a specific prime station. Fish species were nearly always measured, and on the very few occasions that they were not they were counted. These data are currently undergoing quality assurance. Species-specific records for gobies are known to contain taxonomic errors, and analyses should be undertaken on data aggregated to the level of family (Gobiidae). Data for sand smelt Atherina spp. and smelt Osmerus eperlanus may also be confounded, and data for these taxa should be interpreted with particular care.",
     "identifier": "6450",
     "name": "Young Fish Survey Data 1981 to 2010",

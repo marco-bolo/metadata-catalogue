@@ -91,6 +91,15 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Pisces",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11676"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5693",
     "name": "Marine fish volunteer ad-hoc recording scheme and historical records from around the United Kingdom between 1743 and 2010",
     "sameAs": "http://marineinfo.org/id/dataset/5693",

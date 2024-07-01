@@ -87,6 +87,50 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Actinopterygii",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10194"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cephalaspidomorphi",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10190"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cephalochordata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1824"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chondrichthyes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1517375"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Myxini",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10189"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Sarcopterygii",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=163509"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5992",
     "name": "Royal Belgian Institute of Natural Sciences Pisces Collection (Pisces)",
     "sameAs": "http://marineinfo.org/id/dataset/5992",

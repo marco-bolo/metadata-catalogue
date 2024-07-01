@@ -102,6 +102,85 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacteria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=6"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chlorophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=801"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chromista",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=7"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cryptophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=17638"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cyanobacteria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146537"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Euglenophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19538"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Haptophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=369190"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Myzozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=450030"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ochrophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=345465"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Plantae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=3"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Protozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=5"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Phytoplankton communities are monitored twice a month according to the SOMLIT monitoring program (Service d&#39;Observation en Milieu Littoral : http://somlit.epoc.u-bordeaux1.fr/fr/), national network performing measurements of hydrological parameters. SOMLIT-Astan phytoplankton monitoring contains :1/  Microphytoplankton - Species abundances (according to Utermöhl method microphytoplankton abundances - number of cells per liter) ; 2/ Microphytoplankton - Species semi-quantitative occurrences (20µm net haul, occurrence code : &#34;1&#34; present, &#34;2&#34; numerous, &#34;3&#34;dominant) ; 3/ Functionnal group abundances (Flowcytometry - number of cells per milliliter) : pico-, nano-phytoplankton, heterotrophic and autotrophic bacteria. The datasets that are provided include only occurrence data determined through methods 1 and 2. Flow cytometry is thus not included. Sampling methods are summarised in http://ipt.sb-roscoff.fr/ipt/resource?r=phytoplankton_somlit-astan",
     "identifier": "5971",
     "name": "Long-term Monitoring of the Phytoplankton at the SOMLIT-Astan Station in the Western English Channel from 2000 to Present",

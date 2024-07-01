@@ -99,6 +99,22 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Halichoerus grypus (Fabricius, 1791)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phoca vitulina (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137084"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "2459",
     "name": "SHARK - National environmental monitoring of Harbour seal in Sweden since 1988",
     "sameAs": "http://marineinfo.org/id/dataset/2459",

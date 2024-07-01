@@ -138,6 +138,43 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Alcyonacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1365"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Alcyonacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1365"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cheilostomatida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=110722"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gorgoniidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=125275"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Plexauridae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=125277"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "This dataset gathers published scientific papers, as well as grey literature and technical reports. We used different search strategies in the ISI Web of Knowledge and Google Scholar, introducing distinct sets of keywords, and contacts with researchers across the Mediterranean.    The dataset provides information about the survey year, geographic coordinates, marine ecoregion, protection status of the geographic location, depth distribution range, species name, type of study conducted (distribution, demographic, population genetics or other), sampling methods, and different demographic parameters when available (i.e. density, colony height, recruitment, and mortality rates).  The dataset includes available information of different habitat-forming marine invertebrate species, including key species such as octocorals and bryozoans, among others.  The published scientific papers, grey literature, and technical reports include both in situ SCUBA sampling, and video or photo surveys.",
     "identifier": "6462",
     "name": "CorMedNet- Distribution and demographic data of habitat-forming invertebrate species from Mediterranean coralligenous assemblages between 1882 and 2019.",

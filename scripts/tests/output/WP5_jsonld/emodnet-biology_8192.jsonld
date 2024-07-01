@@ -78,6 +78,36 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacillariophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ciliophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cryptophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=17639"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19542"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "8192",
     "name": "Phytoplankton abundance and composition from the RADIALES time series programme (N-NW Spain)",
     "sameAs": "http://marineinfo.org/id/dataset/8192",

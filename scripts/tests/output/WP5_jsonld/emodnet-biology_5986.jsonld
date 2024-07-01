@@ -90,6 +90,50 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Arthropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1065"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cnidaria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1267"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Nematoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=799"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Sipuncula",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1268"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5986",
     "name": "Royal Belgian Institute of Natural Sciences Crustacea Collection (Crustacea)",
     "sameAs": "http://marineinfo.org/id/dataset/5986",

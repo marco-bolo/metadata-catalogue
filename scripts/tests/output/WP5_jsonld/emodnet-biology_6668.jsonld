@@ -60,6 +60,43 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacillariophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chlorophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=802"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cyanophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Euglenoidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=582177"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "6668",
     "name": "SmartBuoy Marine Observational Network - UK Waters Phytoplankton Data 2001-2017",
     "sameAs": "http://marineinfo.org/id/dataset/6668",

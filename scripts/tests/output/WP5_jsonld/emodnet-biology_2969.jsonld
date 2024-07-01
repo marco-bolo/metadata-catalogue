@@ -80,6 +80,64 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Chaetognatha",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2081"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ciliophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ciliophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cladocera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=155670"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Copelata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=103353"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Copepoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Myzozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=450030"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "version": "1",
     "identifier": "2969",
     "name": "Mesozooplankton abundance and biomass in Sevastopol Bay and inshore waters off the Crimean Coasts of the Black Sea",

@@ -138,6 +138,43 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacillariophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ciliophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dictyochophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146232"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Prymnesiophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=115057"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "4688",
     "name": "LifeWatch observatory data: phytoplankton observations by FlowCam imaging in the Belgian Part of the North Sea",
     "sameAs": "http://marineinfo.org/id/dataset/4688",

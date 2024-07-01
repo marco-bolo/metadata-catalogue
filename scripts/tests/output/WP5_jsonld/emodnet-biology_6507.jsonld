@@ -79,6 +79,169 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Acartiidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=104074"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Calanoida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1100"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Candaciidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=104080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Centropagidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=104081"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ceratiaceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=109421"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chromista",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=7"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Copepoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Corycaeidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=128569"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Decapoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1130"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Decapoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1130"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Eumalacostraca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1086"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Euphausiacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1128"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Evadne Lovén, 1836",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106267"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Foraminifera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1410"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Galatheidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106733"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Harpacticoida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1102"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Oithonidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106422"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Penilia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106266"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Penilia avirostris",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106272"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phaeodaria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=345868"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Podon",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106269"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Temoridae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=104106"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "&#34;Juday-Bogorov net (330μm mesh) hauled vertically from the bottom (~80m) to the surface, in the morning and afternoon of the same day. Sample preserved in 4% buffered formalin and stored over the long term at the Centre de Collections Planctoniques de Villefranche (CCPv). Sample scanned on a ZooScan, images processed with ZooProcess and sorted taxonomically on EcoTaxa, within the Plateforme d&#39;Imagerie Quantitative de Villefranche (PIQv). The PIQv and CCPv platforms are part of EMBRC-France, a national Research Infrastructure supported by ANR, under the reference ANR-10-INSB-02",
     "identifier": "6507",
     "name": "Plankton community in Juday-Bogorov (330µm) net, Point B, Villefranche-sur-Mer, France",

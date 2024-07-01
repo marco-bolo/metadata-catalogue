@@ -94,6 +94,71 @@
             "@type": "http://purl.org/dc/terms/Location"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cladocera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=155670"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Copelata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=103353"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Copepoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Diptera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=118088"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Nemertea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=152391"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Rotifera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=14260"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "6022",
     "name": "Zooplankton biomass and abundance in Estonian territorial waters 1993-2016",
     "sameAs": "http://marineinfo.org/id/dataset/6022",

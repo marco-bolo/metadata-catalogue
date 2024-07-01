@@ -53,6 +53,43 @@
             "@type": "http://purl.org/dc/terms/Location"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bivalvia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Clitellata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=14165"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gastropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Malacostraca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1071"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "8252",
     "name": "Benthos Westerschelde 1963-2012",
     "sameAs": "http://marineinfo.org/id/dataset/8252",

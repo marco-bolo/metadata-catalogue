@@ -76,6 +76,15 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Animalia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Species records from historic literature, from surveys conducted by the University of North Wales and incidental records noted by staff. A variety of methods were used most of which are not documented on the cards. The average resolution of the subtidal records is 1km but shore records are more accurate averaging approximately 250m resolution and often more accurate than this. Species identification is likely to be generally very accurate. Many of the names originally recorded have changed and the current valid name has been identified.",
     "identifier": "5688",
     "name": "1778-1998 Ivor Rees North Wales Marine Fauna Ad-hoc sightings shore and ship-based surveys",

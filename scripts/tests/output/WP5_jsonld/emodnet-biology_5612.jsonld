@@ -91,6 +91,29 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pisces",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11676"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "447 hauls were carried out at 26 fixed stations. Three different bottom otter-trawl nets were used. A cotton bottom otter-trawl net (wing mesh-size: 55 mm; cod-end mesh-size: 20 mm; foot-rope length: 36.3 m; head-rope length: 29.1 m) was towed by the motorboat “Bios”, while a cotton bottom otter-trawl net (wing mesh-size: 55 mm; cod-end mesh-size: 20 mm; foot-rope length: 46.1 m; head-rope length: 34.1 m) was towed by the motorboat “Predvodnik”. In 1971, a synthetic bottom otter-trawl net (wing mesh-size: 50 mm; cod-end mesh-size: 20 mm; foot-rope length: 40 m; head-rope length: 37 m) was towed by the motorboat “Bios”. Tow duration was one hour for all hauls. The average tow speed was 3 knots. CPUE (n/h and kg/h) indexes were derived for 129 demersal species (19,756 records). Species synonymies were updated according to the modern nomenclature referring to the World Register of Marine Species (WoRMS). Some species are grouped into multispecies categories that group taxonomically similar species, i.e. species of the same genus or family (e.g. Raja spp., Triglidae). Information on the sediment type at each station was also recorded using an echo sounder. The depth of each station was extracted from the EMODnet Digital Bathymetry.",
     "identifier": "5612",
     "name": "Trawl survey data from the Jabuka Pit area (central-eastern Adriatic Sea, Mediterranean) collected between 1956 and 1971",

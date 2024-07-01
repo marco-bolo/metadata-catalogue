@@ -74,6 +74,22 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Chromista",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=7"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Protozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=5"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "version": "1",
     "identifier": "4044",
     "name": "Phytoplankton monitoring data from Sevastopol Bay (Black Sea) from 1952 to 1963",

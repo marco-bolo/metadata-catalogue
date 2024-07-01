@@ -68,6 +68,15 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Pisces",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11676"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "4443",
     "name": "IMR Juvenile fish monitoring",
     "sameAs": "http://marineinfo.org/id/dataset/4443",

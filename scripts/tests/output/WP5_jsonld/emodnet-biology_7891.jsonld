@@ -83,6 +83,29 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacillariophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Prymnesiophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=115057"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Samples were collected with Niskin bottles at 0.5, 5, 10 and 15 meters depths.  Study Extent At least monthly sampling was carried out, during some periods sampling was at bi-monthly basis.The time series station C1, located in the Gulf of Trieste in the northernmost part of the Adriatic Sea, is part of the Adriatic Long Term Ecological Research (LTER) site. Method step description:  Samples were fixed with Ca(HCO3)2-buffered formaldehyde (0.8% final concentration) and cell abundance was estimated according to Utermöhl’s method (1958), using an inverted microscope equipped with phase contrast, at 200-320-400x final magnifications. Abundant cells were counted in defined random fields, rarer species were counted on the whole chamber (Fonda Umani et al., 2007).",
     "identifier": "7891",
     "name": "Phytoplankton North Adriatic-Gulf of Trieste C1 – LTER time-series 1986-2005",

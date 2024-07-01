@@ -98,6 +98,22 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Brachyura",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106673"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Decapoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1130"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Approximately 11,200 marine record cards were collated. Data obtained from literature records, crab material held in collections of the British Museum (Natural History), field record cards returned by individuals, specimens held in institutions and organisations other than the British Museum, biological surveys and collecting expeditions.",
     "identifier": "5685",
     "name": "1507-1997 Paul F. Clark North East Atlantic Crab Atlas",

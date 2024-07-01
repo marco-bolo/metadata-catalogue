@@ -81,6 +81,71 @@
             "@type": "http://purl.org/dc/terms/Location"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bivalvia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cirripedia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1082"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cladocera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=155670"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Copepoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ctenophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1248"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gastropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Rotifera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=14260"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Scyphozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=135220"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Sampling Methods The sampling was carried out from standard depths with Juday net. A sample of 500 ml was collected from each depth or from bottom of Sea to surface by towing the net  Study Extent Current dataset extends from 2001 to 2010, from January to December, without a similar annual frequency. The samples were collected from 29 transects in the Black Sea, covering coastal, shelf and offshore Romanian waters. Quality Control Data in the Romanian Black Sea zooplankton dataset were collected by experienced scientists. The data entry was done by a scientific team. The introduced data were checked by another scientist and the input errors were corrected, following the zooplankton datasheets. Method step description:  This dataset was compiled from a historical collection of zooplankton datasheets. These data sheets were used as a protocol for zooplankton sampling and analysis. They provided information about the metadata (sampling transect, station number, coordinates of the sampling station, sampling depth, sample collection date, name of the researcher who processed the sample, name of the expedition, etc.); the equations used to calculate the abundance of zooplankton species; and data (identified species, individs counted in the subsample, total abundance, and total biomass). The sampling was carried out from standard depths with Juday net. A sample of 500 ml was collected from each depth or from bottom of Sea to surface by towing the net. The samples were preserved with 80 ml of buffered 37 % formaldehyde solution/ 1000 ml of water sample. The mesozooplankton sample was homogenised, and quantitative and qualitative processing was performed. Organisms were counted in subsample(s) until each of the three dominant taxonomic groups reached 100 individuals. For the estimation of large animals‘ numbers, the whole sample was examined in a Petri dish or Bogorov Chamber.",
     "identifier": "8198",
     "name": "Romanian Black Sea Zooplankton data from 2001 to 2010",

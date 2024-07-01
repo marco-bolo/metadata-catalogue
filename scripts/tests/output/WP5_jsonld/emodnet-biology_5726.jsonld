@@ -95,6 +95,36 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Arthropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1065"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Rotifera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=14260"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5726",
     "name": "Finnish Baltic Sea zooplankton monitoring",
     "sameAs": "http://marineinfo.org/id/dataset/5726",

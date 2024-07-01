@@ -117,6 +117,15 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Amphipoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1135"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "8070",
     "name": "Amphipod distribution data from the North Atlantic and Artic waters compiled from literature records published in 1931-2018",
     "sameAs": "http://marineinfo.org/id/dataset/8070",

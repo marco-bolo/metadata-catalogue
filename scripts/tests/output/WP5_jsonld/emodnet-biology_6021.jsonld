@@ -96,6 +96,85 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacillariophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chlorophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=802"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chrysophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146230"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ciliophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cryptophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=17639"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cyanophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Euglenophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19539"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Incertae sedis",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=246943"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Prasinophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=17329"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Prymnesiophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=115057"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "6021",
     "name": "Phytoplankton composition, biomass and abundance in Estonian territorial waters 1993-2016",
     "sameAs": "http://marineinfo.org/id/dataset/6021",

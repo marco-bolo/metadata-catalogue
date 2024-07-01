@@ -67,6 +67,43 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Caretta caretta (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137205"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mustelus mustelus (Linneaus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105822"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Myliobatis aquila (Linnaeus 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105860"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pteroplatytrygon violacea (Bonaparte, 1832)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=158540"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Squalus acanthias (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105923"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "alternateName": "BYC_PTM_06-17_Adr",
     "description": "The present dataset focus on the distribution of one elasmobranch species commonly caught by mid-water pair trawlers in the northern Adriatic Sea. Between 2006 and 2017 an extensive monitoring programme of accidental catches of cetaceans, sea turtles and elasmobranchs was conducted on board mid-water pelagic trawlers targeting small pelagic fish. The data collection was supported by the Italian Ministry of Agriculture, Food and Forestry Policies (General Directorate for Fisheries and Aquaculture, Agreement No. 007525) in compliance with the Italian obligations to the Council Regulation (EC) 812/2004.   Specifically, there are 4 elasmobranchs species (Mustelus mustelus, Squalus acanthias, Myliobatis aquila and Pteroplatytrygon violacea) and 1 reptiles species (Caretta caretta). Data are provided in a gridded form at yearly base and values represent the raw abundances of individuals caught aggregated by year and cell. In the dataset is also provided the number of fishing operations (fishing haul) aggregated by year and cell. A fishing haul was assigned to a cell considering the cell in which the midpoint of the fishing operation fall within. The spatial grid used for the aggregation have a resolution of 5 nm",
     "identifier": "6460",

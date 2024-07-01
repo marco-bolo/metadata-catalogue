@@ -79,6 +79,85 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Appendicularia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146421"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chaetognatha",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2081"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cladocera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=155670"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Copepoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Decapoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1130"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hydromedusae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19494"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ostracoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1078"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pisces",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11676"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Siphonophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=254409"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Tunicata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146420"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Sampling Description. Performed by vertical tows of Hensen net (73 cm mouth diameter, 330 μm mesh size) from 35–0 m. Samples were fixed in 2 % formaldehyde solution buffered with borax. No flowmeter was used.  &lt;br&gt;&lt;/br&gt; Step Description. Performed by vertical tows of Hensen net (73 cm mouth diameter, 330 μm mesh size) from 35–0 m. Samples were fixed in 2 % formaldehyde solution buffered with borax. No flowmeter was used. Sampled on approximately monthly basis and data are available from January 1972 to November 1995 (with gaps in 1975) and include the abundances expressed as no.ind.m-3 at group level of the zooplankton groups.",
     "identifier": "6659",
     "name": "Mesozooplankton abundance from 1972-1995 in the coastal Middle Adriatic Sea",

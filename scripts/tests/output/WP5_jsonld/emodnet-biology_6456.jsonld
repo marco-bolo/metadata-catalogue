@@ -80,6 +80,50 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacillariophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chlorophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=801"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cryptophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=17638"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinoflagellata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146203"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Haptophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=369190"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Raphidophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=160581"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "alternateName": "PHYTOENVDELTA",
     "description": "The dataset PHYTOENVDELTA contains results of the Phytoplankton Monitoring Program in the main shellfish growing areas of Catalonia located in the Ebro delta. The program was officially launched in 1990 in order to comply with the legislation on official control, and has maintained weekly sampling frequency at 10 stations in total, 5 in each bay until present. Integrated seawater samples are taken from a boat using a silicone hose at all 10 stations, in addition surface and bottom water samples are taken at two central stations, one in each bay. Analysis is conducted using inverted microscopy (Utermöhl method). At each sampling station, seawater temperature, salinity and dissolved oxygen profiles are measured in situ using portable multiparametric probes. Identification is conducted to the lowest taxonomical level for the method. Phytoplankton sampling and analysis are accredited under ISO 17025",
     "identifier": "6456",

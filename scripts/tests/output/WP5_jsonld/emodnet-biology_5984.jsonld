@@ -87,6 +87,29 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Malacostraca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1071"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Merostomata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=150507"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pycnogonida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1302"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5984",
     "name": "Royal Belgian Institute of Natural Sciences Marine Chelicerata Collection (cheliceratamarine)",
     "sameAs": "http://marineinfo.org/id/dataset/5984",

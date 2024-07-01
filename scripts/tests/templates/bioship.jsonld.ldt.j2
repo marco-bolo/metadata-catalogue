@@ -203,6 +203,19 @@
         {%- endfor %}
     ],
     {%- endif %}
+    {%- if _.taxterms %}
+    "about" : [
+        {%- for tax in _.taxterms %}
+        {
+          "taxonRank" : {
+            "name": "{{tax.TaxTerm}}",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id={{tax.AphiaID}}"
+          },          
+          "@type" : "Taxon"
+        } {%- if not loop.last %}, {%- endif %}
+        {%- endfor %}
+    ],
+    {%- endif %}
     {%- if _.datasetrec.VersionName %}
     "version": "{{_.datasetrec.VersionName}}",
     {%- endif %}

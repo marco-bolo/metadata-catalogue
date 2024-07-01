@@ -82,6 +82,50 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Anseriformes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2681"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Charadriiformes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2682"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ciconiiformes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148746"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gaviiformes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148793"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pelecaniformes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2684"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Podicipediformes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2685"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "6027",
     "name": "Mid-winter waterfowl count, Estonian national monitoring 1991-2016",
     "sameAs": "http://marineinfo.org/id/dataset/6027",

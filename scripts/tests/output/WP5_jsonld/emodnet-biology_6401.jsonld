@@ -125,6 +125,15 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Isopoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1131"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "6401",
     "name": "North Atlantic and Arctic Isopoda sampled during the BIOICE project",
     "sameAs": "http://marineinfo.org/id/dataset/6401",

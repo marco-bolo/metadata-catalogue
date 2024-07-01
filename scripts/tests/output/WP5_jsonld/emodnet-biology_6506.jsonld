@@ -79,6 +79,113 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Anomura",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106671"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Brachyura",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106673"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cercozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=562852"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chromista",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=7"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Eumalacostraca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1086"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Evadne Lovén, 1836",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106267"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Foraminifera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1410"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Galatheidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106733"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gammaridea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1207"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hyperiidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1205"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Laomediidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106802"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Penilia avirostris",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106272"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Podon",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106269"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Sergestidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106731"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "&#34;Régent net (680μm mesh) hauled vertically from the bottom (~80m) to the surface, in the morning. Sample preserved in 4% buffered formalin and stored over the long term at the Centre de Collections Planctoniques de Villefranche (CCPv). Sample scanned on a ZooScan, images processed with ZooProcess and sorted taxonomically on EcoTaxa, within the Plateforme d&#39;Imagerie Quantitative de Villefranche (PIQv). The PIQv and CCPv platforms are part of EMBRC-France, a national Research Infrastructure supported by ANR, under the reference ANR-10-INSB-02.",
     "identifier": "6506",
     "name": "Plankton community in Régent (680µm) net, Point B, Villefranche-sur-Mer, France",

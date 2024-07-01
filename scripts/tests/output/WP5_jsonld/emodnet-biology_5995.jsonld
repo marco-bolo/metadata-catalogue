@@ -77,6 +77,36 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1837"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Actinopterygii",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10194"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Aves",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1836"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chondrichthyes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1517375"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5995",
     "name": "Royal Belgian Institute of Natural Sciences Vertebrates/Types Collection (vertebratestypes)",
     "sameAs": "http://marineinfo.org/id/dataset/5995",

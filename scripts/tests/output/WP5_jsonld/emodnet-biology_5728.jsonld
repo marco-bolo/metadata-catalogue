@@ -109,6 +109,15 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1837"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5728",
     "name": "Incidental sightings of marine mammals",
     "sameAs": "http://marineinfo.org/id/dataset/5728",

@@ -85,6 +85,22 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Hydrozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1337"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Staurozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=265044"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5985",
     "name": "Royal Belgian Institute of Natural Sciences Cnidaria Collection (Cnidaria)",
     "sameAs": "http://marineinfo.org/id/dataset/5985",

@@ -87,6 +87,15 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Aves",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1836"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5979",
     "name": "Royal Belgian Institute of Natural Sciences Bird Collection (Aves)",
     "sameAs": "http://marineinfo.org/id/dataset/5979",

@@ -124,6 +124,22 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Gymnolaemata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1795"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Stenolaemata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1794"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5983",
     "name": "Royal Belgian Institute of Natural Sciences Bryozoa Collection (Bryozoa)",
     "sameAs": "http://marineinfo.org/id/dataset/5983",

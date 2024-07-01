@@ -79,6 +79,78 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Actinopterygii",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10194"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Appendicularia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146421"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Branchiopoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1069"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gastropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hexanauplia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=889925"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hydrozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1337"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Malacostraca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1071"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ostracoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1078"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Thaliacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=22626"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Study Extent. Stončica station 1959-2017  &lt;br&gt;&lt;/br&gt; Sampling Description. Performed by vertical tows of Hensen net (73 cm mouth diameter, 330 μm mesh size) from 100–0 m at towing speed of 0.3 m s-1. Samples were fixed in 2 % formaldehyde solution buffered with borax. No flowmeter was used.  &lt;br&gt;&lt;/br&gt; Step Description. Performed by vertical tows of Hensen net (73 cm mouth diameter, 330 μm mesh size) from 100–0 m at towing speed of 0.3 m s-1. Samples were fixed in 2 % formaldehyde solution buffered with borax. No flowmeter was used. Include the abundances expressed as no.ind.m-3 at group level of the zooplankton groups such as Copepoda, Cladocera, Appendicularia, Chaetognatha, Tunicata, Ostracoda, Polychaeta, Decapoda larvae, various meroplankton larvae, Pisces ova, Pisces larvae and Hydromedusae/Siphonophora.",
     "identifier": "6660",
     "name": "Mesozooplankton abundance from 1959-2017 in the Middle Adriatic Sea",

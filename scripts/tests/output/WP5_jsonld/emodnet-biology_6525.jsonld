@@ -69,6 +69,64 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Balaenoptera physalus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137091"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Delphinus delphis",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137094"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Grampus griseus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137098"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Orcinus orca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137102"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Physeter macrocephalus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137119"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pseudorca crassidens",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137104"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Stenella coeruleoalba",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137107"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Tursiops truncatus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137111"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "alternateName": "CETSIC",
     "identifier": "6525",
     "name": "Presence of cetaceans in Sicilian waters, Ionian and Tyrrhenian Sea (records 2008-2019)",

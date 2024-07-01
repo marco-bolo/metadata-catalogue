@@ -77,6 +77,36 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bivalvia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cephalopoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11707"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gastropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polyplacophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=55"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5980",
     "name": "Royal Belgian Institute of Natural Sciences Belgian Marine Invertebrates Collection (belgianmarineinvertebrates)",
     "sameAs": "http://marineinfo.org/id/dataset/5980",

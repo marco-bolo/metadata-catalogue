@@ -98,6 +98,22 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Halichoerus grypus (Fabricius, 1791)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pusa hispida (Schreiber, 1775)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=159021"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "2458",
     "name": "SHARK - National Ringed seal monitoring in Sweden since 1995",
     "sameAs": "http://marineinfo.org/id/dataset/2458",

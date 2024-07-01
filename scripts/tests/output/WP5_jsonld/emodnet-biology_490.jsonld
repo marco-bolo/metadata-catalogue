@@ -71,6 +71,15 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Animalia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "The Biocean database was designed to gather the extremely large volume of data collected from different deep-sea ecosystem studies conducted by Ifremer&#39;s department &#34;Environnement Profond&#34; and aims at facilitating ecosystem studies in the deep sea. It represents an important new resource for deep-sea ecologists and will have wide applications in biogeography, and biodiversity studies.",
     "identifier": "490",
     "name": "Bigood",

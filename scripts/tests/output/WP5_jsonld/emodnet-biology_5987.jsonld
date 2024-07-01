@@ -98,6 +98,43 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Asteroidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crinoidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123081"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinoidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123082"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Holothuroidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123083"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ophiuroidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123084"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5987",
     "name": "Royal Belgian Institute of Natural Sciences Echinodermata Collection (Echinodermata)",
     "sameAs": "http://marineinfo.org/id/dataset/5987",

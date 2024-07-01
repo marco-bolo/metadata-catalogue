@@ -212,6 +212,57 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacillariophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chlorophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=802"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chrysophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146230"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cyanophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Prasinophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=17329"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Prymnesiophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=115057"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Phytoplankton samples were collected by CTD probe (SBE-911)  with attached Niskin bottles at discrete depths, defined according to the in situ  fluorimeter readings (0m - thermocline- deep chlorophyll a maximum), and   1m above the bottom or down to 75 m depth at the deeper stations.   Phytoplankton samples (1000 ml water sample) were fixed on board in 4% formaldehyde solution, buffered to pH 8-8.2 with disodiumtetraborate. In the laboratory the samples are concentrated down to 50 cm3 by slow decantation after storage for at least 20 days in a cool and dark place. Taxonomic identification and cell counts are done under inverted microscope (Nikon T300E) connected to a video-interactive image analysis system ((L.U.C.I.A, Version 4.8, Laboratory Imaging Ltd, Prague) at 400x magnification by the Uteröhl (1958) method in Sedgwick-Rafter counting chambers. 400 cells are counted from each sample, while rare and large species are checked in the whole counting chamber (Moncheva and Parr, 2005/2015). The individual cell biovolume (V, μm3) is derived through the approximation of the cell shape of each species to the most similar regular solid, calculated by the respective formulas (Edier , 1979 ; Vadrucci et al., 2007),  averaged over measurement of ten cells from each species. Cell bio-volume is converted to weight (W, ng) following Hatchinson (1967). Taxonomic nomenclature is according to the on-line data-base of World Register of Marine Species (WoRMS) http://www.marinespecies.org/ and the Black Sea phytoplankton check-list. The QC/QA of the data is performed following the quality control Guidelines for phytoplankton (Moncheva, 2010).",
     "identifier": "5996",
     "name": "Phytoplankton abundance and biomass data from 2007 to 2016 in the Bulgarian Black Sea",

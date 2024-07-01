@@ -73,6 +73,106 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Anthozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1292"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Bivalvia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Caudofoveata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=151365"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Clitellata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=14165"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinoidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123082"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gastropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Holothuroidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123083"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hoplonemertea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=122309"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Insecta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1307"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Malacostraca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1071"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ophiuroidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123084"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ostracoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1078"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Sipunculidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1296"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "&lt;p&gt;Zoobenthos have been monitored in Sweden since 1971. The national monitoring program was initiated by the Swedish Environmental Protection Agency and is now financed by the Swedish Agency for Marine and Water Management.&lt;/p&gt; &lt;p&gt;Monitoring is performed by Stockholm University, Gothenburg University, Umeå University and Linnaeus University.&lt;/p&gt; &lt;p&gt;Data are stored in the Swedish Ocean Archive database (SHARK), by the Swedish Meteorological and Hydrological Institute.&lt;/p&gt; &lt;p&gt;The purpose of the monitoring program is to detect long term and short term changes in the soft bottom macrozoobenthos (&gt;1mm) communities. Changes in the macrofauna community can indicate changes in environmental threats like eutrophication, environmental toxins and climate change.&lt;/p&gt; &lt;p&gt;Data are collected and analyzed according to Leonardsson K., 2004. (In Swedish) Metodbeskrivning för provtagning och analys av mjukbottenlevande makroevertebrater I marin miljö. Umeå universitet, Institutionen för ekologi och geovetenskap, 26 p (https://www.havochvatten.se/download/18.1690613b166605675de898f4/1539942622449/rapport-umu-metodbeskrivning-provtagning-analys-mjukbottenlevande-makroevertebrater-i-marin-miljo.pdf) or similar methods. Information about the program and the methods are available in Swedish at https://www.havochvatten.se/hav/vagledning--lagar/vagledningar/ovriga-vagledningar/undersokningstyper-for-miljoovervakning/undersokningstyper/mjukbottenlevande-makrofauna-trend--och-omradesovervakning.html and https://www.havochvatten.se/hav/vagledning--lagar/vagledningar/ovriga-vagledningar/undersokningstyper-for-miljoovervakning/undersokningstyper/sediment---basundersokning.html&lt;/p&gt; &lt;p&gt;Data are collected and analyzed according to Leonardsson K., 2004. (In Swedish) Metodbeskrivning för provtagning och analys av mjukbottenlevande makroevertebrater I marin miljö. Umeå universitet, Institutionen för ekologi och geovetenskap, 26 p (https://www.havochvatten.se/download/18.1690613b166605675de898f4/1539942622449/rapport-umu-metodbeskrivning-provtagning-analys-mjukbottenlevande-makroevertebrater-i-marin-miljo.pdf) or similar methods.&lt;/p&gt;",
     "identifier": "2454",
     "name": "SHARK - National zoobenthos monitoring in Sweden since 1971",

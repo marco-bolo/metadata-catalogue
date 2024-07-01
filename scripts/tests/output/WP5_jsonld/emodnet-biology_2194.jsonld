@@ -81,6 +81,36 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinodermata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1806"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "version": "1",
     "description": "The experiment was designed to study long-term changes in community structure in response to global change (climatic change) and local anthropogenis pressures (e.g. eutrophication). Fine sand macrobenthic communities are monitored two to five times a year at the &#34;Pierre Noire&#34; site. The different parameters wich are measured are (1) total and specific abundances, (2) specific richness",
     "identifier": "2194",

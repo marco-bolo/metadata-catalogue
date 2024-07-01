@@ -85,6 +85,78 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Bryozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146142"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cnidaria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1267"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ctenophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1248"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinodermata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1806"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Platyhelminthes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=793"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Rotifera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=14260"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Tunicata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146420"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "disambiguatingDescription": "&lt;p&gt;The stations can be categorized as ‘open water’ stations or estuarine stations. The open water stations are all located in the “open” waters of the Kattegat – Belt Sea area (average depth 27.1 m ± std. dev16.4 m) forming the transition zone between the Baltic Sea and the North Sea. The water column at those stations is permanently stratified (Lyngsgaard et al. 2014) and the samples were collected from the mixed upper 10 meters that is periodically nutrient limited. Two stations were in the Wadden Sea, a shallow and turbid tidal area adjacent to the North Sea on the West Coast of Jutland. The remaining stations are located in shallow (average depth 7.9 m ± 6.5 m) estuaries with significant freshwater and hence nutrient inputs.&lt;/p&gt;
  &lt;br&gt;
 &lt;p&gt;Salinities vary between 7 and 31. The highest salinities were found in the Limfjord and the lowest are close to the Baltic Sea or in enclosed estuaries. Data covered the period from 1989 to 2016. Over this period nutrient supply has decreased significantly, by 43 percent for nitrogen and by about 90 percent for phosphorous. &lt;/p&gt;

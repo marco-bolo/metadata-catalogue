@@ -74,6 +74,50 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Anthozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1292"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Asteroidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Bivalvia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gastropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Malacostraca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1071"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ophiuroidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123084"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "alternateName": "WOT-schelpdieren",
     "description": "Furthermore, the survey data is important for the evaluation of control measures and impact studies in the context of Natura 2000 and the nature conservation law. Within the Natura 2000 areas of the Wadden Sea, Oosterschelde, Westerschelde, Voordelta and North Sea Coastal Zone, conservation objectives have been set for various bird species that rely on shellfish as a food source. In addition, shellfish banks are an important element in various habitat types",
     "identifier": "6204",

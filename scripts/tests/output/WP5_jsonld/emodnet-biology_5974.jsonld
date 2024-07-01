@@ -88,6 +88,36 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacteria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=6"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chromista",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=7"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Plantae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=3"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Protozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=5"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Odessa National I.I. Mechnikov University phytoplankton dataset collected in the Zmiinyi Island coastal waters in the Black Sea in the framework of national research projects funded by Ministry of Science and Education of Ukraine in 2004-2015. This dataset include about 25262 records of abundance and 25262 records of wet weight biomass for about 476 phytoplankton species in 1524 samples. Phytoplankton sampling was performed using 5 l Niskin bottle.",
     "identifier": "5974",
     "name": "Phytoplankton in the Coastal Waters of Zmiinyi Island in the Black Sea (2004-2015)",

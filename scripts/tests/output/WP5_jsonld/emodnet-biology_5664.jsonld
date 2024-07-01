@@ -85,6 +85,78 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Chlorophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=801"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chromista",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=7"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cryptophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=17638"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cyanophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinoflagellata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146203"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Euglenoidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=582177"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hexanauplia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=889925"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ochrophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=345465"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Zoomastigophorea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=24"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "disambiguatingDescription": "&lt;p&gt;The stations can be categorized as ‘open water’ stations or estuarine stations. The open water stations are all located in the “open” waters of the Kattegat – Belt Sea area (average depth 27.1 m ± std. dev16.4 m) forming the transition zone between the Baltic Sea and the North Sea. The water column at those stations is permanently stratified (Lyngsgaard et al. 2014) and the samples were collected from the mixed upper 10 meters that is periodically nutrient limited. Two stations were in the Wadden Sea, a shallow and turbid tidal area adjacent to the North Sea on the West Coast of Jutland. The remaining stations are located in shallow (average depth 7.9 m ± 6.5 m) estuaries with significant freshwater and hence nutrient inputs.&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;Salinities vary between 2 and 31. The highest salinities were found in the Wadden Sea and Nissum Bredning  and the lowest are close to the Baltic Sea or in enclosed estuaries. Data covered the period from 1989 to 2016. Over this period nutrient supply has decreased significantly, by 43 percent for nitrogen and by about 90 percent for phosphorous.&lt;/p&gt;

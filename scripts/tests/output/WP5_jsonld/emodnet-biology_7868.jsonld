@@ -110,6 +110,15 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Haploniscidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=118254"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "The marine environment around Iceland is a heterogenous habitat with many ridges, coral reefs and vents which is due to the region sensitive to climate change.  Through a series of BIOICE cruises, extensive taxonomic knowledge as well as data about the distribution of the local marine fauna was gained and an extensive dataset was created. To further broaden the understanding about the local fauna, in 2011 the first cruise of the IceAGE project aimed to resample certain BIOICE stations. To further aid ecological research, new stations were added, abiotic parameters were measured, and genetic samples were collected.  This dataset contains three haploniscidae genera and haploniscidae 13 which were collected around Iceland. Sampling was conducted at a depth between 64 m and 2750 m utilizing detritus sledges, triangle dredges and an Agassiz trawls during the BIOCE project and with an EBS (Epi benthos sledge) during the four IceAGE projects. During the BIOICE detritus sledge samples underwent a series of different sieving steps but agassiz trawl and triangle dredge samples were hand-picked on board. Detritus sledge samples were afterwards tored in 5% buffered formalin (Brökeland et al., 2017). During the IceAGE projects sample were cooled on board of the research vessel until further processing. Hand-picked specimens were fixed with RNA later and undenatured 96% ethanol others were frozen for further analysis. Samples which underwent a sieving process were stored in 96% denatured ethanol.",
     "identifier": "7868",
     "name": "Benthic Haploniscidae (Isopoda) collected around Iceland during the BIOICE, IceAGE, IceAGE2,IceAGE_RR and IceAGE3 expedtions in 1992-2020",

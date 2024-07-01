@@ -100,6 +100,22 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Halichoerus grypus (Fabricius, 1791)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phocidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=136976"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": " Method step description:  Data is collected by counting seals from land, ship or airplane.",
     "identifier": "2457",
     "name": "SHARK - National environmental monitoring of Grey seal in Sweden since 1989",

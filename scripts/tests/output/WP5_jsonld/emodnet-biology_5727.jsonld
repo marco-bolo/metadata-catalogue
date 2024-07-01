@@ -132,6 +132,43 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Animalia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Bacteria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=6"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chromista",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=7"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Plantae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=3"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Protozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=5"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Data is collected in transects or squares with help of divers. Species abundances are determined directly by the divers or photographs/video are taken and analyzed later. Discipline: Marine biology; Datatype: Epibenthos; Measuring area type: point; Platform class: diver, video, photo; Parameters: # counted, Abundance class, Average shoot length, Bare substrate cover, Boulder cover, Cover, Cover (%), Cover class, Cover class, Cover class filamentous algae, Debris cover, Density in covered area, Depth distribution (max depth), Dry weight, Gravel cover, Hard clay cover, Max shoot length, Min shoot length, No species found., Observed species, Rhizome biomass, Rhizome juice sugar content, Rock cover, Salinity, Sand cover, Shoot biomass, Shoot density, Silt soft clay cover, Species distribution max depth, Species distribution min depth, Stone cover, Substrate specific cover, Temperature, Total cover of all species (%), Unidentified algae cover.   More information about the method is available in Swedish at https://www.havochvatten.se/hav/samordning--fakta/miljoovervakning/miljoovervakningens-programomrade-kust-och-hav/delprogram-vegetationskladda-bottnar.html and https://www.havochvatten.se/hav/samordning--fakta/miljoovervakning/samordning-av-miljoovervakning/regional-miljoovervakning.html",
     "identifier": "5727",
     "name": "SHARK - Regional monitoring and monitoring projects of Epibenthos in Sweden since 1994",

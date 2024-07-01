@@ -72,6 +72,64 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Bacillariophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148899"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chlorophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=802"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chrysophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146230"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cryptophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=17639"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cyanophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Dinophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=19542"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Euglenoidea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=582177"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Prymnesiophyceae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=115057"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "The sampling was carried out from standard depths with Niskin bottles. From each depth was collected a sample of 500 ml. The standard sedimentation technique for samples preparation (Morozova-Vodianitkaia, 1954) was used. The scientific team identified and counted the phytoplankton species from a subsample with an inverted microscope and calculated the total abundance and biomass. This dataset was compiled from a historical collection of phytoplankton datasheets and contains abundance (cells per liter) and biomass (mg/m3) data for individual phytoplankton taxa. For each record, the sampling transects, station number, coordinates of the sampling station, sampling depth and sample collection date were recorded.  Samples were collected from standard depths with Niskin bottles. From each depth was collected a sample of 500 ml. The samples were preserved with 14 ml of buffered 4% formaldehyde solution.  Study Extent Current dataset extends from 1991 to 2000, from January to November, without a similar annual frequency. The samples were collected from 13 transects that included 82 sampling stations in the Black Sea, covering coastal, shelf and offshore Romanian waters. Quality Control Data in the Romanian Black Sea phytoplankton dataset were collected by experienced scientists. The data entry was done by a scientific team. The introduced data were checked by another scientist and the input errors were corrected, following the phytoplankton datasheets. Method step description:  This dataset was compiled from a historical collection of phytoplankton datasheets. These data sheets were used as a protocol for phytoplankton sampling and analysis. They provided information about the metadata (sampling transect, station number, coordinates of the sampling station, sampling depth, sample collection date, name of the researcher who processed the sample, name of the expedition, etc.); the equations used to calculate the abundance of phytoplankton species; and data (identified species, cells counted in the subsample, total abundance, and total biomass). Samples were concentrated by sedimentation and surface water removal to increase the phytoplankton density in the sample by following the standard sedimentation technique for samples preparation (Morozova-Vodianitkaia, 1954). After the volume of the concentrated sample was measured, a subsample of 0.1 ml was taken from the concentrated sample, poured into the counting chamber, and analysed under an inverted microscope, in order to identify and count all the phytoplankton species. Phytoplankton abundance per litre was calculated by the following equation: N = V1/V2 x n x 2, where N is the number of cells per litre of water, V1 is the volume of the concentrated sample, V2 is the volume of subsample, and n is the number of cells counted in a subsample (Morozova-Vodianitkaia, 1948; Bodeanu, 1987 - 1988). The phytoplankton biomass was determined based on morphometric measurement of phytoplankton units. The biomass of phytoplankton per cubic metre of water was calculated by multiplying the abundance with the average wet weight of the species, following the average weights tables elaborated by Morozova-Vodnițkaia (1948; 1954) and Pițîk (1950), modified and updated by Bodeanu N. and Ruță G. (1995).",
     "identifier": "8083",
     "name": "Romanian Black Sea Phytoplankton data from 1991 to 2000",

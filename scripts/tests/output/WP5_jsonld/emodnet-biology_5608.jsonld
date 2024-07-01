@@ -79,6 +79,50 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1837"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Amphibia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=178701"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pisces",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11676"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Reptilia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1838"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Almost all fish caught in the Northern Adriatic Sea at time was sold in these fish markets. The dataset contains information on 177 marketed categories (6,790 records). Marketed categories may include one or more species. Multispecies categories usually group taxonomically similar species, i.e. species of the same genus or family. The taxonomic resolution of landings changed over time, from a minimum number of 107 (1902) to a maximum of 140 categories (1920). Species were reported with their scientific names that were updated referring to the World Register of Marine Species (WoRMS). Data is referred to the local consumption originated from local capture sea- and freshwater-fisheries.",
     "identifier": "5608",
     "name": "Historical landings from the Trieste (Italy) fish market between 1902 and 1968",

@@ -70,6 +70,106 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Cercozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=562852"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Charophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=368664"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chlorophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=801"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Choanozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=562870"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ciliophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cryptophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=17638"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cyanobacteria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146537"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Euglenozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=582161"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Haptophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=369190"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Myzozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=450030"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ochrophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=345465"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Platyhelminthes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=793"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Radiozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=582421"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Sarcomastigophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=9"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "The monitoring is directed and the dataset is maintained by Rijkswaterstaat, the executing body of the Dutch Ministery for Infrastructure and Environment. Publication of the dataset has been facilitated by Deltares, The Netherlands.",
     "identifier": "5758",
     "name": "Dutch long term monitoring of phytoplankton in the Dutch Continental Economical Zone of the North Sea",

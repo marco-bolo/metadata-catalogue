@@ -105,6 +105,15 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Ploima",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=17904"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "5994",
     "name": "Royal Belgian Institute of Natural Sciences Rotifera Collection (Rotifera)",
     "sameAs": "http://marineinfo.org/id/dataset/5994",

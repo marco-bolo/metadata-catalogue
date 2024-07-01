@@ -96,6 +96,36 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Arthropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1065"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinodermata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1806"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "version": "1",
     "description": "Muddy sand macrobenthic communities were monitored five times a year at the &#34;Rivière de Morlaix&#34; site. Macrofauna were sampled using a Smith McIntyre grab covering a surface of 0.1 m2. Ten replicates are collected at each sampling date. After collection, the sediment was sieved (1 mm circular mesh) and the retained material was fixed with 10% neutralised formalin prior to analysis in the lab. In the laboratory, organisms were sorted, identified to species level and stored in a 70% ethanol solution. The parameters which are measured are: (1) total and specific abundances, (2) specific richness.",
     "identifier": "2196",

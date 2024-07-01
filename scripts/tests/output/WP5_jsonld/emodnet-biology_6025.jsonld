@@ -91,6 +91,85 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Arachnida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1300"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Bivalvia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Clitellata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=14165"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gastropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Gymnolaemata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1795"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hydrozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1337"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Insecta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1307"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Nemertea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=152391"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Priapulida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101063"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "identifier": "6025",
     "name": "Benthic fauna in Estonian territorial waters 1993-2016",
     "sameAs": "http://marineinfo.org/id/dataset/6025",

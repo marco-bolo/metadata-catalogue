@@ -97,6 +97,29 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Animalia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chromista",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=7"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Rhodophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=852"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "A list consisting of 24  non-indigenous species representing a range of taxa with varying current distributions was created for the final monitoring list. Data were requested from all the major holders of marine biodiversity data e.g. statutory agencies and major databases, the NBN, Local Record Centres (LRCs), schemes and societies, the Natural History Museum (NHM), Wildlife Trusts, and (MEDIN and other) Data Archive Centres (DACs), for the target species. In addition a thorough literature review was carried out and data extracted from published material, as well as pers comms with non-native species experts.",
     "identifier": "5666",
     "name": "1915-2016 Department for Environment Food &amp; Rural Affairs (Defra), Marine Strategy Framework Directive (MSFD) Collation of invasive non-indigenous species",

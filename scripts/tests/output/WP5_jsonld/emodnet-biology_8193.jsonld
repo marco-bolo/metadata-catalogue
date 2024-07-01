@@ -95,6 +95,71 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+    "about" : [
+        {
+          "taxonRank" : {
+            "name": "Appendicularia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146421"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chaetognatha",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2081"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cladocera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=155670"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Copepoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1080"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Euphausiacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1128"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ostracoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1078"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pteropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=325345"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Salpidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137217"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Siphonophorae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1371"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
     "description": "Sampling protocol varied slightly beween transects: oblique hauls with a 200 µm mesh-size Bongo (stations off Vigo) or Juday-Bogorov (Coruña) net; vertical hauls with 200 µm mesh-size WP2 net (off Cudillero and Gijón transects, and Santander from 2013 onwards); and oblique hauls with 250 µm mesh-size Juday-Bogorov (Santander until 2013). The nets were towed from 100 m (50 m for the Juday-Bogorov at the Santander transect) or 5 m above the bottom at shallower stations to the surface.  In all cases, the samples for abundance were preserved in 4% tetraborate-buffered formaldehyde for subsequent counting and taxonomic identification under a stereoscopic microscope. The biomass samples were filtered and dried at 60 ºC during 48 h before weighing to estimate the dry weight. The samples for biomass collected with the WP2 net (Cudillero, Gijón, and Santander since 2013) were split into three size-fractions: 200-500 µm, 500-1000 µm, and &gt; 1000 µm. &#34;",
     "identifier": "8193",
     "name": "Zooplankton abundance and biomass from the RADIALES time series programme (N-NW Spain)",
