@@ -1,0 +1,78 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=8046",
+    "distribution": "http://marineinfo.org/id/dataset/8046.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Dead or alive",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Marine Species Records submitted to the National Biodiversity Data Centre’s Citizen Science Portal from 01/01/2019 onwards",
+    "citation": "National Biodiversity Data Centre (NBDC), Ireland; (2022): Explore Your Shore",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2022-03-21",
+    "dateModified": "2023-11-21",
+    "keywords": [
+        {
+            "name":"Marine organisms",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/12223"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/40974"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/40974"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Ireland" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2114" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Irish Exclusive Economic Zone" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -10.514217 51.3558172 , -5.298875 51.3558172 , -5.298875 55.37968114 , -10.514217 55.37968114 , -10.514217 51.3558172 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1989-3-26" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2021-10-31" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Data submitted to the National Biodiversity Data Centre’s Explore Your Shore project plus other marine data records submitted to the National Biodiversity Data Centre’s Citizen Science Portal from 2019 onwards. Data collected by different survey methods, but principally by direct field observation. All the data was validated based on submitted photographs or verbal descriptions. In some limited cases recorder bona fides was accepted for validation purposes.",
+    "identifier": "8046",
+    "name": "Explore Your Shore",
+    "sameAs": "http://marineinfo.org/id/dataset/8046",
+    "url": "http://marineinfo.org/id/dataset/8046"
+}

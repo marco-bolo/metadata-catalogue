@@ -1,0 +1,116 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5728",
+    "distribution": "http://marineinfo.org/id/dataset/5728.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Data on incidental sightings of cetaceans reported to the Institute of Marine Research by letter or telephone, as well as information from newspapers, have been collected since 1967. From the late 1970s, data have also been obtained from research vessels, coast guard vessels, some fishing vessels and inspectors. These reports contain basic information on date, position and species, but also additional information such as group sizes. These sightings are not useful for assessing abundance, but might reveal distributional aspects. Most of the reports come from the northern areas (Barents Sea); this is clearly related to the distribution of the activities which form the basis for this kind of reporting.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2017-07-07",
+    "dateModified": "2022-08-16",
+    "keywords": [
+        {
+            "name":"fishing vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"research vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"surface vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/14017"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/34986",
+        "http://marineinfo.org/id/person/34986"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/34987"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "North Atlantic" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/1912" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Denmark Strait" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2377" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Greenland Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2356" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "North Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2350" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Norwegian Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2353" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Davis Strait" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4250" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -71.47 23.78 , 69.32 23.78 , 69.32 84.05 , -71.47 84.05 , -71.47 23.78 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Barents Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4247" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1980-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "5728",
+    "name": "Incidental sightings of marine mammals",
+    "sameAs": "http://marineinfo.org/id/dataset/5728",
+    "url": "http://marineinfo.org/id/dataset/5728"
+}

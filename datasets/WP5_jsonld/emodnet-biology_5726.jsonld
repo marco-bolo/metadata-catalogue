@@ -1,0 +1,102 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5726",
+    "distribution": "http://marineinfo.org/id/dataset/5726.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sea-floor depth (below mean sea level) {bathymetric depth}",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/BATHDPTH/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sub-sampling coefficient",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The dataset include Finnish zooplankton monitoring data from the Baltic Sea. The Finnish zooplankton monitoring program started in 1979 and is still ongoing. The sampling has normally taken place in late summer (August), but since 2014 sampling is also carried out in early summer (May-June).The zooplankton monitoring was performed by Finnish Institute of Marine Research until 2008, thereafter the Finnish Environment Institute is responsible for the monitoring program. Samples are taken using a WP-2 net (normally 2550 cm2 opening and 100 um mesh size). The monitoring follows the HELCOM COMBINE guidelines, but subsampling is done using Folsom splitter.  The dataset is also accessible through the NOAA COPEPOD database.",
+    "citation": "Finnish Environment Institute SYKE; (2018); Finnish Baltic Sea zooplankton monitoring",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2017-07-06",
+    "dateModified": "2018-12-10",
+    "keywords": [
+        {
+            "name":"Long-term monitoring",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Species distribution",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/5301"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/34983",
+        "http://marineinfo.org/id/person/34984",
+        "http://marineinfo.org/id/institute/1781"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/34984"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Baltic" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2401" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 13.18333 54.83333 , 28.805 54.83333 , 28.805 65.61937 , 13.18333 65.61937 , 13.18333 54.83333 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1979-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "5726",
+    "name": "Finnish Baltic Sea zooplankton monitoring",
+    "sameAs": "http://marineinfo.org/id/dataset/5726",
+    "url": "http://marineinfo.org/id/dataset/5726"
+}

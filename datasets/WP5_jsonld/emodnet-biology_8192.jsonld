@@ -1,0 +1,85 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=8192",
+    "distribution": "http://marineinfo.org/id/dataset/8192.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "&#34;Phytoplankton abundance data collected within the framework of the RADIALES time series monitoring program, carried out by the CSIC-IEO. The sampling is undertaken monthly from 1989 at five stations in North and Northwest Spanish shelf.  Samples were taken at several depth strata using Niskin bottles mounted on a CTD rosette. They were fixed with Lugol and preserved until they were analysed at the laboratory under the inverted microscope following the Utermöhl method.&#34; ",
+    "citation": "Isla A, Aierbe E, Bode A, González-Quirós R, Nogueira E, Scharek R, Valdés L; IEO-CSIC (2022) Phytoplankton abundance and composition from the RADIALES time series programme (N-NW Spain).",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2023-01-23",
+    "dateModified": "2023-07-04",
+    "hasPart": [
+      "http://marineinfo.org/id/dataset/4408",
+      "http://marineinfo.org/id/dataset/4409",
+      "http://marineinfo.org/id/dataset/4410",
+      "http://marineinfo.org/id/dataset/4406",
+      "http://marineinfo.org/id/dataset/4407"
+    ] ,
+    "keywords": [
+        {
+            "name":"Abundance",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Species composition",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Time series",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/42014",
+        "http://marineinfo.org/id/person/42015",
+        "http://marineinfo.org/id/person/42016",
+        "http://marineinfo.org/id/person/31244",
+        "http://marineinfo.org/id/person/20180",
+        "http://marineinfo.org/id/person/28784",
+        "http://marineinfo.org/id/person/5460"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/42014"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/42014"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -8.958 42.142 , -5.578 42.142 , -5.578 43.7 , -8.958 43.7 , -8.958 42.142 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1989-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2016-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "8192",
+    "name": "Phytoplankton abundance and composition from the RADIALES time series programme (N-NW Spain)",
+    "sameAs": "http://marineinfo.org/id/dataset/8192",
+    "url": "http://marineinfo.org/id/dataset/8192"
+}

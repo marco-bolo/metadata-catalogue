@@ -1,0 +1,106 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5685",
+    "distribution": "http://marineinfo.org/id/dataset/5685.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "A detailed distribution of true crabs (Brachyura) in the North-East Atlantic.",
+    "citation": "Clark, Paul F.; Marine Conservation Society, United Kingdom; (2019) 1507-1997 Paul F. Clark North East Atlantic Crab Atlas",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2017-06-27",
+    "dateModified": "2019-08-06",
+    "keywords": [
+        {
+            "name":"Data",
+            "inDefinedTermSet":"Assemble KO Types",
+            "termCode":"8",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine Genomics",
+            "inDefinedTermSet":"Assemble Sectors",
+            "termCode":"10",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Species distribution",
+            "inDefinedTermSet":"INSPIRE themes",
+            "termCode":"7",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Taxonomy",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/34956",
+        "http://marineinfo.org/id/institute/5938"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/34942",
+        "http://marineinfo.org/id/institute/1169"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/14022"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "ANE" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5664" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "North Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2350" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "United Kingdom Exclusive Economic Zone" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5696" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -19.966666666667 -6.3666667 , 10.3166667 -6.3666667 , 10.3166667 65.93333 , -19.966666666667 65.93333 , -19.966666666667 -6.3666667 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1507-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "1997-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Approximately 11,200 marine record cards were collated. Data obtained from literature records, crab material held in collections of the British Museum (Natural History), field record cards returned by individuals, specimens held in institutions and organisations other than the British Museum, biological surveys and collecting expeditions.",
+    "identifier": "5685",
+    "name": "1507-1997 Paul F. Clark North East Atlantic Crab Atlas",
+    "sameAs": "http://marineinfo.org/id/dataset/5685",
+    "url": "http://marineinfo.org/id/dataset/5685"
+}

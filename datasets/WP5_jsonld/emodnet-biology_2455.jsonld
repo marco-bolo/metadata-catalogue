@@ -1,0 +1,142 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2455",
+    "distribution": "http://marineinfo.org/id/dataset/2455.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance category of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL06/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Depth maximum of biological entity specified elsewhere on the bed by epibenthic sampling",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/DMAX7117/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Depth minimum of biological entity specified elsewhere on the bed by epibenthic sampling",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/DMIN7117/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Dry weight biomass (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Salinity of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Speed of wind {wind speed} in the atmosphere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Temperature of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Visibility in the water body by Secchi disk",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SECCSDNX/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wave height mean of waves on the water body by visual estimation",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/GAVGEV01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Epibenthos has been nationally monitored in Sweden since 1992. The monitoring program was initiated by the Swedish Environmental Protection Agency and later the Swedish Agency for Marine and Water Management took over the responsibility and financing of the program. The monitoring is performed by Stockholm University, University of Gothenburg and Linnaeus University.  The data is stored in the database SHARK, hosted and maintained by the Swedish Meteorological and Hydrological Institute. The epibenthos monitoring program studies hard and soft bottoms from the surface down to 10-20 meters. Data is collected in transects or squares with help of divers. Species abundances are determined directly by the divers or photographs are taken and analyzed later.  More information is available in Swedish at https://www.havochvatten.se/hav/samordning--fakta/miljoovervakning/miljoovervakningens-programomrade-kust-och-hav/delprogram-vegetationskladda-bottnar.html",
+    "citation": "Stockholm University, University of Gothenburg, Linnaeus University , Swedish Agency for Marine and Water Management, Swedish Environmental Protection Agency and Swedish Meteorological and Hydrological Institute (2017). SHARK - National Epibenthos monitoring in Sweden since 1992.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2010-07-08",
+    "dateModified": "2023-07-04",
+    "isPartOf": [
+      "http://marineinfo.org/id/dataset/2136"
+    ] ,
+    "keywords": [
+        {
+            "name":"Benthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"diver",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Long-term monitoring",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/4477",
+        "http://marineinfo.org/id/institute/7779",
+        "http://marineinfo.org/id/institute/12864",
+        "http://marineinfo.org/id/institute/13153",
+        "http://marineinfo.org/id/institute/5076",
+        "http://marineinfo.org/id/institute/4480"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/34985"
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Baltic" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2401" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Kattegat" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2374" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Skagerrak" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2379" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 11.03961 56.01585 , 18.91022 56.01585 , 18.91022 62.90333 , 11.03961 62.90333 , 11.03961 56.01585 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1992-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "Data is collected in transects or squares with help of divers. Species abundances are determined directly by the divers or photographs/video are taken and analyzed later. Discipline: Marine biology; Datatype: Epibenthos; Measuring area type: point; Platform class: diver, video, photo; Parameters: # counted, Abundance, Abundance, Abundance class, Cover (%), Dry weight, Salinity, Sediment deposition cover (%), Sediment deposition cover (class), Species distribution max depth, Species distribution min depth, Temperature, Total cover of all species (%).   More information about the method is available in Swedish at https://www.havochvatten.se/hav/samordning--fakta/miljoovervakning/miljoovervakningens-programomrade-kust-och-hav/delprogram-vegetationskladda-bottnar.html",
+    "identifier": "2455",
+    "name": "SHARK - National Epibenthos monitoring in Sweden since 1992",
+    "sameAs": "http://marineinfo.org/id/dataset/2455",
+    "url": "http://marineinfo.org/id/dataset/2455"
+}

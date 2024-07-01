@@ -1,0 +1,94 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5651",
+    "distribution": "http://marineinfo.org/id/dataset/5651.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Biomass",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Occurrence of biota",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Phytoplankton density",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sampling protocol",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Volume of sample from the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The phytoplankton dataset includes samples collected from shallow to shelf Romanian waters, in the period 1961 - 1970, from March to November; there is no similar frequency each year. Dataset contains abundance data (cells per liter) and biomass (mg/m3) for individual phytoplankton taxa.",
+    "citation": "Boicenco, L.; Culcea, O.; Pantea, E. (2017). Romanian Black Sea Phytoplankton data from 1961 to 1970. NIMRD-National Institute for Marine Research and Development &#34;Grigore Antipa&#34;",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2017-06-19",
+    "dateModified": "2022-08-09",
+    "keywords": [
+        {
+            "name":"Species composition",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/person/30852",
+        "http://marineinfo.org/id/person/34912",
+        "http://marineinfo.org/id/person/34913"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/30852"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 28.56666667 43.78333333 , 31.33333333 43.78333333 , 31.33333333 45.33333333 , 28.56666667 45.33333333 , 28.56666667 43.78333333 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Black Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3319" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1961-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "1970-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "&#34;Phytoplankton data collected in the Black Sea between 1960 and 1970 and processed by Hilarius Skolka and Nicolae Bodeanu. This dataset contains abundance data (cells per liter) and biomass (mg/m3) for individual phytoplankton taxa. Samples were taken by 1L Nansen bottle at  standard depths. The standard sedimentation technique for samples preparation (Morozova-Vodianitkaia, 1954) was used. Data were collected from coastal/shallow to shelf Romanian waters  from various transects such as: Constanta, Chituc, Tuzla, Portita, Mangalia etc. Phytoplankton abundance was counted by specialists using data sheets which contained abundance per station. After counting all the individuals from a subsample under the microscope, the scientific team calculated the total phytoplankton abundance and biomass. For each record the maximum and minimum sampling depth is recorded.&#34;",
+    "identifier": "5651",
+    "name": "Romanian Black Sea Phytoplankton data from 1961 to 1970",
+    "sameAs": "http://marineinfo.org/id/dataset/5651",
+    "url": "http://marineinfo.org/id/dataset/5651"
+}

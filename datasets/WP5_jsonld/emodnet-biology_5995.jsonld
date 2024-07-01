@@ -1,0 +1,84 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5995",
+    "distribution": "http://marineinfo.org/id/dataset/5995.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Data collections",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Depth (spatial coordinate) relative to water surface in the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The Royal Belgian Institute of Natural Sciences Vertebrates/Types collection contains 283 digitised specimens over 70 taxa (mostly species). This dataset only contains the marine species of the collection. The following classes are included: Actinopterygii, Aves, Chondrichtyes, Mammalia Linnaeus, 1758.",
+    "citation": "Semal, P. (2020) Royal Belgian Institute of Natural Sciences Vertebrates/Types collection",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2018-07-23",
+    "dateModified": "2022-08-01",
+    "keywords": [
+        {
+            "name":"Museum collections",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/35794"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/31981",
+        "http://marineinfo.org/id/person/16113"
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -179.96667 -78.15856 , 167.4833333333 -78.15856 , 167.4833333333 63.4833333333 , -179.96667 63.4833333333 , -179.96667 -78.15856 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "World Oceans" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/1901" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1800-5-11" ,
+            "http://www.w3.org/ns/dcat#endDate" : "1989-11-16" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "5995",
+    "name": "Royal Belgian Institute of Natural Sciences Vertebrates/Types Collection (vertebratestypes)",
+    "sameAs": "http://marineinfo.org/id/dataset/5995",
+    "url": "http://marineinfo.org/id/dataset/5995"
+}

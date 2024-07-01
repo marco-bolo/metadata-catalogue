@@ -1,0 +1,123 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6454",
+    "distribution": "http://marineinfo.org/id/dataset/6454.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance category of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL06/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Depth maximum of biological entity specified elsewhere on the bed by epibenthic sampling",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/DMAX7117/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Depth minimum of biological entity specified elsewhere on the bed by epibenthic sampling",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/DMIN7117/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sample duration",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The dataset consists of abundance records of 43 marine species in the Mediterranean Sea from 2001 to 2020. Selected species include some protected and non-indigenous species, ecosystem engineers, species sensitive to climate change, and/or threatened by human activities. Taken together, these taxa represent key ecological aspects of Mediterranean subtidal habitats (Cerrano et al., 2017)  and can be used to calculate the MedSens, an index of the environmental status of subtidal rocky coastal habitats based on species sensitivity (Turicchia et al., 2021). Observations were carried out by the EcoDivers (trained scuba divers, freedivers and snorkelers) according to a rigorous protocol (RCMed U-CEM) developed by the association Reef Check Italia onlus.",
+    "citation": "Ponti, M., Turicchia, E., Rossi, G., Cerrano, C.; Reef Check Italia onlus; (2020): Reef Check Med - key Mediterranean marine species 2001-2020",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2020-05-05",
+    "dateModified": "2022-08-16",
+    "keywords": [
+        {
+            "name":"Citizen science",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Climate change",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"diver",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Ecosystem engineers",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"human",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Human activities",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Non-indigenous species",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Overfishing",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Protected species",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/20667",
+        "http://marineinfo.org/id/person/38965",
+        "http://marineinfo.org/id/person/38966",
+        "http://marineinfo.org/id/person/38964"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -1.15455 35.40266 , 25.362 35.40266 , 25.362 45.7636 , -1.15455 45.7636 , -1.15455 35.40266 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Mediterranean Region" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4278" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2001-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2020-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "alternateName": "RCMed_2001_2020",
+    "description": "Observations were carried out by the EcoDivers (trained scuba divers, freedivers and snorkelers) according to a rigorous protocol (RCMed U-CEM) developed by the association Reef Check Italia onlus. Records include geographic coordinates (decimal degrees, WGS84), site name, date, survey depth range (min and max, in metres), prevailing habitat (from an options list), the sampling size in term of searching time (minutes), taxon name, abundance category (coded from 0 to 6), occurrence depth range (min and max, in metres) and the name of the EcoDiver who made the identification. The Reef Check Med Underwater Coastal Environment Monitoring (RCMed U-CEM) protocol is a Citizen Science initiative, developed by the Italian non-profit association Reef Check Italia onlus, aimed to assess the ecological status of the Mediterranean marine coastal habitats (Cerrano et al., 2017; Turicchia et al., 2021). Taxa were selected based on a combination of criteria including identification easiness and being key indicators of the shifts Mediterranean subtidal habitats may undergo under local pressures and climate change. When it is not easy to discriminate between species, genus level or higher was chosen, as in the case of the two protected Mediterranean seahorses. Before diving, each EcoDiver (i.e. the trained volunteer scuba divers, freedivers and snorkelers) chooses which and how many of the 43 taxa, included in the protocol, will be searched for, according to the expected habitat typology and personal motivations.  Abundance (using numerical or descriptive classes according to the countability of organisms) and occurrence depth range (min and max, in metres) of searched taxa are recorded. Taxa actively searched for, but not encountered, are recorded as absent. Diving sites are localised by using global positioning system (GPS) receivers, nautical charts or known points (e.g., mooring buoys at MPAs). Geographical coordinates (WGS84) are recorded with ± 6 arc-second (i.e. about 200 m) accuracy, which is in the distance range usually explored by divers in a single dive. The adopted abundance categories are (in brackets the corresponding descriptive categories): Category 0: 0 specimens (absent) Category 1: 1 specimen (isolated specimen) Category 2: 2 specimens (some scattered specimens) Category 3: 3-5 specimens (several scattered specimens) Category 4: 6-10 specimens (a crowded area) Category 5: 11-50 specimens (some crowded areas) Category 6: &gt; 50 specimens (several crowded areas)   The prevailing habitat is identified according to the following categories: - Coastal rocks - Offshore rocks - Rocky cliff - Posidonia - Posidonia and sand - Posidonia and rocks - Cave - Metal wreck - Sand - Mud - Breakwaters and ports - River mouth - Coastal lagoon",
+    "identifier": "6454",
+    "name": "Reef Check Med - key Mediterranean marine species 2001-2020",
+    "sameAs": "http://marineinfo.org/id/dataset/6454",
+    "url": "http://marineinfo.org/id/dataset/6454"
+}

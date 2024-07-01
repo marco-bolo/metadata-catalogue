@@ -1,0 +1,128 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6547",
+    "distribution": "http://marineinfo.org/id/dataset/6547.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count of Balaenoptera physalus (ITIS: 180527: WoRMS 137091)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/P790217B/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count of Cheloniidae (ITIS: 173828: WoRMS 136999)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/COREPT20/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count of Delphinidae (ITIS: 180415: WoRMS 136980)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/B036M01Z/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count of Delphinus delphis (ITIS: 180438: WoRMS 137094)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/B037M01Z/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count of Grampus griseus (ITIS: 180457: WoRMS 137098)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/I49B8563/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count of Stenella coeruleoalba (ITIS: 180434: WoRMS 137107)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/B1970031/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count of Tursiops truncatus (ITIS: 180426: WoRMS 137111)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/B085M01Z/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"End date and time (UT in ISO8601 format to known precision)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENDX8601/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Length of sampling track",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Start date and time (UT in ISO8601 format to known precision)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/STRT8601/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "In June 2008 Gaia Research Institute Onlus started a systematic survey of mega-fauna in the Northern Eastern Ionian Sea, in cooperation with the researchers of the Life and System Biology Department of the University of Turin (Italy). GAIA_IONIAN_2008-2018 dataset includes ten years of effort (survey track) and sightings data of marine mammals and marine reptiles collected by experienced marine mammal observers (MMOs) on board of a 12m sailing vessel. MMOs visually inspected both sides (130° angle) of the research vessel, while navigating along random transects. Distance and angle from the track line of each sighting were always recorded.",
+    "citation": "Azzolin, M. - Gaia Research Institute Onlus, Italy (2020): Ionian Sea mega-fauna monitoring employing a sailing vessel along random tracks from 2008 to 2018",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2020-07-29",
+    "dateModified": "2022-08-16",
+    "keywords": [
+        {
+            "name":"Biological monitoring",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"research vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"surface vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Visual observation",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/person/39315"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/39316"
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 19.9 22.41 , 38.231 22.41 , 38.231 39.743 , 19.9 39.743 , 19.9 22.41 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Ionian Sea" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3351" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2008-6-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2018-10-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "alternateName": "GAIA_IONIAN_2008-2018",
+    "identifier": "6547",
+    "name": "Ionian Sea mega-fauna monitoring employing a sailing vessel along random tracks from 2008 to 2018",
+    "sameAs": "http://marineinfo.org/id/dataset/6547",
+    "url": "http://marineinfo.org/id/dataset/6547"
+}

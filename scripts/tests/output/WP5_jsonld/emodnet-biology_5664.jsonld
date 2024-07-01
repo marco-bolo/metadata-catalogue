@@ -1,7 +1,7 @@
 {
     "@context":
     {
-        "@vocab": "https://schema.org/"
+        "@vocab": "http://schema.org/"
     },
     "@type": "Dataset",
     "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5664",
@@ -85,6 +85,7 @@
             "@type" : "http://purl.org/dc/terms/PeriodOfTime"
         }
     ],
+<<<<<<< HEAD
     "about" : [
         {
           "taxonRank" : {
@@ -161,6 +162,12 @@
 &lt;br&gt;
 &lt;p&gt;Salinities vary between 2 and 31. The highest salinities were found in the Wadden Sea and Nissum Bredning  and the lowest are close to the Baltic Sea or in enclosed estuaries. Data covered the period from 1989 to 2016. Over this period nutrient supply has decreased significantly, by 43 percent for nitrogen and by about 90 percent for phosphorous.&lt;/p&gt;
 &lt;br&gt;
+=======
+    "disambiguatingDescription": "&lt;p&gt;The stations can be categorized as ‘open water’ stations or estuarine stations. The open water stations are all located in the “open” waters of the Kattegat – Belt Sea area (average depth 27.1 m ± std. dev16.4 m) forming the transition zone between the Baltic Sea and the North Sea. The water column at those stations is permanently stratified (Lyngsgaard et al. 2014) and the samples were collected from the mixed upper 10 meters that is periodically nutrient limited. Two stations were in the Wadden Sea, a shallow and turbid tidal area adjacent to the North Sea on the West Coast of Jutland. The remaining stations are located in shallow (average depth 7.9 m ± 6.5 m) estuaries with significant freshwater and hence nutrient inputs.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Salinities vary between 2 and 31. The highest salinities were found in the Wadden Sea and Nissum Bredning  and the lowest are close to the Baltic Sea or in enclosed estuaries. Data covered the period from 1989 to 2016. Over this period nutrient supply has decreased significantly, by 43 percent for nitrogen and by about 90 percent for phosphorous.&lt;/p&gt;
+&lt;br&gt;
+>>>>>>> 4cea680ec8c603f5bbc5d9b0465d699f53ad3a5c
 &lt;p&gt;Sampling, measurements and laboratory analyses were carried out by a number of different agencies but followed a common set of technical guidelines to ensure consistency. These guidelines are written in Danish language by are in-line with the guidelines given in the appropriate sections of the HELCOM COMBINE manual.&lt;/p&gt;",
     "identifier": "5664",
     "name": "Phytoplankton data for Danish marine monitoring (ODAM) from 1988 - 2016",

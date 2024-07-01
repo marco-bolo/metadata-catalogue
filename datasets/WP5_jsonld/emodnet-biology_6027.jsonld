@@ -1,0 +1,89 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6027",
+    "distribution": "http://marineinfo.org/id/dataset/6027.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count of birds",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Waterfoul species individuals counts in monitoring sectors. The monitoring was performed in Estonian territorial waters in 1991-2016",
+    "citation": "Estonian Ornithological Society (2019): Mid-winter waterfowl count, Estonian national monitoring 1991-2016",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "dateCreated": "2018-07-31",
+    "dateModified": "2022-08-01",
+    "keywords": [
+        {
+            "name":"Waterfowl",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/6082"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/35786"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/35786"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Baltic Proper" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4372" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Finland Gulf" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2407" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Riga Gulf" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2409" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Hiiurnaa" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2444" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "Estonia" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2110" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 21.795165404812 57.907522164527 , 27.815699216955 57.907522164527 , 27.815699216955 59.672980564697 , 21.795165404812 59.672980564697 , 21.795165404812 57.907522164527 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1991-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2016-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "identifier": "6027",
+    "name": "Mid-winter waterfowl count, Estonian national monitoring 1991-2016",
+    "sameAs": "http://marineinfo.org/id/dataset/6027",
+    "url": "http://marineinfo.org/id/dataset/6027"
+}

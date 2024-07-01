@@ -1,0 +1,76 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6460",
+    "distribution": "http://marineinfo.org/id/dataset/6460.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Gridded data of monitored fishing effort and relative bycatch of Mustelus mustelus, Squalus acanthias, Myliobatis aquila, Pteroplatytrygon violacea and Caretta caretta in mid-water pair trawl in the northern Adriatic Sea from, 2006-2017.",
+    "citation": "Pulcinella, J.; Bonanomi,S.; Colombelli, A.; Moro, F.; Sala, A.; Fortuna, C.M.; Institute for Biological Resources and Marine Biotechnologies (IRBIM), Italian National Institute for Environmental Protection and Research (ISPRA); (2020): Monitored bycatch of Mustelus mustelus, Squalus acanthias, Myliobatis aquila, Pteroplatytrygon violacea and Caretta caretta in mid-water pair trawl in the northern Adriatic Sea, from 2006-2017",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2020-05-07",
+    "dateModified": "2020-05-07",
+    "keywords": [
+        {
+            "name":"Bycatches",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Midwater trawls",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/person/38967",
+        "http://marineinfo.org/id/person/38968",
+        "http://marineinfo.org/id/person/38970",
+        "http://marineinfo.org/id/person/38969",
+        "http://marineinfo.org/id/person/38971",
+        "http://marineinfo.org/id/person/38972"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 12.267194 42.644556 , 14.871194 42.644556 , 14.871194 45.500556 , 12.267194 45.500556 , 12.267194 42.644556 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "North" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/7127" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "2006-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2017-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "alternateName": "BYC_PTM_06-17_Adr",
+    "description": "The present dataset focus on the distribution of one elasmobranch species commonly caught by mid-water pair trawlers in the northern Adriatic Sea. Between 2006 and 2017 an extensive monitoring programme of accidental catches of cetaceans, sea turtles and elasmobranchs was conducted on board mid-water pelagic trawlers targeting small pelagic fish. The data collection was supported by the Italian Ministry of Agriculture, Food and Forestry Policies (General Directorate for Fisheries and Aquaculture, Agreement No. 007525) in compliance with the Italian obligations to the Council Regulation (EC) 812/2004.   Specifically, there are 4 elasmobranchs species (Mustelus mustelus, Squalus acanthias, Myliobatis aquila and Pteroplatytrygon violacea) and 1 reptiles species (Caretta caretta). Data are provided in a gridded form at yearly base and values represent the raw abundances of individuals caught aggregated by year and cell. In the dataset is also provided the number of fishing operations (fishing haul) aggregated by year and cell. A fishing haul was assigned to a cell considering the cell in which the midpoint of the fishing operation fall within. The spatial grid used for the aggregation have a resolution of 5 nm",
+    "identifier": "6460",
+    "name": "Monitored bycatch of Mustelus mustelus, Squalus acanthias, Myliobatis aquila, Pteroplatytrygon violacea and Caretta caretta in mid-water pair trawl in the northern Adriatic Sea, from 2006-2017",
+    "sameAs": "http://marineinfo.org/id/dataset/6460",
+    "url": "http://marineinfo.org/id/dataset/6460"
+}

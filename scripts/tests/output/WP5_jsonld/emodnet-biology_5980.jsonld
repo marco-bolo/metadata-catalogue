@@ -1,7 +1,7 @@
 {
     "@context":
     {
-        "@vocab": "https://schema.org/"
+        "@vocab": "http://schema.org/"
     },
     "@type": "Dataset",
     "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5980",

@@ -1,0 +1,105 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=5666",
+    "distribution": "http://marineinfo.org/id/dataset/5666.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance category (SACFOR) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SACFOR01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance category (SACFORN) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SACFORN1/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "A collation of datasets contributing to the MSFD baseline data for the current known distribution of non native species in the UK",
+    "citation": "Department for Environment Food and Rural Affairs (Defra) (2018): 1915-2016 Department for Environment Food &amp; Rural Affairs (Defra), Marine Strategy Framework Directive (MSFD) Collation of invasive non-indigenous species.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2017-06-26",
+    "dateModified": "2022-05-09",
+    "keywords": [
+        {
+            "name":"Alien species",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Data",
+            "inDefinedTermSet":"Assemble KO Types",
+            "termCode":"8",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Invasive species",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine Genomics",
+            "inDefinedTermSet":"Assemble Sectors",
+            "termCode":"10",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/5477"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/person/34942",
+        "http://marineinfo.org/id/institute/1169"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/14022"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "United Kingdom Exclusive Economic Zone" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5696" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -7.35569 49.979488 , 2.1110916 49.979488 , 2.1110916 60.465342 , -7.35569 60.465342 , -7.35569 49.979488 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1915-1-1" ,
+            "http://www.w3.org/ns/dcat#endDate" : "2016-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "description": "A list consisting of 24  non-indigenous species representing a range of taxa with varying current distributions was created for the final monitoring list. Data were requested from all the major holders of marine biodiversity data e.g. statutory agencies and major databases, the NBN, Local Record Centres (LRCs), schemes and societies, the Natural History Museum (NHM), Wildlife Trusts, and (MEDIN and other) Data Archive Centres (DACs), for the target species. In addition a thorough literature review was carried out and data extracted from published material, as well as pers comms with non-native species experts.",
+    "identifier": "5666",
+    "name": "1915-2016 Department for Environment Food &amp; Rural Affairs (Defra), Marine Strategy Framework Directive (MSFD) Collation of invasive non-indigenous species",
+    "sameAs": "http://marineinfo.org/id/dataset/5666",
+    "url": "http://marineinfo.org/id/dataset/5666"
+}

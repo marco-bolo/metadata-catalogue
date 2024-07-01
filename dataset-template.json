@@ -1,7 +1,7 @@
 {
     "@context":
     {
-        "@vocab": "https://schema.org/"
+        "@vocab": "http://schema.org/"
     },
     "@type": "Dataset",
     "@id": "URL:  Optional. A URL that resolves to *this* JSON-LD document, NOT the URL of the Dataset that this JSON-LD document describes. To link to the Dataset itself, please use 'url' and/or 'identifier')",

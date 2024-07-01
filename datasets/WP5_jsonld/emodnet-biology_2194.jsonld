@@ -1,0 +1,90 @@
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=2194",
+    "distribution": "http://marineinfo.org/id/dataset/2194.jsonld" ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Dry weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Monitoring of species richness, abundances of all macrobenthic species, biomass, sediment grain size, temperature and salinity",
+    "citation": "Houbin C, Thiebaut E, Hoebeke M (2019): Specific diversity data of macrobenthic communities in the &#34;Pierre Noire&#34; study site in the English Channel from 1977 on",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "dateCreated": "2010-01-04",
+    "dateModified": "2019-08-01",
+    "keywords": [
+        {
+            "name":"Benthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Data",
+            "inDefinedTermSet":"Assemble KO Types",
+            "termCode":"8",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Long-term monitoring",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine Genomics",
+            "inDefinedTermSet":"Assemble Sectors",
+            "termCode":"10",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/1397"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/1397",
+        "http://marineinfo.org/id/person/18587",
+        "http://marineinfo.org/id/person/8432",
+        "http://marineinfo.org/id/person/35783"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/person/11004"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "http://purl.org/dc/terms/type": "Morlaix Bay" , 
+            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5216" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        },
+        {
+            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
+            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.8805556 48.8027778 , -3.8805556 48.8027778 , -3.8805556 48.8027778 , -3.8805556 48.8027778 , -3.8805556 48.8027778 ))" , 
+            "@type": "http://purl.org/dc/terms/Location"
+        }
+    ],
+    "temporalCoverage":
+    [
+        {
+            "http://www.w3.org/ns/dcat#startDate" : "1977-1-1" ,
+            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
+        }
+    ],
+    "version": "1",
+    "description": "The experiment was designed to study long-term changes in community structure in response to global change (climatic change) and local anthropogenis pressures (e.g. eutrophication). Fine sand macrobenthic communities are monitored two to five times a year at the &#34;Pierre Noire&#34; site. The different parameters wich are measured are (1) total and specific abundances, (2) specific richness",
+    "identifier": "2194",
+    "name": "Specific diversity data of macrobenthic communities in the &#34;Pierre Noire&#34; study site in the English Channel from 1977 on",
+    "sameAs": "http://marineinfo.org/id/dataset/2194",
+    "url": "http://marineinfo.org/id/dataset/2194"
+}
