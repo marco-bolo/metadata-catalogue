@@ -80,10 +80,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1979-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1979-1-1/.."
     ],
     "identifier": "4450",
     "name": "Epibenthos and demersal fish monitoring at long-term monitoring stations in the Belgian part of the North Sea",

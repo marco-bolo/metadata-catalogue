@@ -65,11 +65,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1998-1-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "1988-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1998-1-1/1988-1-1"
     ],
     "identifier": "5261",
     "name": "Benthos data collected in the Black Sea during the IAEA Cruise in 1998",

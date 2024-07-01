@@ -77,11 +77,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1997-1-27" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2017-12-12" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1997-1-27/2017-12-12"
     ],
     "description": "Location: Indian River Lagoon, Florida, USA Methods: Spatial and temporal beta diversity was quantified latitudinally with “best derived breaks” determined by using chronological cluster analyses.  Multiple indices of alpha diversity were quantified, including species richness, Shannon diversity, Simpson diversity, and Pielou’s evenness. AIC model selection and environmental fit tests were performed to link patterns of diversity and species assemblages with the abiotic environment. Results: Evidence of a biogeographic transition zone was supported by data spanning the entire study period; the largest break in species assemblage occurred near 28°N. Fine scale analyses using small and large seine catches were noisier than broad analyses but indicated a northern shift in location of the biogeographic transition zone. Beta-diversity was generally dominated by species turnover/balance versus nestedness/gradient components, implying that changes were driven by species sorting associated with the physical environment. Excluding the summation of all environmental variables, temperature and dissolved oxygen best describe patterns of diversity and species composition. Main Conclusions: Over years less affected by disturbances, large and small seine catch data suggest the fish community assemblage and location of the biogeographic transition zone has shifted 9 km and 21 km to the north. If the trends observed in these years were to continue from 1999 until the year 2100, a 111 km to 243 km shift in fish communities could be expected. Variation in rates of movement based on gear type suggest novel species assemblages could ensue.",
     "identifier": "6577",

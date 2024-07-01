@@ -84,11 +84,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2003-7-9" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2018-4-6" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2003-7-9/2018-4-6"
     ],
     "identifier": "6666",
     "name": "Benthic invertebrates abundance data from French REBENT network",

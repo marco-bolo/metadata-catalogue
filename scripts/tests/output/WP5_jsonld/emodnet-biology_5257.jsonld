@@ -75,11 +75,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1954-1-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "1968-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1954-1-1/1968-1-1"
     ],
     "identifier": "5257",
     "name": "Historical benthos data from the Romanian Black Sea Coast between 1954 and 1968",

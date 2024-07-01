@@ -133,10 +133,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2017-5-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2017-5-1/.."
     ],
     "about" : [
         {

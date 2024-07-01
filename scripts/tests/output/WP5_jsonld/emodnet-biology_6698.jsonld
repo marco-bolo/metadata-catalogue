@@ -58,10 +58,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1985-6-17" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1985-6-17/.."
     ],
     "about" : [
         {

@@ -84,11 +84,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2006-1-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2011-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2006-1-1/2011-1-1"
     ],
     "identifier": "4540",
     "name": "MAREANO - Base-line mapping of epifauna obtained with Beamtrawl",

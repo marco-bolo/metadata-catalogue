@@ -68,10 +68,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2012-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2012-1-1/.."
     ],
     "version": "1",
     "identifier": "6386",

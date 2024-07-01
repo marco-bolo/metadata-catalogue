@@ -61,11 +61,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1986-1-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2010-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1986-1-1/2010-1-1"
     ],
     "description": "Since 2006 the time series station C1 has been formally included in the Italian network of long term ecological research sites (LTER-Italy) as part of the northern Adriatic LTER site. Scientific responsible from 1998 to 2005: Prof. Serena Fonda Umani, Univ. Trieste - Scientific responsible from 2006: Marina Monti - Principal data originators: Marina Monti, Luisella Milani.",
     "identifier": "4463",

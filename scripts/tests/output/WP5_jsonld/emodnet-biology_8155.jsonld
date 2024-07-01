@@ -58,11 +58,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2000-1-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2010-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2000-1-1/2010-1-1"
     ],
     "description": "Sampling Methods discrete water samplers http://vocab.nerc.ac.uk/collection/L05/current/30 Autosampling and Recording Instrumental Environmental Sampler rosette water bottle http://vocab.nerc.ac.uk/collection/L22/current/TOOL0501/ http://publicaties.minienm.nl/download-bijlage/90990/rwsv-913-00-b070-bemonstering-fytoplankton-zout-en-brak.pdf",
     "identifier": "8155",

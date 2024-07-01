@@ -48,11 +48,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2009-7-3" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2019-3-3" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2009-7-3/2019-3-3"
     ],
     "description": "Samples were preserved with acidified Lugol&#39;s Iodine and sent immediately after collection. Once received by Cefas, samples were analysed using the Utermohl method detailed in the UKNRL SOP for phytoplankton (https://www.afbini.gov.uk/publications/uk-nrl-phytoplankton-enumeration-sop), using high-power inverted microscopes, as soon as possible after receipt in order to reduce deterioration of the cells. Identification was to genera or species level where possible, according to light microscopy limitations, and was otherwise to taxonomic or morphological groupings. Size categories are available for some species and for morphological/taxonomic groups. Between 2009 and 2015, the counting methods consisted of either Whole Baseplate or Fields of View. From late 2015, the counting method of Transects was introduced, and used alongside Whole Base and Fields of View.",
     "identifier": "7885",

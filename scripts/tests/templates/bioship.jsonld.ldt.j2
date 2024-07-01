@@ -191,15 +191,14 @@
     "temporalCoverage":
     [
         {%- for temp in _.temporal %}
-        {
-            {%- if temp.StartDate %}
-            "http://www.w3.org/ns/dcat#startDate" : "{{temp.StartDate}}" , 
-            {%- endif %}
-            {%- if temp.EndDate %}
-            "http://www.w3.org/ns/dcat#endDate" : "{{temp.EndDate}}" ,
-            {%- endif %}
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        } {%- if not loop.last %}, {%- endif %}
+        {%- if temp.StartDate and temp.EndDate and temp.StartDate == temp.EndDate %}
+        "{{temp.StartDate}}"
+        {%- elif temp.StartDate and temp.EndDate %}
+        "{{temp.StartDate}}/{{temp.EndDate}}"
+        {%- elif temp.StartDate and temp.Progress == "In Progress" %}
+        "{{temp.StartDate}}/.."
+        {%- endif %}
+        {%- if not loop.last %}, {%- endif %}
         {%- endfor %}
     ],
     {%- endif %}

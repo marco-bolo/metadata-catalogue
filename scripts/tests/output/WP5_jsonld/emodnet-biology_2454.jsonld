@@ -68,10 +68,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1971-5-28" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1971-5-28/.."
     ],
     "about" : [
         {

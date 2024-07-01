@@ -75,10 +75,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1981-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1981-1-1/.."
     ],
     "identifier": "4436",
     "name": "IMR Zooplankton Barents Sea",

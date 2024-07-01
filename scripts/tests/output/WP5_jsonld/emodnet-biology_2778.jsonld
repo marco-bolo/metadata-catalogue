@@ -58,11 +58,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1994-8-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2005-10-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1994-8-1/2005-10-1"
     ],
     "version": "1",
     "description": "Samples of zooplankton were collected by vertical hauls by Juday net (Opening mouth diameter 37 cm; square 0,1 m2; mesh size 180 micro m). Data sets comprises species composition, abundance and biomass in m2 and m3.   Wet weight  of the zooplankton organisms was determined from equation: W = aL3, where L is length of organism (mm), and &#39;a&#39; is the coefficient calculated from the nomograms of Chislenko (1968).",

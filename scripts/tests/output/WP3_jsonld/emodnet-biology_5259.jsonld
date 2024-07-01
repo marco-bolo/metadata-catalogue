@@ -77,11 +77,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1960-1-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "1960-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1960-1-1"
     ],
     "identifier": "5259",
     "name": "Historical benthos data from the Pre-deltaic Romanian Black Sea Coast in 1960",

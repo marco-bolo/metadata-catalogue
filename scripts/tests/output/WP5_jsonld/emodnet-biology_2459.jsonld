@@ -93,11 +93,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1988-8-22" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2020-8-19" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1988-8-22/2020-8-19"
     ],
     "about" : [
         {

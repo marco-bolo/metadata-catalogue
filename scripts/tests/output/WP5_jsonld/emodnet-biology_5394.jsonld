@@ -75,10 +75,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2001-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2001-1-1/.."
     ],
     "identifier": "5394",
     "name": "Macrobenthos monitoring at long-term monitoring stations in the Belgian part of the North Sea from 2001 on",

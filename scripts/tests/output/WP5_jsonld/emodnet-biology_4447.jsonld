@@ -85,10 +85,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2004-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2004-1-1/.."
     ],
     "description": "Trawl samples were taken within the extraction areas and in control areas (controle-impact design).",
     "identifier": "4447",

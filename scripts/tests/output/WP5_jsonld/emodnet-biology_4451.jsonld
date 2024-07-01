@@ -79,10 +79,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2004-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2004-1-1/.."
     ],
     "description": "Sampling area: Aggregate extraction zones in the Belgian Part of the North sea Sampling frequency: The sampling events are mainly in autumn and depending on the research needs also in spring or another moment. Sampling at each zone is done yearly or in a cyclus of once in three years, depending on intensity of the extraction activity",
     "identifier": "4451",

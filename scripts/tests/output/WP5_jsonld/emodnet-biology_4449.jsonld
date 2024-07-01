@@ -104,10 +104,7 @@ The length class can be full length, carapax width or the distance between the t
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2005-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2005-1-1/.."
     ],
     "description": "Sampling activities were in Febuary-March and/or in September-October from 2005.   8 meter shrimp trawl (22 mm mesh in the cod end) equipped with a bolder chain. The net was towed during 15 minutes at an average speed of 4 knots.",
     "identifier": "4449",

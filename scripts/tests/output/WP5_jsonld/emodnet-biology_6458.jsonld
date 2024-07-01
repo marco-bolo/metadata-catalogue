@@ -79,11 +79,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2010-12-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2015-12-3" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2010-12-1/2015-12-3"
     ],
     "description": "POSEIDON was a citizen science programme for public users to submit sightings of marine species in the Canary Islands (www.programaposeidon.eu). The project was supported by the Fundacion Biodiversidad of the Spanish Ministry of Agriculture, Fisheries and Environment and run between 2014 and 2015.   The specific objectives of POSEIDON project wer: 1- Enrich official biodiversity database with many hard to collect data from marine and coastal species  2- Improve scientific knowledge of the distributional pattern of marine species in the all Macaronesian Region and, particularly in each macaronesian archipelago.    3- Increase the data to assess the seasonality or migratory aspects on certain marine species, linking its presence or absence in a certain archipelago with migratory routes or climate change effects 4- Contribute to disseminate among different sectorial groups, the value of field data collection of marine species and habitats as well as the intrinsic valorization of marine life.    The online portal required the citizen / volunteer to register marine life sightings using a current email address. The following elements are included in each sighting: GPS coordinate, sighting date, sighting time, dive duration, the minimum depth, the maximum depth, water temperature, species seen, the size of the species (classified into juvenile and adult), the number of individuals seen, whether a photograph was taken and the environment it was seen in. Each sighting is then validated by a researcher in  the Research Institute ECOAQUA of the Univ, of Las Palmas de Gran Canaria to ensure the species reported corresponds with the photo uploaded.&#34;",
     "identifier": "6458",

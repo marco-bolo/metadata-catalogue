@@ -74,11 +74,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1980-4-18" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2009-10-27" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1980-4-18/2009-10-27"
     ],
     "version": "1",
     "description": "Data collected on the species composition, abundance and biomass, environmental parameters (T&amp;S, dissolved oxygen and nutrients as well as bottom sediments composition and its structural compounds) regarding spatial and temporal localization after its digitization give the high grade opportunity to provide wide range analyses of species redistribution, changes in its abundance and biomass under the influence of climatic (global) and local spatial-temporal (mainly caused by human activities) ecosystems changes.  Type of data: Peterson bottom sediments sampler: species composition, abundance and biomass. Additional variables: (not for all stations)  temperature, salinity, dissolved oxygen and nutrients as well as bottom sediments composition and its structural compounds",

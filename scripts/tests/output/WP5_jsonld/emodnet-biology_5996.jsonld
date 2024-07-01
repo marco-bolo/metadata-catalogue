@@ -76,141 +76,33 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2007-10-4" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2007-10-8" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2008-4-14" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2008-4-21" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2008-6-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2008-6-15" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2008-9-29" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2008-10-4" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2009-6-5" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2009-6-12" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2011-4-30" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2011-5-7" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2011-9-9" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2011-9-15" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2012-5-14" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2012-5-20" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2012-6-7" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2012-6-12" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2012-7-18" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2012-7-27" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2012-7-14" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2012-7-18" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2012-8-14" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2012-8-20" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2012-9-29" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2012-10-4" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2012-11-5" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2012-11-10" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2013-6-20" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2013-6-30" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2013-8-23" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2013-8-28" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2014-5-27" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2014-6-4" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2014-6-18" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2014-6-21" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2014-9-8" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2014-9-17" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2015-8-28" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2015-8-31" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2015-10-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2015-10-6" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2015-11-12" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2015-11-16" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2016-4-29" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2016-5-4" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2016-5-26" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2016-5-30" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2016-7-18" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2016-7-23" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2016-8-19" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2016-8-24" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2016-9-16" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2016-9-21" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2007-10-4/2007-10-8",
+        "2008-4-14/2008-4-21",
+        "2008-6-1/2008-6-15",
+        "2008-9-29/2008-10-4",
+        "2009-6-5/2009-6-12",
+        "2011-4-30/2011-5-7",
+        "2011-9-9/2011-9-15",
+        "2012-5-14/2012-5-20",
+        "2012-6-7/2012-6-12",
+        "2012-7-18/2012-7-27",
+        "2012-7-14/2012-7-18",
+        "2012-8-14/2012-8-20",
+        "2012-9-29/2012-10-4",
+        "2012-11-5/2012-11-10",
+        "2013-6-20/2013-6-30",
+        "2013-8-23/2013-8-28",
+        "2014-5-27/2014-6-4",
+        "2014-6-18/2014-6-21",
+        "2014-9-8/2014-9-17",
+        "2015-8-28/2015-8-31",
+        "2015-10-1/2015-10-6",
+        "2015-11-12/2015-11-16",
+        "2016-4-29/2016-5-4",
+        "2016-5-26/2016-5-30",
+        "2016-7-18/2016-7-23",
+        "2016-8-19/2016-8-24",
+        "2016-9-16/2016-9-21"
     ],
     "about" : [
         {

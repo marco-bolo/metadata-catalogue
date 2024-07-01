@@ -79,11 +79,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1800-10-4" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2009-8-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1800-10-4/2009-8-1"
     ],
     "about" : [
         {

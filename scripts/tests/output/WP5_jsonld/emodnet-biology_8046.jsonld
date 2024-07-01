@@ -64,11 +64,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1989-3-26" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2021-10-31" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1989-3-26/2021-10-31"
     ],
     "about" : [
         {

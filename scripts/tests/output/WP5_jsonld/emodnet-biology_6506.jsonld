@@ -73,11 +73,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1995-1-4" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2020-2-12" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1995-1-4/2020-2-12"
     ],
     "about" : [
         {

@@ -95,11 +95,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2002-1-1" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2012-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2002-1-1/2012-1-1"
     ],
     "identifier": "2463",
     "name": "Polish Monitoring Programme - Monitoring of the Baltic Sea: phytoplankton",

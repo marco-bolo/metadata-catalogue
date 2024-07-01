@@ -78,10 +78,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1983-2-9" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1983-2-9/.."
     ],
     "about" : [
         {

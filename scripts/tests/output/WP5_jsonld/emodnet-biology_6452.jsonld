@@ -53,11 +53,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2002-11-18" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2020-4-29" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2002-11-18/2020-4-29"
     ],
     "description": "Since the 1980&#39;s, the Marine Institute have been operating a monitoring programme for the detection of these phytoplanktonic species via microscopy (method accredited to ISO 17025 standards) and have been publishing results of this analysis on a daily basis to competent authorities (The Food Safety Authority of Ireland&amp; Sea-Fisheries Protection Authority) and industry. Samples are currently taken on a weekly basis from Classified Production shellfish aquaculture areas all around the Irish Coastline (up to approx. 100 production areas from Co. Louth - Co. Donegal), with a smaller number of samples taken from finfish aquaculture production sites. Samples are submitted to MI laboratories in Bantry &amp; Galway for analysis where sample details, analysis and results are inputted, stored in, and generated from the Harmful Algal Blooms database (HABs - SQL Server database developed in-house), which has been in operation since 2002. These results are published from HABs and are publicly available through MI website; webapps.marine.ie/habs and are tabulated and graphed to show the occurrence, trends and patterns of HAB events, where all results from 2002 - current date can be downloaded per production area. This monitoring programme is in accordance with the relevant EU Legislation (627/2019), where the results feed into the NMP for marine biotoxins in shellfish.",
     "identifier": "6452",

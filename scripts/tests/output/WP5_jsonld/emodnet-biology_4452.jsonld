@@ -83,10 +83,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2004-1-1" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2004-1-1/.."
     ],
     "description": "Sampling area: The five dumping locations along the Belgian coast Sampling frequency: Autumn-spring sampling before 2010, afterwards only autumn sampling. Since 2012, dumping site Nieuwpoort and Oostende were only samples once over a three year period, the other sites yearly.",
     "identifier": "4452",

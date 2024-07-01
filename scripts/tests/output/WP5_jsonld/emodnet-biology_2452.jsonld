@@ -57,11 +57,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1979-6-5" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2020-12-16" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1979-6-5/2020-12-16"
     ],
     "about" : [
         {

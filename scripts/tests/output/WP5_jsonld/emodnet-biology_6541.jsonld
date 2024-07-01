@@ -76,21 +76,9 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "1990-4-6" ,
-            "http://www.w3.org/ns/dcat#endDate" : "1994-10-30" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2000-1-30" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2000-11-21" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        },
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2008-11-4" ,
-            "http://www.w3.org/ns/dcat#endDate" : "2012-6-22" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "1990-4-6/1994-10-30",
+        "2000-1-30/2000-11-21",
+        "2008-11-4/2012-6-22"
     ],
     "about" : [
         {

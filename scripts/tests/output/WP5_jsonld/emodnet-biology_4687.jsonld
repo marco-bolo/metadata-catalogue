@@ -221,10 +221,7 @@
     ],
     "temporalCoverage":
     [
-        {
-            "http://www.w3.org/ns/dcat#startDate" : "2012-7-24" ,
-            "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-        }
+        "2012-7-24/.."
     ],
     "identifier": "4687",
     "name": "LifeWatch observatory data: zooplankton observations by imaging (ZooScan) in the Belgian Part of the North Sea",
