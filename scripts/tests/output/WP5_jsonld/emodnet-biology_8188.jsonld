@@ -37,16 +37,22 @@
     "spatialCoverage":
     [
         {
-            "name": "Baltic" , 
-            "identifier": "http://www.marineregions.org/mrgid/2401" ,
+            "geoOverlaps" : {
+            "name": "Baltic" ,
+            "identifier": "http://www.marineregions.org/mrgid/2401"
+            },
             "@type": "Place"
         },
         {
-            "name": "Skagerrak" , 
-            "identifier": "http://www.marineregions.org/mrgid/2379" ,
+            "geoOverlaps" : {
+            "name": "Skagerrak" ,
+            "identifier": "http://www.marineregions.org/mrgid/2379"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "10.5043 54.9711 22.4495 65.8085",
                 "@type": "GeoShape"
@@ -54,8 +60,10 @@
             "@type": "Place"
         },
         {
-            "name": "Swedish Exclusive Economic Zone" , 
-            "identifier": "http://www.marineregions.org/mrgid/5694" ,
+            "geoOverlaps" : {
+            "name": "Swedish Exclusive Economic Zone" ,
+            "identifier": "http://www.marineregions.org/mrgid/5694"
+            },
             "@type": "Place"
         }
     ],

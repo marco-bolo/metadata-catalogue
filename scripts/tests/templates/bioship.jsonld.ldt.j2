@@ -172,17 +172,50 @@
     [
         {%- for geot in _.geographical %}
         {
+            "geoOverlaps" : {
             {%- if geot.OrigGeoTerm and geot.OrigGeoTerm != "EurOBIS calculated BBOX" %}
             "name": "{{geot.OrigGeoTerm}}" , 
             {%- endif %}
-            {%- if geot.GeoObjectID %} {#only keeping the ones that have a GeoObectID, hence, for which a url can be contructed #}
-            "identifier": "http://www.marineregions.org/mrgid/{{geot.GeoObjectID}}" ,
+            {%- if geot.GeoObjectID %}
+            "identifier": "http://www.marineregions.org/mrgid/{{geot.GeoObjectID}}"
             {%- endif %}
+            },
             {%- if geot.X and geot.Y and geot.MaxX and geot.MaxY %}
             "geo": {
                 "box" : "{{geot.X}} {{geot.Y}} {{geot.MaxX}} {{geot.MaxY}}",
                 "@type": "GeoShape"
             },
+            {%- endif %}
+            {%- if geot.GeoDatum %}
+              {%- if geot.OrigCoordMinX and geot.OrigCoordMinY %}
+            "geo": {
+                "latitude": {{geot.OrigCoordMinY}},
+                "longitude": {{geot.OrigCoordMinX}},
+                "@type": "GeoCoordinates"
+            },
+            {%- endif %}
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              {%- if geot.GeoDatum == "WGS84" %}
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+              {%- endif %}
+              {%- if geot.GeoDatum == "CRS84" %}
+              "value": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+              {%- endif %}
+              {%- if geot.GeoDatum == "EPSG:26911" %}
+              "value": "https://spatialreference.org/ref/epsg/nad83-utm-zone-11n/"
+              {%- endif %}
+              {%- if geot.GeoDatum == "EPSG:3413" %}
+              "value": "https://spatialreference.org/ref/epsg/wgs-84-nsidc-sea-ice-polar-stereographic-north/"
+              {%- endif %}
+            },
+            {%- if geot.OrigCoordMinX and geot.OrigCoordMinY and geot.OrigCoordMaxX and geot.OrigCoordMaxY %}
+            "geo": {
+                "box" : "{{geot.OrigCoordMinX}} {{geot.OrigCoordMinY}} {{geot.OrigCoordMaxX}} {{geot.OrigCoordMaxY}}",
+                "@type": "GeoShape"
+            },
+            {%- endif %}
             {%- endif %}
             "@type": "Place"
         } {%- if not loop.last %}, {%- endif %}

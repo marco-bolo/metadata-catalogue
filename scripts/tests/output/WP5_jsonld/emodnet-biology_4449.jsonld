@@ -92,11 +92,15 @@ The length class can be full length, carapax width or the distance between the t
     "spatialCoverage":
     [
         {
-            "name": "Belgian Continental Shelf (BCS)" , 
-            "identifier": "http://www.marineregions.org/mrgid/3293" ,
+            "geoOverlaps" : {
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "identifier": "http://www.marineregions.org/mrgid/3293"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "2.6666 51.418 2.996 51.6795",
                 "@type": "GeoShape"

@@ -43,11 +43,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Westerschelde" , 
-            "identifier": "http://www.marineregions.org/mrgid/4752" ,
+            "geoOverlaps" : {
+            "name": "Westerschelde" ,
+            "identifier": "http://www.marineregions.org/mrgid/4752"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "3.587677 51.33645 4.246143 51.458212",
                 "@type": "GeoShape"

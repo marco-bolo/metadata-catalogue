@@ -61,11 +61,15 @@
     "spatialCoverage":
     [
         {
-            "name": "North Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2350" ,
+            "geoOverlaps" : {
+            "name": "North Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2350"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-1.66567 56.9833 10.8247 61.1617",
                 "@type": "GeoShape"

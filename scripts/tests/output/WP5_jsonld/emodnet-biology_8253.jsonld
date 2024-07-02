@@ -45,11 +45,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Oosterschelde" , 
-            "identifier": "http://www.marineregions.org/mrgid/5332" ,
+            "geoOverlaps" : {
+            "name": "Oosterschelde" ,
+            "identifier": "http://www.marineregions.org/mrgid/5332"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "3.695503 51.435617 4.22007 51.697181",
                 "@type": "GeoShape"

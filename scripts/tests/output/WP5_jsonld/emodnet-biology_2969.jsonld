@@ -61,6 +61,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "33.45 44.61 33.58 44.62",
                 "@type": "GeoShape"
@@ -68,11 +70,17 @@
             "@type": "Place"
         },
         {
-            "name": "Crimea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3738" ,
+            "geoOverlaps" : {
+            "name": "Crimea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3738"
+            },
             "geo": {
                 "box" : "33.443 44.599 33.584 44.625",
                 "@type": "GeoShape"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
             },
             "@type": "Place"
         }

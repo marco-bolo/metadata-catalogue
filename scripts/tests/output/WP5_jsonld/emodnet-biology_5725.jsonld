@@ -91,11 +91,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Baltic" , 
-            "identifier": "http://www.marineregions.org/mrgid/2401" ,
+            "geoOverlaps" : {
+            "name": "Baltic" ,
+            "identifier": "http://www.marineregions.org/mrgid/2401"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "11.13833 54.45 28.805 65.77428",
                 "@type": "GeoShape"

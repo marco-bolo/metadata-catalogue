@@ -65,6 +65,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-80.85867 27.65037 -80.36652 28.8069",
                 "@type": "GeoShape"
@@ -72,7 +74,9 @@
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
             "name": "florida" ,
+            },
             "geo": {
                 "box" : "-80.95 27.42803 -80.249817 29.044607",
                 "@type": "GeoShape"

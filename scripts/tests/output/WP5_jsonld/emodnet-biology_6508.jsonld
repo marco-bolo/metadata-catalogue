@@ -62,6 +62,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "7.85 43.366667 7.9 43.416667",
                 "@type": "GeoShape"
@@ -69,8 +71,10 @@
             "@type": "Place"
         },
         {
-            "name": "Ligurian Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3363" ,
+            "geoOverlaps" : {
+            "name": "Ligurian Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3363"
+            },
             "geo": {
                 "box" : "7.85 43.367 7.9 43.417",
                 "@type": "GeoShape"

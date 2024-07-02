@@ -46,6 +46,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "13.318686 36.669103359961 15.710614165581 38.294681",
                 "@type": "GeoShape"
@@ -53,13 +55,17 @@
             "@type": "Place"
         },
         {
-            "name": "Ionian Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3351" ,
+            "geoOverlaps" : {
+            "name": "Ionian Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3351"
+            },
             "@type": "Place"
         },
         {
-            "name": "Tyrrhenian Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3386" ,
+            "geoOverlaps" : {
+            "name": "Tyrrhenian Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3386"
+            },
             "@type": "Place"
         }
     ],

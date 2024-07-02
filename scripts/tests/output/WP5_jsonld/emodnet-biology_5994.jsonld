@@ -57,26 +57,36 @@
     "spatialCoverage":
     [
         {
-            "name": "Belgium" , 
-            "identifier": "http://www.marineregions.org/mrgid/3293" ,
+            "geoOverlaps" : {
+            "name": "Belgium" ,
+            "identifier": "http://www.marineregions.org/mrgid/3293"
+            },
             "@type": "Place"
         },
         {
-            "name": "Netherlands" , 
-            "identifier": "http://www.marineregions.org/mrgid/15" ,
+            "geoOverlaps" : {
+            "name": "Netherlands" ,
+            "identifier": "http://www.marineregions.org/mrgid/15"
+            },
             "@type": "Place"
         },
         {
-            "name": "Norway" , 
-            "identifier": "http://www.marineregions.org/mrgid/5686" ,
+            "geoOverlaps" : {
+            "name": "Norway" ,
+            "identifier": "http://www.marineregions.org/mrgid/5686"
+            },
             "@type": "Place"
         },
         {
-            "name": "Australia" , 
-            "identifier": "http://www.marineregions.org/mrgid/2147" ,
+            "geoOverlaps" : {
+            "name": "Australia" ,
+            "identifier": "http://www.marineregions.org/mrgid/2147"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-156.4672 -66.27825 165.4 78.438",
                 "@type": "GeoShape"
@@ -84,18 +94,24 @@
             "@type": "Place"
         },
         {
-            "name": "France" , 
-            "identifier": "http://www.marineregions.org/mrgid/17" ,
+            "geoOverlaps" : {
+            "name": "France" ,
+            "identifier": "http://www.marineregions.org/mrgid/17"
+            },
             "@type": "Place"
         },
         {
-            "name": "Italy" , 
-            "identifier": "http://www.marineregions.org/mrgid/2133" ,
+            "geoOverlaps" : {
+            "name": "Italy" ,
+            "identifier": "http://www.marineregions.org/mrgid/2133"
+            },
             "@type": "Place"
         },
         {
-            "name": "Russia" , 
-            "identifier": "http://www.marineregions.org/mrgid/2240" ,
+            "geoOverlaps" : {
+            "name": "Russia" ,
+            "identifier": "http://www.marineregions.org/mrgid/2240"
+            },
             "@type": "Place"
         }
     ],

@@ -52,26 +52,36 @@
     "spatialCoverage":
     [
         {
-            "name": "Belt Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3294" ,
+            "geoOverlaps" : {
+            "name": "Belt Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3294"
+            },
             "@type": "Place"
         },
         {
-            "name": "Danish Exclusive Economic Zone" , 
-            "identifier": "http://www.marineregions.org/mrgid/5674" ,
+            "geoOverlaps" : {
+            "name": "Danish Exclusive Economic Zone" ,
+            "identifier": "http://www.marineregions.org/mrgid/5674"
+            },
             "@type": "Place"
         },
         {
-            "name": "Kattegat" , 
-            "identifier": "http://www.marineregions.org/mrgid/2374" ,
+            "geoOverlaps" : {
+            "name": "Kattegat" ,
+            "identifier": "http://www.marineregions.org/mrgid/2374"
+            },
             "@type": "Place"
         },
         {
-            "name": "North Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2350" ,
+            "geoOverlaps" : {
+            "name": "North Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2350"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "8.22433 54.61752 15.987 57.60783",
                 "@type": "GeoShape"

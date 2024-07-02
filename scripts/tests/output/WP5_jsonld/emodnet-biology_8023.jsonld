@@ -57,11 +57,15 @@
     "spatialCoverage":
     [
         {
-            "name": "English Channel" , 
-            "identifier": "http://www.marineregions.org/mrgid/2389" ,
+            "geoOverlaps" : {
+            "name": "English Channel" ,
+            "identifier": "http://www.marineregions.org/mrgid/2389"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "0.205297 50.91172 1.450826 51.4838",
                 "@type": "GeoShape"

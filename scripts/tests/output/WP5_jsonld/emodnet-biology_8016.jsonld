@@ -58,16 +58,22 @@
     "spatialCoverage":
     [
         {
-            "name": "North Atlantic" , 
-            "identifier": "http://www.marineregions.org/mrgid/1912" ,
+            "geoOverlaps" : {
+            "name": "North Atlantic" ,
+            "identifier": "http://www.marineregions.org/mrgid/1912"
+            },
             "@type": "Place"
         },
         {
-            "name": "Ireland" , 
-            "identifier": "http://www.marineregions.org/mrgid/2114" ,
+            "geoOverlaps" : {
+            "name": "Ireland" ,
+            "identifier": "http://www.marineregions.org/mrgid/2114"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-13.51666 49.7668 -3.356003 57.5",
                 "@type": "GeoShape"

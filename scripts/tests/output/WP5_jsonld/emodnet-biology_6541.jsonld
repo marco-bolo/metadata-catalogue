@@ -69,8 +69,10 @@
     "spatialCoverage":
     [
         {
-            "name": "Eastern Mediterranean" , 
-            "identifier": "http://www.marineregions.org/mrgid/4280" ,
+            "geoOverlaps" : {
+            "name": "Eastern Mediterranean" ,
+            "identifier": "http://www.marineregions.org/mrgid/4280"
+            },
             "@type": "Place"
         }
     ],

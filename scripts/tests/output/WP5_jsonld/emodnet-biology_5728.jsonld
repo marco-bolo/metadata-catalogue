@@ -62,36 +62,50 @@
     "spatialCoverage":
     [
         {
-            "name": "North Atlantic" , 
-            "identifier": "http://www.marineregions.org/mrgid/1912" ,
+            "geoOverlaps" : {
+            "name": "North Atlantic" ,
+            "identifier": "http://www.marineregions.org/mrgid/1912"
+            },
             "@type": "Place"
         },
         {
-            "name": "Denmark Strait" , 
-            "identifier": "http://www.marineregions.org/mrgid/2377" ,
+            "geoOverlaps" : {
+            "name": "Denmark Strait" ,
+            "identifier": "http://www.marineregions.org/mrgid/2377"
+            },
             "@type": "Place"
         },
         {
-            "name": "Greenland Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2356" ,
+            "geoOverlaps" : {
+            "name": "Greenland Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2356"
+            },
             "@type": "Place"
         },
         {
-            "name": "North Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2350" ,
+            "geoOverlaps" : {
+            "name": "North Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2350"
+            },
             "@type": "Place"
         },
         {
-            "name": "Norwegian Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2353" ,
+            "geoOverlaps" : {
+            "name": "Norwegian Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2353"
+            },
             "@type": "Place"
         },
         {
-            "name": "Davis Strait" , 
-            "identifier": "http://www.marineregions.org/mrgid/4250" ,
+            "geoOverlaps" : {
+            "name": "Davis Strait" ,
+            "identifier": "http://www.marineregions.org/mrgid/4250"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-71.47 23.78 69.32 84.05",
                 "@type": "GeoShape"
@@ -99,8 +113,10 @@
             "@type": "Place"
         },
         {
-            "name": "Barents Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/4247" ,
+            "geoOverlaps" : {
+            "name": "Barents Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/4247"
+            },
             "@type": "Place"
         }
     ],

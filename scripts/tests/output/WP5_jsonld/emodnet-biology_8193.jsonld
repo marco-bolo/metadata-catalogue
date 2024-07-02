@@ -82,6 +82,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-8.958 42.142 -3.783 44.333",
                 "@type": "GeoShape"

@@ -81,8 +81,10 @@
     "spatialCoverage":
     [
         {
-            "name": "SOMLIT-Astan" , 
-            "identifier": "http://www.marineregions.org/mrgid/5372" ,
+            "geoOverlaps" : {
+            "name": "SOMLIT-Astan" ,
+            "identifier": "http://www.marineregions.org/mrgid/5372"
+            },
             "geo": {
                 "box" : "-3.983 48.778 -3.983 48.778",
                 "@type": "GeoShape"
@@ -90,6 +92,8 @@
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-3.968333 48.771667 -3.968333 48.771667",
                 "@type": "GeoShape"

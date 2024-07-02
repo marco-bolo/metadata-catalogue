@@ -103,6 +103,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-5.24 35.89 4.52 42.39",
                 "@type": "GeoShape"
@@ -110,8 +112,10 @@
             "@type": "Place"
         },
         {
-            "name": "Spain" , 
-            "identifier": "http://www.marineregions.org/mrgid/2185" ,
+            "geoOverlaps" : {
+            "name": "Spain" ,
+            "identifier": "http://www.marineregions.org/mrgid/2185"
+            },
             "@type": "Place"
         }
     ],

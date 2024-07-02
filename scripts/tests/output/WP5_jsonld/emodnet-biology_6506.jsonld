@@ -60,6 +60,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "7.315667 43.685 7.315667 43.685",
                 "@type": "GeoShape"
@@ -67,8 +69,10 @@
             "@type": "Place"
         },
         {
-            "name": "Villefranche-su" , 
-            "identifier": "http://www.marineregions.org/mrgid/17913" ,
+            "geoOverlaps" : {
+            "name": "Villefranche-su" ,
+            "identifier": "http://www.marineregions.org/mrgid/17913"
+            },
             "geo": {
                 "box" : "7.316 43.685 7.316 43.685",
                 "@type": "GeoShape"

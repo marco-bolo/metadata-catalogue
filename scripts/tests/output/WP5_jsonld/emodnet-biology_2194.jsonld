@@ -64,11 +64,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Morlaix Bay" , 
-            "identifier": "http://www.marineregions.org/mrgid/5216" ,
+            "geoOverlaps" : {
+            "name": "Morlaix Bay" ,
+            "identifier": "http://www.marineregions.org/mrgid/5216"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-3.8805556 48.8027778 -3.8805556 48.8027778",
                 "@type": "GeoShape"

@@ -63,26 +63,36 @@
     "spatialCoverage":
     [
         {
-            "name": "Finland Gulf" , 
-            "identifier": "http://www.marineregions.org/mrgid/2407" ,
+            "geoOverlaps" : {
+            "name": "Finland Gulf" ,
+            "identifier": "http://www.marineregions.org/mrgid/2407"
+            },
             "@type": "Place"
         },
         {
-            "name": "Riga Gulf" , 
-            "identifier": "http://www.marineregions.org/mrgid/2409" ,
+            "geoOverlaps" : {
+            "name": "Riga Gulf" ,
+            "identifier": "http://www.marineregions.org/mrgid/2409"
+            },
             "@type": "Place"
         },
         {
-            "name": "Hiiurnaa" , 
-            "identifier": "http://www.marineregions.org/mrgid/2444" ,
+            "geoOverlaps" : {
+            "name": "Hiiurnaa" ,
+            "identifier": "http://www.marineregions.org/mrgid/2444"
+            },
             "@type": "Place"
         },
         {
-            "name": "Estonia" , 
-            "identifier": "http://www.marineregions.org/mrgid/2110" ,
+            "geoOverlaps" : {
+            "name": "Estonia" ,
+            "identifier": "http://www.marineregions.org/mrgid/2110"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "19.2023 57.616667 28.008333 59.916667",
                 "@type": "GeoShape"

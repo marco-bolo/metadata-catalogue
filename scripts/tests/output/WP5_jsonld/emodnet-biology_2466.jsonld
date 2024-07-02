@@ -68,11 +68,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Southern Baltic" , 
-            "identifier": "http://www.marineregions.org/mrgid/2449" ,
+            "geoOverlaps" : {
+            "name": "Southern Baltic" ,
+            "identifier": "http://www.marineregions.org/mrgid/2449"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "14.25 53.67333 19.585 55.555",
                 "@type": "GeoShape"

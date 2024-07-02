@@ -79,21 +79,29 @@
     "spatialCoverage":
     [
         {
-            "name": "Labrador Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/4291" ,
+            "geoOverlaps" : {
+            "name": "Labrador Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/4291"
+            },
             "@type": "Place"
         },
         {
-            "name": "Barents Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/8526" ,
+            "geoOverlaps" : {
+            "name": "Barents Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/8526"
+            },
             "@type": "Place"
         },
         {
-            "name": "EMODnet-Biology reporting area: Artic" , 
-            "identifier": "http://www.marineregions.org/mrgid/63394" ,
+            "geoOverlaps" : {
+            "name": "EMODnet-Biology reporting area: Artic" ,
+            "identifier": "http://www.marineregions.org/mrgid/63394"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-164.7166667 -71.31666667 147.375 81.72166667",
                 "@type": "GeoShape"
@@ -101,13 +109,17 @@
             "@type": "Place"
         },
         {
-            "name": "Greenland Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/8531" ,
+            "geoOverlaps" : {
+            "name": "Greenland Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/8531"
+            },
             "@type": "Place"
         },
         {
-            "name": "Kara Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/21828" ,
+            "geoOverlaps" : {
+            "name": "Kara Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/21828"
+            },
             "@type": "Place"
         }
     ],

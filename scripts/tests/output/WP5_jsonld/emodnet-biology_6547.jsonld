@@ -102,6 +102,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "19.9 22.41 38.231 39.743",
                 "@type": "GeoShape"
@@ -109,8 +111,10 @@
             "@type": "Place"
         },
         {
-            "name": "Ionian Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3351" ,
+            "geoOverlaps" : {
+            "name": "Ionian Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3351"
+            },
             "@type": "Place"
         }
     ],

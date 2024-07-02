@@ -67,40 +67,56 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
             "name": "USA" ,
+            },
             "@type": "Place"
         },
         {
-            "name": "Belgium" , 
-            "identifier": "http://www.marineregions.org/mrgid/3293" ,
+            "geoOverlaps" : {
+            "name": "Belgium" ,
+            "identifier": "http://www.marineregions.org/mrgid/3293"
+            },
             "@type": "Place"
         },
         {
-            "name": "France" , 
-            "identifier": "http://www.marineregions.org/mrgid/8762" ,
+            "geoOverlaps" : {
+            "name": "France" ,
+            "identifier": "http://www.marineregions.org/mrgid/8762"
+            },
             "@type": "Place"
         },
         {
-            "name": "Netherlands" , 
-            "identifier": "http://www.marineregions.org/mrgid/15" ,
+            "geoOverlaps" : {
+            "name": "Netherlands" ,
+            "identifier": "http://www.marineregions.org/mrgid/15"
+            },
             "@type": "Place"
         },
         {
-            "name": "Norway" , 
-            "identifier": "http://www.marineregions.org/mrgid/5686" ,
+            "geoOverlaps" : {
+            "name": "Norway" ,
+            "identifier": "http://www.marineregions.org/mrgid/5686"
+            },
             "@type": "Place"
         },
         {
-            "name": "Russia" , 
-            "identifier": "http://www.marineregions.org/mrgid/2240" ,
+            "geoOverlaps" : {
+            "name": "Russia" ,
+            "identifier": "http://www.marineregions.org/mrgid/2240"
+            },
             "@type": "Place"
         },
         {
-            "name": "Chile" , 
-            "identifier": "http://www.marineregions.org/mrgid/2165" ,
+            "geoOverlaps" : {
+            "name": "Chile" ,
+            "identifier": "http://www.marineregions.org/mrgid/2165"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-98.5 -71.4 153.45703125 73.400014",
                 "@type": "GeoShape"
@@ -108,13 +124,17 @@
             "@type": "Place"
         },
         {
-            "name": "Italy" , 
-            "identifier": "http://www.marineregions.org/mrgid/2133" ,
+            "geoOverlaps" : {
+            "name": "Italy" ,
+            "identifier": "http://www.marineregions.org/mrgid/2133"
+            },
             "@type": "Place"
         },
         {
-            "name": "Papua New Guinea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2237" ,
+            "geoOverlaps" : {
+            "name": "Papua New Guinea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2237"
+            },
             "@type": "Place"
         }
     ],

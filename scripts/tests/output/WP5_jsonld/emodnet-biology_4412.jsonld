@@ -119,27 +119,39 @@ Usage acknowledgement may be required",
     "spatialCoverage":
     [
         {
-            "name": "Biscay Bay" , 
-            "identifier": "http://www.marineregions.org/mrgid/2359" ,
+            "geoOverlaps" : {
+            "name": "Biscay Bay" ,
+            "identifier": "http://www.marineregions.org/mrgid/2359"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
             "name": "Celtic Sea" ,
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
             "name": "English Channel" ,
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
             "name": "Mediterranean Sea" ,
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
             "name": "North Sea" ,
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-61.01926 14.4064 9.5834 51.02333",
                 "@type": "GeoShape"

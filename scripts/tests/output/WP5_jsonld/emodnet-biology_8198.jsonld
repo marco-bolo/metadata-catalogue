@@ -70,6 +70,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "28.6011 43.7344 30.8014 45.1439",
                 "@type": "GeoShape"
@@ -77,8 +79,10 @@
             "@type": "Place"
         },
         {
-            "name": "Black Sea Plate" , 
-            "identifier": "http://www.marineregions.org/mrgid/3319" ,
+            "geoOverlaps" : {
+            "name": "Black Sea Plate" ,
+            "identifier": "http://www.marineregions.org/mrgid/3319"
+            },
             "geo": {
                 "box" : "28.455 43.676 32.542 45.445",
                 "@type": "GeoShape"

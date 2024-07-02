@@ -67,11 +67,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Norway" , 
-            "identifier": "http://www.marineregions.org/mrgid/5686" ,
+            "geoOverlaps" : {
+            "name": "Norway" ,
+            "identifier": "http://www.marineregions.org/mrgid/5686"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "3.05 62.302833333333 36.621351666667 80.239123733333",
                 "@type": "GeoShape"
@@ -79,8 +83,10 @@
             "@type": "Place"
         },
         {
-            "name": "Barents Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/4247" ,
+            "geoOverlaps" : {
+            "name": "Barents Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/4247"
+            },
             "@type": "Place"
         }
     ],

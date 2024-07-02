@@ -58,21 +58,29 @@
     "spatialCoverage":
     [
         {
-            "name": "North Atlantic" , 
-            "identifier": "http://www.marineregions.org/mrgid/1912" ,
+            "geoOverlaps" : {
+            "name": "North Atlantic" ,
+            "identifier": "http://www.marineregions.org/mrgid/1912"
+            },
             "@type": "Place"
         },
         {
-            "name": "English Channel" , 
-            "identifier": "http://www.marineregions.org/mrgid/2389" ,
+            "geoOverlaps" : {
+            "name": "English Channel" ,
+            "identifier": "http://www.marineregions.org/mrgid/2389"
+            },
             "@type": "Place"
         },
         {
-            "name": "North Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2350" ,
+            "geoOverlaps" : {
+            "name": "North Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2350"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-13.68753 48.28101 7.430954 60.93604",
                 "@type": "GeoShape"

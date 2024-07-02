@@ -70,21 +70,29 @@
     "spatialCoverage":
     [
         {
-            "name": "ANE" , 
-            "identifier": "http://www.marineregions.org/mrgid/5664" ,
+            "geoOverlaps" : {
+            "name": "ANE" ,
+            "identifier": "http://www.marineregions.org/mrgid/5664"
+            },
             "@type": "Place"
         },
         {
-            "name": "North Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2350" ,
+            "geoOverlaps" : {
+            "name": "North Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2350"
+            },
             "@type": "Place"
         },
         {
-            "name": "United Kingdom Exclusive Economic Zone" , 
-            "identifier": "http://www.marineregions.org/mrgid/5696" ,
+            "geoOverlaps" : {
+            "name": "United Kingdom Exclusive Economic Zone" ,
+            "identifier": "http://www.marineregions.org/mrgid/5696"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-19.966666666667 -6.3666667 10.3166667 65.93333",
                 "@type": "GeoShape"

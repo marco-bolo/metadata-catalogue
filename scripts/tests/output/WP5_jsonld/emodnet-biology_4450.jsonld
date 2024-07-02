@@ -68,11 +68,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Belgian Continental Shelf (BCS)" , 
-            "identifier": "http://www.marineregions.org/mrgid/3293" ,
+            "geoOverlaps" : {
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "identifier": "http://www.marineregions.org/mrgid/3293"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "2.3335 51.1815 3.2615 51.8665",
                 "@type": "GeoShape"

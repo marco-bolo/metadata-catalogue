@@ -49,6 +49,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "12.267194 42.644556 14.871194 45.500556",
                 "@type": "GeoShape"
@@ -56,8 +58,10 @@
             "@type": "Place"
         },
         {
-            "name": "North" , 
-            "identifier": "http://www.marineregions.org/mrgid/7127" ,
+            "geoOverlaps" : {
+            "name": "North" ,
+            "identifier": "http://www.marineregions.org/mrgid/7127"
+            },
             "@type": "Place"
         }
     ],

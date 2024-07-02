@@ -56,11 +56,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Dutch Coast" , 
-            "identifier": "http://www.marineregions.org/mrgid/25232" ,
+            "geoOverlaps" : {
+            "name": "Dutch Coast" ,
+            "identifier": "http://www.marineregions.org/mrgid/25232"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "3.1625 51.38333333 6.54166667 53.7",
                 "@type": "GeoShape"

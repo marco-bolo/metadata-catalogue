@@ -36,6 +36,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-5.36806 36.11911 -5.33879 36.15258",
                 "@type": "GeoShape"
@@ -43,8 +45,10 @@
             "@type": "Place"
         },
         {
-            "name": "Gibraltar Strait" , 
-            "identifier": "http://www.marineregions.org/mrgid/3346" ,
+            "geoOverlaps" : {
+            "name": "Gibraltar Strait" ,
+            "identifier": "http://www.marineregions.org/mrgid/3346"
+            },
             "@type": "Place"
         }
     ],

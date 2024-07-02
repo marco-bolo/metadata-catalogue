@@ -77,8 +77,10 @@
     "spatialCoverage":
     [
         {
-            "name": "Riviere de Morlaix" , 
-            "identifier": "http://www.marineregions.org/mrgid/5373" ,
+            "geoOverlaps" : {
+            "name": "Riviere de Morlaix" ,
+            "identifier": "http://www.marineregions.org/mrgid/5373"
+            },
             "geo": {
                 "box" : "-3.868 48.654 -3.868 48.654",
                 "@type": "GeoShape"
@@ -86,6 +88,8 @@
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-3.84333333 48.59444444 -3.84333333 48.59444444",
                 "@type": "GeoShape"

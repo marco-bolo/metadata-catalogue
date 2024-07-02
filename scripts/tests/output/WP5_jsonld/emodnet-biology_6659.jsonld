@@ -61,6 +61,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "16.375667 43.526667 16.375667 43.526667",
                 "@type": "GeoShape"
@@ -68,8 +70,10 @@
             "@type": "Place"
         },
         {
-            "name": "Kastela Bay" , 
-            "identifier": "http://www.marineregions.org/mrgid/3637" ,
+            "geoOverlaps" : {
+            "name": "Kastela Bay" ,
+            "identifier": "http://www.marineregions.org/mrgid/3637"
+            },
             "@type": "Place"
         }
     ],

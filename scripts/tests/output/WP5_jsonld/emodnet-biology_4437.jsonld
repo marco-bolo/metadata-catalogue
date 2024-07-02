@@ -61,11 +61,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Norwegian Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2353" ,
+            "geoOverlaps" : {
+            "name": "Norwegian Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2353"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-11.992 61.5005 17 82.1067",
                 "@type": "GeoShape"

@@ -52,26 +52,36 @@
     "spatialCoverage":
     [
         {
-            "name": "Belt Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3294" ,
+            "geoOverlaps" : {
+            "name": "Belt Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3294"
+            },
             "@type": "Place"
         },
         {
-            "name": "Danish Exclusive Economic Zone" , 
-            "identifier": "http://www.marineregions.org/mrgid/5674" ,
+            "geoOverlaps" : {
+            "name": "Danish Exclusive Economic Zone" ,
+            "identifier": "http://www.marineregions.org/mrgid/5674"
+            },
             "@type": "Place"
         },
         {
-            "name": "North Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2350" ,
+            "geoOverlaps" : {
+            "name": "North Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2350"
+            },
             "@type": "Place"
         },
         {
-            "name": "Western Baltic" , 
-            "identifier": "http://www.marineregions.org/mrgid/2401" ,
+            "geoOverlaps" : {
+            "name": "Western Baltic" ,
+            "identifier": "http://www.marineregions.org/mrgid/2401"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "8.22333 54.82333 15.98417 56.95483",
                 "@type": "GeoShape"

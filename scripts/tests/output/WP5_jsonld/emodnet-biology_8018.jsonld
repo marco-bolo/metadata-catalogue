@@ -58,11 +58,15 @@
     "spatialCoverage":
     [
         {
-            "name": "British Isles" , 
-            "identifier": "http://www.marineregions.org/mrgid/3140" ,
+            "geoOverlaps" : {
+            "name": "British Isles" ,
+            "identifier": "http://www.marineregions.org/mrgid/3140"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-10.60463 48.8642 1.957568 60.86148",
                 "@type": "GeoShape"

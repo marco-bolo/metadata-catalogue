@@ -68,16 +68,22 @@
     "spatialCoverage":
     [
         {
-            "name": "France" , 
-            "identifier": "http://www.marineregions.org/mrgid/8762" ,
+            "geoOverlaps" : {
+            "name": "France" ,
+            "identifier": "http://www.marineregions.org/mrgid/8762"
+            },
             "@type": "Place"
         },
         {
-            "name": "United Kingdom Exclusive Economic Zone" , 
-            "identifier": "http://www.marineregions.org/mrgid/5696" ,
+            "geoOverlaps" : {
+            "name": "United Kingdom Exclusive Economic Zone" ,
+            "identifier": "http://www.marineregions.org/mrgid/5696"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-16.866666666667 32.735413 15.071944 68.911606",
                 "@type": "GeoShape"

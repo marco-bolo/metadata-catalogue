@@ -34,6 +34,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-4.384 43.397 -3.21 43.519",
                 "@type": "GeoShape"
@@ -41,10 +43,14 @@
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
             "name": "Cantabrian Sea" ,
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-4.49090840734 43.3671976862 -3.17021745171 43.5188647127",
                 "@type": "GeoShape"

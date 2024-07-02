@@ -57,11 +57,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Scotland" , 
-            "identifier": "http://www.marineregions.org/mrgid/3252" ,
+            "geoOverlaps" : {
+            "name": "Scotland" ,
+            "identifier": "http://www.marineregions.org/mrgid/3252"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-8.639698 54.63801 3.149248 60.78018",
                 "@type": "GeoShape"

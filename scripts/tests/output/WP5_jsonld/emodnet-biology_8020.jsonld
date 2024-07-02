@@ -58,11 +58,15 @@
     "spatialCoverage":
     [
         {
-            "name": "England" , 
-            "identifier": "http://www.marineregions.org/mrgid/16" ,
+            "geoOverlaps" : {
+            "name": "England" ,
+            "identifier": "http://www.marineregions.org/mrgid/16"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-7.557258 49.7668 2.253046 55.91487",
                 "@type": "GeoShape"

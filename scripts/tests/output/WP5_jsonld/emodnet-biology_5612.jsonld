@@ -73,6 +73,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "15.11 43.05 16.48 43.58",
                 "@type": "GeoShape"
@@ -80,8 +82,10 @@
             "@type": "Place"
         },
         {
-            "name": "Central Adriatic Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/14920" ,
+            "geoOverlaps" : {
+            "name": "Central Adriatic Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/14920"
+            },
             "@type": "Place"
         }
     ],

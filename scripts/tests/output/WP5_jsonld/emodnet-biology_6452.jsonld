@@ -42,10 +42,14 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
             "name": "Irish Exclusive Economic Zone" ,
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-10.56889 51.47306 -6.02972 55.28389",
                 "@type": "GeoShape"

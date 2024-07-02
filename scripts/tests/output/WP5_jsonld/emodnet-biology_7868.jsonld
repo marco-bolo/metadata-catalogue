@@ -92,11 +92,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Iceland Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2352" ,
+            "geoOverlaps" : {
+            "name": "Iceland Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2352"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-32.863432936694 57.617580007103 0.025159655178369 69.249500284664",
                 "@type": "GeoShape"

@@ -71,11 +71,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Gulf of Bothnia" , 
-            "identifier": "http://www.marineregions.org/mrgid/2402" ,
+            "geoOverlaps" : {
+            "name": "Gulf of Bothnia" ,
+            "identifier": "http://www.marineregions.org/mrgid/2402"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "20.75545 63.11724 25.19544 65.775",
                 "@type": "GeoShape"

@@ -58,13 +58,17 @@
     "spatialCoverage":
     [
         {
-            "name": "Brest Bay" , 
-            "identifier": "http://www.marineregions.org/mrgid/5208" ,
+            "geoOverlaps" : {
+            "name": "Brest Bay" ,
+            "identifier": "http://www.marineregions.org/mrgid/5208"
+            },
             "@type": "Place"
         },
         {
-            "name": "French Coast" , 
-            "identifier": "http://www.marineregions.org/mrgid/14305" ,
+            "geoOverlaps" : {
+            "name": "French Coast" ,
+            "identifier": "http://www.marineregions.org/mrgid/14305"
+            },
             "geo": {
                 "box" : "-5.694 48.167 -4.417 48.556",
                 "@type": "GeoShape"
@@ -72,6 +76,8 @@
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-5.694444 48.166667 -4.416667 48.555556",
                 "@type": "GeoShape"

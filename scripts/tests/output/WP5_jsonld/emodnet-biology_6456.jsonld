@@ -62,6 +62,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "0.597816696 40.60760002 0.764788315 40.81059303",
                 "@type": "GeoShape"
@@ -69,8 +71,10 @@
             "@type": "Place"
         },
         {
-            "name": "Ebro Delta" , 
-            "identifier": "http://www.marineregions.org/mrgid/3414" ,
+            "geoOverlaps" : {
+            "name": "Ebro Delta" ,
+            "identifier": "http://www.marineregions.org/mrgid/3414"
+            },
             "@type": "Place"
         }
     ],

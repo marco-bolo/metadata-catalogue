@@ -68,10 +68,14 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
             "name": "Mediterranean Sea" ,
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "2.99004 41.3894 9.5834 43.7558",
                 "@type": "GeoShape"
@@ -79,8 +83,10 @@
             "@type": "Place"
         },
         {
-            "name": "Corsica" , 
-            "identifier": "http://www.marineregions.org/mrgid/3779" ,
+            "geoOverlaps" : {
+            "name": "Corsica" ,
+            "identifier": "http://www.marineregions.org/mrgid/3779"
+            },
             "@type": "Place"
         }
     ],

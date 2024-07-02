@@ -47,11 +47,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Eastern North Atlantic" , 
-            "identifier": "http://www.marineregions.org/mrgid/18039" ,
+            "geoOverlaps" : {
+            "name": "Eastern North Atlantic" ,
+            "identifier": "http://www.marineregions.org/mrgid/18039"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-33.31958 28.06894 32.73124 66.00828",
                 "@type": "GeoShape"

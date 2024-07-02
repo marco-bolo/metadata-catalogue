@@ -54,6 +54,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "28.68333 43.81667 31.76567 45.15",
                 "@type": "GeoShape"
@@ -61,8 +63,10 @@
             "@type": "Place"
         },
         {
-            "name": "Romanian part of the Black Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/25203" ,
+            "geoOverlaps" : {
+            "name": "Romanian part of the Black Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/25203"
+            },
             "@type": "Place"
         }
     ],

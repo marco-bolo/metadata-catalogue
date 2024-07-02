@@ -52,11 +52,15 @@
     "spatialCoverage":
     [
         {
-            "name": "Dutch Continental Shelf" , 
-            "identifier": "http://www.marineregions.org/mrgid/5668" ,
+            "geoOverlaps" : {
+            "name": "Dutch Continental Shelf" ,
+            "identifier": "http://www.marineregions.org/mrgid/5668"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "2.679167 51.35118367 7.157357971 55.172222",
                 "@type": "GeoShape"

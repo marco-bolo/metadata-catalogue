@@ -53,6 +53,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "29.1667 43.74833333 31.165 46.41817",
                 "@type": "GeoShape"
@@ -60,8 +62,10 @@
             "@type": "Place"
         },
         {
-            "name": "Romania" , 
-            "identifier": "http://www.marineregions.org/mrgid/5689" ,
+            "geoOverlaps" : {
+            "name": "Romania" ,
+            "identifier": "http://www.marineregions.org/mrgid/5689"
+            },
             "@type": "Place"
         }
     ],

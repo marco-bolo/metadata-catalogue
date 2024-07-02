@@ -96,6 +96,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-1.15455 35.40266 25.362 45.7636",
                 "@type": "GeoShape"
@@ -103,8 +105,10 @@
             "@type": "Place"
         },
         {
-            "name": "Mediterranean Region" , 
-            "identifier": "http://www.marineregions.org/mrgid/4278" ,
+            "geoOverlaps" : {
+            "name": "Mediterranean Region" ,
+            "identifier": "http://www.marineregions.org/mrgid/4278"
+            },
             "@type": "Place"
         }
     ],

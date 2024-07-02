@@ -58,16 +58,22 @@
     "spatialCoverage":
     [
         {
-            "name": "Celtic Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2351" ,
+            "geoOverlaps" : {
+            "name": "Celtic Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2351"
+            },
             "@type": "Place"
         },
         {
-            "name": "Irish Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/2357" ,
+            "geoOverlaps" : {
+            "name": "Irish Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2357"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-6.574995 51.253 -2.565068 53.67352",
                 "@type": "GeoShape"

@@ -53,6 +53,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "7.580715 35.494938 18.519819 45.930454",
                 "@type": "GeoShape"
@@ -60,23 +62,31 @@
             "@type": "Place"
         },
         {
-            "name": "Adriatic Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3314" ,
+            "geoOverlaps" : {
+            "name": "Adriatic Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3314"
+            },
             "@type": "Place"
         },
         {
-            "name": "Ionian Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3351" ,
+            "geoOverlaps" : {
+            "name": "Ionian Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3351"
+            },
             "@type": "Place"
         },
         {
-            "name": "Ligurian Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3363" ,
+            "geoOverlaps" : {
+            "name": "Ligurian Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3363"
+            },
             "@type": "Place"
         },
         {
-            "name": "Tyrrhenian Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3386" ,
+            "geoOverlaps" : {
+            "name": "Tyrrhenian Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3386"
+            },
             "@type": "Place"
         }
     ],

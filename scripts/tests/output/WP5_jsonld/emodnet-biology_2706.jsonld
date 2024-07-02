@@ -50,6 +50,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "30.2 41.53 41.75 46.58",
                 "@type": "GeoShape"
@@ -57,18 +59,24 @@
             "@type": "Place"
         },
         {
-            "name": "Azov Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3320" ,
+            "geoOverlaps" : {
+            "name": "Azov Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3320"
+            },
             "@type": "Place"
         },
         {
-            "name": "Black Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3319" ,
+            "geoOverlaps" : {
+            "name": "Black Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3319"
+            },
             "@type": "Place"
         },
         {
-            "name": "Kerch Strait" , 
-            "identifier": "http://www.marineregions.org/mrgid/3737" ,
+            "geoOverlaps" : {
+            "name": "Kerch Strait" ,
+            "identifier": "http://www.marineregions.org/mrgid/3737"
+            },
             "@type": "Place"
         }
     ],

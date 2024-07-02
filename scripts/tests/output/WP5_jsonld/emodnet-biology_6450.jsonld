@@ -69,11 +69,15 @@
     "spatialCoverage":
     [
         {
-            "name": "English Coast" , 
-            "identifier": "http://www.marineregions.org/mrgid/5487" ,
+            "geoOverlaps" : {
+            "name": "English Coast" ,
+            "identifier": "http://www.marineregions.org/mrgid/5487"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-3.469 50.61 1.831 55.381",
                 "@type": "GeoShape"

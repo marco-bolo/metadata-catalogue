@@ -49,6 +49,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "13.71 45.7008 13.71 45.7008",
                 "@type": "GeoShape"
@@ -56,8 +58,10 @@
             "@type": "Place"
         },
         {
-            "name": "Adriatic Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3314" ,
+            "geoOverlaps" : {
+            "name": "Adriatic Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3314"
+            },
             "@type": "Place"
         }
     ],

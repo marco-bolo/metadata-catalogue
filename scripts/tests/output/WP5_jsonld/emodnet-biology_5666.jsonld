@@ -79,11 +79,15 @@
     "spatialCoverage":
     [
         {
-            "name": "United Kingdom Exclusive Economic Zone" , 
-            "identifier": "http://www.marineregions.org/mrgid/5696" ,
+            "geoOverlaps" : {
+            "name": "United Kingdom Exclusive Economic Zone" ,
+            "identifier": "http://www.marineregions.org/mrgid/5696"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-7.35569 49.979488 2.1110916 60.465342",
                 "@type": "GeoShape"

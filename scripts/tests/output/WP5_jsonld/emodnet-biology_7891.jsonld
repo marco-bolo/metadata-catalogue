@@ -64,6 +64,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "13.7083333 45.6976666 13.7083333 45.6976666",
                 "@type": "GeoShape"
@@ -71,8 +73,10 @@
             "@type": "Place"
         },
         {
-            "name": "Northern Adriatic Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/7127" ,
+            "geoOverlaps" : {
+            "name": "Northern Adriatic Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/7127"
+            },
             "geo": {
                 "box" : "13.708 45.698 13.708 45.698",
                 "@type": "GeoShape"

@@ -87,31 +87,43 @@
     "spatialCoverage":
     [
         {
-            "name": "Faeroe I." , 
-            "identifier": "http://www.marineregions.org/mrgid/2467" ,
+            "geoOverlaps" : {
+            "name": "Faeroe I." ,
+            "identifier": "http://www.marineregions.org/mrgid/2467"
+            },
             "@type": "Place"
         },
         {
-            "name": "Greenland" , 
-            "identifier": "http://www.marineregions.org/mrgid/2260" ,
+            "geoOverlaps" : {
+            "name": "Greenland" ,
+            "identifier": "http://www.marineregions.org/mrgid/2260"
+            },
             "@type": "Place"
         },
         {
-            "name": "Iceland" , 
-            "identifier": "http://www.marineregions.org/mrgid/2129" ,
+            "geoOverlaps" : {
+            "name": "Iceland" ,
+            "identifier": "http://www.marineregions.org/mrgid/2129"
+            },
             "@type": "Place"
         },
         {
-            "name": "Norway" , 
-            "identifier": "http://www.marineregions.org/mrgid/5686" ,
+            "geoOverlaps" : {
+            "name": "Norway" ,
+            "identifier": "http://www.marineregions.org/mrgid/5686"
+            },
             "@type": "Place"
         },
         {
-            "name": "Svalbard" , 
-            "identifier": "http://www.marineregions.org/mrgid/5642" ,
+            "geoOverlaps" : {
+            "name": "Svalbard" ,
+            "identifier": "http://www.marineregions.org/mrgid/5642"
+            },
             "@type": "Place"
         },
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "-29.91266721 60.0360804 -7.917333024 69.24950028",
                 "@type": "GeoShape"

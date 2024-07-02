@@ -65,6 +65,8 @@
     "spatialCoverage":
     [
         {
+            "geoOverlaps" : {
+            },
             "geo": {
                 "box" : "30.19 45.24 30.21 45.26",
                 "@type": "GeoShape"
@@ -72,13 +74,17 @@
             "@type": "Place"
         },
         {
-            "name": "Black Sea" , 
-            "identifier": "http://www.marineregions.org/mrgid/3319" ,
+            "geoOverlaps" : {
+            "name": "Black Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3319"
+            },
             "@type": "Place"
         },
         {
-            "name": "Danube Delta" , 
-            "identifier": "http://www.marineregions.org/mrgid/3735" ,
+            "geoOverlaps" : {
+            "name": "Danube Delta" ,
+            "identifier": "http://www.marineregions.org/mrgid/3735"
+            },
             "@type": "Place"
         }
     ],
