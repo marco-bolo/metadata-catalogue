@@ -92,14 +92,16 @@ The length class can be full length, carapax width or the distance between the t
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Belgian Continental Shelf (BCS)" , 
+            "identifier": "http://www.marineregions.org/mrgid/3293" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 2.6666 51.418 , 2.996 51.418 , 2.996 51.6795 , 2.6666 51.6795 , 2.6666 51.418 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "2.6666 51.418 2.996 51.6795",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

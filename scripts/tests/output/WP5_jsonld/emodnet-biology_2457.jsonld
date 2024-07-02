@@ -77,19 +77,21 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Baltic" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2401" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Baltic" , 
+            "identifier": "http://www.marineregions.org/mrgid/2401" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Skagerrak" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2379" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Skagerrak" , 
+            "identifier": "http://www.marineregions.org/mrgid/2379" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 10.82675 55.36583 , 24.3333 55.36583 , 24.3333 65.7267 , 10.82675 65.7267 , 10.82675 55.36583 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "10.82675 55.36583 24.3333 65.7267",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

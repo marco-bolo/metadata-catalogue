@@ -58,14 +58,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "United Kingdom Exclusive Economic Zone" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5696" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "United Kingdom Exclusive Economic Zone" , 
+            "identifier": "http://www.marineregions.org/mrgid/5696" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -5.35 51.6104 , -2.8894844 51.6104 , -2.8894844 53.811212 , -5.35 53.811212 , -5.35 51.6104 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-5.35 51.6104 -2.8894844 53.811212",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

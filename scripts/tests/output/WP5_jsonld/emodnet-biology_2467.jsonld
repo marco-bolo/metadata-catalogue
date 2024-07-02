@@ -81,14 +81,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Southern Baltic" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2449" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Southern Baltic" , 
+            "identifier": "http://www.marineregions.org/mrgid/2449" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 14.25 54.06667 , 19.70667 54.06667 , 19.70667 55.555 , 14.25 55.555 , 14.25 54.06667 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "14.25 54.06667 19.70667 55.555",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

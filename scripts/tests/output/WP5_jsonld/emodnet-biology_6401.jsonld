@@ -87,34 +87,36 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Faeroe I." , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2467" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Faeroe I." , 
+            "identifier": "http://www.marineregions.org/mrgid/2467" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Greenland" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2260" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Greenland" , 
+            "identifier": "http://www.marineregions.org/mrgid/2260" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Iceland" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2129" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Iceland" , 
+            "identifier": "http://www.marineregions.org/mrgid/2129" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Norway" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5686" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Norway" , 
+            "identifier": "http://www.marineregions.org/mrgid/5686" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Svalbard" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5642" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Svalbard" , 
+            "identifier": "http://www.marineregions.org/mrgid/5642" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -29.91266721 60.0360804 , -7.917333024 60.0360804 , -7.917333024 69.24950028 , -29.91266721 69.24950028 , -29.91266721 60.0360804 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-29.91266721 60.0360804 -7.917333024 69.24950028",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

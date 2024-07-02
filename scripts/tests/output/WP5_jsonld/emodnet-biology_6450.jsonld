@@ -69,14 +69,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "English Coast" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5487" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "English Coast" , 
+            "identifier": "http://www.marineregions.org/mrgid/5487" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.469 50.61 , 1.831 50.61 , 1.831 55.381 , -3.469 55.381 , -3.469 50.61 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-3.469 50.61 1.831 55.381",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

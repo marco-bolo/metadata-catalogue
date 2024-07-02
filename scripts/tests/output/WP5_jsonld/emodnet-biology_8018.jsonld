@@ -58,14 +58,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "British Isles" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3140" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "British Isles" , 
+            "identifier": "http://www.marineregions.org/mrgid/3140" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -10.60463 48.8642 , 1.957568 48.8642 , 1.957568 60.86148 , -10.60463 60.86148 , -10.60463 48.8642 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-10.60463 48.8642 1.957568 60.86148",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

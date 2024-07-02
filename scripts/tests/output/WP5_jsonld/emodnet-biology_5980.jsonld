@@ -59,14 +59,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Belgian Continental Shelf (BCS)" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Belgian Continental Shelf (BCS)" , 
+            "identifier": "http://www.marineregions.org/mrgid/3293" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 2.45 50.75 , 4.5 50.75 , 4.5 55.2 , 2.45 55.2 , 2.45 50.75 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "2.45 50.75 4.5 55.2",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

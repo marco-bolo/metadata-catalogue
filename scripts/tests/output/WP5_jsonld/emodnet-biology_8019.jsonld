@@ -57,14 +57,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Scotland" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3252" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Scotland" , 
+            "identifier": "http://www.marineregions.org/mrgid/3252" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -8.639698 54.63801 , 3.149248 54.63801 , 3.149248 60.78018 , -8.639698 60.78018 , -8.639698 54.63801 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-8.639698 54.63801 3.149248 60.78018",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

@@ -46,17 +46,22 @@
     "spatialCoverage":
     [
         {
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -4.384 43.397 , -3.21 43.397 , -3.21 43.519 , -4.384 43.519 , -4.384 43.397 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-4.384 43.397 -3.21 43.519",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Cantabrian Sea" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Cantabrian Sea" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -4.38383128124 43.3966570222 , -3.20996256368 43.3966570222 , -3.20996256368 43.5188647127 , -4.38383128124 43.5188647127 , -4.38383128124 43.3966570222 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-4.38383128124 43.3966570222 -3.20996256368 43.5188647127",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

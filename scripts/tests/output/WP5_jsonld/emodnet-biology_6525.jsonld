@@ -46,19 +46,21 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 13.318686 36.669103359961 , 15.710614165581 36.669103359961 , 15.710614165581 38.294681 , 13.318686 38.294681 , 13.318686 36.669103359961 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "13.318686 36.669103359961 15.710614165581 38.294681",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Ionian Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3351" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Ionian Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3351" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Tyrrhenian Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3386" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Tyrrhenian Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3386" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

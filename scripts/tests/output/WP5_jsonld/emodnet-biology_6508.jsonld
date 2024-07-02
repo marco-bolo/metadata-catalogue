@@ -62,15 +62,20 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 7.85 43.366667 , 7.9 43.366667 , 7.9 43.416667 , 7.85 43.416667 , 7.85 43.366667 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "7.85 43.366667 7.9 43.416667",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Ligurian Sea" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 7.85 43.367 , 7.9 43.367 , 7.9 43.417 , 7.85 43.417 , 7.85 43.367 ))" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3363" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Ligurian Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3363" ,
+            "geo": {
+                "box" : "7.85 43.367 7.9 43.417",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

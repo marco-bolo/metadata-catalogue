@@ -67,19 +67,21 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Norway" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5686" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Norway" , 
+            "identifier": "http://www.marineregions.org/mrgid/5686" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 3.05 62.302833333333 , 36.621351666667 62.302833333333 , 36.621351666667 80.239123733333 , 3.05 80.239123733333 , 3.05 62.302833333333 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "3.05 62.302833333333 36.621351666667 80.239123733333",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Barents Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4247" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Barents Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/4247" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

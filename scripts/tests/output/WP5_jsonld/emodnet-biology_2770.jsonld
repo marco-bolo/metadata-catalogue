@@ -61,15 +61,20 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 29.58 41.68 , 41.77 41.68 , 41.77 46.61 , 29.58 46.61 , 29.58 41.68 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "29.58 41.68 41.77 46.61",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Black Sea" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 29.58667 41.685 , 41.77167 41.685 , 41.77167 46.61666 , 29.58667 46.61666 , 29.58667 41.685 ))" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3319" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Black Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3319" ,
+            "geo": {
+                "box" : "29.58667 41.685 41.77167 46.61666",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

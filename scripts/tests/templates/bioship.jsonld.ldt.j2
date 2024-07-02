@@ -172,16 +172,19 @@
     [
         {%- for geot in _.geographical %}
         {
-            {%- if geot.OrigGeoTerm %}
-            "http://purl.org/dc/terms/type": "{{geot.OrigGeoTerm}}" , 
-            {%- endif %}
-            {%- if geot.X and geot.Y and geot.MaxX and geot.MaxY %}
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( {{geot.X}} {{geot.Y}} , {{geot.MaxX}} {{geot.Y}} , {{geot.MaxX}} {{geot.MaxY}} , {{geot.X}} {{geot.MaxY}} , {{geot.X}} {{geot.Y}} ))" , 
+            {%- if geot.OrigGeoTerm and geot.OrigGeoTerm != "EurOBIS calculated BBOX" %}
+            "name": "{{geot.OrigGeoTerm}}" , 
             {%- endif %}
             {%- if geot.GeoObjectID %} {#only keeping the ones that have a GeoObectID, hence, for which a url can be contructed #}
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/{{geot.GeoObjectID}}" ,
-            {%- endif %} 
-            "@type": "http://purl.org/dc/terms/Location"
+            "identifier": "http://www.marineregions.org/mrgid/{{geot.GeoObjectID}}" ,
+            {%- endif %}
+            {%- if geot.X and geot.Y and geot.MaxX and geot.MaxY %}
+            "geo": {
+                "box" : "{{geot.X}} {{geot.Y}} {{geot.MaxX}} {{geot.MaxY}}",
+                "@type": "GeoShape"
+            },
+            {%- endif %}
+            "@type": "Place"
         } {%- if not loop.last %}, {%- endif %}
         {%- endfor %}
     ],

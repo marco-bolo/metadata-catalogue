@@ -58,24 +58,26 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "North Atlantic" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/1912" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "North Atlantic" , 
+            "identifier": "http://www.marineregions.org/mrgid/1912" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "English Channel" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2389" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "English Channel" , 
+            "identifier": "http://www.marineregions.org/mrgid/2389" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "North Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2350" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "North Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/2350" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -13.68753 48.28101 , 7.430954 48.28101 , 7.430954 60.93604 , -13.68753 60.93604 , -13.68753 48.28101 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-13.68753 48.28101 7.430954 60.93604",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

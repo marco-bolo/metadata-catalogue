@@ -58,14 +58,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "England" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/16" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "England" , 
+            "identifier": "http://www.marineregions.org/mrgid/16" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -7.557258 49.7668 , 2.253046 49.7668 , 2.253046 55.91487 , -7.557258 55.91487 , -7.557258 49.7668 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-7.557258 49.7668 2.253046 55.91487",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

@@ -71,14 +71,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Gulf of Bothnia" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2402" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Gulf of Bothnia" , 
+            "identifier": "http://www.marineregions.org/mrgid/2402" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 20.75545 63.11724 , 25.19544 63.11724 , 25.19544 65.775 , 20.75545 65.775 , 20.75545 63.11724 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "20.75545 63.11724 25.19544 65.775",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

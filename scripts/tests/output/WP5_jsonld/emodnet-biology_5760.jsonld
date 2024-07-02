@@ -103,14 +103,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -5.24 35.89 , 4.52 35.89 , 4.52 42.39 , -5.24 42.39 , -5.24 35.89 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-5.24 35.89 4.52 42.39",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Spain" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2185" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Spain" , 
+            "identifier": "http://www.marineregions.org/mrgid/2185" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

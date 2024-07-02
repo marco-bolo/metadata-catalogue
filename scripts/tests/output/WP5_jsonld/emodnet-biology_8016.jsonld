@@ -58,19 +58,21 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "North Atlantic" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/1912" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "North Atlantic" , 
+            "identifier": "http://www.marineregions.org/mrgid/1912" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Ireland" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2114" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Ireland" , 
+            "identifier": "http://www.marineregions.org/mrgid/2114" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -13.51666 49.7668 , -3.356003 49.7668 , -3.356003 57.5 , -13.51666 57.5 , -13.51666 49.7668 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-13.51666 49.7668 -3.356003 57.5",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

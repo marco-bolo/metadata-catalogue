@@ -68,18 +68,20 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Mediterranean Sea" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Mediterranean Sea" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 2.99004 41.3894 , 9.5834 41.3894 , 9.5834 43.7558 , 2.99004 43.7558 , 2.99004 41.3894 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "2.99004 41.3894 9.5834 43.7558",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Corsica" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3779" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Corsica" , 
+            "identifier": "http://www.marineregions.org/mrgid/3779" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

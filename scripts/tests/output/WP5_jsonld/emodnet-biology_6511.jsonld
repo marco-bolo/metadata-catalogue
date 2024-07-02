@@ -58,20 +58,25 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Brest Bay" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5208" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Brest Bay" , 
+            "identifier": "http://www.marineregions.org/mrgid/5208" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "French Coast" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -5.694 48.167 , -4.417 48.167 , -4.417 48.556 , -5.694 48.556 , -5.694 48.167 ))" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/14305" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "French Coast" , 
+            "identifier": "http://www.marineregions.org/mrgid/14305" ,
+            "geo": {
+                "box" : "-5.694 48.167 -4.417 48.556",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -5.694444 48.166667 , -4.416667 48.166667 , -4.416667 48.555556 , -5.694444 48.555556 , -5.694444 48.166667 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-5.694444 48.166667 -4.416667 48.555556",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

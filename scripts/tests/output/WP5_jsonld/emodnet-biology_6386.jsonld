@@ -57,13 +57,15 @@
     ] ,
     "spatialCoverage":
     [
-        { 
-            "@type": "http://purl.org/dc/terms/Location"
+        {
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -10.10868 51.434 , -5.985201 51.434 , -5.985201 55.2562 , -10.10868 55.2562 , -10.10868 51.434 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-10.10868 51.434 -5.985201 55.2562",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

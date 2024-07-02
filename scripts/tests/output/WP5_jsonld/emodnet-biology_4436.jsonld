@@ -63,14 +63,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 17.0137 69.6728 , 60.0833 69.6728 , 60.0833 81.4145 , 17.0137 81.4145 , 17.0137 69.6728 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "17.0137 69.6728 60.0833 81.4145",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Barents Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4247" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Barents Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/4247" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

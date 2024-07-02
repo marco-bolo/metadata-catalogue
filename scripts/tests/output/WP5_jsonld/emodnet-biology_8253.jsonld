@@ -45,14 +45,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Oosterschelde" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5332" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Oosterschelde" , 
+            "identifier": "http://www.marineregions.org/mrgid/5332" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 3.695503 51.435617 , 4.22007 51.435617 , 4.22007 51.697181 , 3.695503 51.697181 , 3.695503 51.435617 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "3.695503 51.435617 4.22007 51.697181",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "identifier": "8253",

@@ -67,53 +67,55 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "USA" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "USA" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Belgium" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3293" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Belgium" , 
+            "identifier": "http://www.marineregions.org/mrgid/3293" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "France" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/8762" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "France" , 
+            "identifier": "http://www.marineregions.org/mrgid/8762" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Netherlands" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/15" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Netherlands" , 
+            "identifier": "http://www.marineregions.org/mrgid/15" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Norway" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5686" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Norway" , 
+            "identifier": "http://www.marineregions.org/mrgid/5686" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Russia" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2240" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Russia" , 
+            "identifier": "http://www.marineregions.org/mrgid/2240" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Chile" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2165" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Chile" , 
+            "identifier": "http://www.marineregions.org/mrgid/2165" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -98.5 -71.4 , 153.45703125 -71.4 , 153.45703125 73.400014 , -98.5 73.400014 , -98.5 -71.4 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-98.5 -71.4 153.45703125 73.400014",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Italy" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2133" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Italy" , 
+            "identifier": "http://www.marineregions.org/mrgid/2133" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Papua New Guinea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2237" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Papua New Guinea" , 
+            "identifier": "http://www.marineregions.org/mrgid/2237" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

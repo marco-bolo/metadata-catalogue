@@ -65,14 +65,19 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -80.85867 27.65037 , -80.36652 27.65037 , -80.36652 28.8069 , -80.85867 28.8069 , -80.85867 27.65037 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-80.85867 27.65037 -80.36652 28.8069",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "florida" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -80.95 27.42803 , -80.249817 27.42803 , -80.249817 29.044607 , -80.95 29.044607 , -80.95 27.42803 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "florida" ,
+            "geo": {
+                "box" : "-80.95 27.42803 -80.249817 29.044607",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

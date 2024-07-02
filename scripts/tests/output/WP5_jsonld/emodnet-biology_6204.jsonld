@@ -56,14 +56,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Dutch Coast" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/25232" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Dutch Coast" , 
+            "identifier": "http://www.marineregions.org/mrgid/25232" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 3.1625 51.38333333 , 6.54166667 51.38333333 , 6.54166667 53.7 , 3.1625 53.7 , 3.1625 51.38333333 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "3.1625 51.38333333 6.54166667 53.7",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

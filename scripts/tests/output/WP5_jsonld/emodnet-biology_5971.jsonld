@@ -81,15 +81,20 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "SOMLIT-Astan" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.983 48.778 , -3.983 48.778 , -3.983 48.778 , -3.983 48.778 , -3.983 48.778 ))" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5372" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "SOMLIT-Astan" , 
+            "identifier": "http://www.marineregions.org/mrgid/5372" ,
+            "geo": {
+                "box" : "-3.983 48.778 -3.983 48.778",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.968333 48.771667 , -3.968333 48.771667 , -3.968333 48.771667 , -3.968333 48.771667 , -3.968333 48.771667 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-3.968333 48.771667 -3.968333 48.771667",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

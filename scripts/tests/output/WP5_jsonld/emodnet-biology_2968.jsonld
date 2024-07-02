@@ -61,15 +61,20 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 33.44 44.59 , 33.58 44.59 , 33.58 44.62 , 33.44 44.62 , 33.44 44.59 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "33.44 44.59 33.58 44.62",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Crimea" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 33.443 44.599 , 33.584 44.599 , 33.584 44.625 , 33.443 44.625 , 33.443 44.599 ))" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3738" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Crimea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3738" ,
+            "geo": {
+                "box" : "33.443 44.599 33.584 44.625",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

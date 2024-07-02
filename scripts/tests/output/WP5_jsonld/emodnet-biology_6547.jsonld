@@ -102,14 +102,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 19.9 22.41 , 38.231 22.41 , 38.231 39.743 , 19.9 39.743 , 19.9 22.41 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "19.9 22.41 38.231 39.743",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Ionian Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3351" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Ionian Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3351" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

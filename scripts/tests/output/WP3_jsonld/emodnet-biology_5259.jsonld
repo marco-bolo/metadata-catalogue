@@ -65,14 +65,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 29.0667 44.0833 , 29.95 44.0833 , 29.95 45.15 , 29.0667 45.15 , 29.0667 44.0833 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "29.0667 44.0833 29.95 45.15",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Romania" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5689" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Romania" , 
+            "identifier": "http://www.marineregions.org/mrgid/5689" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

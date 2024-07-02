@@ -69,9 +69,9 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Eastern Mediterranean" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4280" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Eastern Mediterranean" , 
+            "identifier": "http://www.marineregions.org/mrgid/4280" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

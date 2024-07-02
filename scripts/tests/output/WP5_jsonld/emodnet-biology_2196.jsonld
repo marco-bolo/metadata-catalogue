@@ -77,15 +77,20 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Riviere de Morlaix" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.868 48.654 , -3.868 48.654 , -3.868 48.654 , -3.868 48.654 , -3.868 48.654 ))" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5373" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Riviere de Morlaix" , 
+            "identifier": "http://www.marineregions.org/mrgid/5373" ,
+            "geo": {
+                "box" : "-3.868 48.654 -3.868 48.654",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.84333333 48.59444444 , -3.84333333 48.59444444 , -3.84333333 48.59444444 , -3.84333333 48.59444444 , -3.84333333 48.59444444 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-3.84333333 48.59444444 -3.84333333 48.59444444",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

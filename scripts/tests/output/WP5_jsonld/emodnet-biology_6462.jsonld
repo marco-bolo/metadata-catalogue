@@ -95,39 +95,41 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -6.048 31.71775 , 35.98775 31.71775 , 35.98775 45.68883 , -6.048 45.68883 , -6.048 31.71775 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-6.048 31.71775 35.98775 45.68883",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Adriatic Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3314" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Adriatic Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3314" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Aegean" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3315" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Aegean" , 
+            "identifier": "http://www.marineregions.org/mrgid/3315" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Alboran Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3324" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Alboran Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3324" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Eastern Mediterranean" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4280" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Eastern Mediterranean" , 
+            "identifier": "http://www.marineregions.org/mrgid/4280" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Ionian Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3351" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Ionian Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3351" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Western Mediterranean" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4279" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Western Mediterranean" , 
+            "identifier": "http://www.marineregions.org/mrgid/4279" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

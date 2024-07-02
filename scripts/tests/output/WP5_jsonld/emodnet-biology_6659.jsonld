@@ -61,14 +61,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 16.375667 43.526667 , 16.375667 43.526667 , 16.375667 43.526667 , 16.375667 43.526667 , 16.375667 43.526667 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "16.375667 43.526667 16.375667 43.526667",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Kastela Bay" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3637" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Kastela Bay" , 
+            "identifier": "http://www.marineregions.org/mrgid/3637" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

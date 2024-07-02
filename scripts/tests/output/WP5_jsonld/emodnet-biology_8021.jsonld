@@ -47,14 +47,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Eastern North Atlantic" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/18039" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Eastern North Atlantic" , 
+            "identifier": "http://www.marineregions.org/mrgid/18039" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -33.31958 28.06894 , 32.73124 28.06894 , 32.73124 66.00828 , -33.31958 66.00828 , -33.31958 28.06894 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-33.31958 28.06894 32.73124 66.00828",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

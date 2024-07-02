@@ -53,29 +53,31 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 7.580715 35.494938 , 18.519819 35.494938 , 18.519819 45.930454 , 7.580715 45.930454 , 7.580715 35.494938 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "7.580715 35.494938 18.519819 45.930454",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Adriatic Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3314" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Adriatic Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3314" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Ionian Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3351" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Ionian Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3351" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Ligurian Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3363" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Ligurian Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3363" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Tyrrhenian Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3386" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Tyrrhenian Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/3386" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

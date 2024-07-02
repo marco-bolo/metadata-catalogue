@@ -92,14 +92,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Iceland Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2352" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Iceland Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/2352" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -32.863432936694 57.617580007103 , 0.025159655178369 57.617580007103 , 0.025159655178369 69.249500284664 , -32.863432936694 69.249500284664 , -32.863432936694 57.617580007103 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-32.863432936694 57.617580007103 0.025159655178369 69.249500284664",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

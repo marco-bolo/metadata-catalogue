@@ -63,29 +63,31 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Finland Gulf" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2407" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Finland Gulf" , 
+            "identifier": "http://www.marineregions.org/mrgid/2407" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Riga Gulf" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2409" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Riga Gulf" , 
+            "identifier": "http://www.marineregions.org/mrgid/2409" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Hiiurnaa" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2444" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Hiiurnaa" , 
+            "identifier": "http://www.marineregions.org/mrgid/2444" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Estonia" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2110" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Estonia" , 
+            "identifier": "http://www.marineregions.org/mrgid/2110" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 19.2023 57.616667 , 28.008333 57.616667 , 28.008333 59.916667 , 19.2023 59.916667 , 19.2023 57.616667 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "19.2023 57.616667 28.008333 59.916667",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

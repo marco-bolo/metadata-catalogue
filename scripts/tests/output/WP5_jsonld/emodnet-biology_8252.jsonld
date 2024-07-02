@@ -43,14 +43,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Westerschelde" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4752" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Westerschelde" , 
+            "identifier": "http://www.marineregions.org/mrgid/4752" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 3.587677 51.33645 , 4.246143 51.33645 , 4.246143 51.458212 , 3.587677 51.458212 , 3.587677 51.33645 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "3.587677 51.33645 4.246143 51.458212",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "about" : [

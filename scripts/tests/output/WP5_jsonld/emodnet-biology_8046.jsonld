@@ -48,18 +48,20 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Ireland" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2114" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Ireland" , 
+            "identifier": "http://www.marineregions.org/mrgid/2114" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Irish Exclusive Economic Zone" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Irish Exclusive Economic Zone" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -10.514217 51.3558172 , -5.298875 51.3558172 , -5.298875 55.37968114 , -10.514217 55.37968114 , -10.514217 51.3558172 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-10.514217 51.3558172 -5.298875 55.37968114",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

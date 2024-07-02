@@ -72,14 +72,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -175 -78.15856 , 178.52376 -78.15856 , 178.52376 82.4333333333 , -175 82.4333333333 , -175 -78.15856 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-175 -78.15856 178.52376 82.4333333333",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "World Oceans" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/1901" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "World Oceans" , 
+            "identifier": "http://www.marineregions.org/mrgid/1901" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

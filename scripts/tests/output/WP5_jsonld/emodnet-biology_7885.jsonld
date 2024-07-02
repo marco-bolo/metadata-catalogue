@@ -36,14 +36,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -5.36806 36.11911 , -5.33879 36.11911 , -5.33879 36.15258 , -5.36806 36.15258 , -5.36806 36.11911 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-5.36806 36.11911 -5.33879 36.15258",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Gibraltar Strait" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3346" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Gibraltar Strait" , 
+            "identifier": "http://www.marineregions.org/mrgid/3346" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

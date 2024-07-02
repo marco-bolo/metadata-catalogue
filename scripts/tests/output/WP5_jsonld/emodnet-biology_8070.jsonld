@@ -79,34 +79,36 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Labrador Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4291" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Labrador Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/4291" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Barents Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/8526" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Barents Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/8526" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EMODnet-Biology reporting area: Artic" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/63394" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "EMODnet-Biology reporting area: Artic" , 
+            "identifier": "http://www.marineregions.org/mrgid/63394" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -164.7166667 -71.31666667 , 147.375 -71.31666667 , 147.375 81.72166667 , -164.7166667 81.72166667 , -164.7166667 -71.31666667 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-164.7166667 -71.31666667 147.375 81.72166667",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Greenland Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/8531" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Greenland Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/8531" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Kara Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/21828" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Kara Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/21828" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

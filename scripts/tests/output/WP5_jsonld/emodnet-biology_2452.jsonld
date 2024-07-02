@@ -45,14 +45,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Baltic" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2401" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Baltic" , 
+            "identifier": "http://www.marineregions.org/mrgid/2401" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 10.51333 54.97333 , 23.24267 54.97333 , 23.24267 65.73417 , 10.51333 65.73417 , 10.51333 54.97333 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "10.51333 54.97333 23.24267 65.73417",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

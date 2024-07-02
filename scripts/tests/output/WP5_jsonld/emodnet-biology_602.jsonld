@@ -56,14 +56,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 13.17686 45.5585 , 13.74481 45.5585 , 13.74481 45.77575 , 13.17686 45.77575 , 13.17686 45.5585 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "13.17686 45.5585 13.74481 45.77575",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Adriatic" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/3314" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Adriatic" , 
+            "identifier": "http://www.marineregions.org/mrgid/3314" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

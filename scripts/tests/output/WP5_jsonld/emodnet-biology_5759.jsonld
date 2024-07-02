@@ -82,14 +82,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Dutch Continental Shelf" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5668" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Dutch Continental Shelf" , 
+            "identifier": "http://www.marineregions.org/mrgid/5668" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 2.677821 51.434 , 6.602 51.434 , 6.602 55.63345517 , 2.677821 55.63345517 , 2.677821 51.434 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "2.677821 51.434 6.602 55.63345517",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

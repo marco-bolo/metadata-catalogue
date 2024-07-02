@@ -73,14 +73,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 15.11 43.05 , 16.48 43.05 , 16.48 43.58 , 15.11 43.58 , 15.11 43.05 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "15.11 43.05 16.48 43.58",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Central Adriatic Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/14920" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Central Adriatic Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/14920" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

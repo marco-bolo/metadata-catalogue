@@ -37,24 +37,26 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Baltic" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2401" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Baltic" , 
+            "identifier": "http://www.marineregions.org/mrgid/2401" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Skagerrak" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2379" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Skagerrak" , 
+            "identifier": "http://www.marineregions.org/mrgid/2379" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 10.5043 54.9711 , 22.4495 54.9711 , 22.4495 65.8085 , 10.5043 65.8085 , 10.5043 54.9711 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "10.5043 54.9711 22.4495 65.8085",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Swedish Exclusive Economic Zone" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5694" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Swedish Exclusive Economic Zone" , 
+            "identifier": "http://www.marineregions.org/mrgid/5694" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

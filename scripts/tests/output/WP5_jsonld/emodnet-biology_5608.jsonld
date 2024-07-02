@@ -61,14 +61,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 13.78 45.64861 , 13.78 45.64861 , 13.78 45.64861 , 13.78 45.64861 , 13.78 45.64861 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "13.78 45.64861 13.78 45.64861",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "North" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/7127" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "North" , 
+            "identifier": "http://www.marineregions.org/mrgid/7127" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

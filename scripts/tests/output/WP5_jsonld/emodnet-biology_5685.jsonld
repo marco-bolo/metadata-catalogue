@@ -70,24 +70,26 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "ANE" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5664" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "ANE" , 
+            "identifier": "http://www.marineregions.org/mrgid/5664" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "North Sea" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2350" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "North Sea" , 
+            "identifier": "http://www.marineregions.org/mrgid/2350" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "United Kingdom Exclusive Economic Zone" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5696" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "United Kingdom Exclusive Economic Zone" , 
+            "identifier": "http://www.marineregions.org/mrgid/5696" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -19.966666666667 -6.3666667 , 10.3166667 -6.3666667 , 10.3166667 65.93333 , -19.966666666667 65.93333 , -19.966666666667 -6.3666667 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-19.966666666667 -6.3666667 10.3166667 65.93333",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

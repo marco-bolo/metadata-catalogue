@@ -96,14 +96,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -1.15455 35.40266 , 25.362 35.40266 , 25.362 45.7636 , -1.15455 45.7636 , -1.15455 35.40266 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-1.15455 35.40266 25.362 45.7636",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Mediterranean Region" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/4278" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Mediterranean Region" , 
+            "identifier": "http://www.marineregions.org/mrgid/4278" ,
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

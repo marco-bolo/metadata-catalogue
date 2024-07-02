@@ -42,13 +42,15 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Irish Exclusive Economic Zone" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Irish Exclusive Economic Zone" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -10.56889 51.47306 , -6.02972 51.47306 , -6.02972 55.28389 , -10.56889 55.28389 , -10.56889 51.47306 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-10.56889 51.47306 -6.02972 55.28389",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

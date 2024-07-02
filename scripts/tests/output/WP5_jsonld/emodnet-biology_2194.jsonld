@@ -64,14 +64,16 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Morlaix Bay" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/5216" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Morlaix Bay" , 
+            "identifier": "http://www.marineregions.org/mrgid/5216" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( -3.8805556 48.8027778 , -3.8805556 48.8027778 , -3.8805556 48.8027778 , -3.8805556 48.8027778 , -3.8805556 48.8027778 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "-3.8805556 48.8027778 -3.8805556 48.8027778",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":

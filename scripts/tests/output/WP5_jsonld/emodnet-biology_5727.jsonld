@@ -105,24 +105,26 @@
     "spatialCoverage":
     [
         {
-            "http://purl.org/dc/terms/type": "Baltic" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2401" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Baltic" , 
+            "identifier": "http://www.marineregions.org/mrgid/2401" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "North Sea, Kattegat" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2374" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "North Sea, Kattegat" , 
+            "identifier": "http://www.marineregions.org/mrgid/2374" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "Skagerrak" , 
-            "http://purl.org/dc/terms/isPartOf": "http://www.marineregions.org/mrgid/2379" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "name": "Skagerrak" , 
+            "identifier": "http://www.marineregions.org/mrgid/2379" ,
+            "@type": "Place"
         },
         {
-            "http://purl.org/dc/terms/type": "EurOBIS calculated BBOX" ,
-            "http://www.w3.org/ns/dcat#bbox":"POLYGON(( 10.37248 55.21331 , 24.15269 55.21331 , 24.15269 65.87292 , 10.37248 65.87292 , 10.37248 55.21331 ))" , 
-            "@type": "http://purl.org/dc/terms/Location"
+            "geo": {
+                "box" : "10.37248 55.21331 24.15269 65.87292",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
         }
     ],
     "temporalCoverage":
