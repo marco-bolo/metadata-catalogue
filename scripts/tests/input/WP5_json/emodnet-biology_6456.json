@@ -38,7 +38,7 @@
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:43:57.303000",
+            "date": "2024-07-18 01:35:03.037000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -123,8 +123,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 10,
-            "PersID": 38955,
-            "InsID": 11875,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institut de Recerca i Tecnol\u00f2gica Agroalimentaria",
             "RoleID": 61,
             "Role": "Data creator",
@@ -148,8 +148,8 @@
             "OrigNameLangID": 17,
             "FullOrigName": "Consejo Superior de Investigaciones Cient\u00edficas; Institut de Ci\u00e8ncias del Mar",
             "InsOwnerCNT": 1,
-            "PersID": 38956,
-            "InsID": 5250,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Consejo Superior de Investigaciones Cient\u00edficas; Institute of Marine Sciences",
             "RoleID": 61,
             "Role": "Data creator",
@@ -173,8 +173,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 10,
-            "PersID": 38958,
-            "InsID": 11875,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institut de Recerca i Tecnol\u00f2gica Agroalimentaria",
             "RoleID": 61,
             "Role": "Data creator",
@@ -198,8 +198,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 10,
-            "PersID": 38959,
-            "InsID": 11875,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institut de Recerca i Tecnol\u00f2gica Agroalimentaria",
             "RoleID": 68,
             "Role": "Data provider",
@@ -223,8 +223,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 10,
-            "PersID": 38960,
-            "InsID": 11875,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institut de Recerca i Tecnol\u00f2gica Agroalimentaria",
             "RoleID": 68,
             "Role": "Data provider",
@@ -248,8 +248,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 10,
-            "PersID": 38961,
-            "InsID": 11875,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institut de Recerca i Tecnol\u00f2gica Agroalimentaria",
             "RoleID": 68,
             "Role": "Data provider",
@@ -273,8 +273,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 10,
-            "PersID": 38963,
-            "InsID": 11875,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institut de Recerca i Tecnol\u00f2gica Agroalimentaria",
             "RoleID": 68,
             "Role": "Data provider",
@@ -298,8 +298,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 10,
-            "PersID": 38959,
-            "InsID": 11875,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institut de Recerca i Tecnol\u00f2gica Agroalimentaria",
             "RoleID": 19,
             "Role": "Data manager",
@@ -323,8 +323,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 10,
-            "PersID": 38960,
-            "InsID": 11875,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institut de Recerca i Tecnol\u00f2gica Agroalimentaria",
             "RoleID": 68,
             "Role": "Data provider",
@@ -348,8 +348,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 10,
-            "PersID": 38961,
-            "InsID": 11875,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institut de Recerca i Tecnol\u00f2gica Agroalimentaria",
             "RoleID": 68,
             "Role": "Data provider",
@@ -373,8 +373,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 10,
-            "PersID": 38963,
-            "InsID": 11875,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institut de Recerca i Tecnol\u00f2gica Agroalimentaria",
             "RoleID": 68,
             "Role": "Data provider",
@@ -448,7 +448,7 @@
             "EndYear": 2019,
             "StartDay": 15,
             "EndDay": 30,
-            "StartDate": "1990-5-15",
+            "StartDate": "1990-05-15",
             "EndDate": "2019-12-30",
             "Resolution": "Weekly",
             "ResolutionNL": "Wekelijks",
@@ -608,8 +608,8 @@
     "projects": null,
     "refs": [
         {
-            "0": 324434,
-            "BRefID": 324434,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -632,8 +632,8 @@
             "doi": null
         },
         {
-            "0": 324385,
-            "BRefID": 324385,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -656,8 +656,8 @@
             "doi": "https://dx.doi.org/10.1016/j.rsma.2016.03.009"
         },
         {
-            "0": 324378,
-            "BRefID": 324378,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -680,8 +680,8 @@
             "doi": "https://dx.doi.org/10.1016/j.ecolmodel.2016.07.009"
         },
         {
-            "0": 324396,
-            "BRefID": 324396,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -704,8 +704,8 @@
             "doi": null
         },
         {
-            "0": 324377,
-            "BRefID": 324377,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -728,8 +728,8 @@
             "doi": "https://dx.doi.org/10.1016/j.jmarsys.2011.01.004"
         },
         {
-            "0": 323916,
-            "BRefID": 323916,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -752,8 +752,8 @@
             "doi": "https://dx.doi.org/10.1128/aem.01978-10"
         },
         {
-            "0": 324404,
-            "BRefID": 324404,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -776,8 +776,8 @@
             "doi": null
         },
         {
-            "0": 324401,
-            "BRefID": 324401,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -800,8 +800,8 @@
             "doi": null
         },
         {
-            "0": 324375,
-            "BRefID": 324375,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -824,8 +824,8 @@
             "doi": "https://dx.doi.org/10.1016/j.ecss.2009.04.029"
         },
         {
-            "0": 324331,
-            "BRefID": 324331,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -848,8 +848,8 @@
             "doi": "https://dx.doi.org/10.1016/j.csr.2009.04.012"
         },
         {
-            "0": 324436,
-            "BRefID": 324436,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -872,8 +872,8 @@
             "doi": null
         },
         {
-            "0": 127074,
-            "BRefID": 127074,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -896,8 +896,8 @@
             "doi": null
         },
         {
-            "0": 323919,
-            "BRefID": 323919,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -920,8 +920,8 @@
             "doi": null
         },
         {
-            "0": 324490,
-            "BRefID": 324490,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -944,8 +944,8 @@
             "doi": null
         },
         {
-            "0": 324484,
-            "BRefID": 324484,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -968,8 +968,8 @@
             "doi": null
         },
         {
-            "0": 324486,
-            "BRefID": 324486,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -992,8 +992,8 @@
             "doi": null
         },
         {
-            "0": 324488,
-            "BRefID": 324488,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1017,6 +1017,16 @@
         }
     ],
     "urls": [
+        {
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006456",
+            "externalID": null,
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006456",
+            "downloadURL": null,
+            "FileName": null
+        },
         {
             "URL": "https://www.eurobis.org/toolbox/en/download/occurrence/dataset/6456",
             "externalID": null,

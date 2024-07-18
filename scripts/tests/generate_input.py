@@ -3,73 +3,100 @@ from pathlib import Path
 import requests
 import json
 from urllib.parse import urlparse
+import logging
+import re
+import os
 
-def flatten_and_split(input_list):
+#set logging config
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s', 
+    filename='generate_input.log',
+    filemode='w'
+)
+
+# function to ensure folder existence
+def ensure_folder_exists(folder_path):
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+
+# function to flatten nested list
+def flatten_and_split(input_list:list) -> list:
     result = []
     for sublist in input_list:
         # Convert the sublist item to string and split by '|'
         result.extend(str(sublist).split('|'))
     # Strip whitespace from each resulting part
-    result = [item.strip() for item in result]
-    return result
+    return [item.strip() for item in result if item != 'nan' ]
 
-
-def get_mi_json(url:str, output_path:str) -> None:
+# function to get marineinfo url in case of dasid
+def get_mi_json(wp:str, url:str, output_path:str) -> None:
     
     """
     1.contructs marineinfo-url based on dasid (which follows 'module=dataset&dasid=' in the url)
     2.retrieves the json record from the marineinfo-url 
     3.writes it to a file
     """
-
+    
+    print(url)
     base = urlparse(url).netloc.split('.')[-2]
     dasid = url.split("=")[-1]
-    mi_url = f"http://marineinfo.org/id/dataset/{dasid}.json"
-    response = requests.get(mi_url)
+    #mi_url = f"http://marineinfo.org/id/dataset/{dasid}.json"
+    
+    response = requests.get(f'{url}&show=json')
     if response.status_code == 200:
-        data = response.json()
-        file_path = f'{output_path}/{base}_{dasid}.json'
-        
-        with open(file_path, 'w') as json_file:
-            json.dump(data, json_file, indent=4)
-        
-        #print(f"Data successfully saved to {file_path}")
+        try:
+            data = response.json()
+            file_path = f'{output_path}/{base}_{dasid}.json'
+            with open(file_path, 'w') as json_file:
+                json.dump(data, json_file, indent=4)
+        except json.decoder.JSONDecodeError as e:
+            logging.info(f'{wp} - {url} - {e}')
+
     else:
-        #print(f"Failed to retrieve data. HTTP Status code: {response.status_code}")
-        pass
+        print(response.status_code)
+        logging.info(f'{wp} - {url} - HTTP Status code:{response.status_code}')
 
 
 ## Analyse datasets
-files = list(Path('./input/').glob('MARCO-BOLO_Metadata_Dataset_Record_*_Description.csv'))
-urls_to_manual_check = []
+files = list(Path('./input/').glob('MARCO-BOLO_Metadata_Dataset_Record_*.csv'))
+
 for wp_file in files:
-    df = pd.read_csv(wp_file)
-    
-    wp_urls = flatten_and_split(list(df.DataLandingPageURL))
+    wp = wp_file.stem.split('_')[-1]
+    print(wp)
+    wp_df = pd.read_csv(wp_file)
+    wp_urls = flatten_and_split(list(wp_df.DataLandingPageURL))
+
     for url in wp_urls:
-        if isinstance(url, str) and 'module=dataset&dasid=' in url:
-            if 'WP5' in str(wp_file):
-                get_mi_json(url, './input/WP5_json')
-            if 'WP3' in str(wp_file):
-                get_mi_json(url, './input/WP3_json')
-        
-        else:
-            urls_to_manual_check.append(url)
-            print(url)
-
-# Convert the list to a DataFrame
-df = pd.DataFrame(urls_to_manual_check, columns=['url'])
-# Write the DataFrame to a CSV file
-df.to_csv("./input/urls_to_manual_check.csv", index=False, header=False)
+        output_path = f'./input/{wp}_json'
+        ensure_folder_exists(output_path)
+        get_mi_json(wp, url, output_path)
 
 
+# Overview of urls from which no info could be retrieved: 
+log_regex = re.compile(r'^(.*?) - (.*?) - (.*?) - (.*?) - (.*)$')
+log_data = []
+with open('generate_input.log', 'r') as file:
+    for line in file:
+        match = log_regex.match(line.strip())
+        if match:
+            timestamp, level, wp, url, message = match.groups()
+            log_data.append({'Timestamp': timestamp, 'Level': level, 'WP': wp, 'URL':url, 'Message': message})
+
+df_log = pd.DataFrame(log_data)
+print(df_log.head())
+print(df_log.columns)
+df_log.to_csv('input/urls_to_manually_check.csv', index=False)
+
+
+###### Notes on manually checked urls ######
 # doi urls:
 # https://www.vliz.be/nl/imis?dasid=4687&doiid=763&show=json 
 # https://www.vliz.be/en/imis?dasid=4687&doiid=618&show=json --> same dataset with different DOIs!
 # https://www.vliz.be/en/imis?dasid=4688&doiid=619&show=json
-get_mi_json('https://www.vliz.be/en/imis?dasid=4687', './input/WP3_json')
-get_mi_json('https://www.vliz.be/en/imis?dasid=4687', './input/WP3_json')
-get_mi_json('https://www.vliz.be/en/imis?dasid=4688', './input/WP3_json')
+#get_mi_json('https://www.vliz.be/en/imis?dasid=4687', './input/WP3_json')
+#get_mi_json('https://www.vliz.be/en/imis?dasid=4687', './input/WP3_json')
+#get_mi_json('https://www.vliz.be/en/imis?dasid=4688', './input/WP3_json')
 
 ## other urls
 # https://rshiny.lifewatch.be/zooscan-data/   

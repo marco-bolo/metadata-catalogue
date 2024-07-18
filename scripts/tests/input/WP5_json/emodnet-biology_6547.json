@@ -38,7 +38,7 @@
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:43:57.303000",
+            "date": "2024-07-06 01:36:39.790000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -141,8 +141,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 1,
-            "PersID": 39315,
-            "InsID": 14571,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "University of Turin; Department of Life Sciences and Systems Biology",
             "RoleID": 61,
             "Role": "Data creator",
@@ -166,8 +166,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 1,
-            "PersID": 39316,
-            "InsID": 14570,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Gaia Research Institute Onlus",
             "RoleID": 19,
             "Role": "Data manager",
@@ -245,8 +245,8 @@
             "EndYear": 2018,
             "StartDay": null,
             "EndDay": null,
-            "StartDate": "2008-6-1",
-            "EndDate": "2018-10-1",
+            "StartDate": "2008-06-01",
+            "EndDate": "2018-10-01",
             "Resolution": null,
             "ResolutionNL": null,
             "Notes": null,
@@ -531,8 +531,8 @@
     "projects": null,
     "refs": [
         {
-            "0": 327601,
-            "BRefID": 327601,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -555,8 +555,8 @@
             "doi": "https://dx.doi.org/10.1002/aqc.3314"
         },
         {
-            "0": 327609,
-            "BRefID": 327609,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -579,8 +579,8 @@
             "doi": null
         },
         {
-            "0": 327602,
-            "BRefID": 327602,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -603,8 +603,8 @@
             "doi": "https://dx.doi.org/10.1016/j.marpolbul.2017.10.028"
         },
         {
-            "0": 327596,
-            "BRefID": 327596,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -627,8 +627,8 @@
             "doi": "https://dx.doi.org/10.1109/metrosea.2018.8657895"
         },
         {
-            "0": 327593,
-            "BRefID": 327593,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -651,8 +651,8 @@
             "doi": "https://dx.doi.org/10.1016/j.ecolind.2017.10.021"
         },
         {
-            "0": 327594,
-            "BRefID": 327594,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -675,8 +675,8 @@
             "doi": null
         },
         {
-            "0": 321891,
-            "BRefID": 321891,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -699,8 +699,8 @@
             "doi": null
         },
         {
-            "0": 327608,
-            "BRefID": 327608,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -725,12 +725,12 @@
     ],
     "urls": [
         {
-            "URL": "https://www.emodnet-biology.eu/portal/index.php?dasid=6547",
-            "externalID": "6547",
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006547",
+            "externalID": null,
             "URLTypeCode": null,
             "URLType": "Online dataset",
             "URLTypID": 19,
-            "trimmedURL": "emodnet-biology.eu/portal/index.php?dasid=6547",
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006547",
             "downloadURL": null,
             "FileName": null
         },

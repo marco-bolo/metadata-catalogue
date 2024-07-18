@@ -38,7 +38,7 @@
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:43:57.303000",
+            "date": "2024-07-17 01:37:39.127000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -199,8 +199,8 @@
             "OrigNameLangID": null,
             "FullOrigName": "Ministerio de Econom\u00eda y Competitividad; Spanish Institute of Oceanography",
             "InsOwnerCNT": 7,
-            "PersID": 4312,
-            "InsID": 4054,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Spanish Ministry of Economy and Competiveness; Instituto Espa\u00f1ol de Oceanograf\u00eda",
             "RoleID": 61,
             "Role": "Data creator",
@@ -224,8 +224,8 @@
             "OrigNameLangID": null,
             "FullOrigName": "Ministerio de Econom\u00eda y Competitividad; Spanish Institute of Oceanography",
             "InsOwnerCNT": 7,
-            "PersID": 34995,
-            "InsID": 4054,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Spanish Ministry of Economy and Competiveness; Instituto Espa\u00f1ol de Oceanograf\u00eda",
             "RoleID": 61,
             "Role": "Data creator",
@@ -249,8 +249,8 @@
             "OrigNameLangID": null,
             "FullOrigName": "Ministerio de Econom\u00eda y Competitividad; Spanish Institute of Oceanography",
             "InsOwnerCNT": 7,
-            "PersID": 34996,
-            "InsID": 4054,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Spanish Ministry of Economy and Competiveness; Instituto Espa\u00f1ol de Oceanograf\u00eda",
             "RoleID": 61,
             "Role": "Data creator",
@@ -274,8 +274,8 @@
             "OrigNameLangID": null,
             "FullOrigName": "Ministerio de Econom\u00eda y Competitividad; Spanish Institute of Oceanography",
             "InsOwnerCNT": 7,
-            "PersID": 34997,
-            "InsID": 4054,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Spanish Ministry of Economy and Competiveness; Instituto Espa\u00f1ol de Oceanograf\u00eda",
             "RoleID": 61,
             "Role": "Data creator",
@@ -299,8 +299,8 @@
             "OrigNameLangID": null,
             "FullOrigName": "Ministerio de Econom\u00eda y Competitividad; Spanish Institute of Oceanography",
             "InsOwnerCNT": 7,
-            "PersID": 9094,
-            "InsID": 4054,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Spanish Ministry of Economy and Competiveness; Instituto Espa\u00f1ol de Oceanograf\u00eda",
             "RoleID": 61,
             "Role": "Data creator",
@@ -324,8 +324,8 @@
             "OrigNameLangID": null,
             "FullOrigName": "Ministerio de Econom\u00eda y Competitividad; Spanish Institute of Oceanography",
             "InsOwnerCNT": 7,
-            "PersID": 4312,
-            "InsID": 4054,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Spanish Ministry of Economy and Competiveness; Instituto Espa\u00f1ol de Oceanograf\u00eda",
             "RoleID": 24,
             "Role": "Contact",
@@ -349,8 +349,8 @@
             "OrigNameLangID": null,
             "FullOrigName": "Ministerio de Econom\u00eda y Competitividad; Spanish Institute of Oceanography",
             "InsOwnerCNT": 7,
-            "PersID": 39435,
-            "InsID": 4054,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Spanish Ministry of Economy and Competiveness; Instituto Espa\u00f1ol de Oceanograf\u00eda",
             "RoleID": 19,
             "Role": "Data manager",
@@ -430,8 +430,8 @@
             "EndYear": 2009,
             "StartDay": null,
             "EndDay": null,
-            "StartDate": "1994-1-1",
-            "EndDate": "2009-1-1",
+            "StartDate": "1994-01-01",
+            "EndDate": "2009-01-01",
             "Resolution": null,
             "ResolutionNL": null,
             "Notes": null,
@@ -656,8 +656,8 @@
     "projects": null,
     "refs": [
         {
-            "0": 286657,
-            "BRefID": 286657,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -680,8 +680,8 @@
             "doi": "https://dx.doi.org/10.1016/j.csr.2016.11.011"
         },
         {
-            "0": 286655,
-            "BRefID": 286655,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -704,8 +704,8 @@
             "doi": "https://dx.doi.org/10.1111/jbi.12976"
         },
         {
-            "0": 286711,
-            "BRefID": 286711,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -728,8 +728,8 @@
             "doi": null
         },
         {
-            "0": 286656,
-            "BRefID": 286656,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -752,8 +752,8 @@
             "doi": "https://dx.doi.org/10.11646/zootaxa.4250.5.3"
         },
         {
-            "0": 286709,
-            "BRefID": 286709,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -776,8 +776,8 @@
             "doi": null
         },
         {
-            "0": 286710,
-            "BRefID": 286710,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -800,8 +800,8 @@
             "doi": null
         },
         {
-            "0": 286661,
-            "BRefID": 286661,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -824,8 +824,8 @@
             "doi": "https://dx.doi.org/10.3989/scimar.04340.13a"
         },
         {
-            "0": 286659,
-            "BRefID": 286659,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -848,8 +848,8 @@
             "doi": "https://dx.doi.org/10.12681/mms.1438"
         },
         {
-            "0": 286658,
-            "BRefID": 286658,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -872,8 +872,8 @@
             "doi": "https://dx.doi.org/10.1371/journal.pone.0146469"
         },
         {
-            "0": 286663,
-            "BRefID": 286663,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -896,8 +896,8 @@
             "doi": "https://dx.doi.org/10.1093/icesjms/fsw053"
         },
         {
-            "0": 286664,
-            "BRefID": 286664,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -920,8 +920,8 @@
             "doi": "https://dx.doi.org/10.1111/fog.12159"
         },
         {
-            "0": 286662,
-            "BRefID": 286662,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -944,8 +944,8 @@
             "doi": "https://dx.doi.org/10.1371/journal.pone.0148770"
         },
         {
-            "0": 286674,
-            "BRefID": 286674,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -968,8 +968,8 @@
             "doi": "https://dx.doi.org/10.1371/journal.pone.0119590"
         },
         {
-            "0": 286673,
-            "BRefID": 286673,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -992,8 +992,8 @@
             "doi": "https://dx.doi.org/10.1016/j.ecolind.2014.12.009"
         },
         {
-            "0": 286668,
-            "BRefID": 286668,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1016,8 +1016,8 @@
             "doi": "https://dx.doi.org/10.1080/00222933.2014.1001457"
         },
         {
-            "0": 286672,
-            "BRefID": 286672,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1040,8 +1040,8 @@
             "doi": "https://dx.doi.org/10.1016/j.pocean.2014.10.002"
         },
         {
-            "0": 286714,
-            "BRefID": 286714,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1064,8 +1064,8 @@
             "doi": null
         },
         {
-            "0": 286713,
-            "BRefID": 286713,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1088,8 +1088,8 @@
             "doi": null
         },
         {
-            "0": 286665,
-            "BRefID": 286665,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1112,8 +1112,8 @@
             "doi": "https://dx.doi.org/10.1371/journal.pone.0133439"
         },
         {
-            "0": 286666,
-            "BRefID": 286666,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1136,8 +1136,8 @@
             "doi": "https://dx.doi.org/10.1890/es15-00087.1"
         },
         {
-            "0": 286671,
-            "BRefID": 286671,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1160,8 +1160,8 @@
             "doi": "https://dx.doi.org/10.3354/meps11347"
         },
         {
-            "0": 286677,
-            "BRefID": 286677,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1184,8 +1184,8 @@
             "doi": "https://dx.doi.org/10.12681/mms.812"
         },
         {
-            "0": 286678,
-            "BRefID": 286678,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1208,8 +1208,8 @@
             "doi": "https://dx.doi.org/10.1371/journal.pone.0066753"
         },
         {
-            "0": 286715,
-            "BRefID": 286715,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1232,8 +1232,8 @@
             "doi": null
         },
         {
-            "0": 286716,
-            "BRefID": 286716,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1256,8 +1256,8 @@
             "doi": null
         },
         {
-            "0": 286679,
-            "BRefID": 286679,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1280,8 +1280,8 @@
             "doi": "https://dx.doi.org/10.1016/j.fishres.2011.12.001"
         },
         {
-            "0": 286682,
-            "BRefID": 286682,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1304,8 +1304,8 @@
             "doi": "https://dx.doi.org/10.3989/scimar.03432.22a"
         },
         {
-            "0": 286681,
-            "BRefID": 286681,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1328,8 +1328,8 @@
             "doi": "https://dx.doi.org/10.1515/bot-2012-0113"
         },
         {
-            "0": 286680,
-            "BRefID": 286680,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1352,8 +1352,8 @@
             "doi": "https://dx.doi.org/10.3750/aip2011.42.1.03"
         },
         {
-            "0": 286698,
-            "BRefID": 286698,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1376,8 +1376,8 @@
             "doi": "https://dx.doi.org/10.3989/scimar.2012.76n1017"
         },
         {
-            "0": 286700,
-            "BRefID": 286700,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1400,8 +1400,8 @@
             "doi": "https://dx.doi.org/10.1016/j.marenvres.2011.01.008"
         },
         {
-            "0": 286701,
-            "BRefID": 286701,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1424,8 +1424,8 @@
             "doi": "https://dx.doi.org/10.1007/s10750-011-0670-z"
         },
         {
-            "0": 196336,
-            "BRefID": 196336,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1448,8 +1448,8 @@
             "doi": "https://dx.doi.org/10.1016/j.fishres.2010.02.006"
         },
         {
-            "0": 132482,
-            "BRefID": 132482,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1472,8 +1472,8 @@
             "doi": "https://dx.doi.org/10.3989/scimar.2009.73n1183"
         },
         {
-            "0": 286704,
-            "BRefID": 286704,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1496,8 +1496,8 @@
             "doi": "https://dx.doi.org/10.1002/aqc.969"
         },
         {
-            "0": 286703,
-            "BRefID": 286703,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1520,8 +1520,8 @@
             "doi": "https://dx.doi.org/10.1016/j.ecss.2009.09.020"
         },
         {
-            "0": 141359,
-            "BRefID": 141359,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1544,8 +1544,8 @@
             "doi": "https://dx.doi.org/10.12681/mms.122"
         },
         {
-            "0": 286717,
-            "BRefID": 286717,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1568,8 +1568,8 @@
             "doi": null
         },
         {
-            "0": 286705,
-            "BRefID": 286705,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1592,8 +1592,8 @@
             "doi": "https://dx.doi.org/10.1016/j.pocean.2006.09.003"
         },
         {
-            "0": 72282,
-            "BRefID": 72282,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1616,8 +1616,8 @@
             "doi": null
         },
         {
-            "0": 286707,
-            "BRefID": 286707,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1640,8 +1640,8 @@
             "doi": "https://dx.doi.org/10.1016/s1054-3139(03)00089-4"
         },
         {
-            "0": 31334,
-            "BRefID": 31334,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1664,8 +1664,8 @@
             "doi": "https://dx.doi.org/10.3989/scimar.2002.66s2183"
         },
         {
-            "0": 31318,
-            "BRefID": 31318,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1688,8 +1688,8 @@
             "doi": "https://dx.doi.org/10.3989/scimar.2002.66s29"
         },
         {
-            "0": 31336,
-            "BRefID": 31336,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1712,8 +1712,8 @@
             "doi": "https://dx.doi.org/10.3989/scimar.2002.66s2199"
         },
         {
-            "0": 31322,
-            "BRefID": 31322,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1736,8 +1736,8 @@
             "doi": "https://dx.doi.org/10.3989/scimar.2002.66s255"
         },
         {
-            "0": 8142,
-            "BRefID": 8142,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1760,8 +1760,8 @@
             "doi": "https://dx.doi.org/10.1017/S0025315401003472"
         },
         {
-            "0": 286708,
-            "BRefID": 286708,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -1786,12 +1786,12 @@
     ],
     "urls": [
         {
-            "URL": "https://www.emodnet-biology.eu/portal/index.php?dasid=5760",
-            "externalID": "5760",
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005760",
+            "externalID": null,
             "URLTypeCode": null,
             "URLType": "Online dataset",
             "URLTypID": 19,
-            "trimmedURL": "emodnet-biology.eu/portal/index.php?dasid=5760",
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005760",
             "downloadURL": null,
             "FileName": null
         },

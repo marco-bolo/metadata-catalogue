@@ -33,12 +33,12 @@
         "Citation": "RWS, the Netherlands, 2022. Dutch long term monitoring of phytoplankton in the Dutch Continental Economical Zone of the North Sea (2000-2018). https://waterinfo-extra.rws.nl/monitoring/biologie/zooplankton/",
         "AccessConstraints": null,
         "InputNotes": null,
-        "UDate": "2022-11-28",
+        "UDate": "2024-06-19",
         "CDate": "2022-11-28",
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:43:57.303000",
+            "date": "2024-07-09 01:33:06.773000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -73,7 +73,44 @@
             "SpName": "EMODNET"
         }
     ],
-    "keywords": null,
+    "keywords": [
+        {
+            "ThesaurusTerm": "Abundance",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": null,
+            "Description": null,
+            "OrigThesTerm": "Abundance",
+            "DutchTerm": "Overvloed"
+        },
+        {
+            "ThesaurusTerm": "Length",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": null,
+            "Description": null,
+            "OrigThesTerm": "Length",
+            "DutchTerm": "Lengte"
+        },
+        {
+            "ThesaurusTerm": "Phytoplankton",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": null,
+            "Description": null,
+            "OrigThesTerm": "Phytoplankton",
+            "DutchTerm": "Fytoplankton"
+        },
+        {
+            "ThesaurusTerm": "Zooplankton",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": null,
+            "Description": null,
+            "OrigThesTerm": "Zooplankton",
+            "DutchTerm": "Zooplankton"
+        }
+    ],
     "parents": null,
     "children": null,
     "othrel": null,
@@ -104,8 +141,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 1,
-            "PersID": 39499,
-            "InsID": 8811,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Deltares",
             "RoleID": 24,
             "Role": "Contact",
@@ -130,7 +167,7 @@
             "FullOrigName": null,
             "InsOwnerCNT": 1,
             "PersID": null,
-            "InsID": 4715,
+            "InsID": null,
             "FullInstitute": "Ministerie van Infrastructuur en Waterstaat; Rijkswaterstaat",
             "RoleID": 61,
             "Role": "Data creator",
@@ -151,8 +188,8 @@
             "EndYear": 2010,
             "StartDay": null,
             "EndDay": null,
-            "StartDate": "2000-1-1",
-            "EndDate": "2010-1-1",
+            "StartDate": "2000-01-01",
+            "EndDate": "2010-01-01",
             "Resolution": null,
             "ResolutionNL": null,
             "Notes": null,
@@ -352,12 +389,12 @@
     "refs": null,
     "urls": [
         {
-            "URL": "https://www.emodnet-biology.eu/portal/index.php?dasid=8155",
-            "externalID": "8155",
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000008155",
+            "externalID": null,
             "URLTypeCode": null,
             "URLType": "Online dataset",
             "URLTypID": 19,
-            "trimmedURL": "emodnet-biology.eu/portal/index.php?dasid=8155",
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000008155",
             "downloadURL": null,
             "FileName": null
         },

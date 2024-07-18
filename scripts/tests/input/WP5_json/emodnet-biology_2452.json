@@ -33,12 +33,12 @@
         "Citation": "Stockholm University, Ume\u00e5 University, Swedish Meteorological and Hydrological Institute, Gothenburg University, Swedish Agency for Marine and Water Management and Swedish Environmental Protection Agency (2022). SHARK - National marine environmental monitoring of zooplankton in Sweden since 1979",
         "AccessConstraints": null,
         "InputNotes": null,
-        "UDate": "2022-05-03",
+        "UDate": "2024-07-10",
         "CDate": "2010-07-08",
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:45:32.593000",
+            "date": "2024-07-18 01:35:03.037000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -88,7 +88,7 @@
     ],
     "parents": [
         {
-            "DasID": 2136,
+            "DasID": null,
             "Acronym": "SHARK",
             "EngAbstract": "SHARK (\"Svenskt HavsARKiv\" / \"Swedish Ocean Archive\") is the national marine biological monitoring database of Sweden, holding monitoring data on phytoplankton, zooplankton, bacterioplankton, phytobenthos, zoobenthos, seals, primary production, sedimentation and chlorophyll measurements.",
             "License": "https://creativecommons.org/licenses/by/4.0/",
@@ -111,7 +111,7 @@
             "vlizDoi": null
         },
         {
-            "DasID": 6286,
+            "DasID": null,
             "Acronym": null,
             "StandardTitle": "Neural network modelling of Baltic zooplankton abundances",
             "Relation": "Partial Source DataSet",
@@ -137,7 +137,7 @@
             "FullOrigName": null,
             "InsOwnerCNT": 1,
             "PersID": null,
-            "InsID": 13153,
+            "InsID": null,
             "FullInstitute": "Swedish Agency for Marine and Water Management",
             "RoleID": 61,
             "Role": "Data creator",
@@ -162,7 +162,7 @@
             "FullOrigName": null,
             "InsOwnerCNT": 1,
             "PersID": null,
-            "InsID": 4480,
+            "InsID": null,
             "FullInstitute": "Swedish Meteorological and Hydrological Institute",
             "RoleID": 61,
             "Role": "Data creator",
@@ -217,20 +217,20 @@
         {
             "DasDateID": 2100,
             "StartYear": 1979,
-            "EndYear": 2020,
+            "EndYear": null,
             "StartDay": 5,
-            "EndDay": 16,
-            "StartDate": "1979-6-5",
-            "EndDate": "2020-12-16",
+            "EndDay": null,
+            "StartDate": "1979-06-05",
+            "EndDate": null,
             "Resolution": null,
             "ResolutionNL": null,
             "Notes": null,
             "StartMonth0": 6,
             "StartMonth": "June",
             "StartMonthNL": "Juni",
-            "EndMonth0": 12,
-            "EndMonth": "December",
-            "EndMonthNL": "December",
+            "EndMonth0": null,
+            "EndMonth": null,
+            "EndMonthNL": null,
             "Progress": "In Progress",
             "ProgressNL": "Gestart"
         }
@@ -357,12 +357,12 @@
             "FileName": null
         },
         {
-            "URL": "https://www.emodnet-biology.eu/portal/index.php?dasid=2452",
-            "externalID": "2452",
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002452",
+            "externalID": null,
             "URLTypeCode": null,
             "URLType": "Online dataset",
             "URLTypID": 19,
-            "trimmedURL": "emodnet-biology.eu/portal/index.php?dasid=2452",
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002452",
             "downloadURL": null,
             "FileName": null
         },

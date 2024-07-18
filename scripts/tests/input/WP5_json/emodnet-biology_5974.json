@@ -38,7 +38,7 @@
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:43:57.303000",
+            "date": "2024-07-18 01:35:03.037000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -136,7 +136,7 @@
             "OrigNameLangID": 46,
             "FullOrigName": "\u041e\u0434\u0435\u0441\u0441\u043a\u0438\u0439 \u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c\u0435\u043d\u0438 \u0418. \u0418. \u041c\u0435\u0447\u043d\u0438\u043a\u043e\u0432\u0430",
             "InsOwnerCNT": 5,
-            "PersID": 35796,
+            "PersID": null,
             "InsID": 9402,
             "FullInstitute": "Odessa National I.I. Mechnikov University",
             "RoleID": 30,
@@ -161,7 +161,7 @@
             "OrigNameLangID": 46,
             "FullOrigName": "\u041e\u0434\u0435\u0441\u0441\u043a\u0438\u0439 \u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c\u0435\u043d\u0438 \u0418. \u0418. \u041c\u0435\u0447\u043d\u0438\u043a\u043e\u0432\u0430",
             "InsOwnerCNT": 5,
-            "PersID": 1973,
+            "PersID": null,
             "InsID": 9402,
             "FullInstitute": "Odessa National I.I. Mechnikov University",
             "RoleID": 24,
@@ -186,7 +186,7 @@
             "OrigNameLangID": 46,
             "FullOrigName": "\u041e\u0434\u0435\u0441\u0441\u043a\u0438\u0439 \u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c\u0435\u043d\u0438 \u0418. \u0418. \u041c\u0435\u0447\u043d\u0438\u043a\u043e\u0432\u0430",
             "InsOwnerCNT": 5,
-            "PersID": 35796,
+            "PersID": null,
             "InsID": 9402,
             "FullInstitute": "Odessa National I.I. Mechnikov University",
             "RoleID": 61,
@@ -211,7 +211,7 @@
             "OrigNameLangID": 46,
             "FullOrigName": "\u041e\u0434\u0435\u0441\u0441\u043a\u0438\u0439 \u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c\u0435\u043d\u0438 \u0418. \u0418. \u041c\u0435\u0447\u043d\u0438\u043a\u043e\u0432\u0430",
             "InsOwnerCNT": 5,
-            "PersID": 35797,
+            "PersID": null,
             "InsID": 9402,
             "FullInstitute": "Odessa National I.I. Mechnikov University",
             "RoleID": 61,
@@ -236,7 +236,7 @@
             "OrigNameLangID": 46,
             "FullOrigName": "\u041e\u0434\u0435\u0441\u0441\u043a\u0438\u0439 \u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c\u0435\u043d\u0438 \u0418. \u0418. \u041c\u0435\u0447\u043d\u0438\u043a\u043e\u0432\u0430",
             "InsOwnerCNT": 5,
-            "PersID": 1973,
+            "PersID": null,
             "InsID": 9402,
             "FullInstitute": "Odessa National I.I. Mechnikov University",
             "RoleID": 61,
@@ -301,7 +301,7 @@
             "EndYear": 2015,
             "StartDay": 18,
             "EndDay": 19,
-            "StartDate": "2004-6-18",
+            "StartDate": "2004-06-18",
             "EndDate": "2015-12-19",
             "Resolution": null,
             "ResolutionNL": null,
@@ -526,8 +526,8 @@
     "projects": null,
     "refs": [
         {
-            "0": 299404,
-            "BRefID": 299404,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -550,8 +550,8 @@
             "doi": null
         },
         {
-            "0": 299763,
-            "BRefID": 299763,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -574,8 +574,8 @@
             "doi": null
         },
         {
-            "0": 299772,
-            "BRefID": 299772,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -600,12 +600,12 @@
     ],
     "urls": [
         {
-            "URL": "https://www.emodnet-biology.eu/portal/index.php?dasid=5974",
-            "externalID": "5974",
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005974",
+            "externalID": null,
             "URLTypeCode": null,
             "URLType": "Online dataset",
             "URLTypID": 19,
-            "trimmedURL": "emodnet-biology.eu/portal/index.php?dasid=5974",
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005974",
             "downloadURL": null,
             "FileName": null
         },

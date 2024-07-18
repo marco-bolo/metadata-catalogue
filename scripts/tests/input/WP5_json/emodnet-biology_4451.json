@@ -38,7 +38,7 @@
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:45:32.593000",
+            "date": "2024-07-17 01:37:39.127000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -125,7 +125,7 @@
     ],
     "parents": [
         {
-            "DasID": 1043,
+            "DasID": null,
             "Acronym": null,
             "EngAbstract": "Density, species richness and diversity of epifauna and demersal fish is being monitored on the Belgian Part of the North Sea since 1979.",
             "License": null,
@@ -163,8 +163,8 @@
             "OrigNameLangID": 15,
             "FullOrigName": "Flemish Government; Agriculture and Fisheries; Institute for Agriculture and Fisheries Research; Animal knowledge Unit; Aquatic Environment and Quality",
             "InsOwnerCNT": 1,
-            "PersID": 2160,
-            "InsID": 12745,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Vlaamse overheid; Beleidsdomein Landbouw en Visserij; Instituut voor landbouw- , visserij en voedingsonderzoek; Kenniseenheid: Dier; Aquatisch Milieu en Kwaliteit",
             "RoleID": 24,
             "Role": "Contact",
@@ -189,7 +189,7 @@
             "FullOrigName": "Flemish Government; Agriculture and Fisheries; Institute for Agricultural and Fisheries Research; Animal knowledge Unit; Aquatic Environment and Quality; Bio-Environmental Research",
             "InsOwnerCNT": 1,
             "PersID": null,
-            "InsID": 13428,
+            "InsID": null,
             "FullInstitute": "Vlaamse overheid; Beleidsdomein Landbouw en Visserij; Instituut voor landbouw- , visserij en voedingsonderzoek; Kenniseenheid: Dier; Aquatisch Milieu en Kwaliteit; Biologisch milieuonderzoeksgroep",
             "RoleID": 61,
             "Role": "Data creator",
@@ -210,7 +210,7 @@
             "EndYear": null,
             "StartDay": null,
             "EndDay": null,
-            "StartDate": "2004-1-1",
+            "StartDate": "2004-01-01",
             "EndDate": null,
             "Resolution": null,
             "ResolutionNL": null,
@@ -435,8 +435,8 @@
     "projects": null,
     "refs": [
         {
-            "0": 239585,
-            "BRefID": 239585,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -461,12 +461,12 @@
     ],
     "urls": [
         {
-            "URL": "https://www.emodnet-biology.eu/portal/index.php?dasid=4451",
-            "externalID": "4451",
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000004451",
+            "externalID": null,
             "URLTypeCode": null,
             "URLType": "Online dataset",
             "URLTypID": 19,
-            "trimmedURL": "emodnet-biology.eu/portal/index.php?dasid=4451",
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000004451",
             "downloadURL": null,
             "FileName": null
         },

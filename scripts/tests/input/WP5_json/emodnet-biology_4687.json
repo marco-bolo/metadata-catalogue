@@ -38,7 +38,7 @@
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:45:32.593000",
+            "date": "2024-07-17 01:37:39.127000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -279,11 +279,21 @@
         }
     ],
     "parents": null,
-    "children": null,
+    "children": [
+        {
+            "DasID": null,
+            "Acronym": null,
+            "EngAbstract": "Through regular sampling surveys, the Flanders Marine Institute (VLIZ) is generating a long-term data series for the Belgian coastal water and sandbank system, a designated site in the Long Term Ecological Research (LTER) network. This dataset contains  the learning set used to initially annotate collected images.",
+            "License": "https://creativecommons.org/licenses/by/4.0/",
+            "StandardTitle": "LifeWatch observatory data: an imaging (ZooScan) learning set from the Belgian part of the North Sea",
+            "doi": null,
+            "vlizDoi": null
+        }
+    ],
     "othrel": null,
     "othrelrev": [
         {
-            "DasID": 7978,
+            "DasID": null,
             "Acronym": null,
             "StandardTitle": "Data, scripts and model output to perform spatiotemporal analysis of plankton drivers in the Belgian part of the North Sea.",
             "Relation": "Partial Source DataSet",
@@ -303,7 +313,7 @@
             "vlizDoi": null
         },
         {
-            "DasID": 8341,
+            "DasID": null,
             "Acronym": null,
             "StandardTitle": "How the Blue Economy affects plankton dynamics in the BPNS: data and scripts",
             "Relation": "Partial Source DataSet",
@@ -425,7 +435,7 @@
             "EndYear": null,
             "StartDay": 24,
             "EndDay": null,
-            "StartDate": "2012-7-24",
+            "StartDate": "2012-07-24",
             "EndDate": null,
             "Resolution": null,
             "ResolutionNL": null,
@@ -1244,7 +1254,7 @@
     ],
     "projects": [
         {
-            "ProID": 4139,
+            "ProID": null,
             "Acronym": "LifeWatch",
             "Progress": "In Progress",
             "StandardTitle": "Flemish contribution to LifeWatch.eu",
@@ -1254,12 +1264,12 @@
     "refs": null,
     "urls": [
         {
-            "URL": "https://www.emodnet-biology.eu/portal/index.php?dasid=4687",
-            "externalID": "4687",
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000004687",
+            "externalID": null,
             "URLTypeCode": null,
             "URLType": "Online dataset",
             "URLTypID": 19,
-            "trimmedURL": "emodnet-biology.eu/portal/index.php?dasid=4687",
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000004687",
             "downloadURL": null,
             "FileName": null
         },

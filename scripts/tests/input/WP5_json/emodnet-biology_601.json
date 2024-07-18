@@ -31,14 +31,14 @@
         "DescrCompFlag": 1,
         "DescrTransFlag": 0,
         "Citation": "Zettler M. L., 2005: Macrozoobenthos baltic sea (1980-2005) as part of the IOW-Monitoring. Institut f\u00fcr Ostseeforschung Warnem\u00fcnde, Germany",
-        "AccessConstraints": "",
+        "AccessConstraints": null,
         "InputNotes": "SOFT\r\n\r\nattached you'll find our database with monitoring data. With these date we are able to handle. Due to different project requirements not all data from our complete data base are available.\r\n\r\n\r\nThe attached data include all monitoring data from 1980 to recent of our institute in the Balic. Unfortunately it needs to much time to summerise the real catch numbers of the grabs but in each case we use a van Veen grab of app. 0,1 m\u00b2. Each number is a mean of 3 replicates at least. All weights are measured (not calculated).\r\n\r\nS:\\datac\\Original datasets\\MARBEF\\Europe\\Theme1\\Zettler\\readme.txt",
-        "UDate": "2013-12-10",
+        "UDate": "2024-07-08",
         "CDate": "2005-09-27",
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:45:32.780000",
+            "date": "2024-07-17 01:37:39.127000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -169,7 +169,7 @@
             "vlizDoi": null
         },
         {
-            "DasID": 1643,
+            "DasID": null,
             "Acronym": null,
             "StandardTitle": "LargeNet database",
             "Relation": "Partial Source DataSet",
@@ -179,7 +179,7 @@
             "vlizDoi": null
         },
         {
-            "DasID": 631,
+            "DasID": null,
             "Acronym": "Macroben",
             "StandardTitle": "Macroben database (Marbef Theme 1 workshop)",
             "Relation": "Partial Source DataSet",
@@ -204,7 +204,7 @@
             "OrigNameLangID": 13,
             "FullOrigName": "Leibniz-Institut f\u00fcr Ostseeforschung Warnem\u00fcnde",
             "InsOwnerCNT": 4,
-            "PersID": 8449,
+            "PersID": null,
             "InsID": 3178,
             "FullInstitute": "Leibniz Institute for Baltic Sea Research, Warnem\u00fcnde",
             "RoleID": 20,
@@ -229,7 +229,7 @@
             "OrigNameLangID": 13,
             "FullOrigName": "Leibniz-Institut f\u00fcr Ostseeforschung Warnem\u00fcnde",
             "InsOwnerCNT": 4,
-            "PersID": 8449,
+            "PersID": null,
             "InsID": 3178,
             "FullInstitute": "Leibniz Institute for Baltic Sea Research, Warnem\u00fcnde",
             "RoleID": 24,
@@ -254,7 +254,7 @@
             "OrigNameLangID": 13,
             "FullOrigName": "Leibniz-Institut f\u00fcr Ostseeforschung Warnem\u00fcnde",
             "InsOwnerCNT": 4,
-            "PersID": 8449,
+            "PersID": null,
             "InsID": 3178,
             "FullInstitute": "Leibniz Institute for Baltic Sea Research, Warnem\u00fcnde",
             "RoleID": 61,
@@ -289,6 +289,31 @@
             "FullAcronym": "IOW",
             "ORC": null,
             "ROR": null
+        },
+        {
+            "OrderNr": 5,
+            "Surname": "Perez Perez",
+            "Firstname": "Ruben",
+            "Initials": "R.",
+            "PerPublicFlag": 1,
+            "AdrID": 162188,
+            "Email": "ruben.perez@vliz.be",
+            "InsPublicFlag": 1,
+            "Acronym": "VLIZ",
+            "OrigNameLangCode": "en",
+            "OrigNameLangID": 15,
+            "FullOrigName": "Flanders Marine Institute",
+            "InsOwnerCNT": 1,
+            "PersID": null,
+            "InsID": 36,
+            "FullInstitute": "Vlaams Instituut voor de Zee",
+            "RoleID": 19,
+            "Role": "Data manager",
+            "OrigName": "Flanders Marine Institute",
+            "StandardName": "Vlaams Instituut voor de Zee",
+            "FullAcronym": "VLIZ",
+            "ORC": "https://orcid.org/0000-0003-0974-3401",
+            "ROR": "https://ror.org/0496vr396"
         }
     ],
     "taxterms": null,
@@ -305,8 +330,8 @@
             "EndYear": 2005,
             "StartDay": null,
             "EndDay": null,
-            "StartDate": "1980-1-1",
-            "EndDate": "2005-1-1",
+            "StartDate": "1980-01-01",
+            "EndDate": "2005-01-01",
             "Resolution": null,
             "ResolutionNL": null,
             "Notes": null,
@@ -471,8 +496,8 @@
     "projects": null,
     "refs": [
         {
-            "0": 126219,
-            "BRefID": 126219,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -495,8 +520,8 @@
             "doi": null
         },
         {
-            "0": 112410,
-            "BRefID": 112410,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -519,8 +544,8 @@
             "doi": null
         },
         {
-            "0": 107036,
-            "BRefID": 107036,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -543,8 +568,8 @@
             "doi": "https://dx.doi.org/10.1016/j.marpolbul.2006.08.024"
         },
         {
-            "0": 72056,
-            "BRefID": 72056,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -569,12 +594,12 @@
     ],
     "urls": [
         {
-            "URL": "https://www.emodnet-biology.eu/portal/index.php?dasid=601",
-            "externalID": "601",
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000000601",
+            "externalID": null,
             "URLTypeCode": null,
             "URLType": "Online dataset",
             "URLTypID": 19,
-            "trimmedURL": "emodnet-biology.eu/portal/index.php?dasid=601",
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000000601",
             "downloadURL": null,
             "FileName": null
         },

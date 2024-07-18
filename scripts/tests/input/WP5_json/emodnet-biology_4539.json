@@ -38,7 +38,7 @@
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:45:32.593000",
+            "date": "2024-07-17 01:37:39.127000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -110,7 +110,7 @@
     ],
     "parents": [
         {
-            "DasID": 4435,
+            "DasID": null,
             "Acronym": null,
             "EngAbstract": "The MARBUNN database contains benthos from the seabed in Norwegian coastal and offshore areas covered by the MAREANO project (www.mareano.no).",
             "License": "https://creativecommons.org/licenses/by/4.0/",
@@ -123,7 +123,7 @@
     "othrel": null,
     "othrelrev": [
         {
-            "DasID": 6188,
+            "DasID": null,
             "Acronym": null,
             "StandardTitle": "Distribution of benthic macroinvertebrate living modes in European seas",
             "Relation": "Partial Source DataSet",
@@ -158,8 +158,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 2,
-            "PersID": 28793,
-            "InsID": 3900,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institute of Marine Research",
             "RoleID": 24,
             "Role": "Contact",
@@ -183,8 +183,8 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 2,
-            "PersID": 28793,
-            "InsID": 3900,
+            "PersID": null,
+            "InsID": null,
             "FullInstitute": "Institute of Marine Research",
             "RoleID": 61,
             "Role": "Data creator",
@@ -205,8 +205,8 @@
             "EndYear": 2011,
             "StartDay": null,
             "EndDay": null,
-            "StartDate": "2006-1-1",
-            "EndDate": "2011-1-1",
+            "StartDate": "2006-01-01",
+            "EndDate": "2011-01-01",
             "Resolution": null,
             "ResolutionNL": null,
             "Notes": null,
@@ -252,9 +252,9 @@
             "DasGeoTerm": null,
             "DasID": 4539,
             "GeotID": 9449,
-            "X": 3.0628333333333,
-            "Y": 62.302833333333,
-            "MaxX": 36.677833333333,
+            "X": 1.402651,
+            "Y": 62.060683,
+            "MaxX": 36.677833,
             "MaxY": 80.6538,
             "StationName": "Bounding Box",
             "Precision": null,
@@ -390,8 +390,8 @@
     "projects": null,
     "refs": [
         {
-            "0": 255850,
-            "BRefID": 255850,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -426,12 +426,12 @@
             "FileName": null
         },
         {
-            "URL": "https://www.emodnet-biology.eu/portal/index.php?dasid=4539",
-            "externalID": "4539",
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000004539",
+            "externalID": null,
             "URLTypeCode": null,
             "URLType": "Online dataset",
             "URLTypID": 19,
-            "trimmedURL": "emodnet-biology.eu/portal/index.php?dasid=4539",
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000004539",
             "downloadURL": null,
             "FileName": null
         },
@@ -462,6 +462,16 @@
             "URLType": "GBIF dataset",
             "URLTypID": 43,
             "trimmedURL": "gbif.org/dataset/d30a617e-cac3-470c-a070-601376f45d6b",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://ipt.vliz.be/eurobis/resource?r=imr_mareano_grab",
+            "externalID": "imr_mareano_grab",
+            "URLTypeCode": null,
+            "URLType": "IPT",
+            "URLTypID": 33,
+            "trimmedURL": "ipt.vliz.be/eurobis/resource?r=imr_mareano_grab",
             "downloadURL": null,
             "FileName": null
         },

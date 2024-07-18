@@ -38,7 +38,7 @@
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:45:32.780000",
+            "date": "2024-07-18 01:35:03.037000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -153,7 +153,7 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 4,
-            "PersID": 5457,
+            "PersID": null,
             "InsID": 2991,
             "FullInstitute": "Russian Academy of Sciences; P. P. Shirshov Institute of Oceanology",
             "RoleID": 24,
@@ -178,7 +178,7 @@
             "OrigNameLangID": null,
             "FullOrigName": null,
             "InsOwnerCNT": 4,
-            "PersID": 5457,
+            "PersID": null,
             "InsID": 2991,
             "FullInstitute": "Russian Academy of Sciences; P. P. Shirshov Institute of Oceanology",
             "RoleID": 19,
@@ -225,8 +225,8 @@
             "EndYear": 2005,
             "StartDay": null,
             "EndDay": null,
-            "StartDate": "1994-8-1",
-            "EndDate": "2005-10-1",
+            "StartDate": "1994-08-01",
+            "EndDate": "2005-10-01",
             "Resolution": null,
             "ResolutionNL": null,
             "Notes": "data of the five most recent years will not yet be made available to the public. Sampling occurs at least twice a year.",
@@ -351,8 +351,8 @@
     "projects": null,
     "refs": [
         {
-            "0": 212958,
-            "BRefID": 212958,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -375,8 +375,8 @@
             "doi": null
         },
         {
-            "0": 114240,
-            "BRefID": 114240,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -399,8 +399,8 @@
             "doi": "https://dx.doi.org/10.1007/1-4020-2152-6_2"
         },
         {
-            "0": 212957,
-            "BRefID": 212957,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -423,8 +423,8 @@
             "doi": "https://dx.doi.org/10.1007/s00227-003-1277-3"
         },
         {
-            "0": 212965,
-            "BRefID": 212965,
+            "0": null,
+            "BRefID": null,
             "1": "Based on this dataset",
             "Relation": "Based on this dataset",
             "2": 2,
@@ -449,12 +449,12 @@
     ],
     "urls": [
         {
-            "URL": "https://www.emodnet-biology.eu/portal/index.php?dasid=2778",
-            "externalID": "2778",
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002778",
+            "externalID": null,
             "URLTypeCode": null,
             "URLType": "Online dataset",
             "URLTypID": 19,
-            "trimmedURL": "emodnet-biology.eu/portal/index.php?dasid=2778",
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002778",
             "downloadURL": null,
             "FileName": null
         },

@@ -38,7 +38,7 @@
         "CurrencyDate": null,
         "RevisionDate": null,
         "DateLastModified": {
-            "date": "2024-05-30 01:43:57.303000",
+            "date": "2024-07-09 01:33:06.773000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
@@ -104,7 +104,7 @@
             "OrigNameLangID": 15,
             "FullOrigName": "Royal Netherlands Institute for Sea Research",
             "InsOwnerCNT": 1,
-            "PersID": 11923,
+            "PersID": null,
             "InsID": 397,
             "FullInstitute": "Koninklijk Nederlands Instituut voor Onderzoek der Zee",
             "RoleID": null,
@@ -366,6 +366,16 @@
     "projects": null,
     "refs": null,
     "urls": [
+        {
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000008252",
+            "externalID": null,
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000008252",
+            "downloadURL": null,
+            "FileName": null
+        },
         {
             "URL": "https://www.eurobis.org/toolbox/en/download/occurrence/dataset/8252",
             "externalID": null,
