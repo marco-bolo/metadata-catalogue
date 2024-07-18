@@ -1,0 +1,37 @@
+{
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=6452",
+    "identifier": "Task511_dataset93",
+    
+    "datePublished": "In Progress" ,
+    
+    "description": "The Phytoplankton National Monitoring Programme for the identification and enumeration of phytoplanktonic species is an important measurement in the detection of those species which may form a Harmful Algal Bloom event. Where favourable environmental conditions occur; some species may form &#39;blooms&#39; where high cell densities may cause water discolouration; foaming; mass mortalities of fish; shellfish; invertebrate and benthic organisms through oxygen depletion or produce biotoxins which can accumulate in species of filter feeding bi-valve molluscs; which can cause a variety of human illnesses if consumed when placed on the market for human consumption.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "National Monitoring Programme for Phytoplankton Species occurrence in Aquaculture Production Areas" ,
+    "url": "http://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=6452" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

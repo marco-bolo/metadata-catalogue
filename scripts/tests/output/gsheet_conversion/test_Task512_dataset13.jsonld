@@ -1,0 +1,37 @@
+{
+    "@type": "Dataset",
+    "@id": "https://www.eurobis.org/imis?module=dataset&amp;dasid=2828",
+    "identifier": "Task512_dataset13",
+    
+    
+    "description": "Boat-based acoustic surveys for harbor porpoises in the Baltic Sea during the summers of 2001 and 2002.",
+    "sdPublisher" : {
+        "email" : "johannes.nowe@vliz.be" ,
+        "url" : "https://www.vliz.be/nl/imis?module=person&amp;persid=44166" ,
+        "affiliation" : {
+            "email" : "data@vliz.be" ,
+            "url" : "https://www.vliz.be/en" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "BE" 
+            } ,
+            "name": "Flanders Marine Institute" ,
+            "identifier": "https://edmo.seadatanet.org/report/422" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "BE" 
+        } ,
+        "name": "Jo-Hannes Nowé" ,
+        "identifier": "https://orcid.org/0009-0000-1555-5867" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Baltic porpoise acoustic surveys 01-02" ,
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=2828" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

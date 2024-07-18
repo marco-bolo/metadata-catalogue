@@ -1,0 +1,37 @@
+{
+    "@type": "Dataset",
+    "@id": "https://www.eurobis.org/imis?module=dataset&amp;dasid=4677",
+    "identifier": "Task512_dataset20",
+    
+    
+    "description": "Sightings of cetaceans were recorded daily, at 6 different fixed periods (snap shots), when the boat was in navigation or search mode. Sightings were recorded at distances shorter and larger than 300 meters from the boat.",
+    "sdPublisher" : {
+        "email" : "johannes.nowe@vliz.be" ,
+        "url" : "https://www.vliz.be/nl/imis?module=person&amp;persid=44166" ,
+        "affiliation" : {
+            "email" : "data@vliz.be" ,
+            "url" : "https://www.vliz.be/en" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "BE" 
+            } ,
+            "name": "Flanders Marine Institute" ,
+            "identifier": "https://edmo.seadatanet.org/report/422" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "BE" 
+        } ,
+        "name": "Jo-Hannes Nowé" ,
+        "identifier": "https://orcid.org/0009-0000-1555-5867" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "POPA- Fisheries Observer Program of the Azores: Marine mammal sightings in the Azores tuna fishery from 1998 on: during navigation or search mode" ,
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=4677" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

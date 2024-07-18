@@ -1,0 +1,37 @@
+{
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=5727",
+    "identifier": "Task511_dataset56",
+    
+    "datePublished": "In Progress" ,
+    
+    "description": "Regional monitoring programs for Epibenthos have been performed since 1994 in Sweden. The monitoring is financed by the Swedish county administration boards; Swedish municipalities and Swedish coalitions of water conservation.  Recipient control data financed by companies are also included. Sampling is performed by a large number of different institutes and consulting firms. Data from monitoring projects are also included in this dataset. The data is stored in the database SHARK; hosted and maintained by the Swedish Meteorological and Hydrological Institute. The Epibenthos monitoring programs and projects studies hard and soft bottoms from the surface down to 10-20 meters. Data is collected in transects or squares with help of divers. Species abundances are determined directly by the divers or photographs are taken and analyzed later.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "SHARK - Regional monitoring and monitoring projects of Epibenthos in Sweden since 1994" ,
+    "url": "http://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=5727" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

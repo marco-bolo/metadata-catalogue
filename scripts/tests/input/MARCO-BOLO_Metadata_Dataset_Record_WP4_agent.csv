@@ -1,0 +1,4 @@
+AgentKey,Type,ID,Name,AffiliationAgentKey,URL,Email,Country
+MBO,Project,none,Marco-Bolo,,https://marcobolo-project.eu,info@marcobolo-project.eu,EU
+VLIZ,Organization,https://edmo.seadatanet.org/report/422,Flanders Marine Institute,,https://www.vliz.be/en,data@vliz.be,BE
+Kexter,Person,https://orcid.org/0000-0002-5911-1536,Katrina Exter,VLIZ,https://marineinfo.org/imis?module=person&persid=35548,katrina.exter@vliz.be,BE

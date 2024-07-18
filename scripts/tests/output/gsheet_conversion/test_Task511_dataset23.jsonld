@@ -1,0 +1,37 @@
+{
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=4438",
+    "identifier": "Task511_dataset23",
+    
+    "datePublished": "In Progress" ,
+    
+    "description": "The IMR zooplankton database holds North Sea data on species composition (abundance); size fractionated biomass as well as biomass for particular zooplankton groups obtained from standard seasonal transects (Utsira-StartPoint; Feie-Shetland; Hanstholm-Aberdeen; Torungen-Hirtshals) and a regional coverage of the northern North Sea and Skagerrak during April-May. Data on species composition are limited.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "IMR Zooplankton North Sea" ,
+    "url": "http://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=4438" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

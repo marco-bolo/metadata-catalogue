@@ -1,0 +1,68 @@
+{
+    "@type": "Dataset",
+    "@id": "https://www.elbe-datenportal.de/FisFggElbe/ausgabe/dbe_gast_20240430_161346041.xls",
+    "identifier": "RBC_Elbe_phytoplankton_Schnackenburg",
+    "provider":
+    [
+            
+                {
+                    "email" : "info@fgg-elbe.de" ,
+                    "url" : "https://www.fgg-elbe.de/home.html" ,
+                    "workLocation" : {
+                        "@type": "https://schema.org/Country" , 
+                        "name" : "DE" 
+                    } ,
+                    "name": "River Basin Community Elbe" ,
+                    "identifier": "https://edmo.seadatanet.org/report/4673" , 
+                    "@type": "https://schema.org/Organization"
+                }
+            
+    ],
+    "publisher":
+    [
+            
+                {
+                    "email" : "info@fgg-elbe.de" ,
+                    "url" : "https://www.fgg-elbe.de/home.html" ,
+                    "workLocation" : {
+                        "@type": "https://schema.org/Country" , 
+                        "name" : "DE" 
+                    } ,
+                    "name": "River Basin Community Elbe" ,
+                    "identifier": "https://edmo.seadatanet.org/report/4673" , 
+                    "@type": "https://schema.org/Organization"
+                }
+            
+    ],
+    
+    "additionalType": "Phytoplankton abundance; composition" ,
+    
+    "description": "Phytoplankton data in Schnackenburg collected from regional authorities from federal states for river basin Elbe within the frame of the Water Framework Directive in Germany - data set between 2000 - 2018",
+    "sdPublisher" : {
+        "email" : "lili.hufnagel@ufz.de" ,
+        "affiliation" : {
+            "url" : "https://www.ufz.de/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Helmholtz Centre for Environmental Research GmbH - UFZ" ,
+            "identifier": "https://edmo.seadatanet.org/report/1152" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Lili Hufnagel" ,
+        "identifier": "https://orcid.org/0009-0008-7905-3100" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Phytoplankton of River Basin Community Elbe in Schnackenburg between 2000 - 2018" ,
+    "url": "https://www.elbe-datenportal.de/FisFggElbe/ausgabe/dbe_gast_20240430_161346041.xls" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

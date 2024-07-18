@@ -1,15 +1,20 @@
-{% if ctrl.isFirst %}
-[
-{% endif %}
-    {
-    "@context":
-    {
-        "@vocab": "http://schema.org/"
-    },
+{
     "@type": "Dataset",
-
+    {%- if _.DataLandingPageURL and " | " not in _.DataLandingPageURL %}
+    "@id": "{{_.DataLandingPageURL}}",
+    "identifier": "{{_.DatasetIdentifier}}",
+    {%- elif _.DataLandingPageURL and " | " in _.DataLandingPageURL %}
+        {%- for url in _.DataLandingPageURL.split(" | ") %}
+            {%- if loop.first %}
+    "@id": "{{url}}",
+    "identifier": 
+            {%- else %}
+            "{{url}}"{{ ", " if not loop.last else "" }}
+            {%- endif %}
+        {%- endfor %}
+    {%- else %}
     "@id": "{{_.DatasetIdentifier}}",
-
+    {% endif %}
     {%- if _.VariablesMeasured %}
     "variableMeasured":
     [
@@ -21,8 +26,8 @@
 
     {%- if _.TaxonomicCoverage %}
     "about": [
-        {%- for tax in _.TaxonomicCoverage.split("|") %}
-        "{{tax}}" , 
+        {%- for tax in _.TaxonomicCoverage.split(" | ") %}
+        "{{tax}}" {{ ", " if not loop.last else "" }}
         {%- endfor %}
     ],
     {%- endif %}
@@ -30,8 +35,8 @@
     {%- if _.RelevantCitations %}
     "citation":
     [
-        {%- for cit in _.RelevantCitations %}
-        "{{cit}}",
+        {%- for cit in _.RelevantCitations.split(" | ") %}
+        "{{cit}}" {{ ", " if not loop.last else "" }}
         {%- endfor%}
     ],
     {%- endif %}
@@ -94,8 +99,8 @@
     {%- if _.DataTypes %}
     "encodingFormat":
     [
-        {%- for type in _.DataTypes.split("|") %}
-        "{{type}}" , 
+        {%- for type in _.DataTypes.split(" | ") %}
+        "{{type}}" {{ ", " if not loop.last else "" }}
         {%- endfor %}
     ],
     {%- endif %}
@@ -103,9 +108,88 @@
     {%- if _.FunderAgent %}
     "funder":
     [
-        {%- for funder in _.FunderAgent.split("|") %}
+        {%- for funder in _.FunderAgent.split(" | ") %}
             {%- for agent in sets["agents"]  %}
                 {%- if funder == agent.AgentKey %}
+                {
+                    {%- if agent.Email %}
+                    "email" : "{{agent.Email.strip()}}" , 
+                    {%- endif %}
+                    {%- if agent.URL %}
+                    "url" : "{{agent.URL}}" ,
+                    {%- endif %}
+                    {%- if agent.AffiliationAgentKey %}
+                        {%- for org in sets["agents"]  %}
+                        {%- if org.AgentKey == agent.AffiliationAgentKey %}
+                    "affiliation" : {
+                        {%- if org.Email %}
+                        "email" : "{{org.Email}}" , 
+                        {%- endif %}
+                        {%- if org.URL %}
+                        "url" : "{{org.URL}}" ,
+                        {%- endif %}
+                        {%- if org.Country %}
+                        "address" : {
+                            "@type": "https://schema.org/PostalAddress" , 
+                            "addressCountry" : "{{org.Country}}" 
+                        } , 
+                        {%- endif %}
+                        "name": "{{org.Name}}" ,
+                        "identifier": "{{org.ID}}" , 
+                        "@type": "https://schema.org/{{org.Type}}"
+                    } , 
+                        {%- endif %}
+                        {%- endfor %}
+                    {%- endif %}
+                    {%- if agent.Country %}
+                    "workLocation" : {
+                        "@type": "https://schema.org/Country" , 
+                        "name" : "{{agent.Country}}" 
+                    } , 
+                    {%- endif %}
+                    "name": "{{agent.Name}}" ,
+                    "identifier": "{{agent.ID}}" , 
+                    "@type": "https://schema.org/{{agent.Type}}"
+                }
+                {%- endif %}
+            {%- endfor %}
+            {{ ", " if not loop.last else "" }}
+        {%- endfor %}
+    ],
+    {%- endif %}
+
+    {%- if _.SourceDatasetIdentifier %}
+    "isPartOf":
+    [
+        {%- for id in _.SourceDatasetIdentifier.split(' | ') %}
+        "{{id}}" {{ ", " if not loop.last else "" }}
+        {%- endfor%}
+    ] ,
+    {%- endif %}
+
+    {%- if _.Keywords %}
+    "keywords":
+    [
+        {%- for keyw in _.Keywords.split(" | ") %}
+        "{{keyw}}" {{ ", " if not loop.last else "" }}
+        {%- endfor %}
+    ],
+    {%- endif %}
+
+    {%- if _.License %}
+    "license": "{{_.License}}" ,
+    {%- endif %}
+
+    {%- if _.DatasetCitation %}
+    "http://purl.org/dc/terms/bibliographicCitation" : "{{_.DatasetCitation}}" ,
+    {%- endif %}
+
+    {%- if _.DataProviderAgent %}
+    "provider":
+    [
+        {%- for provider in _.DataProviderAgent.split(" | ") %}
+            {% for agent in sets["agents"]  %}
+                {%- if provider == agent.AgentKey %}
                 {
                     {%- if agent.Email %}
                     "email" : "{{agent.Email}}" , 
@@ -148,84 +232,7 @@
                 }
                 {%- endif %}
             {%- endfor %}
-        {%- endfor %}
-    ],
-    {%- endif %}
-
-    {%- if _.SourceDatasetIdentifier %}
-    "isPartOf":
-    [
-        {%- for id in _.SourceDatasetIdentifier %}
-        "{{id}}" , 
-        {%- endfor%}
-    ] ,
-    {%- endif %}
-
-    {%- if _.Keywords %}
-    "keywords":
-    [
-        {%- for keyw in _.Keywords.split("|") %}
-        "{{keyw}}" , 
-        {%- endfor %}
-    ],
-    {%- endif %}
-
-    {%- if _.License %}
-    "license": "{{_.License}}" ,
-    {%- endif %}
-
-    {%- if _.DatasetCitation %}
-    "http://purl.org/dc/terms/bibliographicCitation" : "{{_.DatasetCitation}}" ,
-    {%- endif %}
-
-    {%- if _.DataProviderAgent %}
-    "provider":
-    [
-        {%- for provider in _.DataProviderAgent.split("|") %}
-            {% for agent in sets["agents"]  %}
-                {%- if provider == agent.AgentKey %}
-                {
-                    {%- if agent.Email %}
-                    "email" : "{{agent.Email}}" , 
-                    {%- endif %}
-                    {%- if agent.URL %}
-                    "url" : "{{agent.URL}}" ,
-                    {%- endif %}
-                    {%- if agent.AffiliationAgentKey %}
-                        {%- for org in sets["agents"]  %}
-                        {%- if org.AgentKey == agent.AffiliationAgentKey %}
-                    "affiliation" : {
-                        {%- if org.Email %}
-                        "email" : "{{org.Email}}" , 
-                        {%- endif %}
-                        {%- if org.URL %}
-                        "url" : "{{org.URL}}" ,
-                        {%- endif %}
-                        {%- if org.Country %}
-                        "address" : {
-                            "@type": "https://schema.org/PostalAddress" , 
-                            "addressCountry" : "{{org.Country}}" 
-                        } , 
-                        {%- endif %}
-                        "name": "{{org.Name}}" ,
-                        "identifier": "{{org.ID}}" , 
-                        "@type": "https://schema.org/{{org.Type}}"
-                    } , 
-                        {%- endif %}
-                        {%- endfor %}
-                    {%- endif %}
-                    {%- if agent.Country %}
-                    "workLocation" : {
-                        "@type": "https://schema.org/Country" , 
-                        "name" : "{{agent.Country}}" 
-                    } , 
-                    {%- endif %}
-                    "name": "{{agent.Name}}" ,
-                    "identifier": "{{agent.ID}}" , 
-                    "@type": "https://schema.org/{{agent.Type}}"
-                } ,
-                {%- endif %}
-            {%- endfor %}
+            {{ ", " if not loop.last else "" }}
         {%- endfor %}
     ],
     {%- endif %}
@@ -233,7 +240,7 @@
     {%- if _.DataContactAgent %}
     "publisher":
     [
-        {%- for provider in _.DataContactAgent.split("|") %}
+        {%- for provider in _.DataContactAgent.split(" | ") %}
             {% for agent in sets["agents"]  %}
                 {%- if provider == agent.AgentKey %}
                 {
@@ -275,17 +282,18 @@
                     "name": "{{agent.Name}}" ,
                     "identifier": "{{agent.ID}}" , 
                     "@type": "https://schema.org/{{agent.Type}}"
-                } ,
+                }
                 {%- endif %}
             {%- endfor %}
+            {{ ", " if not loop.last else "" }}
         {%- endfor %}
     ],
     {%- endif %}
    
     {%- if _.SpatialCoverageMarineRegion %}
     "spatialCoverage": [
-        {%- for mr in _.SpatialCoverageMarineRegion.split("|") %}
-        "{{mr}}" ,
+        {%- for mr in _.SpatialCoverageMarineRegion.split(" | ") %}
+        "{{mr}}" {{ ", " if not loop.last else "" }}
         {%- endfor %}
     ] ,
     {%- endif %}
@@ -308,16 +316,16 @@
     {%- endif %}
 
     {%- if _.InProgressDataDate %}
-    "additionalType": "{{_.InProgressDataDate}}" ,
+    "datePublished": "{{_.InProgressDataDate}}" ,
     {%- endif %}
 
     {%- if _.EVDescription %}
-    "additionalType": "{{_.EVDescription | tojson('  ') }}" ,
+    "additionalType": "{{_.EVDescription}}" ,
     {%- endif %}
     {# _.IndicatorDescription left out since no 'schema.org equivalent property' & for internal usage only #}
     
     {%- if _.DatasetDescription %}
-    "description": "{{ _.DatasetDescription }}",
+    "description": "{{ _.DatasetDescription.replace("\n", "")}}",
     {%- endif %}
 
     {%- if _.DatasetDescriber %}
@@ -375,8 +383,8 @@
     "url": "{{_.DataLandingPageURL}}" , 
     {%- endif %}
 
-    "identifier" : "{{_.DatasetIdentifier}}"
-} ,
-{% if ctrl.isLast %}
-]
-{% endif %}
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

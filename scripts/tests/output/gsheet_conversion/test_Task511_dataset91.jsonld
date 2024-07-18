@@ -1,0 +1,37 @@
+{
+    "@type": "Dataset",
+    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=6449",
+    "identifier": "Task511_dataset91",
+    
+    "datePublished": "In Progress" ,
+    
+    "description": "The Irish Groundfish Surveys is part of an annual International Bottom Trawl Survey (IBTS) programme co-ordinated by the International Council for the Exploration of the Sea (ICES). The survey is carried out over 47 days between October-December each year by the Marine Institute and collects demersal trawl and ancillary data in Irish waters to produce relative abundance indices for fisheries management in the Northwest Atlantic Shelf waters.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Groundfish Survey Invertebrate Data" ,
+    "url": "http://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=6449" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

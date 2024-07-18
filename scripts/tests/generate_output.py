@@ -11,19 +11,34 @@ from pathlib import Path
 logging.basicConfig(level=logging.INFO)
 
 # set Workpackages
-wps = ['WP3', 'WP5']
+wps = ['WP2', 'WP3', 'WP4', 'WP5']
 
+
+# turning retrieved json records into json-ld
+#for wp in wps: 
+#    input_folder = Path(f'./input/{wp}_json')
+#    output_folder = Path(f'/output/{wp}_jsonld')
+#
+#    for file in input_folder.iterdir():
+#        subyt_jsonrecord = Subyt(
+#            extra_sources={"_": f"./{input_folder}/{file.name}"},
+#            sink=f"./{output_folder}/{file.stem}.jsonld",
+#            template_name="bioship.jsonld.ldt.j2",
+#            template_folder="./templates/",
+#            mode="it",
+#        )
+#        subyt_jsonrecord.process()
+
+# turning record information from spreadsheet into json-ld
 for wp in wps: 
-    input_folder = Path(f'./input/{wp}_json')
     output_folder = Path(f'/output/{wp}_jsonld')
-
-    for file in input_folder.iterdir():
-
-        subyt = Subyt(
-            extra_sources={"_": f"./{input_folder}/{file.name}"},
-            sink=f"./{output_folder}/{file.stem}.jsonld",
-            template_name="bioship.jsonld.ldt.j2",
-            template_folder="./templates/",
-            mode="it",
-        )
-        subyt.process()
+    subyt_sheet = Subyt(
+        extra_sources={
+            "_": f'./input/MARCO-BOLO_Metadata_Dataset_Record_{wp}_description.csv',
+            "agents": f'./input/MARCO-BOLO_Metadata_Dataset_Record_{wp}_agent.csv'
+            },
+        sink="./output/sheet_data/test_{DatasetIdentifier}.jsonld",
+        template_name="dataset-template.json.ldt.j2",
+        template_folder="./templates/",
+    )
+    subyt_sheet.process()

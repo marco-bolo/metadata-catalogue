@@ -1,0 +1,4 @@
+AgentKey,Type,ID,Name,AffiliationAgentKey,URL,Email,Country
+MBO,Project,none,Marco-Bolo,,https://marcobolo-project.eu,info@marcobolo-project.eu,EU
+AO,Person,https://orcid.org/0000-0002-4605-1896,Aubrie Onoufriou,GovScot,,Aubrie.Onoufriou@gov.scot,GB
+GovScot,Organization,https://ror.org/02kh2f959,"Marine Scotland, Marine Directorate, Scottish Government", ,http://www.gov.scot/About/People/Directorates/marinescotland,,GB

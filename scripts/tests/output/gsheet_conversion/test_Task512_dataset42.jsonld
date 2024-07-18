@@ -1,0 +1,37 @@
+{
+    "@type": "Dataset",
+    "@id": "https://www.eurobis.org/imis?module=dataset&amp;dasid=5531",
+    "identifier": "Task512_dataset42",
+    
+    
+    "description": "As part of the Belgian LifeWatch observatory, a permanent Cetacean passive acoustic network is established in the Belgian Part of the North Sea. The sensor network uses C-PODs (Chelonia Limited) to register the presence of harbour porpoise (&lt;i&gt;Phocoena phocoena&lt;/i&gt;) in the neighbourhood. Click trains of harbour porpoises are detected and classified using the CPOD software and high and moderate quality click trains are selected. The dataset is published yearly aggregated per hour. In related datasets, described below, aggregated data per minute is available.",
+    "sdPublisher" : {
+        "email" : "johannes.nowe@vliz.be" ,
+        "url" : "https://www.vliz.be/nl/imis?module=person&amp;persid=44166" ,
+        "affiliation" : {
+            "email" : "data@vliz.be" ,
+            "url" : "https://www.vliz.be/en" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "BE" 
+            } ,
+            "name": "Flanders Marine Institute" ,
+            "identifier": "https://edmo.seadatanet.org/report/422" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "BE" 
+        } ,
+        "name": "Jo-Hannes Nowé" ,
+        "identifier": "https://orcid.org/0009-0000-1555-5867" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "LifeWatch observatory data: permanent Cetacean passive acoustic sensor network in the Belgian part of the North Sea" ,
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=5531" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

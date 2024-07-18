@@ -18,8 +18,10 @@ for wp,gd_url in MBO_WPs.items():
     gdown.download(f'https://drive.google.com/uc?id={file_id}', output_file, quiet=False)
 
     # Read the specified Excel sheet into a DataFrame & save to csv
-    sheet_name = 'Datasets Description'
-    df = pd.read_excel(output_file, sheet_name=sheet_name)
-    df.to_csv(f'input/MARCO-BOLO_Metadata_Dataset_Record_{wp}.csv', index=False)
+    descr_df = pd.read_excel(output_file, sheet_name='Datasets Description')
+    descr_df.to_csv(f'input/MARCO-BOLO_Metadata_Dataset_Record_{wp}_description.csv', index=False)
+
+    agent_df = pd.read_excel(output_file, sheet_name='Agent')
+    agent_df.to_csv(f'input/MARCO-BOLO_Metadata_Dataset_Record_{wp}_agent.csv', index=False)
     # Now you have your data in a DataFrame
     #print(df)
