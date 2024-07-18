@@ -4,11 +4,43 @@
         "@vocab": "http://schema.org/"
     },
     "@type": "Dataset",
-    {#- to check whether this is correct #}
-    "@id": "http://www.emodnet-biology.eu/data-catalog?module=dataset&dasid={{_.datasetrec.DasID}}",
-    "distribution": "http://marineinfo.org/id/dataset/{{_.datasetrec.DasID}}.jsonld" ,
-    {#- "includedInDataCatalog"#}
-    {#- "measurementTechnique"#}
+    {#- todo: correct way of describing the Identifier, 
+    taking into account 'DatasetIdentifier' and 'DataLandingPageURL' 
+    (which can hold multiple values separated by '|') 
+    from google sheets) #}
+    "@id": "{{}}",
+    {# todo: add correct distribution - will not always be available, see identifier issue above
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/{{_.datasetrec.DasID}}.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    }
+    #}
+    {#
+    {%- "includedInDataCatalog" --> for datasetdescr in sets['datasetdescription'] %}
+      {%- if datasetdescr.DasID == _.datasetrec.DasID %}
+    "includedInDataCatalog":  {
+        {%- if datasetdescr.dataCatalogID %}
+        "@id": "{{datasetdescr.dataCatalogID}}",
+        {%- endif %}
+        {%- if datasetdescr.dataCatalogUrl %}
+        "url": "{{datasetdescr.dataCatalogUrl}}",
+        {%- endif %}
+        "@type": "DataCatalog"
+      } {%- if not loop.last %}, {%- endif %}
+      {%- endif %}
+    {%- endfor %}
+    #}
+    {#- "measurementTechnique" --> in dataset description on oceaninfohub, but not in json record of dataset - information could be included in MBO spreadsheets #}
+    {#
+    {%- for datasetdescr in sets['datasetdescription'] %}
+      {%- if datasetdescr.DasID == _.datasetrec.DasID %}
+    {%- if datasetdescr.measurementTechnique %}
+    "measurementTechnique": "{{datasetdescr.measurementTechnique}}" ,
+    {%- endif %}
+      {%- endif %}
+    {%- endfor %}
+    #}
     {#- meastypes#}
     {%- if _.meastypes %}
     "variableMeasured": [
@@ -59,12 +91,12 @@
     {%- endif %}
     {#- "creditText"#}
     {%- if _.datasetrec.CDate %}
-    "dateCreated": "{{_.datasetrec.CDate}}",
+    "datePublished": "{{_.datasetrec.CDate}}",
     {%- endif %}
     {%- if _.datasetrec.UDate %}
     "dateModified": "{{_.datasetrec.UDate}}",
     {%- endif %}
-    {#- "datePublished":#}
+    {#- "dateCreated"#}
     {#- "discussionUrl"#}
     {#- "editor"#}
     {#- "educationalUse"#}
@@ -116,7 +148,30 @@
     {#- "mainEntity"#}
     {#- "maintainer"#}
     {#- "position"#}
-    {#- "provider"#}
+    {#- "provider" --> in dataset description on oceaninfo hub, however not included in json record of dataset - information that could be recorded in MBO spreadsheets #}
+    {#
+    {%- for datasetdescr in sets['datasetdescription'] %}
+      {%- if datasetdescr.DasID == _.datasetrec.DasID and datasetdescr.DataProviderAgent %}
+    "provider" : 
+      {%- for provider in _.DataProviderAgent.split("|") %}
+        {% for agent in sets["agents"]  %}
+          {%- if provider == agent.AgentKey %}
+      {
+        "legalName": "{{agent.legalName}}" ,
+        {%- if agent.Name %}
+        "name": "{{agent.Name}}",
+        {%- endif %}
+        {%- if agent.URL %}
+        "url" : "{{agent.URL}}" ,
+        {%- endif %} 
+        "@type": "https://schema.org/{{agent.Type}}"
+      } {%- if not loop.last %}, {%- endif %}
+          {%- endif %}
+        {%- endfor %}
+      {%- endfor %}
+      {%- endif %}
+    {%- endfor %}
+    #}
     {#- "publication"#}
     {%- if _.ownerships %}
     {%- set creators = [] %}
@@ -162,7 +217,29 @@
       {%- if not loop.last %}, {%- endif %}
     {%- endfor %}
     ] , 
-    {#- "publishingPrinciples"#}
+    {#- "publishingPrinciples" --> in EOV description on oceaninfohub, not in json record - could be inlcuded in MBO spreadsheets #}
+    {#
+    {%- for datasetdescr in sets['datasetdescription'] %}
+      {%- if datasetdescr.DasID == _.datasetrec.DasID %}
+    {%- if datasetdescr.pubPrincUrl or datasetdescr.pubPrincName or datasetdescr.pubPrincDescr %}
+    "publishingPrinciples": {
+      {
+            {%- if datasetdescr.pubPrincUrl %}
+            "url": "{{datasetdescr.pubPrincUrl}}",
+            {%- endif %}
+            {%- if datasetdescr.pubPrincName %}
+            "name": "{{datasetdescr.pubPrincName}}",
+            {%- endif %}
+            {%- if datasetdescr.pubPrincDescr %}
+            "description": "{{datasetdescr.pubPrincDescr}}" ,
+            {%- endif %}
+            "@type": "CreativeWork"
+        },
+    } ,
+    {%- endif %}
+      {%- endif %}
+    {%- endfor %}
+    #}
     {#- "review"#}
     {#- "sdDatePublished"#}
     {#- "size"#}
@@ -239,7 +316,7 @@
     ],
     {%- endif %}
     {%- if _.taxterms %}
-    "about" : [
+    "about" : [ {#note: "about" in EOV description on oceaninfohub, but for same content as used with 'subjectOf' in dataset description on oceaninfohub - so leaving in as is #}
         {%- for tax in _.taxterms %}
         {
           "taxonRank" : {
@@ -270,6 +347,52 @@
     "name": "{{_.datasetrec.StandardTitle}}",
     {%- endif %}
     "sameAs": "http://marineinfo.org/id/dataset/{{_.datasetrec.DasID}}",
-    {#- "subjectOf"#}
+    {#- "subjectOf" --> in dataset description on oceaninfohub, but not included in json record of dataset - information that could possibly be included in the MBO spreadsheet (if such info where applicable) #}
+    {#
+    {%- for datasetdescr in sets['datasetdescription'] %}
+      {%- if datasetdescr.DasID == _.datasetrec.DasID %}
+    "subjectOf": {
+        "description": "{{datasetdescr.activityDescription}}",
+        "name": "{{datasetdescr.activityName}}",
+        "potentialAction": [
+            {%- if datasetdescr.activityAction %}
+            {%- for action in datasetdescr.activityAction.split("|") %}
+            {
+                {%- if action.name %}
+                "name": "{{action.name}}",
+                {%- endif %}
+                {%- if action.agentID %}
+                "agent" "{{action.agentID}}",
+                {%- endif %}
+                {%- if action.startTime %}
+                "startTime": "{{action.startTime}}",
+                {%- endif %}
+                {%- if action.endTime %}
+                "endTime": "{{action.endTime}}",
+                {%- endif %}
+                {%- if action.instrumentName or action.instrumentUrl or action.instrumentDescription %}
+                "instrument": {
+                    {%- if action.instrumentName %}
+                    "name": "{{action.instrumentName}}",
+                    {%- endif %}
+                    {%- if action.instrumentUrl %}
+                    "url": "{{action.instrumentUrl}}",
+                    {%- endif %}
+                    {%- if action.instrumentDescription %}
+                    "description": "{{action.instrumentDescription}}",
+                    {%- endif %}
+                    "@type": "Thing"
+                },
+                {%- endif %}
+                "@type": "Action"
+            } 
+            {%- endfor %}
+            {%- endif %}
+        ],
+      "@type": "Event"
+    } ,
+      {%- endif %}
+    {%- endfor %}
+    #}
     "url": "http://marineinfo.org/id/dataset/{{_.datasetrec.DasID}}"
 }
