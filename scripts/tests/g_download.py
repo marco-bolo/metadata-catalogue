@@ -1,17 +1,25 @@
 import gdown
 import pandas as pd
 
-# URL of the Excel file in the shared Google Drive folder
-google_drive_url = 'https://drive.google.com/file/d/1GjFiBIG964WXEogLzb89qhGGLFDLHy63/view?usp=sharing'
-# Extract file ID from the Google Drive URL
-file_id = google_drive_url.split('/')[-2]
+#google_drive_urls of WP's
+MBO_WPs = {
+    'WP2':'https://drive.google.com/file/d/1qfNib1599OQBJ2QrbAVrMVxbCwxMlAj3/view?usp=sharing',
+    'WP3': 'https://drive.google.com/file/d/1D-YJbsiO3KOJyRUrEvUKZjpiOrhXXKcS/view?usp=sharing',
+    'WP4':'https://drive.google.com/file/d/1GjFiBIG964WXEogLzb89qhGGLFDLHy63/view?usp=sharing',
+    'WP5':'https://drive.google.com/file/d/1jH8Gp50y9w_SsoFELYTKV6ohPlkO3nqm/view?usp=sharing'
+}
 
-# Download the file from Google Drive
-output_file = 'scripts/tests/input/MARCO-BOLO_Metadata_Dataset_Record_WP4.xlsx'
-gdown.download(f'https://drive.google.com/uc?id={file_id}', output_file, quiet=False)
+for wp,gd_url in MBO_WPs.items():
+    # Extract file ID from the Google Drive URL
+    file_id = gd_url.split('/')[-2]
 
-# Read the Excel file into a DataFrame
-df = pd.read_excel(output_file)
+    # Download the file from Google Drive
+    output_file = f'input/MARCO-BOLO_Metadata_Dataset_Record_{wp}.xlsx'
+    gdown.download(f'https://drive.google.com/uc?id={file_id}', output_file, quiet=False)
 
-# Now you have your data in a DataFrame
-print(df)
+    # Read the specified Excel sheet into a DataFrame & save to csv
+    sheet_name = 'Datasets Description'
+    df = pd.read_excel(output_file, sheet_name=sheet_name)
+    df.to_csv(f'input/MARCO-BOLO_Metadata_Dataset_Record_{wp}.csv', index=False)
+    # Now you have your data in a DataFrame
+    #print(df)
