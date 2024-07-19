@@ -15,6 +15,19 @@
     {%- else %}
     "@id": "{{_.DatasetIdentifier}}",
     {% endif %}
+    {# "DataCatalog" in dataset description on oceaninfohub; this info not yet recorded for MBO datasets
+    {%- if _.dataCatalogID %}
+    "includedInDataCatalog": {
+        {%- if _.dataCatalogID %}
+        "@id": "{{_.dataCatalogID}}",
+        {%- endif %}
+        {%- if _.dataCatalogUrl %}
+        "url": "{{_.dataCatalogUrl}}",
+        {%- endif %}
+        "@type": "DataCatalog"
+    } ,
+    {%- endif %}
+    #}
     {%- if _.VariablesMeasured %}
     "variableMeasured":
     [
@@ -23,7 +36,12 @@
         {%- endfor %}
     ],
     {%- endif %}
-
+    {#- "measurementTechnique" in dataset description on oceaninfohub; this info not yet recorded for MBO datasets #}
+    {#
+    {%- if _.measurementTechnique %}
+    "measurementTechnique": "{{_.measurementTechnique}}" ,
+    {%- endif %}
+    #}
     {%- if _.TaxonomicCoverage %}
     "about": [
         {%- for tax in _.TaxonomicCoverage.split(" | ") %}
@@ -31,7 +49,54 @@
         {%- endfor %}
     ],
     {%- endif %}
-
+    {#- "subjectOf" in dataset description on oceaninfohub; this info not yet recorded for MBO datasets
+    {%- if _.activityName or _.activityDescription %}
+    "subjectOf": {
+        {%- if _.activityDescription %}
+        "description": "{{_.activityDescription}}",
+        {%- endif %}
+        {%- if _.activityName %}
+        "name": "{{_.activityName}}",
+        {%- endif %}
+        {%- if _.activityAction %}
+        "potentialAction": [
+            {%- for action in _.activityAction.split("|") %}
+            {
+                {%- if action.name %}
+                "name": "{{action.name}}",
+                {%- endif %}
+                {%- if action.agentID %}
+                "agent" "{{action.agentID}}",
+                {%- endif %}
+                {%- if action.startTime %}
+                "startTime": "{{action.startTime}}",
+                {%- endif %}
+                {%- if action.endTime %}
+                "endTime": "{{action.endTime}}",
+                {%- endif %}
+                {%- if action.instrumentName or action.instrumentUrl or action.instrumentDescription %}
+                "instrument": {
+                    {%- if action.instrumentName %}
+                    "name": "{{action.instrumentName}}",
+                    {%- endif %}
+                    {%- if action.instrumentUrl %}
+                    "url": "{{action.instrumentUrl}}",
+                    {%- endif %}
+                    {%- if action.instrumentDescription %}
+                    "description": "{{action.instrumentDescription}}",
+                    {%- endif %}
+                    "@type": "Thing"
+                },
+                {%- endif %}
+                "@type": "Action"
+            } {{ ", " if not loop.last else "" }}
+            {%- endfor %}
+        {%- endif %}
+        ],
+      "@type": "Event"
+    } ,
+    {%- endif %}
+    #}
     {%- if _.RelevantCitations %}
     "citation":
     [
@@ -157,7 +222,6 @@
         {%- endfor %}
     ],
     {%- endif %}
-
     {%- if _.SourceDatasetIdentifier %}
     "isPartOf":
     [
@@ -289,7 +353,24 @@
         {%- endfor %}
     ],
     {%- endif %}
-   
+    {#- "publishingPrinciples" in EOV description on oceaninfohub; this info not yet recorded for MBO datasets
+    {%- if _.pubPrincUrl or _.pubPrincName or _.pubPrincDescr %}
+    "publishingPrinciples": {
+      {
+            {%- if _.pubPrincUrl %}
+            "url": "{{_.pubPrincUrl}}",
+            {%- endif %}
+            {%- if _.pubPrincName %}
+            "name": "{{_.pubPrincName}}",
+            {%- endif %}
+            {%- if _.pubPrincDescr %}
+            "description": "{{_.pubPrincDescr}}" ,
+            {%- endif %}
+            "@type": "CreativeWork"
+        },
+    } ,
+    {%- endif %}
+    #}
     {%- if _.SpatialCoverageMarineRegion %}
     "spatialCoverage": [
         {%- for mr in _.SpatialCoverageMarineRegion.split(" | ") %}
