@@ -12,6 +12,7 @@ MBO_WPs = {
 for wp,gd_url in MBO_WPs.items():
     # Extract file ID from the Google Drive URL
     file_id = gd_url.split('/')[-2]
+    print(file_id)
 
     # Download the file from Google Drive
     output_file = f'input/MARCO-BOLO_Metadata_Dataset_Record_{wp}.xlsx'
