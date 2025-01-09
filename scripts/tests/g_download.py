@@ -12,7 +12,6 @@ MBO_WPs = {
 for wp,gd_url in MBO_WPs.items():
     # Extract file ID from the Google Drive URL
     file_id = gd_url.split('/')[-2]
-    print(file_id)
 
     # Download the file from Google Drive
     output_file = f'input/MARCO-BOLO_Metadata_Dataset_Record_{wp}.xlsx'
@@ -20,9 +19,9 @@ for wp,gd_url in MBO_WPs.items():
 
     # Read the specified Excel sheet into a DataFrame & save to csv
     descr_df = pd.read_excel(output_file, sheet_name='Datasets Description')
-    descr_df.to_csv(f'input/MARCO-BOLO_Metadata_Dataset_Record_{wp}_description.csv', index=False)
+    descr_df.to_csv(f'input/MARCO-BOLO_Metadata_Dataset_Record_description_{wp}.csv', index=False)
 
     agent_df = pd.read_excel(output_file, sheet_name='Agent')
-    agent_df.to_csv(f'input/MARCO-BOLO_Metadata_Dataset_Record_{wp}_agent.csv', index=False)
+    agent_df.to_csv(f'input/MARCO-BOLO_Metadata_Dataset_Record_agent_{wp}.csv', index=False)
     # Now you have your data in a DataFrame
     #print(df)
