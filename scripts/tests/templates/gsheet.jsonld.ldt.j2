@@ -380,7 +380,7 @@
     {%- endif %}
     {#todo: include spatial coverage in case of coordinates #}
     {#note: column 'SpatialCoverageWKT' is never filled in --> don't know format to expect hence not included #}
-
+    
     {%- if _.DataStartDate or _.DataEndDate %}
     "temporalCoverage": 
         {%- if _.DataStartDate and _.DataEndDate and _.DataStartDate == _.DataEndDate %}
@@ -406,8 +406,18 @@
     {%- if _.EVDescription %}
     "additionalType": "{{_.EVDescription}}" ,
     {%- endif %}
-    {# _.IndicatorDescription left out since no 'schema.org equivalent property' & for internal usage only #}
-    
+    {%- if _.EOV %}
+    "additionalType": "{{_.EOV}}" ,
+    {%- endif %}
+    {# _.IndicatorDescription left out since no 'schema.org equivalent property' & for internal usage only 
+    {%- if _.IndicatorDescription %}
+    "additionalType": "{{_.IndicatorDescription}}" ,
+    {%- endif %}
+    {%- if _.EBV %}
+    "additionalType": "{{_.EBV}}" ,
+    {%- endif %}
+    #}
+
     {%- if _.DatasetDescription %}
     "description": "{{ _.DatasetDescription.replace("\n", "")}}",
     {%- endif %}
