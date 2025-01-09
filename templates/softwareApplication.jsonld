@@ -336,7 +336,5 @@
       "name": "Text: The name of the item.",
       "potentialAction": {"@type": "https://schema.org/Action"},
       "sameAs": "URL",
-      "subjectOf": "URL",
-      "url": "URL - the URL to the item described by this JSON-LD document"
-	
+      "subjectOf": "URL"	
 }
