@@ -381,15 +381,17 @@
     {#todo: include spatial coverage in case of coordinates #}
 
     {%- if _.DataStartDate or _.DataEndDate %}
-    "temporalCoverage": {
-        {%- if _.DataStartDate %}
-        "http://www.w3.org/ns/dcat#startDate" : "{{_.DataStartDate}}" , 
+    "temporalCoverage": 
+        {%- if _.DataStartDate and _.DataEndDate and _.DataStartDate == _.DataEndDate %}
+        "{{_.DataStartDate}}" , 
+        {%- elif _.DataStartDate and _.DataEndDate %}
+        "{{_.DataStartDate}}/{{_.DataEndDate}}" , 
+        {%- elif_.DataStartDate %}
+        "{{_.DataStartDate}}/.." , 
+        {%- elif_.DataEndDate %}
+        "{{_.DataEndDate}}/.." ,
         {%- endif %}
-        {%- if _.DataEndDate %}
-        "http://www.w3.org/ns/dcat#endDate" : "{{_.DataEndDate}}" ,
-        {%- endif %}
-        "@type" : "http://purl.org/dc/terms/PeriodOfTime"
-    } , 
+        {%- endfor %}
     {%- endif %}
 
     {%- if _.DatasetVersion %}
