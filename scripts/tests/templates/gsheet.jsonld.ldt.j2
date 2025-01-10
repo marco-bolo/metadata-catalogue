@@ -387,12 +387,11 @@
         "{{_.DataStartDate}}" , 
         {%- elif _.DataStartDate and _.DataEndDate %}
         "{{_.DataStartDate}}/{{_.DataEndDate}}" , 
-        {%- elif_.DataStartDate %}
+        {%- elif _.DataStartDate %}
         "{{_.DataStartDate}}/.." , 
-        {%- elif_.DataEndDate %}
+        {%- elif _.DataEndDate %}
         "{{_.DataEndDate}}/.." ,
         {%- endif %}
-        {%- endfor %}
     {%- endif %}
 
     {%- if _.DatasetVersion %}
