@@ -11,7 +11,12 @@ from pathlib import Path
 logging.basicConfig(level=logging.INFO)
 
 # set Workpackages
-wps = ['WP2', 'WP3', 'WP4', 'WP5']
+wps = [
+    'WP2',
+    'WP3',
+    # 'WP4',  # pysubyt fails on empty CSV
+    'WP5'
+]
 
 
 # turning retrieved json records into json-ld
@@ -38,7 +43,7 @@ for wp in wps:
             "agents": f'./input/MARCO-BOLO_Metadata_Dataset_Record_agent_{wp}.csv'
             },
         sink="./output/sheet_data/test_{DatasetIdentifier}.jsonld",
-        template_name="dataset-template.json.ldt.j2",
+        template_name="gsheet.jsonld.ldt.j2",
         template_folder="./templates/",
     )
     subyt_sheet.process()
