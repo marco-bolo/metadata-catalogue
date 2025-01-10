@@ -15,7 +15,7 @@ wps = ['WP2', 'WP3', 'WP4', 'WP5']
 
 
 # turning retrieved json records into json-ld
-#for wp in wps: 
+# for wp in wps:
 #    input_folder = Path(f'./input/{wp}_json')
 #    output_folder = Path(f'/output/{wp}_jsonld')
 #
@@ -30,12 +30,12 @@ wps = ['WP2', 'WP3', 'WP4', 'WP5']
 #        subyt_jsonrecord.process()
 
 # turning record information from spreadsheet into json-ld
-for wp in wps: 
+for wp in wps:
     output_folder = Path(f'/output/{wp}_jsonld')
     subyt_sheet = Subyt(
         extra_sources={
-            "_": f'./input/MARCO-BOLO_Metadata_Dataset_Record_{wp}_description.csv',
-            "agents": f'./input/MARCO-BOLO_Metadata_Dataset_Record_{wp}_agent.csv'
+            "_": f'./input/MARCO-BOLO_Metadata_Dataset_Record_description_{wp}.csv',
+            "agents": f'./input/MARCO-BOLO_Metadata_Dataset_Record_agent_{wp}.csv'
             },
         sink="./output/sheet_data/test_{DatasetIdentifier}.jsonld",
         template_name="dataset-template.json.ldt.j2",

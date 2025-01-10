@@ -7,7 +7,8 @@ import logging
 import re
 import os
 
-#set logging config
+
+# set logging config
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s', 
@@ -15,13 +16,15 @@ logging.basicConfig(
     filemode='w'
 )
 
+
 # function to ensure folder existence
 def ensure_folder_exists(folder_path):
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
 
+
 # function to flatten nested list
-def flatten_and_split(input_list:list) -> list:
+def flatten_and_split(input_list: list) -> list:
     result = []
     for sublist in input_list:
         # Convert the sublist item to string and split by '|'
@@ -29,20 +32,20 @@ def flatten_and_split(input_list:list) -> list:
     # Strip whitespace from each resulting part
     return [item.strip() for item in result if item != 'nan' ]
 
+
 # function to get marineinfo url in case of dasid
-def get_mi_json(wp:str, url:str, output_path:str) -> None:
-    
+def get_mi_json(wp: str, url: str, output_path: str) -> None:
     """
-    1.contructs marineinfo-url based on dasid (which follows 'module=dataset&dasid=' in the url)
-    2.retrieves the json record from the marineinfo-url 
+    1. contructs marineinfo-url based on dasid (which follows 'module=dataset&dasid=' in the url)
+    2. retrieves the json record from the marineinfo-url
     3.writes it to a file
     """
-    
+
     print(url)
     base = urlparse(url).netloc.split('.')[-2]
     dasid = url.split("=")[-1]
-    #mi_url = f"http://marineinfo.org/id/dataset/{dasid}.json"
-    
+    # mi_url = f"http://marineinfo.org/id/dataset/{dasid}.json"
+
     response = requests.get(f'{url}&show=json')
     if response.status_code == 200:
         try:
@@ -58,8 +61,8 @@ def get_mi_json(wp:str, url:str, output_path:str) -> None:
         logging.info(f'{wp} - {url} - HTTP Status code:{response.status_code}')
 
 
-## Analyse datasets
-files = list(Path('./input/').glob('MARCO-BOLO_Metadata_Dataset_Record_*.csv'))
+# Analyse datasets
+files = list(Path('./input/').glob('MARCO-BOLO_Metadata_Dataset_Record_description_*.csv'))
 
 for wp_file in files:
     wp = wp_file.stem.split('_')[-1]
@@ -71,7 +74,6 @@ for wp_file in files:
         output_path = f'./input/{wp}_json'
         ensure_folder_exists(output_path)
         get_mi_json(wp, url, output_path)
-
 
 # Overview of urls from which no info could be retrieved: 
 log_regex = re.compile(r'^(.*?) - (.*?) - (.*?) - (.*?) - (.*)$')
