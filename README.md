@@ -14,6 +14,8 @@ We are still working out the details of gathering the metadata for the described
 
 ## Updating JSON-LD output
 
+This assumes the working directory to be `scripts/tests`.
+
 - Download the latest spreadsheets using [scripts/tests/g_download.py](scripts/tests/g_download.py)
 - Run [scripts/tests/generate_input.py](scripts/tests/generate_input.py)
 - Run [scripts/tests/generate_output.py](scripts/tests/generate_output.py)
