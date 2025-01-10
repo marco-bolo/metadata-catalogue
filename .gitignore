@@ -4,5 +4,3 @@ Gemfile.lock
 .jekyll-cache
 _site
 .vscode
-docs/_includes/datasets.html
-docs/sitemap.xml
