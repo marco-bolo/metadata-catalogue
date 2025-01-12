@@ -1,0 +1,397 @@
+{
+    "datasetrec": {
+        "DasID": 2823,
+        "Acronym": null,
+        "StandardTitle": "Marine Awareness North Wales, Wildlife Trust harbor porpoise baseline surveys on the north coast of Anlesey, Wales, UK",
+        "OrigTitle": null,
+        "OrigTitleLangID": null,
+        "OrigTitleLangCode": null,
+        "OrigTitleLang": null,
+        "OrigTitleLangNL": null,
+        "VersionName": "1",
+        "ContactEmail": null,
+        "VersionDate": null,
+        "VersionDay": 31,
+        "VersionMonth": 3,
+        "VersionYear": 2011,
+        "SizeReference": null,
+        "EngAbstract": "Data collected from 2002 to 2004 on harbor porpoise populations at the north coast of Anglesey, Wales, United Kingdom.",
+        "EngDescr": "A three year study was undertaken during 2002 to 2004 from May to September to estimate abundance and density of harbor porpoises on the north coast of Anglesey, Wales, United Kingdom. There were no ecological data regarding the harbor porpoises in Anglesey waters so the ability to influence conservation measures was highly constrained. Boat-based transects using distance sampling techniques were applied so a robust estimate of density and abundance could be attained. The study area consisted of a block approximately 489 km2 extending from the east of Point Lynas to the west of South Stack on north coast of Anglesey. The study area was divided into five blocks consisting of 31 perpendicular transect lines to the shore. Each of the transect lines were surveyed 1\u20135 times by the end of the three year study. Based on the assumption that g(0) = 1 the density of harbor porpoises for the 489 km2 study site was estimated to be 0.630 individuals/km2 (CV = 0.20) and the abundance is estimated to be 309 individuals (CV = 0.20). Heterogeneity in density and abundance was observed across the five blocks which showed Point Lynas and South Stack to have the highest densities. This distribution was closely associated to fine-scale oceanographic features which cause prey to be concentrated and may facilitate foraging for harbor porpoises. The study showed that Anglesey provides coastal habitats for the harbor porpoise and was the first study of this kind in North Wales, United Kingdom.\r\n\r\nThe need for abundance and density estimates was highlighted as a key factor in the conservation and management of the harbor porpoise in Anglesey waters. Moreover, proposed extension of the wind farms from Liverpool Bay to Anglesey and the potential of the area for marine renewable energy devices presented a problem to managers and planners due to the lack of knowledge of harbor porpoise populations in north Wales.",
+        "OrigAbstract": null,
+        "OrigDescr": null,
+        "Comments": null,
+        "ReleaseDate": null,
+        "ReleaseDate0": null,
+        "OrigDescrLang": "English",
+        "EmbargoDate": null,
+        "OrigDescrLangNL": "Engels",
+        "OrigLangCode": "en",
+        "OrigLangCodeExtended": "eng",
+        "OrigLangID": 15,
+        "DescrCompFlag": 0,
+        "DescrTransFlag": 0,
+        "Citation": null,
+        "AccessConstraints": null,
+        "InputNotes": null,
+        "UDate": "2022-10-21",
+        "CDate": "2011-03-31",
+        "CurrencyDate": null,
+        "RevisionDate": null,
+        "DateLastModified": {
+            "date": "2025-01-09 01:33:04.043723",
+            "timezone_type": 1,
+            "timezone": "+01:00"
+        },
+        "CheckedFlag": 0,
+        "PublicFlag": 1,
+        "VlizCoreFlag": 1,
+        "MarineFlag": 1,
+        "FreshFlag": 0,
+        "BrackishFlag": 0,
+        "TerrestrialFlag": 0,
+        "StatusID": 1,
+        "DasType": "Data",
+        "DasTypeID": 1,
+        "DasOrigin": "Research",
+        "Progress": "Completed",
+        "AccessConstraint": "Attribution-NonCommercial (CC BY-NC)",
+        "AccConstrEN": "Attribution-NonCommercial (CC BY-NC)",
+        "AccConstrDisplay": "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\"><img alt=\"Creative Commons License\" style=\"border:0px;height:15px;width:80px;vertical-align:middle;\" src=\"https://www.marinespecies.org/aphia/images/cc/by-nc.png\" /></a> This dataset is licensed under a <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">Creative Commons Attribution-NonCommercial 4.0 International License</a>.",
+        "License": "https://creativecommons.org/licenses/by-nc/4.0",
+        "AccConstrDescription": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don\u2019t have to license their derivative works on the same terms",
+        "Lineage": null,
+        "AccConID": 24,
+        "GBIF_UUID": "20d4adea-d073-4f58-893a-ba720b04f93d"
+    },
+    "dois": null,
+    "spcols": [
+        {
+            "SpColID": 990,
+            "SpName": "Assemble"
+        },
+        {
+            "SpColID": 952,
+            "SpName": "AssemblePlus"
+        },
+        {
+            "SpColID": 989,
+            "SpName": "AssemblePlus LTEDS"
+        },
+        {
+            "SpColID": 988,
+            "SpName": "AssemblePlus LTEDS: biological"
+        },
+        {
+            "SpColID": 619,
+            "SpName": "available through EurOBIS"
+        },
+        {
+            "SpColID": 950,
+            "SpName": "EMBRC"
+        },
+        {
+            "SpColID": 552,
+            "SpName": "EMODNET"
+        },
+        {
+            "SpColID": 730,
+            "SpName": "OBIS"
+        }
+    ],
+    "keywords": [
+        {
+            "ThesaurusTerm": "Data",
+            "ThesTypID": 8,
+            "ThesType": "Assemble KO Types",
+            "Code": null,
+            "Description": null,
+            "OrigThesTerm": "Data",
+            "DutchTerm": null,
+            "URI": null
+        },
+        {
+            "ThesaurusTerm": "Marine Genomics",
+            "ThesTypID": 10,
+            "ThesType": "Assemble Sectors",
+            "Code": null,
+            "Description": null,
+            "OrigThesTerm": "Marine Genomics",
+            "DutchTerm": null,
+            "URI": null
+        }
+    ],
+    "parents": null,
+    "children": null,
+    "othrel": null,
+    "othrelrev": [
+        {
+            "DasID": null,
+            "Acronym": "EurOBIS",
+            "StandardTitle": "European Ocean Biodiversity Information System",
+            "Relation": "Published dataset",
+            "RelationY": "Published in",
+            "RelID": 13,
+            "doi": null,
+            "vlizDoi": null
+        },
+        {
+            "DasID": null,
+            "Acronym": "OBIS-SEAMAP",
+            "StandardTitle": "Spatial Ecological Analysis of Megavertebrate Populations",
+            "Relation": "Published dataset",
+            "RelationY": "Published in",
+            "RelID": 13,
+            "doi": null,
+            "vlizDoi": null
+        }
+    ],
+    "ownerships": [
+        {
+            "OrderNr": 1,
+            "Surname": null,
+            "Firstname": null,
+            "Initials": null,
+            "PerPublicFlag": null,
+            "AdrID": null,
+            "Email": null,
+            "InsPublicFlag": 1,
+            "Acronym": "SAMS",
+            "OrigNameLangCode": null,
+            "OrigNameLangID": null,
+            "FullOrigName": null,
+            "InsOwnerCNT": 3,
+            "PersID": null,
+            "InsID": 4456,
+            "FullInstitute": "Scottish Marine Institute; Scottish Association for Marine Science",
+            "RoleID": 20,
+            "Role": "Data owner",
+            "OrigName": null,
+            "StandardName": "Scottish Association for Marine Science",
+            "FullAcronym": "SAMS",
+            "ORC": null,
+            "ROR": null
+        },
+        {
+            "OrderNr": 2,
+            "Surname": null,
+            "Firstname": null,
+            "Initials": null,
+            "PerPublicFlag": null,
+            "AdrID": null,
+            "Email": null,
+            "InsPublicFlag": 1,
+            "Acronym": "SAMS",
+            "OrigNameLangCode": null,
+            "OrigNameLangID": null,
+            "FullOrigName": null,
+            "InsOwnerCNT": 3,
+            "PersID": null,
+            "InsID": 4456,
+            "FullInstitute": "Scottish Marine Institute; Scottish Association for Marine Science",
+            "RoleID": 61,
+            "Role": "Data creator",
+            "OrigName": null,
+            "StandardName": "Scottish Association for Marine Science",
+            "FullAcronym": "SAMS",
+            "ORC": null,
+            "ROR": null
+        },
+        {
+            "OrderNr": 3,
+            "Surname": "Shucksmith",
+            "Firstname": "Richard",
+            "Initials": "R.",
+            "PerPublicFlag": 1,
+            "AdrID": null,
+            "Email": null,
+            "InsPublicFlag": 1,
+            "Acronym": "SAMS",
+            "OrigNameLangCode": null,
+            "OrigNameLangID": null,
+            "FullOrigName": null,
+            "InsOwnerCNT": 3,
+            "PersID": null,
+            "InsID": 4456,
+            "FullInstitute": "Scottish Marine Institute; Scottish Association for Marine Science",
+            "RoleID": 24,
+            "Role": "Contact",
+            "OrigName": null,
+            "StandardName": "Scottish Association for Marine Science",
+            "FullAcronym": "SAMS",
+            "ORC": null,
+            "ROR": null
+        }
+    ],
+    "taxterms": [
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 19013,
+            "TaxTerm": "Cetacea",
+            "AphiaID": 2688,
+            "DutchTerm": "Walvissen"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 12185,
+            "TaxTerm": "Phocoena phocoena (Linnaeus, 1758)",
+            "AphiaID": 137117,
+            "DutchTerm": "Bruinvis"
+        }
+    ],
+    "frameworks": null,
+    "otherterms": null,
+    "temporal": [
+        {
+            "DasDateID": 2366,
+            "StartYear": 2002,
+            "EndYear": 2004,
+            "StartDay": null,
+            "EndDay": null,
+            "StartDate": "2002-01-01",
+            "EndDate": "2004-01-01",
+            "Resolution": null,
+            "ResolutionNL": null,
+            "Notes": null,
+            "StartMonth0": null,
+            "StartMonth": null,
+            "StartMonthNL": null,
+            "EndMonth0": null,
+            "EndMonth": null,
+            "EndMonthNL": null,
+            "Progress": "Completed",
+            "ProgressNL": "Afgelopen"
+        }
+    ],
+    "geographical": [
+        {
+            "GeoTerm": "ANE, British Isles, Wales, Anglesey",
+            "DasGeoID": 6665,
+            "DasGeoTerm": null,
+            "DasID": 2823,
+            "GeotID": 9359,
+            "X": null,
+            "Y": null,
+            "MaxX": null,
+            "MaxY": null,
+            "StationName": null,
+            "Precision": null,
+            "CoordSystID": null,
+            "GeoDatumID": null,
+            "OrigCoordMinX": null,
+            "OrigCoordMinY": null,
+            "OrigCoordMaxX": null,
+            "OrigCoordMaxY": null,
+            "OrderNr": null,
+            "Projection": null,
+            "GeoDatum": null,
+            "GeoObjectID": 20972,
+            "OrigGeoTerm": "Anglesey",
+            "DutchTerm": null
+        },
+        {
+            "GeoTerm": "EurOBIS calculated BBOX",
+            "DasGeoID": 14539,
+            "DasGeoTerm": null,
+            "DasID": 2823,
+            "GeotID": 9449,
+            "X": -4.8338,
+            "Y": 53.2555,
+            "MaxX": -4.1973,
+            "MaxY": 53.5026,
+            "StationName": "Bounding Box",
+            "Precision": null,
+            "CoordSystID": null,
+            "GeoDatumID": null,
+            "OrigCoordMinX": null,
+            "OrigCoordMinY": null,
+            "OrigCoordMaxX": null,
+            "OrigCoordMaxY": null,
+            "OrderNr": null,
+            "Projection": null,
+            "GeoDatum": null,
+            "GeoObjectID": null,
+            "OrigGeoTerm": "EurOBIS calculated BBOX",
+            "DutchTerm": null
+        }
+    ],
+    "meastypes": null,
+    "dasthemes": [
+        {
+            "DasThemeID": 70,
+            "DasTheme": "Biology > Mammals",
+            "DasTheme0": "Mammals",
+            "DutchTerm": "Zoogdieren"
+        }
+    ],
+    "projects": null,
+    "refs": null,
+    "urls": [
+        {
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002823",
+            "externalID": null,
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002823",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://www.eurobis.org/toolbox/en/download/occurrence/dataset/2823",
+            "externalID": "2823",
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "eurobis.org/toolbox/en/download/occurrence/dataset/2823",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://www.gbif.org/dataset/20d4adea-d073-4f58-893a-ba720b04f93d",
+            "externalID": "20d4adea-d073-4f58-893a-ba720b04f93d",
+            "URLTypeCode": "GBIF_UUID",
+            "URLType": "GBIF dataset",
+            "URLTypID": 43,
+            "trimmedURL": "gbif.org/dataset/20d4adea-d073-4f58-893a-ba720b04f93d",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "ipt.vliz.be/eurobis/resource?r=zd_703",
+            "externalID": "zd_703",
+            "URLTypeCode": null,
+            "URLType": "IPT",
+            "URLTypID": 33,
+            "trimmedURL": "ipt.vliz.be/eurobis/resource?r=zd_703",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://obis.org/dataset/ef0cac3b-a10b-4edb-82b2-9d98f6308760",
+            "externalID": "ef0cac3b-a10b-4edb-82b2-9d98f6308760",
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "obis.org/dataset/ef0cac3b-a10b-4edb-82b2-9d98f6308760",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "seamap.env.duke.edu/datasets/detail/703",
+            "externalID": null,
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "seamap.env.duke.edu/datasets/detail/703",
+            "downloadURL": null,
+            "FileName": null
+        }
+    ],
+    "pictures": [],
+    "urlmaps": null,
+    "spatreps": null,
+    "resmessage": "",
+    "complete": 1
+}

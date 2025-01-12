@@ -1,0 +1,86 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/3438",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/3438.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Data of population surveys conducted by the Cetacean and Turtle Assessment Program to assess the distribution and abundance of whales, dolphins and sea turtles inhabiting the study area.",
+    "citation": "Cetacean and Turtle Assessment Program, University of Rhode Island. 1982. A characterization of marine mammals and turtles in the mid- and north-Atlantic areas of the U.S. outer continental shelf, Final Report. Contract AA551-CT8-48. Bureau of Land Management, Washington, DC. (NTIS# PB-81-243289.)",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2012-11-20",
+    "dateModified": "2023-04-07",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "Atlantic" ,
+            "identifier": "http://www.marineregions.org/mrgid/1902"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-98 1.867 -5.333 63.983",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Pacific" ,
+            "identifier": "http://www.marineregions.org/mrgid/1903"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1935-03-25/1982-12-21"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1837"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pisces",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11676"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Testudines",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2689"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1",
+    "description": "The Cetacean and Turtle Assessment Program (CETAP) was sponsored by the Bureau of Land Management and surveys were conducted between October 1978 and January 1982 by the University of Rhode Island in outer continental shelf waters of the northeastern United States from Cape Hatteras, North Carolina, to the Gulf of Maine and from shore to 9.3 km (5 nautical miles) seaward of the 1,829 m (1,000 fathoms) isobath. Population surveys were conducted by CETAP to assess the distribution and abundance of whales, dolphins and sea turtles inhabiting the study area.   Purpose  This dataset is a subset of CETAP sightings, extracting opportunistic sighting records, with the addition of taxonomic information of species sighted. The full dataset may be available upon request. Requests for more data, further details on the dataset, proper use of the dataset, and questions should be directed to the primary contact person.",
+    "identifier": "3438",
+    "name": "BLM CETAP OPP Sightings",
+    "sameAs": "http://marineinfo.org/id/dataset/3438",
+    "url": "http://marineinfo.org/id/dataset/3438"
+}

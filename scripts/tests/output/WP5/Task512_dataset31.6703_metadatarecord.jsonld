@@ -1,0 +1,241 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/6703",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/6703.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "In this study, performed under the LifeWatchGreece infrastructure, are presented preliminary results from the digitization of biodiversity data from various sampling expeditions carried out from 1996 to 1999. The main purposes of the project were to examine the biodiversity of mäerl habitats in European seas, assess the anthropogenic impacts and develop conservation strategies for European mäerl beds. Twelve sampling sites were selected. Six of them were subjected to anthropogenic impacts and the other six represented pristine conditions as far as possible. Overall, 4127 records of marine biota were digitized belonging to phyla of the kingdoms Bacteria, Plantae, Chromista and Animalia",
+    "citation": "Hall-Spencer J.,Grall J., Gerovasileiou V.,Mavraki D.,Paranou P., Baily N.,Nikolopoulou S.,(2018): BIOMAERL.Maerl Biodiversity.Functional Structure And Antropogenic Impacts (1996-1998).Hellenic Center for Marine Research",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2021-05-14",
+    "dateModified": "2022-08-16",
+    "keywords": [
+        {
+            "name":"diver",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/1878",
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "East Atlantic" ,
+            "identifier": "http://www.marineregions.org/mrgid/9237"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-8.7906666 35.9821666 14.4576667 55.7553333",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Western Mediterranean" ,
+            "identifier": "http://www.marineregions.org/mrgid/4279"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1996-02-12/1998-11-17"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Arthropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1065"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Brachiopoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1803"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Bryozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146142"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cephalorhyncha",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=22699"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chaetognatha",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2081"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chlorophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=801"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chordata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1821"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cnidaria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1267"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ctenophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1248"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cyanobacteria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146537"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinodermata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1806"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echiura",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1269"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Entoprocta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1271"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Nematoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=799"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Nemertea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=152391"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ochrophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=345465"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phoronida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1789"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Platyhelminthes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=793"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Porifera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=558"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Rhodophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=852"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Sipuncula",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1268"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Tracheophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=596326"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "12 sapmpling stations.  The dataset includes an inventory of records of 253 sampling expeditions during 1996 -1998 period. In total, 12 sampling sites from UK, France, Malta and Spain were selected, from which half of them were corresponded to affected locations and the rest to reference locations.  The sampling equipment and the methods used were the following: beam trawls, scallop dredges, Naturalist&#39;s dredges, ring dredges, bucket dredges, van Veen grabs, Day grabs, Jonasson &amp; Olausson box cores, Senckenberg box cores, hand-held cores, air-lifting, resin cast cores, resin cast burrows, video from a Remote Operated Vehicle, 1m2 quadrats, SCUBA, AQUAREVE dredges, Reineck box cores and Smith-Mclntyre grabs, water samples,Rallier du Baty samples, vertical sampler cores, hand vane testers, plankton nets, Secchi disc. All records were digitized and species names were cross-checked and taxonomically updated using the Taxon Match tool “World Register of Marine Species” (http://www.marinespecies.org/aphia.php?p=match).",
+    "identifier": "6703",
+    "name": "BIOMAERL.Maerl Biodiversity.Functional Structure And Antropogenic Impacts (1996-1998)",
+    "sameAs": "http://marineinfo.org/id/dataset/6703",
+    "url": "http://marineinfo.org/id/dataset/6703"
+}

@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset98",
+    "identifier": "Task511_dataset98",
+    
+    
+    "datePublished": "In Progress" ,
+
+    
+    "description": "This dataset compiles data on geographic and depth distribution; demography; population and mortality; of different habitat-forming invertebrate species dwelling the Mediterranean coralligenous assemblages.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "CorMedNet- Distribution and demographic data of habitat-forming invertebrate species from Mediterranean coralligenous assemblages between 1882 and 2019." ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006462" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

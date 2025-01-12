@@ -1,0 +1,161 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/82",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/82.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Presence of biota",
+            "description":"Presence of biota",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Taxonomic Information System for the Belgian coastal area. Biogeographical information on (mainly) Belgian species. Focus area of the dataset spans from north of Wimereux (northern France) to the Scheldt estuary (southern Netherlands).",
+    "citation": "Flanders Marine Institute (VLIZ). Taxonomic Information System for the Belgian coastal area. 10 Aug 2004, Oostende, Belgium, Accessed on [dd/mm/yyyy].",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2004-05-10",
+    "dateModified": "2019-01-02",
+    "hasPart": [
+      "http://marineinfo.org/id/dataset/None"
+    ] ,
+    "keywords": [
+        {
+            "name":"Bibliographic information",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Biogeography",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Biology",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Ecology",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Habitat",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Morphology (organisms)",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Taxonomy",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/36"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/36",
+        "http://marineinfo.org/id/institute/36",
+        "http://marineinfo.org/id/institute/36",
+        "http://marineinfo.org/id/institute/36"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/36"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "Belgian Coast" ,
+            "identifier": "http://www.marineregions.org/mrgid/2550"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-149.625 -47.012427052093 180 85",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "North Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2350"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1768-01-01/2007-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Animalia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Fungi",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=4"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Monera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=147415"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Plantae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=3"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Protozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=5"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1",
+    "alternateName": "TISBE",
+    "description": "With TISBE, VLIZ tries to develop a comprehensive list of species recorded from the Belgian coast, the Southern Bight of the North Sea and the surrounding countries. The focal area for this database spans from northern France (rocky shores north of Wimereux, where the fauna changes dramatically) to southern Holland, including the Delta area and whole of the tidal part of the Scheldt estuary. Distributions from further away are recorded only if the are listed in publications dealing mainly with distribution records from the focus area. The precision with which the distribution records, both on the geographical and on the temporal scale, are recorded, is variable: the closer a record is to the focal area, the more details we try and record.   The sources of information are mainly published literature. All distribution records contain a description of the source. Leaving such an &#39;audit trail&#39; makes it possible to check the validity of every single distribution record by going back to the sources of our information.   TISBE is build on top of VLIZ&#39;s species register, Aphia, and this web application always contains links to taxonomic details, and other taxon-specific information, as they are known in Aphia. From within TISBE, only those species are visible that are known to occur in the area.",
+    "identifier": "82",
+    "name": "Taxonomic Information System for the Belgian coastal area",
+    "sameAs": "http://marineinfo.org/id/dataset/82",
+    "url": "http://marineinfo.org/id/dataset/82"
+}

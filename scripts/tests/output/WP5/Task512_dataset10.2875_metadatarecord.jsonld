@@ -1,0 +1,180 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/2875",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/2875.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Sightings SCANS-II, shipboard data",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2011-10-20",
+    "dateModified": "2022-08-12",
+    "keywords": [
+        {
+            "name":"Aerial surveys",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Bycatches",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"ship",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/5361",
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "Biscay Bay" ,
+            "identifier": "http://www.marineregions.org/mrgid/2359"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "British Isles" ,
+            "identifier": "http://www.marineregions.org/mrgid/3140"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Kattegat" ,
+            "identifier": "http://www.marineregions.org/mrgid/2374"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "North Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2350"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Skagerrak" ,
+            "identifier": "http://www.marineregions.org/mrgid/2379"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-11.9326334 35.95249557 12.62247086 62.10202789",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2005-06-01/2005-07-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Balaenoptera acutorostrata Lacépède, 1804",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137087"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Delphinus delphis",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137094"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Globicephala melas (Traill, 1809)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137097"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Grampus griseus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137098"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Lagenorhynchus albirostris (Gray, 1846)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137101"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Orcinus orca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137102"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phocoena phocoena (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Stenella coeruleoalba (Meyen, 1833)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137107"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Tursiops truncatus (Montagu, 1821)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137111"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1.0",
+    "alternateName": "SCANS II",
+    "description": "The objective of SCANS-II was to estimate small cetacean abundance in the North Sea and European Atlantic continental shelf waters, and to allow the assessment and management of bycatch and other anthropogenic threats through the development of improved methods for monitoring and a robust management framework, thus defining a clear course of action to allow populations to recover to and maintain favourable conservation status.   The project followed the SCANS project in 1994 and provides an opportunity to observe how distribution and abundance has changed in the intervening decade.  In addition to the area surveyed during SCANS-I, this project also covers continental shelf waters to the west of Britain, Ireland, France, Spain and Portugal. The northern boundary will be approximately 62° N and the southern limit will be the boundary of the region covered by the Agreement on the Conservation of Cetaceans of the Black Sea, Mediterranean Sea and contiguous Atlantic Area (ACCOBAMS).   To estimate absolute abundance, a combination of shipboard and aerial surveys was carried out in July 2005. Both visual and acoustic survey methods were used to detect cetaceans on the shipboard surveys.",
+    "identifier": "2875",
+    "name": "Small Cetaceans in the European Atlantic and North Sea (SCANS II) - 2005",
+    "sameAs": "http://marineinfo.org/id/dataset/2875",
+    "url": "http://marineinfo.org/id/dataset/2875"
+}

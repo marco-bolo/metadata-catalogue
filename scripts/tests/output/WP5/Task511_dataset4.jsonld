@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset4",
+    "identifier": "Task511_dataset4",
+    
+    
+    "datePublished": "In Progress" ,
+
+    
+    "description": "Data collected within various monitoring programmes and surveys. Standard quantitative phytoplankton techniques following HELCOM MONAS guidelines. Counts and sometimes biovolumes on species level.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "SHARK - National phytoplankton monitoring in Sweden since 1983" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002453" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

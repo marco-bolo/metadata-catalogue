@@ -1,0 +1,88 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/4677",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/4677.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Sightings of cetaceans were recorded daily, at 6 different fixed periods (snap shots), when the boat was in navigation or search mode. Sightings were recorded at distances shorter and larger than 300 meters from the boat.",
+    "citation": "Machete, M.; Institute of Marine Research (IMAR), Portugal; Department of Oceanography and Fisheries, University of the Azores (DOP/UAC), Portugal; (2016): POPA- Fisheries Observer Program of the Azores: Marine mammal sightings in the Azores tuna fishery from 1998 on: during navigation or search mode.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2015-01-16",
+    "dateModified": "2020-04-02",
+    "isPartOf": [
+      "http://marineinfo.org/id/dataset/None"
+    ] ,
+    "keywords": [
+        {
+            "name":"Tuna fisheries",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/1426",
+        "http://marineinfo.org/id/institute/1426"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/1426",
+        "http://marineinfo.org/id/institute/1426",
+        "http://marineinfo.org/id/institute/1426"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/1426",
+        "http://marineinfo.org/id/institute/1426"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "Azores" ,
+            "identifier": "http://www.marineregions.org/mrgid/2454"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-39.95 18.25 30 49.2",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1998-01-01/2013-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "For more detailed information on the dataset, including abundances estimates, please contact data owner (miguel@uac.pt)",
+    "identifier": "4677",
+    "name": "POPA- Fisheries Observer Program of the Azores: Marine mammal sightings in the Azores tuna fishery from 1998 on: during navigation or search mode",
+    "sameAs": "http://marineinfo.org/id/dataset/4677",
+    "url": "http://marineinfo.org/id/dataset/4677"
+}

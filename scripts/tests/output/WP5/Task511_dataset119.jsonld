@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset119",
+    "identifier": "Task511_dataset119",
+    
+    
+    "datePublished": "Completed" ,
+
+    
+    "description": "Time series of phytoplankton abundance collected with a monthly frequency at 0.5; 5; 10 and 15 meters in the Gulf of Trieste. The time series station C1; located in the Gulf of Trieste in the northernmost part of the Adriatic Sea; is part of the Adriatic Long Term Ecological Research (LTER) site. It is a shallow coastal station (17 m depth) located at 0.2 Km from the coast; at the outer border of the Natural Marine Reserve of Miramare; Trieste. More information about activities carried out and about datasets from other periods can be found at: http://nettuno.ogs.trieste.it/ilter/GoTTs/en_index.html. Samples were fixed with Ca(HCO3)2-buffered formaldehyde (0.8% final concentration) and cell abundance was estimated according to Utermöhl’s method (1958); using an inverted microscope equipped with phase contrast; at 200-320-400x final magnifications. Abundant cells were counted in defined random fields; rarer species were counted on the whole chamber (Fonda Umani et al.; 2007).",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Phytoplankton North Adriatic-Gulf of Trieste C1 – LTER time-series 1986-2005" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000007891" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

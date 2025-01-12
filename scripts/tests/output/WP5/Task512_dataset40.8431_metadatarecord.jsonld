@@ -1,0 +1,226 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/8431",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/8431.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "&lt;p&gt;This dataset provides access to cetacean sighting records collected throughout the historical series of PELACUS surveys, from 2007 to 2022.&lt;/p&gt;&lt;p&gt;The PELACUS survey is an annual survey for the evaluation of fishing resources organized by the Spanish Institute of Oceanography (IEO-CSIC) that has incorporated top predators’ (marine mammals, birds and turtles) observers since 2007. The spatial coverage of this survey covers the continental shelf waters in the north and northwest of the Iberian Peninsula, comprising Spanish waters found between the coast and the 1000 meters isobath, from the northern border with Portugal, at the mouth of the Miño River, to the border with France in the Bay of Biscay. This survey has carried out additional transects in some of its editions, sampling on the continental shelf of northern Portugal, as well as the French slope in the Bay of Biscay. Data on sightings in these areas are included.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+    "citation": "Álvarez-González M, Vázquez J A, Saavedra C (2023). Cetacean sightings of PELACUS surveys: Continental shelf of Galicia and Bay of Biscay - Database of the Spanish Institute of Oceanography (IEO-CSIC).",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "In Progress",
+    "datePublished": "2023-11-21",
+    "dateModified": "2023-11-21",
+    "keywords": [
+        {
+            "name":"Cetacea",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Continental shelf",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Continental shelf",
+            "inDefinedTermSet":"Transportation Research Thesaurus",
+            "termCode":"3",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Spain",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Spain",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-9.675483333 41.1999484 -1.664 48.2052",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Atlantic" ,
+            "identifier": "http://www.marineregions.org/mrgid/1902"
+            },
+            "geo": {
+                "box" : "-9.708 40.509 -1.3 48.283",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2007-01-01/2022-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Balaenoptera acutorostrata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137087"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Balaenoptera physalus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137091"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Balaenopteridae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=136979"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Delphinidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=136980"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Delphinus delphis",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137094"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Globicephala melas",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137097"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Grampus griseus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137098"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hyperoodon ampullatus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137120"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mesoplodon",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137034"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phocoena phocoena",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phocoenidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=136984"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Physeter macrocephalus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137119"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Physeteridae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=136985"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pseudorca crassidens",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137104"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Stenella coeruleoalba",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137107"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Tursiops truncatus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137111"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ziphiidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=136986"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ziphius cavirostris",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137127"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "&lt;p&gt;The methodology for obtaining data consists of the recording of sightings of cetaceans and seabirds during periods of sampling effort that cover daylight hours with sea state conditions equal to or less than 5 on the Beaufort scale through pre-established transects perpendicular to the coast, as well as in the paths between transects. During sampling effort, data on environmental conditions are collected. For each sampling, data on the position, time, distance, and angle with respect to the bow of the ship, are collected, as well as a series of data including the species (or taxonomic group when animals were not identified at species level), number of individuals, life stage or behaviour. This database shows the coordinates of the ship at the time of sighting.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The sightings are recorded by 2 top predators’ observers that carry out search effort from the outer area in front of the bridge, from 8 in the morning local time until sunset, and whenever the sea state is equal to or less than 5.&lt;/p&gt;&lt;p&gt;Data obtained during the PELACUS oceanographic survey, carried out annually between the spring months of March and April, from 2007 to 2022, with the exception of 2020, when the survey was not carried out for health reasons caused by COVID-19. The study area is covered by transects perpendicular to the coast. In each survey, between 44 and 56 transects are carried out, separated from each other by 8 or 10 nautical miles, with variability in the design of the transects in the different years.&lt;/p&gt;&lt;p&gt;The data are validated by the observer at the end of each day&lt;/p&gt;&lt;p&gt;Method step description:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;During sampling effort, data on environmental conditions are periodically collected.&lt;/li&gt;&lt;li&gt;For each sampling, data on the position, time, distance, and angle with respect to the bow of the ship, are collected, as well as a series of data including the species (or taxonomic group when animals were not identified at species level), number of individuals, life stage or behaviour. This database shows the coordinates of the ship at the time of sighting.&lt;/li&gt;&lt;/ol&gt;",
+    "identifier": "8431",
+    "name": "Cetacean sightings of PELACUS surveys: Continental shelf of Galicia and Bay of Biscay - Database of the Spanish Institute of Oceanography (IEO-CSIC)",
+    "sameAs": "http://marineinfo.org/id/dataset/8431",
+    "url": "http://marineinfo.org/id/dataset/8431"
+}

@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset115",
+    "identifier": "Task511_dataset115",
+    
+    
+    "datePublished": "In Progress" ,
+
+    
+    "description": "Phytolankton have been regionally monitored in Sweden since 1985.The monitoring is financed by the Swedish county administration boards; Swedish municipalities and Swedish coalitions of water conservation. Recipient control data financed by companies are also included. Monitoring is performed by Swedish universities and consulting firmsData are stored in the Swedish Ocean Archive database (SHARK); by the Swedish Meteorological and Hydrological Institute. Data are collected and analyzed according to the HELCOM COMBINE Manual - Part C Annex C6 Monitoring of phytoplankton species composition; abundance and biomass (https://www.helcom.fi/wp-content/uploads/2019/08/Guidelines-for-monitoring-phytoplankton-species-composition-abundance-and-biomass.pdf) or similar methods.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "SHARK - Regional monitoring; recipient control and monitoring projects of phytoplankton in Sweden since 1985" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006698" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

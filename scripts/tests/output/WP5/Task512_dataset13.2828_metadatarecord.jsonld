@@ -1,0 +1,96 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/2828",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/2828.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Boat-based acoustic surveys for harbor porpoises in the Baltic Sea during the summers of 2001 and 2002.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2011-04-06",
+    "dateModified": "2022-08-10",
+    "keywords": [
+        {
+            "name":"Acoustic surveys",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/11055"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/11055"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/11360"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "Baltic" ,
+            "identifier": "http://www.marineregions.org/mrgid/2401"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Kattegat" ,
+            "identifier": "http://www.marineregions.org/mrgid/2374"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "North Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2350"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Skagerrak" ,
+            "identifier": "http://www.marineregions.org/mrgid/2379"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-4.880817 50.142067 16.967917 57.771019",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2001-01-01/2002-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Phocoena phocoena (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1",
+    "description": "Boat-based acoustic surveys for harbor porpoises (Phocoena phocoena) were conducted during the summers of 2001 and 2002 in order to investigate their distribution and relative abundance in the Baltic Sea, and to compare the results with the adjacent Kiel and Mecklenburg Bights and the Little Belt.  Harbor porpoises are subject to year-round bycatch in gillnets and other fishing gear in these waters. This is of particular concern in the Baltic Sea where a survey carried out in 1995 indicated that the population is low and current levels of anthropogenic mortality are believed to be unsustainable.",
+    "identifier": "2828",
+    "name": "Baltic porpoise acoustic surveys 01-02",
+    "sameAs": "http://marineinfo.org/id/dataset/2828",
+    "url": "http://marineinfo.org/id/dataset/2828"
+}

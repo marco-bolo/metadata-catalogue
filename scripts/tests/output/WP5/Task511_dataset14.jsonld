@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset14",
+    "identifier": "Task511_dataset14",
+    
+    
+    "datePublished": "Completed" ,
+
+    
+    "description": "Over 645 sightings of cetacean groups (of one and more individuals) have been recorded in the Black Sea; Azov Sea and Kerch Strait during the period from 1993 to 2010 inclusive.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Cetacean sightings in the Black Sea; Sea of Azov and Kerch Strait" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002706" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

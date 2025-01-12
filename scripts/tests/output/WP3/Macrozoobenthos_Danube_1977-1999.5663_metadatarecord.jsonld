@@ -1,0 +1,125 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/5663",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/5663.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Abundance",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Area of sample {sampled area} from the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Benthos density",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Biomass",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Occurrence of biota",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The macrozoobentos dataset includes a number of 347 samples collected in the Northern part of the Romanian littoral between Sulina and Chituc from 5 m to 52m depths. Van Veen grab with a sampling area of 1/20 m2 was employed as a macrozoobenthos sampler. One replicate was collected at every station. Sampling was done in spring, summer and autumn mounths.The samples have been analyzed qualitative (number of species) and quantitative (densities and biomasses). The macroinvertebrates have been identified at species level.",
+    "citation": "Dumitrache C.; Abaza V.; Filimon A. (2017). Macrozoobenthos data collected in the Northern part of the Romanian littoral (Danube mouths) between 1977 and 1999. NIMRD-National Institute for Marine Research and Development &#34;Grigore Antipa&#34;",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2017-06-26",
+    "dateModified": "2017-06-26",
+    "keywords": [
+        {
+            "name":"Macrozoobenthos",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Seasonal",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "29.006667 44.28 30.29 45.1466",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Black Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/3319"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1977-01-01/1999-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Polychaeta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=883"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "identifier": "5663",
+    "name": "Macrozoobenthos data collected in the Northern part of the Romanian littoral (Danube mouths) between 1977 and 1999",
+    "sameAs": "http://marineinfo.org/id/dataset/5663",
+    "url": "http://marineinfo.org/id/dataset/5663"
+}

@@ -1,0 +1,39 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset173",
+    "identifier": "Task511_dataset173",
+    
+    
+
+    
+    "description": "Time series from eLTER sites obtained from: Pilotto, F., Kühn, I., Adrian, R. et al. Meta-analysis of multidecadal biodiversity trends in Europe. Nat Commun 11, 3486 (2020). https://doi.org/10.1038/s41467-020-17171-y",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "eLTER" ,
+    "url": "https://doi.org/10.1038/s41467-020-17171-y" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

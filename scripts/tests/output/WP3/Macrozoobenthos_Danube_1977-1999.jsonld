@@ -1,0 +1,71 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Macrozoobenthos_Danube_1977-1999",
+    "identifier": "Macrozoobenthos_Danube_1977-1999",
+    "contributor":
+    [
+        {}
+    ],
+    "isPartOf":
+    [
+        "NIMRDmacrozoobenthos data" 
+    ] ,
+    "http://purl.org/dc/terms/bibliographicCitation" : "Dumitrache C.; Abaza V.; Filimon A. (2017). Macrozoobenthos data collected in the Northern part of the Romanian littoral (Danube mouths) between 1977 and 1999. NIMRD-National Institute for Marine Research and Development &#34;Grigore Antipa&#34;" ,
+    "publisher":
+    [
+            
+                {
+                    "email" : "mmuresan@geoecomar.ro" ,
+                    "affiliation" : {
+                        "url" : "https://www.geoecomar.ro/website/en/" ,
+                        "address" : {
+                            "@type": "https://schema.org/PostalAddress" , 
+                            "addressCountry" : "RO" 
+                        } ,
+                        "name": "National Institute of Research and Development for Marine Geology andGeoecology" ,
+                        "identifier": "https://ror.org/02qs41y18" , 
+                        "@type": "https://schema.org/Organization"
+                    } ,
+                    "workLocation" : {
+                        "@type": "https://schema.org/Country" , 
+                        "name" : "RO" 
+                    } ,
+                    "name": "Mihaela Muresan" ,
+                    "identifier": "https://orcid.org/0000-0002-8446-1263" , 
+                    "@type": "https://schema.org/Person"
+                } ,
+        {}
+    ],
+    
+    
+
+    
+    "description": "The macrozoobentos dataset includes a number of 347 samples collected in the Northern part of the Romanian littoral between Sulina and Chituc from 5 m to 52m depths. Van Veen grab with a sampling area of 1/20 m2 was employed as a macrozoobenthos sampler. One replicate was collected at every station. Sampling was done in spring; summer and autumn mounths.The samples have been analyzed qualitative (number of species) and quantitative (densities and biomasses). The macroinvertebrates have been identified at species level.",
+    "sdPublisher" : {
+        "email" : "mmuresan@geoecomar.ro" ,
+        "affiliation" : {
+            "url" : "https://www.geoecomar.ro/website/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "RO" 
+            } ,
+            "name": "National Institute of Research and Development for Marine Geology andGeoecology" ,
+            "identifier": "https://ror.org/02qs41y18" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "RO" 
+        } ,
+        "name": "Mihaela Muresan" ,
+        "identifier": "https://orcid.org/0000-0002-8446-1263" , 
+        "@type": "https://schema.org/Person"
+    },
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=5663" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset17",
+    "identifier": "Task511_dataset17",
+    
+    
+    "datePublished": "Completed" ,
+
+    
+    "description": "The dataset contains the monitoring data on abundance and biomass of four gelatinous zooplankton species (&lt;i&gt;Mnemiopsis leidyi; Beroe ovata; Aurelia aurita;  Pleurobrachia pileus&lt;/i&gt;) from January 2000 to December 2011 in Sevastopol Bay and inshore waters off the Crimean coast (about 2500 records). Gelatinous zooplankton was collected at 5 stations in Sevastopol Bay and 3 stations in inshore waters near Sevastopol.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Gelatinous macrozooplankton abundance and biomass in Sevastopol Bay and inshore waters off the Crimean Coasts of the Black Sea" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002968" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

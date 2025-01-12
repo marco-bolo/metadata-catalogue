@@ -1,0 +1,734 @@
+{
+    "datasetrec": {
+        "DasID": 82,
+        "Acronym": "TISBE",
+        "StandardTitle": "Taxonomic Information System for the Belgian coastal area",
+        "OrigTitle": null,
+        "OrigTitleLangID": null,
+        "OrigTitleLangCode": null,
+        "OrigTitleLang": null,
+        "OrigTitleLangNL": null,
+        "VersionName": "1",
+        "ContactEmail": null,
+        "VersionDate": "Feb 25 2004 12:00AM",
+        "VersionDay": 25,
+        "VersionMonth": 2,
+        "VersionYear": 2004,
+        "SizeReference": "about 10,000 species; 400 stations; 37,000 distribution records",
+        "EngAbstract": "Taxonomic Information System for the Belgian coastal area. Biogeographical information on (mainly) Belgian species. Focus area of the dataset spans from north of Wimereux (northern France) to the Scheldt estuary (southern Netherlands).",
+        "EngDescr": "With TISBE, VLIZ tries to develop a comprehensive list of species recorded from the Belgian coast, the Southern Bight of the North Sea and the surrounding countries. The focal area for this database spans from northern France (rocky shores north of Wimereux, where the fauna changes dramatically) to southern Holland, including the Delta area and whole of the tidal part of the Scheldt estuary. Distributions from further away are recorded only if the are listed in publications dealing mainly with distribution records from the focus area. The precision with which the distribution records, both on the geographical and on the temporal scale, are recorded, is variable: the closer a record is to the focal area, the more details we try and record. \r\n\r\nThe sources of information are mainly published literature. All distribution records contain a description of the source. Leaving such an 'audit trail' makes it possible to check the validity of every single distribution record by going back to the sources of our information. \r\n\r\nTISBE is build on top of VLIZ's species register, Aphia, and this web application always contains links to taxonomic details, and other taxon-specific information, as they are known in Aphia. From within TISBE, only those species are visible that are known to occur in the area.",
+        "OrigAbstract": null,
+        "OrigDescr": null,
+        "Comments": null,
+        "ReleaseDate": "Aug 10 2004 12:00AM",
+        "ReleaseDate0": "2004-08-10",
+        "OrigDescrLang": null,
+        "EmbargoDate": null,
+        "OrigDescrLangNL": null,
+        "OrigLangCode": null,
+        "OrigLangCodeExtended": null,
+        "OrigLangID": null,
+        "DescrCompFlag": 0,
+        "DescrTransFlag": 0,
+        "Citation": "Flanders Marine Institute (VLIZ). Taxonomic Information System for the Belgian coastal area. 10 Aug 2004, Oostende, Belgium, Accessed on [dd/mm/yyyy].",
+        "AccessConstraints": "",
+        "InputNotes": null,
+        "UDate": "2019-01-02",
+        "CDate": "2004-05-10",
+        "CurrencyDate": null,
+        "RevisionDate": null,
+        "DateLastModified": {
+            "date": "2025-01-11 01:34:16.033284",
+            "timezone_type": 1,
+            "timezone": "+01:00"
+        },
+        "CheckedFlag": 1,
+        "PublicFlag": 1,
+        "VlizCoreFlag": 1,
+        "MarineFlag": 1,
+        "FreshFlag": null,
+        "BrackishFlag": 1,
+        "TerrestrialFlag": 0,
+        "StatusID": 1,
+        "DasType": "Data",
+        "DasTypeID": 1,
+        "DasOrigin": "Literature research",
+        "Progress": "Completed",
+        "AccessConstraint": "Attribution (CC BY)",
+        "AccConstrEN": "Attribution (CC BY)",
+        "AccConstrDisplay": "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\"><img alt=\"Creative Commons License\" style=\"border:0px;height:15px;width:80px;vertical-align:middle;\" src=\"https://www.marinespecies.org/aphia/images/cc/by.png\" /></a> This dataset is licensed under a <a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\">Creative Commons Attribution 4.0 International License</a>.",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "AccConstrDescription": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+        "Lineage": null,
+        "AccConID": 21
+    },
+    "dois": null,
+    "spcols": [
+        {
+            "SpColID": 990,
+            "SpName": "Assemble"
+        },
+        {
+            "SpColID": 952,
+            "SpName": "AssemblePlus"
+        },
+        {
+            "SpColID": 619,
+            "SpName": "available through EurOBIS"
+        },
+        {
+            "SpColID": 131,
+            "SpName": "Belgian marine datasets"
+        },
+        {
+            "SpColID": 866,
+            "SpName": "Belgian marine, coastal & estuarine areas"
+        },
+        {
+            "SpColID": 95,
+            "SpName": "Biomare"
+        },
+        {
+            "SpColID": 950,
+            "SpName": "EMBRC"
+        },
+        {
+            "SpColID": 552,
+            "SpName": "EMODNET"
+        },
+        {
+            "SpColID": 867,
+            "SpName": "IMIS themes"
+        },
+        {
+            "SpColID": 38,
+            "SpName": "Marine Biodiversity and Ecosystem Functioning"
+        },
+        {
+            "SpColID": 730,
+            "SpName": "OBIS"
+        },
+        {
+            "SpColID": 27,
+            "SpName": "ScheldeMonitor"
+        },
+        {
+            "SpColID": 536,
+            "SpName": "SDN_FirstBatchSentByVLIZ"
+        },
+        {
+            "SpColID": 352,
+            "SpName": "SeaDataNet"
+        },
+        {
+            "SpColID": 641,
+            "SpName": "Species diversity"
+        },
+        {
+            "SpColID": 507,
+            "SpName": "World Register of Marine Species"
+        }
+    ],
+    "keywords": [
+        {
+            "ThesaurusTerm": "Bibliographic information",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": "c_f4ffc197",
+            "Description": null,
+            "OrigThesTerm": "Bibliographic information",
+            "DutchTerm": "Bibliografische informatie",
+            "URI": "http://aims.fao.org/aos/agrovoc/c_f4ffc197"
+        },
+        {
+            "ThesaurusTerm": "Biogeography",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": "c_915",
+            "Description": null,
+            "OrigThesTerm": "Biogeography",
+            "DutchTerm": "Biogeografie",
+            "URI": "http://aims.fao.org/aos/agrovoc/c_915"
+        },
+        {
+            "ThesaurusTerm": "Biology",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": "c_925",
+            "Description": null,
+            "OrigThesTerm": "Biology",
+            "DutchTerm": "Biologie",
+            "URI": "http://aims.fao.org/aos/agrovoc/c_925"
+        },
+        {
+            "ThesaurusTerm": "Ecology",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": "c_2467",
+            "Description": null,
+            "OrigThesTerm": "Ecology",
+            "DutchTerm": "Ecologie",
+            "URI": "http://aims.fao.org/aos/agrovoc/c_2467"
+        },
+        {
+            "ThesaurusTerm": "Habitat",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": null,
+            "Description": null,
+            "OrigThesTerm": "Habitat",
+            "DutchTerm": "Habitat",
+            "URI": null
+        },
+        {
+            "ThesaurusTerm": "Morphology (organisms)",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": null,
+            "Description": null,
+            "OrigThesTerm": "Morphology (organisms)",
+            "DutchTerm": "Morfologie (organismen)",
+            "URI": null
+        },
+        {
+            "ThesaurusTerm": "Taxonomy",
+            "ThesTypID": 1,
+            "ThesType": "ASFA Thesaurus List",
+            "Code": "c_7631",
+            "Description": null,
+            "OrigThesTerm": "Taxonomy",
+            "DutchTerm": "Taxonomie",
+            "URI": "http://aims.fao.org/aos/agrovoc/c_7631"
+        }
+    ],
+    "parents": null,
+    "children": [
+        {
+            "DasID": null,
+            "Acronym": null,
+            "EngAbstract": "Checklist of the non-indigenous or alien species in the Belgian part of the North Sea and the adjacent estuaries (e.g. Spuikom Oostende & Westerscheldt).",
+            "License": null,
+            "StandardTitle": "Checklist for aquatic alien species in the Belgian part of the North Sea and adjacent estuaries",
+            "doi": null,
+            "vlizDoi": null
+        }
+    ],
+    "othrel": null,
+    "othrelrev": [
+        {
+            "DasID": null,
+            "Acronym": "EurOBIS",
+            "StandardTitle": "European Ocean Biodiversity Information System",
+            "Relation": "Published dataset",
+            "RelationY": "Published in",
+            "RelID": 13,
+            "doi": null,
+            "vlizDoi": null
+        },
+        {
+            "DasID": null,
+            "Acronym": "WoRMS",
+            "StandardTitle": "World Register of Marine Species",
+            "Relation": "Published dataset",
+            "RelationY": "Published in",
+            "RelID": 13,
+            "doi": null,
+            "vlizDoi": "10.14284/170"
+        }
+    ],
+    "ownerships": [
+        {
+            "OrderNr": 1,
+            "Surname": null,
+            "Firstname": null,
+            "Initials": null,
+            "PerPublicFlag": null,
+            "AdrID": null,
+            "Email": null,
+            "InsPublicFlag": 1,
+            "Acronym": "VLIZ",
+            "OrigNameLangCode": "en",
+            "OrigNameLangID": 15,
+            "FullOrigName": "Flanders Marine Institute",
+            "InsOwnerCNT": 6,
+            "PersID": null,
+            "InsID": 36,
+            "FullInstitute": "Vlaams Instituut voor de Zee",
+            "RoleID": 20,
+            "Role": "Data owner",
+            "OrigName": "Flanders Marine Institute",
+            "StandardName": "Vlaams Instituut voor de Zee",
+            "FullAcronym": "VLIZ",
+            "ORC": null,
+            "ROR": "https://ror.org/0496vr396"
+        },
+        {
+            "OrderNr": 2,
+            "Surname": "Vandepitte",
+            "Firstname": "Leen",
+            "Initials": "L.",
+            "PerPublicFlag": 1,
+            "AdrID": 129096,
+            "Email": "leen.vandepitte@vliz.be",
+            "InsPublicFlag": 1,
+            "Acronym": "VLIZ",
+            "OrigNameLangCode": "en",
+            "OrigNameLangID": 15,
+            "FullOrigName": "Flanders Marine Institute",
+            "InsOwnerCNT": 6,
+            "PersID": null,
+            "InsID": 36,
+            "FullInstitute": "Vlaams Instituut voor de Zee",
+            "RoleID": 24,
+            "Role": "Contact",
+            "OrigName": "Flanders Marine Institute",
+            "StandardName": "Vlaams Instituut voor de Zee",
+            "FullAcronym": "VLIZ",
+            "ORC": "https://orcid.org/0000-0002-8160-7941",
+            "ROR": "https://ror.org/0496vr396"
+        },
+        {
+            "OrderNr": 3,
+            "Surname": "Deneudt",
+            "Firstname": "Klaas",
+            "Initials": "K.",
+            "PerPublicFlag": 1,
+            "AdrID": 167753,
+            "Email": "klaas.deneudt@vliz.be",
+            "InsPublicFlag": 1,
+            "Acronym": "VLIZ",
+            "OrigNameLangCode": "en",
+            "OrigNameLangID": 15,
+            "FullOrigName": "Flanders Marine Institute",
+            "InsOwnerCNT": 6,
+            "PersID": null,
+            "InsID": 36,
+            "FullInstitute": "Vlaams Instituut voor de Zee",
+            "RoleID": null,
+            "Role": null,
+            "OrigName": "Flanders Marine Institute",
+            "StandardName": "Vlaams Instituut voor de Zee",
+            "FullAcronym": "VLIZ",
+            "ORC": "https://orcid.org/0000-0002-8559-3508",
+            "ROR": "https://ror.org/0496vr396"
+        },
+        {
+            "OrderNr": 4,
+            "Surname": "Vandepitte",
+            "Firstname": "Leen",
+            "Initials": "L.",
+            "PerPublicFlag": 1,
+            "AdrID": 129096,
+            "Email": "leen.vandepitte@vliz.be",
+            "InsPublicFlag": 1,
+            "Acronym": "VLIZ",
+            "OrigNameLangCode": "en",
+            "OrigNameLangID": 15,
+            "FullOrigName": "Flanders Marine Institute",
+            "InsOwnerCNT": 6,
+            "PersID": null,
+            "InsID": 36,
+            "FullInstitute": "Vlaams Instituut voor de Zee",
+            "RoleID": null,
+            "Role": null,
+            "OrigName": "Flanders Marine Institute",
+            "StandardName": "Vlaams Instituut voor de Zee",
+            "FullAcronym": "VLIZ",
+            "ORC": "https://orcid.org/0000-0002-8160-7941",
+            "ROR": "https://ror.org/0496vr396"
+        },
+        {
+            "OrderNr": 5,
+            "Surname": null,
+            "Firstname": null,
+            "Initials": null,
+            "PerPublicFlag": null,
+            "AdrID": null,
+            "Email": null,
+            "InsPublicFlag": 1,
+            "Acronym": "VLIZ",
+            "OrigNameLangCode": "en",
+            "OrigNameLangID": 15,
+            "FullOrigName": "Flanders Marine Institute",
+            "InsOwnerCNT": 6,
+            "PersID": null,
+            "InsID": 36,
+            "FullInstitute": "Vlaams Instituut voor de Zee",
+            "RoleID": 61,
+            "Role": "Data creator",
+            "OrigName": "Flanders Marine Institute",
+            "StandardName": "Vlaams Instituut voor de Zee",
+            "FullAcronym": "VLIZ",
+            "ORC": null,
+            "ROR": "https://ror.org/0496vr396"
+        },
+        {
+            "OrderNr": 6,
+            "Surname": "Appeltans",
+            "Firstname": "Ward",
+            "Initials": "W.",
+            "PerPublicFlag": 1,
+            "AdrID": null,
+            "Email": null,
+            "InsPublicFlag": 1,
+            "Acronym": "VLIZ",
+            "OrigNameLangCode": "en",
+            "OrigNameLangID": 15,
+            "FullOrigName": "Flanders Marine Institute",
+            "InsOwnerCNT": 6,
+            "PersID": null,
+            "InsID": 36,
+            "FullInstitute": "Vlaams Instituut voor de Zee",
+            "RoleID": null,
+            "Role": null,
+            "OrigName": "Flanders Marine Institute",
+            "StandardName": "Vlaams Instituut voor de Zee",
+            "FullAcronym": "VLIZ",
+            "ORC": null,
+            "ROR": "https://ror.org/0496vr396"
+        }
+    ],
+    "taxterms": [
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 11310,
+            "TaxTerm": "Animalia",
+            "AphiaID": 2,
+            "DutchTerm": "Dieren"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 11312,
+            "TaxTerm": "Fungi",
+            "AphiaID": 4,
+            "DutchTerm": "Schimmels"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 11314,
+            "TaxTerm": "Monera",
+            "AphiaID": 147415,
+            "DutchTerm": null
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 11311,
+            "TaxTerm": "Plantae",
+            "AphiaID": 3,
+            "DutchTerm": "Planten"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 11313,
+            "TaxTerm": "Protozoa",
+            "AphiaID": 5,
+            "DutchTerm": null
+        }
+    ],
+    "frameworks": null,
+    "otherterms": null,
+    "temporal": [
+        {
+            "DasDateID": 133,
+            "StartYear": 1768,
+            "EndYear": 2007,
+            "StartDay": null,
+            "EndDay": null,
+            "StartDate": "1768-01-01",
+            "EndDate": "2007-01-01",
+            "Resolution": null,
+            "ResolutionNL": null,
+            "Notes": null,
+            "StartMonth0": null,
+            "StartMonth": null,
+            "StartMonthNL": null,
+            "EndMonth0": null,
+            "EndMonth": null,
+            "EndMonthNL": null,
+            "Progress": "Completed",
+            "ProgressNL": "Afgelopen"
+        }
+    ],
+    "geographical": [
+        {
+            "GeoTerm": "ANE, Belgium, Belgian Coast",
+            "DasGeoID": 8062,
+            "DasGeoTerm": null,
+            "DasID": 82,
+            "GeotID": 6234,
+            "X": null,
+            "Y": null,
+            "MaxX": null,
+            "MaxY": null,
+            "StationName": null,
+            "Precision": null,
+            "CoordSystID": null,
+            "GeoDatumID": null,
+            "OrigCoordMinX": null,
+            "OrigCoordMinY": null,
+            "OrigCoordMaxX": null,
+            "OrigCoordMaxY": null,
+            "OrderNr": null,
+            "Projection": null,
+            "GeoDatum": null,
+            "GeoObjectID": 2550,
+            "OrigGeoTerm": "Belgian Coast",
+            "DutchTerm": "Belgische kust"
+        },
+        {
+            "GeoTerm": "EurOBIS calculated BBOX",
+            "DasGeoID": 12945,
+            "DasGeoTerm": null,
+            "DasID": 82,
+            "GeotID": 9449,
+            "X": -149.625,
+            "Y": -47.012427052093,
+            "MaxX": 180,
+            "MaxY": 85,
+            "StationName": "Bounding Box",
+            "Precision": null,
+            "CoordSystID": null,
+            "GeoDatumID": null,
+            "OrigCoordMinX": null,
+            "OrigCoordMinY": null,
+            "OrigCoordMaxX": null,
+            "OrigCoordMaxY": null,
+            "OrderNr": null,
+            "Projection": null,
+            "GeoDatum": null,
+            "GeoObjectID": null,
+            "OrigGeoTerm": "EurOBIS calculated BBOX",
+            "DutchTerm": null
+        },
+        {
+            "GeoTerm": "ANE, North Sea",
+            "DasGeoID": 315,
+            "DasGeoTerm": "North Sea",
+            "DasID": 82,
+            "GeotID": 390,
+            "X": null,
+            "Y": null,
+            "MaxX": null,
+            "MaxY": null,
+            "StationName": null,
+            "Precision": null,
+            "CoordSystID": null,
+            "GeoDatumID": null,
+            "OrigCoordMinX": null,
+            "OrigCoordMinY": null,
+            "OrigCoordMaxX": null,
+            "OrigCoordMaxY": null,
+            "OrderNr": 1,
+            "Projection": null,
+            "GeoDatum": null,
+            "GeoObjectID": 2350,
+            "OrigGeoTerm": "North Sea",
+            "DutchTerm": "Noordzee"
+        }
+    ],
+    "meastypes": [
+        {
+            "MethID": null,
+            "DasMeasTypID": 488,
+            "Matrix": null,
+            "MatrixNL": null,
+            "Parameter": "Presence of biota",
+            "ParameterNL": "Aanwezigheid van soorten",
+            "Description": "Presence of biota",
+            "Unit": null,
+            "Methodology": null,
+            "Protocol": null,
+            "QualityControl": null,
+            "Precision": null,
+            "Detectionlimit": null,
+            "Instrument": null,
+            "InstrumentUrl": null,
+            "MethFull": "",
+            "ParaCategoryTitle": null,
+            "ParaCatCode": null
+        }
+    ],
+    "dasthemes": [
+        {
+            "DasThemeID": 21,
+            "DasTheme": "Biology",
+            "DasTheme0": "Biology",
+            "DutchTerm": "Biologie"
+        },
+        {
+            "DasThemeID": 26,
+            "DasTheme": "Biology > Benthos",
+            "DasTheme0": "Benthos",
+            "DutchTerm": "Benthos"
+        },
+        {
+            "DasThemeID": 69,
+            "DasTheme": "Biology > Birds",
+            "DasTheme0": "Birds",
+            "DutchTerm": "Vogels"
+        },
+        {
+            "DasThemeID": 28,
+            "DasTheme": "Biology > Fish",
+            "DasTheme0": "Fish",
+            "DutchTerm": "Vis"
+        },
+        {
+            "DasThemeID": 74,
+            "DasTheme": "Biology > Macroalgae",
+            "DasTheme0": "Macroalgae",
+            "DutchTerm": "Macroalgen"
+        },
+        {
+            "DasThemeID": 70,
+            "DasTheme": "Biology > Mammals",
+            "DasTheme0": "Mammals",
+            "DutchTerm": "Zoogdieren"
+        },
+        {
+            "DasThemeID": 73,
+            "DasTheme": "Biology > Plankton > Phytoplankton",
+            "DasTheme0": "Phytoplankton",
+            "DutchTerm": "Fytoplankton"
+        },
+        {
+            "DasThemeID": 72,
+            "DasTheme": "Biology > Plankton > Zooplankton",
+            "DasTheme0": "Zooplankton",
+            "DutchTerm": "Zooplankton"
+        },
+        {
+            "DasThemeID": 71,
+            "DasTheme": "Biology > Reptiles",
+            "DasTheme0": "Reptiles",
+            "DutchTerm": "Reptielen"
+        }
+    ],
+    "projects": null,
+    "refs": [
+        {
+            "0": null,
+            "BRefID": null,
+            "1": "Based on this dataset",
+            "Relation": "Based on this dataset",
+            "2": 2,
+            "RelationID": 2,
+            "3": "<b>Appeltans, W.; Vanden Berghe, E.</b> (2003). TISBE & APHIA: on-line biological databases for marine species in Belgium and adjacent areas, <b><i>in</i></b>: Mees, J. <i>et al.</i> <i>VLIZ Young Scientists' Day, Brugge, Belgium 28 February 2003: book of abstracts. VLIZ Special Publication,</i> 12: pp. 63",
+            "RR": "<b>Appeltans, W.; Vanden Berghe, E.</b> (2003). TISBE & APHIA: on-line biological databases for marine species in Belgium and adjacent areas, <b><i>in</i></b>: Mees, J. <i>et al.</i> <i>VLIZ Young Scientists' Day, Brugge, Belgium 28 February 2003: book of abstracts. VLIZ Special Publication,</i> 12: pp. 63",
+            "4": "TISBE & APHIA: on-line biological databases for marine species in Belgium and adjacent areas",
+            "StT": "TISBE & APHIA: on-line biological databases for marine species in Belgium and adjacent areas",
+            "5": "Appeltans, W.; Vanden Berghe, E.",
+            "RSA": "Appeltans, W.; Vanden Berghe, E.",
+            "6": "Gebaseerd op deze dataset",
+            "DutchTerm": "Gebaseerd op deze dataset",
+            "7": 2003,
+            "AnaDate": 2003,
+            "8": null,
+            "MonDate": null,
+            "9": ", <b><i>in</i></b>: Mees, J. <i>et al.</i> <i>VLIZ Young Scientists' Day, Brugge, Belgium 28 February 2003: book of abstracts. VLIZ Special Publication,</i> 12: pp. 63",
+            "": ", <b><i>in</i></b>: Mees, J. <i>et al.</i> <i>VLIZ Young Scientists' Day, Brugge, Belgium 28 February 2003: book of abstracts. VLIZ Special Publication,</i> 12: pp. 63",
+            "10": null,
+            "doi": null
+        },
+        {
+            "0": null,
+            "BRefID": null,
+            "1": "Based on this dataset",
+            "Relation": "Based on this dataset",
+            "2": 2,
+            "RelationID": 2,
+            "3": "<b>Vanden Berghe, E.; Deneudt, K.; Mees, J.</b> (2002). TISBE: Taxonomic Information System for the BElgian continental shelf, <b><i>in</i></b>: Brown, M. <i>et al.</i> <i>The Colour of Ocean Data: International Symposium on oceanographic data and information management, with special attention to biological data. Brussels, Belgium, 25-27 November 2002: book of abstracts. VLIZ Special Publication,</i> 11: pp. 90",
+            "RR": "<b>Vanden Berghe, E.; Deneudt, K.; Mees, J.</b> (2002). TISBE: Taxonomic Information System for the BElgian continental shelf, <b><i>in</i></b>: Brown, M. <i>et al.</i> <i>The Colour of Ocean Data: International Symposium on oceanographic data and information management, with special attention to biological data. Brussels, Belgium, 25-27 November 2002: book of abstracts. VLIZ Special Publication,</i> 11: pp. 90",
+            "4": "TISBE: Taxonomic Information System for the BElgian continental shelf",
+            "StT": "TISBE: Taxonomic Information System for the BElgian continental shelf",
+            "5": "Vanden Berghe, E.; Deneudt, K.; Mees, J.",
+            "RSA": "Vanden Berghe, E.; Deneudt, K.; Mees, J.",
+            "6": "Gebaseerd op deze dataset",
+            "DutchTerm": "Gebaseerd op deze dataset",
+            "7": 2002,
+            "AnaDate": 2002,
+            "8": null,
+            "MonDate": null,
+            "9": ", <b><i>in</i></b>: Brown, M. <i>et al.</i> <i>The Colour of Ocean Data: International Symposium on oceanographic data and information management, with special attention to biological data. Brussels, Belgium, 25-27 November 2002: book of abstracts. VLIZ Special Publication,</i> 11: pp. 90",
+            "": ", <b><i>in</i></b>: Brown, M. <i>et al.</i> <i>The Colour of Ocean Data: International Symposium on oceanographic data and information management, with special attention to biological data. Brussels, Belgium, 25-27 November 2002: book of abstracts. VLIZ Special Publication,</i> 11: pp. 90",
+            "10": null,
+            "doi": null
+        },
+        {
+            "0": null,
+            "BRefID": null,
+            "1": "Based on this dataset",
+            "Relation": "Based on this dataset",
+            "2": 2,
+            "RelationID": 2,
+            "3": "<b>Vanden Berghe, E.; Mees, J.; Seys, J.; Cattrijsse, A.; Bulckaen, B.</b> (2002). TISBE: Taxonomic Information System for the Belgian Continental Shelf, <b><i>in</i></b>: Mees, J. <i>et al.</i> (Ed.) <i>VLIZ Young Scientists' Day, Brugge, Belgium 13 March 2002: book of abstracts. VLIZ Special Publication,</i> 7: pp. 50",
+            "RR": "<b>Vanden Berghe, E.; Mees, J.; Seys, J.; Cattrijsse, A.; Bulckaen, B.</b> (2002). TISBE: Taxonomic Information System for the Belgian Continental Shelf, <b><i>in</i></b>: Mees, J. <i>et al.</i> (Ed.) <i>VLIZ Young Scientists' Day, Brugge, Belgium 13 March 2002: book of abstracts. VLIZ Special Publication,</i> 7: pp. 50",
+            "4": "TISBE: Taxonomic Information System for the Belgian Continental Shelf",
+            "StT": "TISBE: Taxonomic Information System for the Belgian Continental Shelf",
+            "5": "Vanden Berghe, E.; Mees, J.; Seys, J.; Cattrijsse, A.; Bulckaen, B.",
+            "RSA": "Vanden Berghe, E.; Mees, J.; Seys, J.; Cattrijsse, A.; Bulckaen, B.",
+            "6": "Gebaseerd op deze dataset",
+            "DutchTerm": "Gebaseerd op deze dataset",
+            "7": 2002,
+            "AnaDate": 2002,
+            "8": null,
+            "MonDate": null,
+            "9": ", <b><i>in</i></b>: Mees, J. <i>et al.</i> <i>VLIZ Young Scientists' Day, Brugge, Belgium 13 March 2002: book of abstracts. VLIZ Special Publication,</i> 7: pp. 50",
+            "": ", <b><i>in</i></b>: Mees, J. <i>et al.</i> <i>VLIZ Young Scientists' Day, Brugge, Belgium 13 March 2002: book of abstracts. VLIZ Special Publication,</i> 7: pp. 50",
+            "10": null,
+            "doi": null
+        }
+    ],
+    "urls": [
+        {
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000000082",
+            "externalID": null,
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000000082",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://www.eurobis.org/toolbox/en/download/occurrence/dataset/82",
+            "externalID": "82",
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "eurobis.org/toolbox/en/download/occurrence/dataset/82",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "ipt.vliz.be/eurobis/resource?r=tisbe",
+            "externalID": "tisbe",
+            "URLTypeCode": null,
+            "URLType": "IPT",
+            "URLTypID": 33,
+            "trimmedURL": "ipt.vliz.be/eurobis/resource?r=tisbe",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://obis.org/dataset/10fe54bb-b93b-4f00-bf4c-bd51542614ef",
+            "externalID": "10fe54bb-b93b-4f00-bf4c-bd51542614ef",
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "obis.org/dataset/10fe54bb-b93b-4f00-bf4c-bd51542614ef",
+            "downloadURL": null,
+            "FileName": null
+        }
+    ],
+    "pictures": [],
+    "urlmaps": null,
+    "spatreps": null,
+    "resmessage": "",
+    "complete": 1
+}

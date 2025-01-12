@@ -1,0 +1,129 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/5829",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/5829.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "  Original provider: Observatoire PELAGIS UMS 3462 University La Rochelle - CNRS Dataset credits: Observatoire PELAGIS UMS 3462, University La Rochelle - CNRS -Agence des Aires Marines Protégées - Direction de l&#39;Eau et de la Biodiversité Abstract: In order to establish a baseline map of cetaceans and other pelagic megafauna across the French EEZ, the French agency for marine protected areas (AAMP) decided to conduct a series of surveys allowing hotspots of abundance and diversity to be identified and a future monitoring scheme to be established. A dedicated aerial survey methodology, following standard protocols, was preferred to ship surveys. The general design corresponds to published protocols prepared for small cetaceans, but data for other marine mammals (large whales, sirenians), seabirds, sea-turtles, large teleosts and large elasmobranchs) are collected as well.",
+    "citation": "Van Canneyt, O. 2016. Observatoire Pelagis aerial surveys 2002-2015. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1404) on yyyy-mm-dd.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2017-10-03",
+    "dateModified": "2022-08-12",
+    "keywords": [
+        {
+            "name":"Aerial surveys",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Aircraft",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine ecology",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"non-buoyant aircraft",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Sea birds",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Sea turtles",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"ship",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-179.978292 -25.86469 179.986607 51.571235",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "World Oceans" ,
+            "identifier": "http://www.marineregions.org/mrgid/1901"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2002-08-03/2015-01-10"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1837"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Aves",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1836"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cheloniidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=136999"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pisces",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11676"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "Data collected include species, group size, angle to survey track for cetaceans located within 500m on both sides of survey track, allowing line transect data analyses. For seabirds all encounters located within 200m on both sides of survey track are recorded for strip-transect analysis. Covariates collected on board include sea-state, turbidity, glare and cloud coverage. The study areas include all sectors of the French EEZ: North-East Atlantic, the tropical Atlantic (French Caribbean and Guiana), Indian (Reunion Island, Mayotte and the Scattered Islands) and south Pacific oceans (French Polynesia, New Caledonia, Wallis and Futuna). These surveys follow the general SCANS methodology (Hiby and Lovell, 1998) adapted to aircrafts. A zigzag track layout is used and transects are sampled at a target altitude of 180 m and ground speed of 90 nm.h-1 (167 km.h-1). Survey platforms are high-wing, double-engine aircrafts fitted with bubble windows; a Partenavia P68 was used in 2008 in the Atlantic and two Britten Norman BN-2 in 2009-10 in the southwest Indian Ocean. Survey crew typically consists in two trained observers observing with naked eyes and a flight leader in charge of data collection. Purpose: In order to establish a baseline map of cetaceans and other pelagic megafauna across the French EEZ, it was decided to conduct a series of surveys from 2008 onwards following a standardized methodology that would allow comparisons within and between regions as well as temporally, for the sake of the identification of hotspots of abundance and diversity and the establishment of a future monitoring scheme. These surveys are named the REMMOA and SAMM surveys for REcensement des Mammifères marins et autre Mégafaune pélagique par Observation Aérienne (Census of marine mammals and other pelagic megafauna by aerial survey) and Suivi Aérien de la Megafaune Marine (Aerial survey for marine megafauna). Additionally, considering the fragmented nature of the French EEZ, notably compared to the spatial scale that is relevant for the species of interest, the implementation of these surveys at regional scale by collaboration with neighboring countries was encouraged. Supplemental information: [2017-01-05] 14 sightings of Phocidae in 2014 were added. Time and group size of the sightings are not available online. They may be released upon request. There are records for plankton observations but these records are not visible online. The animals the provider identified as Sterninae spp were registered as Laridae spp. However, you can still see the original species identification online.",
+    "identifier": "5829",
+    "name": "Observatoire Pelagis aerial surveys 2002-2015",
+    "sameAs": "http://marineinfo.org/id/dataset/5829",
+    "url": "http://marineinfo.org/id/dataset/5829"
+}

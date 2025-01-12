@@ -1,0 +1,88 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/2823",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/2823.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Data collected from 2002 to 2004 on harbor porpoise populations at the north coast of Anglesey, Wales, United Kingdom.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2011-03-31",
+    "dateModified": "2022-10-21",
+    "keywords": [
+        {
+            "name":"Data",
+            "inDefinedTermSet":"Assemble KO Types",
+            "termCode":"8",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine Genomics",
+            "inDefinedTermSet":"Assemble Sectors",
+            "termCode":"10",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/4456"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/4456"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/4456"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "Anglesey" ,
+            "identifier": "http://www.marineregions.org/mrgid/20972"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-4.8338 53.2555 -4.1973 53.5026",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2002-01-01/2004-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phocoena phocoena (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1",
+    "description": "A three year study was undertaken during 2002 to 2004 from May to September to estimate abundance and density of harbor porpoises on the north coast of Anglesey, Wales, United Kingdom. There were no ecological data regarding the harbor porpoises in Anglesey waters so the ability to influence conservation measures was highly constrained. Boat-based transects using distance sampling techniques were applied so a robust estimate of density and abundance could be attained. The study area consisted of a block approximately 489 km2 extending from the east of Point Lynas to the west of South Stack on north coast of Anglesey. The study area was divided into five blocks consisting of 31 perpendicular transect lines to the shore. Each of the transect lines were surveyed 1–5 times by the end of the three year study. Based on the assumption that g(0) = 1 the density of harbor porpoises for the 489 km2 study site was estimated to be 0.630 individuals/km2 (CV = 0.20) and the abundance is estimated to be 309 individuals (CV = 0.20). Heterogeneity in density and abundance was observed across the five blocks which showed Point Lynas and South Stack to have the highest densities. This distribution was closely associated to fine-scale oceanographic features which cause prey to be concentrated and may facilitate foraging for harbor porpoises. The study showed that Anglesey provides coastal habitats for the harbor porpoise and was the first study of this kind in North Wales, United Kingdom.  The need for abundance and density estimates was highlighted as a key factor in the conservation and management of the harbor porpoise in Anglesey waters. Moreover, proposed extension of the wind farms from Liverpool Bay to Anglesey and the potential of the area for marine renewable energy devices presented a problem to managers and planners due to the lack of knowledge of harbor porpoise populations in north Wales.",
+    "identifier": "2823",
+    "name": "Marine Awareness North Wales, Wildlife Trust harbor porpoise baseline surveys on the north coast of Anlesey, Wales, UK",
+    "sameAs": "http://marineinfo.org/id/dataset/2823",
+    "url": "http://marineinfo.org/id/dataset/2823"
+}

@@ -1,0 +1,88 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/5828",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/5828.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Original provider: Observatoire PELAGIS UMS 3462 University La Rochelle - CNRS Dataset credits: Observatoire PELAGIS UMS 3462, University La Rochelle - CNRS Abstract: Regulation (EC) No 812/2004 of 26 April 2004 is intended to assess the incidental catch of cetaceans in fisheries and to reduce bycatch in some fisheries. This regulation requires plans observation on vessels over 15 meters operating in pelagic trawl or large vertical opening in ICES zones VI, VII, VIII and IX, and vessesl over 15 meters operating with set nets in ICES VIa, VI-a,b and VIIIa,b,c and IX.The Ministry of Agriculture and Fisheries (Directorate of Marine Fisheries and Aquaculture - DPMA) is responsible for the implementation of the Regulation for France. An observation program of incidental catches of cetaceans started in 2006 on the French metropolitan coast.",
+    "citation": "Doremus, G. 2016. Observatoire Pelagis sightings from fishery surveys 2004-2009. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1405) on yyyy-mm-dd.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2017-10-02",
+    "dateModified": "2022-08-16",
+    "keywords": [
+        {
+            "name":"Dolphins",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Fishery surveys",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"surface vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Whales",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "North Atlantic" ,
+            "identifier": "http://www.marineregions.org/mrgid/1912"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-13.16086 42.66667 5.19233 52.15148",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Western Mediterranean" ,
+            "identifier": "http://www.marineregions.org/mrgid/4279"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2004-07-19/2009-01-08"
+    ],
+    "description": "The sampling plan provides coverage of 5% of the fishing effort for gillnets over 15 m in area VIII. For pelagic trawlers over 15m, a 5% coverage of the fishing effort has also been planned except for VI, VII and VIII where a coverage of 10% is required from December 1 to March 31.In addition, for vessels under 15m, pilot projects have been implemented by using on board observers. For simple pelagic trawls, a coverage rate of 5% of the fishing effort has been applied. For netters, a 1% coverage of the fishing effort has been targeted. This dataset gathered sightings made during these surveys together, but DOES NOT INCLUDE ANY BYCATCH DATA. Purpose: Implemented in 1983 in European waters, the Common Fishery Policy (CFP) is the marine translation of the Common Agricultural Policy (CAP). Its goals are manifold including estimating and reducing the total incidence of non-target species bycatch. Since 1992, the Habitats Directive required bycatch monitoring by European Union (EU) Member States. In line with commitments towards individual protected species, incidental catches are addressed under Article 12(4) which establishes an obligation to address, inter alia, by-catches: ‘Member States shall establish a system to monitor the incidental capture and killing of the animal species listed in Annex IV(a). In light of the information gathered, Member States shall take further research or conservation measures as required to ensure that incidental capture and killing does not have a significant impact on the species concerned’. The presence of observer on board is a good opportunity to collect data from live animal distribution and relative abundance, and provide additionnal data (considered as data collected on platform of opportunity). Supplemental information: Time and group size of the sightings are not available online. They may be released upon request.",
+    "identifier": "5828",
+    "name": "Observatoire Pelagis sightings from fishery surveys 2004-2009",
+    "sameAs": "http://marineinfo.org/id/dataset/5828",
+    "url": "http://marineinfo.org/id/dataset/5828"
+}

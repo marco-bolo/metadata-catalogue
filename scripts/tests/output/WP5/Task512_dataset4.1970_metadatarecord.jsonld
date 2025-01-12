@@ -1,0 +1,81 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/1970",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/1970.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Dataset information available at &lt;a href=http://seamap.env.duke.edu/datasets/detail/344 target=_blank&gt;http://seamap.env.duke.edu/datasets/detail/344&lt;/a&gt;",
+    "citation": "D. Gillespie, P. Berggren, S. Brown, I. Kuklik, C. Lacey, T. Lewis, J. Matthews, R. Mclanaghan, A. Moscrop &amp; N. Tregenza. 2005. Relative abundance of harbour porpoises (Phocoena phocoena). Journal of Cetacean Research and Managment: 7(1):51-57.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2009-06-09",
+    "dateModified": "2012-10-23",
+    "keywords": [
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Porpoises",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/11055"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/11360"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "Baltic" ,
+            "identifier": "http://www.marineregions.org/mrgid/2401"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "4.926467 53.368954 14.530467 55.339333",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2001-01-01/2002-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Phocoena phocoena (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1",
+    "description": "Boat-based acoustic and visual surveys for harbour porpoises (Phocoena phocoena) were conducted during the summers of 2001 and 2002 in order to investigate their distribution and relative abundance in the Baltic Sea, and to compare the results with the adjacent Kiel and Mecklenburg Bights and the Little Belt.  Harbour porpoises are subject to year-round bycatch in gillnets and other fishing gear in these waters. This is of particular concern in the Baltic Sea where a survey carried out in 1995 indicated that the population is low and current levels of anthropogenic mortality are believed to be unsustainable.",
+    "identifier": "1970",
+    "name": "Baltic porpoise sightings 01-02",
+    "sameAs": "http://marineinfo.org/id/dataset/1970",
+    "url": "http://marineinfo.org/id/dataset/1970"
+}

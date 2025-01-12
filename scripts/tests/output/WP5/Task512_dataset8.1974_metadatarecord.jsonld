@@ -1,0 +1,96 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/1974",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/1974.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "dataset information available at &lt;a href=http://seamap.env.duke.edu/datasets/detail/425 target=_blank&gt;http://seamap.env.duke.edu/datasets/detail/425&lt;/a&gt;",
+    "citation": "Weir, C.R., Stockin, K.A. and Pierce, G.J.. 2007. Spatial and temporal trends in the distribution of harbour porpoises, white-beaked dolphins and minke whales off Aberdeenshire (UK), north-western North Sea. Journal of the Marine Biological Association of the UK: 87: 327-338. In: OBIS-SEAMAP . OBIS-SEAMAP, http://seamap.env.duke.edu/.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2009-06-09",
+    "dateModified": "2022-08-16",
+    "keywords": [
+        {
+            "name":"Dolphins",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"land or seafloor",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Porpoises",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"surface vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Whales",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/11361"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/11361"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-2.319667 56.785667 -2.0225 57.148833",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "UK" ,
+            "identifier": "http://www.marineregions.org/mrgid/2208"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1999-01-01/2001-01-01"
+    ],
+    "version": "1",
+    "description": "Spatial and temporal trends in the distribution of the harbour porpoise Phocoena phocoena, white-beaked dolphin Lagenorhynchus albirostris, and minke whale Balaenoptera acutorostrata were assessed at a coastal North Sea study area in Aberdeenshire, Scotland. Between March 1999 and October 2001, cetacean data were collected using both land- and vesselbased survey methods. A total of 174 sightings of these three cetacean species was recorded during approximately 330 h of combined survey effort (228 h land-based and 102 h vessel-based).  The data were collected to analyse the distribution and seasonality of cetacean species in the region, in order to provide recommendations for their long-term conservation and management.",
+    "identifier": "1974",
+    "name": "Harbour porpoises, white-beaked dolphins and minke whales in North Sea - Vessel Surveys",
+    "sameAs": "http://marineinfo.org/id/dataset/1974",
+    "url": "http://marineinfo.org/id/dataset/1974"
+}

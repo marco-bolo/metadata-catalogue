@@ -1,0 +1,245 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/3117",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/3117.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Distance (along transect)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/DISTPHMS/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Horizontal visibility (ESAS code) in the atmosphere by visual estimation and conversion to ESAS code using the visibility table",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/VISHOR04/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Horizontal visibility in the atmosphere by visual estimation",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/VISHOR03/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sampling protocol",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Speed of wind {wind speed} in the atmosphere by visual estimation and conversion to Beaufort scale",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/WMOCWFBF/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "European Seabirds At Sea (ESAS) assembles offshore monitoring data on seabirds and marine mammals. This international database mostly includes data from the North Sea, yet large parts of the northeastern Atlantic Ocean are covered as well. It finds its origin in the &#39;Seabirds at Sea&#39; project, which was initiated in 1979 following the discovery of major oil potential in the North Sea and an urgent need to gain more knowledge on the occurrence and distribution of seabirds in their offshore habitat. This led to the execution of large-scale ship-based surveys across the North Sea using a standardized data collection method and a first European-wide data assembly in 1991.  ",
+    "citation": "Vanermen N, Stienen EWM, Fijn R, Markones N, Holdsworth N, Osypchuk A, Pinto C, Desmet P (2022): European Seabirds at Sea (ESAS). ICES, Copenhagen, Denmark. &lt;a href=&#34;https://esas.ices.dk&#34;&gt;https://esas.ices.dk&lt;/a&gt;",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "datePublished": "2012-07-17",
+    "dateModified": "2023-04-26",
+    "keywords": [
+        {
+            "name":"Abundance",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Animal behavior",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Birds (marine)",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Distribution",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Ecology",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Environmental assessment",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine birds",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine ecology",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Monitoring",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"non-buoyant aircraft",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Offshore",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Pelagic environment",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"ship",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Species diversity",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/5443",
+        "http://marineinfo.org/id/institute/5443",
+        "http://marineinfo.org/id/institute/4059",
+        "http://marineinfo.org/id/institute/4059",
+        "http://marineinfo.org/id/institute/4059",
+        "http://marineinfo.org/id/institute/5443"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/5443"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "North Atlantic" ,
+            "identifier": "http://www.marineregions.org/mrgid/1912"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Baltic" ,
+            "identifier": "http://www.marineregions.org/mrgid/2401"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "Biscay Bay" ,
+            "identifier": "http://www.marineregions.org/mrgid/2359"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "English Channel" ,
+            "identifier": "http://www.marineregions.org/mrgid/2389"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "North Sea" ,
+            "identifier": "http://www.marineregions.org/mrgid/2350"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-54.2481 14.8788 20.2764 79.1508",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1979-01-01/2022-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Aves",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1836"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pinnipedia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=148736"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "ESAS data are collected by various partners during aerial or ship-based surveys at sea and according to a methodology that allows to calculate georeferenced seabird densities. Standard practice further implies collecting as much information as possible on animal age, plumage and behaviour as well as observation conditions and distance to the observed individuals.  As part of the WOZEP research project, ESAS data were migrated in 2022 from its former host JNCC (UK) to ICES. The ICES infrastructure allows partners to submit new data and users to download or request data.  ",
+    "identifier": "3117",
+    "name": "European Seabirds At Sea (ESAS)",
+    "sameAs": "http://marineinfo.org/id/dataset/3117",
+    "url": "http://marineinfo.org/id/dataset/3117"
+}

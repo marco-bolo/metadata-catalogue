@@ -1,0 +1,156 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/4542",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/4542.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Diveboard is an online scuba diving citizen science platform, where divers can digitize or log their dives, participate in citizen science surveys and projects, and interact with others. More then 10,000 divers have already registered with Diveboard and the community is still growing. This dataset contains all observations made by Diveboarders worldwide (mainly fishes) and are linked to the Encyclopedia of Life. The Diveboard community has dedicated the data to the public domain under a Creative Commons Zero waiver, so these can be used as widely as possible. If you have a specific survey need or question, get in touch: Diveboarders are everywhere and willing to help!",
+    "citation": "Diveboard - Scuba diving citizen science observations. Online at http://www.diveboard.com and http://ipt.diveboard.com/resource.do?r=diveboard-occurrences.",
+    "conditionsOfAccess": "CC0 enables scientists, educators, artists and other creators and owners of copyright- or database-protected content to waive those interests in their works and thereby place them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.",
+    "creativeWorkStatus": "In Progress",
+    "datePublished": "2014-02-25",
+    "dateModified": "2022-08-16",
+    "keywords": [
+        {
+            "name":"Citizen participation",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Citizen science",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"diver",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Scuba diving",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Volunteers",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-159.787 -46.8738 179.983 70.5174",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "World Oceans" ,
+            "identifier": "http://www.marineregions.org/mrgid/1901"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1970-01-01/.."
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Actinopterygii",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10194"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Anthozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1292"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chordata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1821"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinodermata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1806"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Elasmobranchii",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10193"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Rhodophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=852"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Testudines",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2689"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "Purpose - Diveboarders share their data with the desire to help the scientific community in research towards protecting the biodiversity of our oceans, seas, and freshwater bodies. So far, the data are not generated with any overarching purpose, other than completing ones personal digital log of dives.  Additional information - The data is collected with the help of divers all around the world. If you have questions regarding surveying specific dive sites, you can contact us at support@diveboard.com and we will see what we can do. The dataset was standardized, documented and published with the help of Datafable, a team of open data volunteers. The process is documented here: https://github.com/Datafable/diveboard-gbif.  Taxonomic coverage - The dataset covers animals (and very few plants) observed during scuba dives performed by members of the Diveboard community. Close to 80% of the observations are fishes (Actinopterygii and Elasmobranchii). Diveboarders can log their dives online, including the species they observed, using the Encyclopedia of Life (http://eol.org) as a checklist. Most of the observations are identified to species level, though some caution regarding the identifications is appropriate. In case of doubt, the observer/identifier can be contacted via the references field, which references his/her Diveboard profile.  Study extent - The dataset covers recorded observations made during scuba dives performed by members of the Diveboard community. As such there is no specific geographic or temporal study extent, although most dives logged on Diveboard were conducted in well known divespots, such as reefs and wrecks. In a later phase, specific surveys might also be logged on Diveboard.  Sampling description - Observations are not recorded with a specific goal in mind and only reflect what the diver has noticed during the dive. Divers rarely conduct a full inventory of a dive spot, so the observed species only represent part of the occurring species at the time of the dive. There is a sampling bias for known, interesting, noticeable and/or rare species.  Quality control - The Diveboard application restricts divers to only record species found in the Encyclopedia of Life (http://eol.org). As such, all observations are linked to an EOL page in the field taxonID. It is important to note that the data are not validated by specialists.  Method - Event and location conditions (date, time, depth, etc.) are often logged automatically by the dive computer. This data can be imported or manually added by the diver in the Diveboard application, while observed species are added manually. These actions can be done just after surfacing, as the Diveboard application is available online and as a mobile app, which allows divers to record their dive even if no internet connection is available.",
+    "identifier": "4542",
+    "name": "Diveboard - Scuba diving citizen science observations",
+    "sameAs": "http://marineinfo.org/id/dataset/4542",
+    "url": "http://marineinfo.org/id/dataset/4542"
+}

@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task512_dataset23",
+    "identifier": "Task512_dataset23",
+    
+    
+
+    
+    "description": "Databases of visual sightings from the IFAW Song of the Whale vessel from 1993 to 2013 were merged into one dataset. Attributes recorded in these databases may differ. Since GPS data would become too huge to effectively visualize online, every 10th record was extracted. All GPS data can be requested. Environmental attributes were recorded less frequently than the GPS data and not all GPS records get environmental attributes attached.",
+    "sdPublisher" : {
+        "email" : "johannes.nowe@vliz.be" ,
+        "url" : "https://www.vliz.be/nl/imis?module=person&amp;persid=44166" ,
+        "affiliation" : {
+            "email" : "data@vliz.be" ,
+            "url" : "https://www.vliz.be/en" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "BE" 
+            } ,
+            "name": "Flanders Marine Institute" ,
+            "identifier": "https://edmo.seadatanet.org/report/422" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "BE" 
+        } ,
+        "name": "Jo-Hannes Nowé" ,
+        "identifier": "https://orcid.org/0009-0000-1555-5867" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Visual sightings from Song of the Whale 1993-2013" ,
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=4870" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

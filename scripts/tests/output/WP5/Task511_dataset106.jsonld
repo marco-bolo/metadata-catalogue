@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset106",
+    "identifier": "Task511_dataset106",
+    
+    
+    "datePublished": "In Progress" ,
+
+    
+    "description": "In June 2008 Gaia Research Institute Onlus started a systematic survey of mega-fauna in the Northern Eastern Ionian Sea; in cooperation with the researchers of the Life and System Biology Department of the University of Turin (Italy). GAIA_IONIAN_2008-2018 dataset includes ten years of effort (survey track) and sightings data of marine mammals and marine reptiles collected by experienced marine mammal observers (MMOs) on board of a 12m sailing vessel. MMOs visually inspected both sides (130° angle) of the research vessel; while navigating along random transects. Distance and angle from the track line of each sighting were always recorded.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Ionian Sea mega-fauna monitoring employing a sailing vessel along random tracks from 2008 to 2018" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006547" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

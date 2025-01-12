@@ -1,0 +1,107 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/4554",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/4554.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Data from air monitoring of marine megafauna in the maritime French metropolitan area and its adjacent areas.",
+    "citation": "SPN - Service du Patrimoine naturel, Muséum national d&#39;Histoire naturelle, Paris: Inventaire National du Patrimoine Naturel : Données des campagnes de Suivi Aérien de la Mégafaune Marine (SAMM) de France métropolitaine, 2013-06-20. Accessed via http://www.gbif.org/dataset/489cf485-b8de-4d38-a01a-6f426c658222 on yyyy-mm-dd",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "datePublished": "2014-02-25",
+    "dateModified": "2022-07-19",
+    "keywords": [
+        {
+            "name":"Megafauna",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Sharks",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "France" ,
+            "identifier": "http://www.marineregions.org/mrgid/8762"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-9.62795 40.12121 10.1635 51.4855",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "France" ,
+            "identifier": "http://www.marineregions.org/mrgid/8761"
+            },
+            "@type": "Place"
+        }
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1837"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Aves",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1836"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Elasmobranchii",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10193"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Testudines",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2689"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "The objective of the aerial monitoring of the maritime French metropolitan area and its adjacent areas was to produce an inventory of the spatial distribution and abundance of megafauna species, mainly marine mammals, seabirds, sea turtles and elasmobranchs. This dataset is composed of two datasets: SAMM1 for winter 2011 and SAMM2 for summer 2012. These data were collected in the framework of the Knowledge Acquisition Program on Birds and Marine Mammals (Programme d’Acquisition de Connaissances sur les Oiseaux et les Mammifères Marins - PACOMM), which is coordinated by the Agency for Marine Protected Areas (Agence des Aires Marines Protégées). The main objective of this program was to improve the knowledge needed  for the evaluation and implementation of the Natura 2000 network beyond the territorial seas.  The data were collected by teams of scientists and observers, coordinated by the PELAGIS Observatory and trained specifically in the aerial observation protocol that was developed in the framework of this program. The SAMM campaigns have collected more than 28.000 observation records of species in French metropolitan waters along more than 100.000 km of transect. This datasets consists only of occurrence records (species, location, date and name of the program) of birds, marine mammals, sharks, rays, sea turtles, and bony fish.",
+    "disambiguatingDescription": "L’objectif des survols de l’espace maritime métropolitain et de ses zones limitrophes était de produire un état des lieux de la distribution spatiale et de l&#39;abondance d’espèces de mégafaune (mammifères et oiseaux marins, tortues et élasmobranches principalement). Le jeu de données est composé de deux jeux de données : SAMM1 pour l&#39;hiver 2011 et SAMM2 pour l&#39;été 2012. Ces données ont été collectées dans le cadre du Programme d’Acquisition de Connaissances sur les Oiseaux et les Mammifères Marins (PACOMM) coordonné par l’Agence des Aires Marines Protégées. Ce programme avait pour objectif principal d’améliorer les connaissances nécessaires à l’évaluation et la mise en place du réseau de sites Natura 2000 au-delà de la mer territoriale. Les données ont été collectées par des équipes de scientifiques et des observateurs coordonnées par l’Observatoire PELAGIS et formés spécifiquement au protocole d’observation aérienne mis en place dans le cadre de ce programme. Les campagnes SAMM ont permis de collecter plus de 28 000 données d’observations d’espèces dans les eaux métropolitaines le long de plus de 100.000 km de transect. Ce jeu de données est constitué uniquement des données d’occurrence (espèce, localisation, date et nom du programme) sur les oiseaux et mammifères marins, d’autres espèces (requins, raies, tortues marines, poissons osseux).",
+    "identifier": "4554",
+    "name": "National Inventory of the Natural Heritage: Data from the air monitoring campaigns of marine megafauna (SAMM) in the French metropolitan area",
+    "sameAs": "http://marineinfo.org/id/dataset/4554",
+    "url": "http://marineinfo.org/id/dataset/4554"
+}

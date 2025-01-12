@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task512_dataset33",
+    "identifier": "Task512_dataset33",
+    
+    
+
+    
+    "description": "Baltic International Bottom Trawl Survey dataset includes age- and length-based catch per unit effort data for commercial fish species in ICES Baltic sub-divisions.",
+    "sdPublisher" : {
+        "email" : "johannes.nowe@vliz.be" ,
+        "url" : "https://www.vliz.be/nl/imis?module=person&amp;persid=44166" ,
+        "affiliation" : {
+            "email" : "data@vliz.be" ,
+            "url" : "https://www.vliz.be/en" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "BE" 
+            } ,
+            "name": "Flanders Marine Institute" ,
+            "identifier": "https://edmo.seadatanet.org/report/422" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "BE" 
+        } ,
+        "name": "Jo-Hannes Nowé" ,
+        "identifier": "https://orcid.org/0009-0000-1555-5867" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "ICES Baltic International Trawl Survey for commercial fish species" ,
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=2760" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

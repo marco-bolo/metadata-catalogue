@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task512_dataset34",
+    "identifier": "Task512_dataset34",
+    
+    
+
+    
+    "description": "Marine Species Records submitted to the National Biodiversity Data Centre’s Citizen Science Portal from 01/01/2019 onwards",
+    "sdPublisher" : {
+        "email" : "johannes.nowe@vliz.be" ,
+        "url" : "https://www.vliz.be/nl/imis?module=person&amp;persid=44166" ,
+        "affiliation" : {
+            "email" : "data@vliz.be" ,
+            "url" : "https://www.vliz.be/en" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "BE" 
+            } ,
+            "name": "Flanders Marine Institute" ,
+            "identifier": "https://edmo.seadatanet.org/report/422" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "BE" 
+        } ,
+        "name": "Jo-Hannes Nowé" ,
+        "identifier": "https://orcid.org/0009-0000-1555-5867" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Explore Your Shore" ,
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=8046" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

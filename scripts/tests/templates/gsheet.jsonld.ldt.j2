@@ -1,21 +1,15 @@
+{# Template 'gsheet.jsonld.ldt.j2' 
+  Description: 'Template for conversion of MBO dataset information from gsheets into jsonld following MBO.' 
+  Inputs: 
+    "_": f'./input/MARCO-BOLO_Metadata_Dataset_Record_description_{wp}.csv',
+    "agents": f'./input/MARCO-BOLO_Metadata_Dataset_Record_agent_{wp}.csv'
+#}
 {
+    {#-note: @context is added at bottom of template for syntax validation reasons #}
     "@type": "Dataset",
-    {%- if _.DataLandingPageURL and " | " not in _.DataLandingPageURL %}
-    "@id": "{{_.DataLandingPageURL}}",
-    "identifier": "{{_.DatasetIdentifier}}",
-    {%- elif _.DataLandingPageURL and " | " in _.DataLandingPageURL %}
-        {%- for url in _.DataLandingPageURL.split(" | ") %}
-            {%- if loop.first %}
-    "@id": "{{url}}",
-    "identifier": 
-            {%- else %}
-            "{{url}}"{{ ", " if not loop.last else "" }}
-            {%- endif %}
-        {%- endfor %}
-    {%- else %}
     "@id": "{{_.DatasetIdentifier}}",
-    {% endif %}
-    {# "DataCatalog" in dataset description on oceaninfohub; this info not yet recorded for MBO datasets
+    "identifier": "{{_.DatasetIdentifier}}",
+    {#- "DataCatalog" in dataset description on oceaninfohub; this info not yet recorded for MBO datasets
     {%- if _.dataCatalogID %}
     "includedInDataCatalog": {
         {%- if _.dataCatalogID %}
@@ -31,13 +25,13 @@
     {%- if _.VariablesMeasured %}
     "variableMeasured":
     [
-        {%- for var in _.VariablesMeasured %}
-        "{{var}}" , 
+        {%- for var in _.VariablesMeasured.split("|") %}
+        "{{var.strip()}}" {{ ", " if not loop.last else "" }}
         {%- endfor %}
     ],
     {%- endif %}
     {#- "measurementTechnique" in dataset description on oceaninfohub; this info not yet recorded for MBO datasets #}
-    {#
+    {#-
     {%- if _.measurementTechnique %}
     "measurementTechnique": "{{_.measurementTechnique}}" ,
     {%- endif %}
@@ -155,10 +149,11 @@
                 "name": "{{agent.Name}}" ,
                 "identifier": "{{agent.ID}}" , 
                 "@type": "https://schema.org/{{agent.Type}}"
-            }
+            } ,
             {%- endif %}
             {%- endfor %}
         {%- endfor%}
+        {}
     ],
     {%- endif %}
     {%- if _.DataTypes %}
@@ -215,11 +210,11 @@
                     "name": "{{agent.Name}}" ,
                     "identifier": "{{agent.ID}}" , 
                     "@type": "https://schema.org/{{agent.Type}}"
-                }
+                } ,
                 {%- endif %}
             {%- endfor %}
-            {{ ", " if not loop.last else "" }}
         {%- endfor %}
+        {}
     ],
     {%- endif %}
     {%- if _.SourceDatasetIdentifier %}
@@ -293,11 +288,11 @@
                     "name": "{{agent.Name}}" ,
                     "identifier": "{{agent.ID}}" , 
                     "@type": "https://schema.org/{{agent.Type}}"
-                }
+                } ,
                 {%- endif %}
             {%- endfor %}
-            {{ ", " if not loop.last else "" }}
         {%- endfor %}
+        {}
     ],
     {%- endif %}
 
@@ -346,11 +341,11 @@
                     "name": "{{agent.Name}}" ,
                     "identifier": "{{agent.ID}}" , 
                     "@type": "https://schema.org/{{agent.Type}}"
-                }
+                } ,
                 {%- endif %}
             {%- endfor %}
-            {{ ", " if not loop.last else "" }}
         {%- endfor %}
+        {}
     ],
     {%- endif %}
     {#- "publishingPrinciples" in EOV description on oceaninfohub; this info not yet recorded for MBO datasets
@@ -387,12 +382,11 @@
         "{{_.DataStartDate}}" , 
         {%- elif _.DataStartDate and _.DataEndDate %}
         "{{_.DataStartDate}}/{{_.DataEndDate}}" , 
-        {%- elif_.DataStartDate %}
+        {%- elif _.DataStartDate %}
         "{{_.DataStartDate}}/.." , 
-        {%- elif_.DataEndDate %}
+        {%- elif _.DataEndDate %}
         "{{_.DataEndDate}}/.." ,
         {%- endif %}
-        {%- endfor %}
     {%- endif %}
 
     {%- if _.DatasetVersion %}
@@ -403,20 +397,21 @@
     "datePublished": "{{_.InProgressDataDate}}" ,
     {%- endif %}
 
+    {# EVDescription, EOV, IndicatorDescription and EBV values likely to change in the future #}
     {%- if _.EVDescription %}
     "additionalType": "{{_.EVDescription}}" ,
     {%- endif %}
     {%- if _.EOV %}
     "additionalType": "{{_.EOV}}" ,
     {%- endif %}
-    {# _.IndicatorDescription left out since no 'schema.org equivalent property' & for internal usage only 
+
     {%- if _.IndicatorDescription %}
     "additionalType": "{{_.IndicatorDescription}}" ,
     {%- endif %}
     {%- if _.EBV %}
     "additionalType": "{{_.EBV}}" ,
     {%- endif %}
-    #}
+    
 
     {%- if _.DatasetDescription %}
     "description": "{{ _.DatasetDescription.replace("\n", "")}}",
@@ -473,7 +468,13 @@
     "name": "{{ _.DatasetTitle }}" ,
     {%- endif %}
 
-    {%- if _.DataLandingPageURL %}
+    {%- if _.DataLandingPageURL and " | " in _.DataLandingPageURL %}
+    "url": [
+        {%- for url in _.DataLandingPageURL.split(" | ") %}
+        {{url}} {%- if not loop.last %},{%- endif %}
+        {%- endfor %}
+    ] ,         
+    {%- else %}
     "url": "{{_.DataLandingPageURL}}" , 
     {%- endif %}
 

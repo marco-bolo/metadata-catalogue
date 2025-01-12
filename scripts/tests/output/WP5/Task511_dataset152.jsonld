@@ -1,0 +1,39 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset152",
+    "identifier": "Task511_dataset152",
+    
+    
+
+    
+    "description": "Zooplankton in the Bay of Biscay (1995-2004. yearly DEPM surveys)",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "BIOTIME_90" ,
+    "url": "https://biotime.st-andrews.ac.uk/download.php" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

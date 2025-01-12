@@ -1,0 +1,93 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/2760",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/2760.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Baltic International Bottom Trawl Survey dataset includes age- and length-based catch per unit effort data for commercial fish species in ICES Baltic sub-divisions.",
+    "citation": "Fish trawl survey: ICES Baltic International Trawl Survey for commercial fish species. ICES Database of trawl surveys (DATRAS). The International Council for the Exploration of the Sea, Copenhagen. 2010. Online source: http://ecosystemdata.ices.dk.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "datePublished": "2010-12-22",
+    "dateModified": "2022-08-02",
+    "isPartOf": [
+      "http://marineinfo.org/id/dataset/None"
+    ] ,
+    "keywords": [
+        {
+            "name":"research vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Trawling",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/4059"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/4059",
+        "http://marineinfo.org/id/institute/4059"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/4059"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "Baltic" ,
+            "identifier": "http://www.marineregions.org/mrgid/2401"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "9.5758 54.0667 24.4333 58.65",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1991-01-01/.."
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Gadus morhua Linnaeus, 1758",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=126436"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Platichthys flesus (Linneaus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=127141"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "alternateName": "BITS",
+    "description": "The Baltic International Bottom Trawl Survey Database (BITS) includes research vessel data from national fishery laboratories around the Baltic Sea from 1991 until present. Two species are considered as target species; cod and flounder. Herring, sprat and the by catch species (see the BITS manual) have been reported in the years 1991 to 1998. However, it has been optional to report these species since 1999 and the database is therefore not complete with regard to these species.   Data are given haul-by-haul as mean catch per unit of effort (CPUE) per length class (1 cm interval for all species except herring and sprat, which are reported in ½ cm interval). In addition, mean CPUE and mean weight per length, age, maturity and sex are given haul-by-haul for sub-samples of the target species.",
+    "identifier": "2760",
+    "name": "ICES Baltic International Trawl Survey for commercial fish species",
+    "sameAs": "http://marineinfo.org/id/dataset/2760",
+    "url": "http://marineinfo.org/id/dataset/2760"
+}

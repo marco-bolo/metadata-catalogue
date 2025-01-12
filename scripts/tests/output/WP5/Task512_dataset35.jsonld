@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task512_dataset35",
+    "identifier": "Task512_dataset35",
+    
+    
+
+    
+    "description": "Data of population surveys conducted by the Cetacean and Turtle Assessment Program to assess the distribution and abundance of whales, dolphins and sea turtles inhabiting the study area.",
+    "sdPublisher" : {
+        "email" : "johannes.nowe@vliz.be" ,
+        "url" : "https://www.vliz.be/nl/imis?module=person&amp;persid=44166" ,
+        "affiliation" : {
+            "email" : "data@vliz.be" ,
+            "url" : "https://www.vliz.be/en" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "BE" 
+            } ,
+            "name": "Flanders Marine Institute" ,
+            "identifier": "https://edmo.seadatanet.org/report/422" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "BE" 
+        } ,
+        "name": "Jo-Hannes Nowé" ,
+        "identifier": "https://orcid.org/0009-0000-1555-5867" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "BLM CETAP OPP Sightings" ,
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=3438" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

@@ -1,0 +1,190 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/8269",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/8269.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "&lt;p&gt;Abstract: Acoustic detections of odontocetes from over 30,000km of survey effort from the Arctic, Atlantic, Southern and Indian Oceans, using a streamlined workflow for increasing the speed of acoustic analysis for large datasets utilizing existing modules within PAMGuard.&amp;nbsp;&lt;/p&gt;",
+    "citation": "Webber, T. 2021. Acoustic detections in Northeast and South Atlantic.&amp;nbsp;",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "datePublished": "2023-04-05",
+    "dateModified": "2024-04-10",
+    "keywords": [
+        {
+            "name":"Marine biology",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Occurrence",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-67.01 -64.597 20.034518 78.816113",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-67.01 -64.597 20.035 78.816",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2019-08-22/2020-09-29"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Delphinidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=136980"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Delphinus delphis",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137094"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Feresa attenuata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137095"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Globicephala",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137017"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Grampus griseus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137098"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hyperoodontidae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=136986"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Lagenorhynchus acutus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137100"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Lagenorhynchus australis",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=254980"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Orcinus orca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137102"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phocoena phocoena",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Physeter macrocephalus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137119"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pseudorca crassidens",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137104"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Stenella coeruleoalba",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137107"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Stenella frontalis",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137108"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Stenella longirostris",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137109"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Tursiops truncatus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137111"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "&lt;p&gt;Original provider: Thomas Webber, University of St Andrews&amp;nbsp;&lt;/p&gt;&lt;p&gt;Dataset credits: Thomas Webber, University of St Andrews&amp;nbsp;&lt;/p&gt;&lt;p&gt;Supplemental information: Each record represents species presence only. Records of &#34;SONAR&#34; were dropped. Survey trackline is provided as a static image online.&lt;/p&gt;",
+    "identifier": "8269",
+    "name": "Acoustic detections in Northeast and South Atlantic",
+    "sameAs": "http://marineinfo.org/id/dataset/8269",
+    "url": "http://marineinfo.org/id/dataset/8269"
+}

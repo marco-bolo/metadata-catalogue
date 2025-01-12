@@ -1,18 +1,20 @@
+{# Template 'bioship.jsonld.ldt.j2' 
+  Description: 'Template for conversion of marineinfo dataset jsonld to MBO jsonld.' 
+  Inputs: 
+    '_': 'http://marineinfo.org/id/dataset/{dasid}.jsonld',
+#}
 {
     "@context":
     {
         "@vocab": "http://schema.org/"
     },
     "@type": "Dataset",
-    {#- todo: correct way of describing the Identifier, 
-    taking into account 'DatasetIdentifier' and 'DataLandingPageURL' 
-    (which can hold multiple values separated by '|') from google sheets) #}
-    "@id": "{{}}",
+    "@id": "http://marineinfo.org/id/dataset/{{_.datasetrec.DasID}}",
     "distribution": {
       "@type": "DataDownload",
         "contentUrl": "http://marineinfo.org/id/dataset/{{_.datasetrec.DasID}}.jsonld" ,
         "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
-    }
+    } ,
     {#- meastypes#}
     {%- if _.meastypes %}
     "variableMeasured": [
@@ -139,30 +141,33 @@
     {%- for ownership in creators %}
       {%- if ownership.PersID %}
         "http://marineinfo.org/id/person/{{ownership.PersID}}"
+        {%- if not loop.last %}, {%- endif %}
       {%- elif ownership.InsID %}
         "http://marineinfo.org/id/institute/{{ownership.InsID}}"
+        {%- if not loop.last %}, {%- endif %}
       {%- endif %}
-      {%- if not loop.last %}, {%- endif %}
     {%- endfor %}
     ] ,
     "contributor": [
     {%- for ownership in contributors %}
       {%- if ownership.PersID %}
         "http://marineinfo.org/id/person/{{ownership.PersID}}"
+        {%- if not loop.last %}, {%- endif %}
       {%- elif ownership.InsID %}
         "http://marineinfo.org/id/institute/{{ownership.InsID}}"
+        {%- if not loop.last %}, {%- endif %}
       {%- endif %}
-      {%- if not loop.last %}, {%- endif %}
     {%- endfor %}
     ] ,
     "publisher" : [
     {%- for ownership in publishers %}
       {%- if ownership.PersID %}
         "http://marineinfo.org/id/person/{{ownership.PersID}}"
+        {%- if not loop.last %}, {%- endif %}
       {%- elif ownership.InsID %}
         "http://marineinfo.org/id/institute/{{ownership.InsID}}"
+        {%- if not loop.last %}, {%- endif %}
       {%- endif %}
-      {%- if not loop.last %}, {%- endif %}
     {%- endfor %}
     ] , 
     {#- "review"#}

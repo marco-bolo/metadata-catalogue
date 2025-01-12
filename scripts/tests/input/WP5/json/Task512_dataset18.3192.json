@@ -1,0 +1,582 @@
+{
+    "datasetrec": {
+        "DasID": 3192,
+        "Acronym": null,
+        "StandardTitle": "Norman and Florence Hammond records. Seawatch and coastal survey records",
+        "OrigTitle": null,
+        "OrigTitleLangID": null,
+        "OrigTitleLangCode": null,
+        "OrigTitleLang": null,
+        "OrigTitleLangNL": null,
+        "VersionName": "1.0",
+        "ContactEmail": null,
+        "VersionDate": null,
+        "VersionDay": 3,
+        "VersionMonth": 9,
+        "VersionYear": 2012,
+        "SizeReference": "9.024 records, 579 species (April 2014)",
+        "EngAbstract": "This dataset comprises a collection of records of marine organisms, collated by Norman and Florence Hammond before 2005.",
+        "EngDescr": "To represent the marine flora and fauna of the Solway and the wider Irish Sea more completely, Norman and Florence Hammond collated a collection of records of marine organisms, based on sightings from organised surveys, media reports and casual observations.\r\n\r\nThe geographical coverage comprises the Northern Irish Sea and the Solway coastal areas, stretching from Stranraer to North Wales and around the Isle of Man. \r\n\r\nThe dataset has been verified, as far as is practical, by local wildlife experts and organisations. The work was part of an active verification project, the report of which is available on request. However, a level of uncertainty around the dataset remains, and errors in geography almost certainly exist. Any queries should be directed in the first place to the Manager of the Cumbria Biodiversity Data Centre.",
+        "OrigAbstract": null,
+        "OrigDescr": null,
+        "Comments": null,
+        "ReleaseDate": null,
+        "ReleaseDate0": null,
+        "OrigDescrLang": "English",
+        "EmbargoDate": null,
+        "OrigDescrLangNL": "Engels",
+        "OrigLangCode": "en",
+        "OrigLangCodeExtended": "eng",
+        "OrigLangID": 15,
+        "DescrCompFlag": 0,
+        "DescrTransFlag": 0,
+        "Citation": "\tNorman and Florence Hammond records. Seawatch and coastal survey records. Cumbria Biodiversity Data Centre, UK - UK National Biodiversity Network.",
+        "AccessConstraints": null,
+        "InputNotes": null,
+        "UDate": "2022-08-10",
+        "CDate": "2012-09-03",
+        "CurrencyDate": null,
+        "RevisionDate": null,
+        "DateLastModified": {
+            "date": "2025-01-09 01:33:04.043723",
+            "timezone_type": 1,
+            "timezone": "+01:00"
+        },
+        "CheckedFlag": 0,
+        "PublicFlag": 1,
+        "VlizCoreFlag": 1,
+        "MarineFlag": 1,
+        "FreshFlag": 0,
+        "BrackishFlag": 0,
+        "TerrestrialFlag": 0,
+        "StatusID": 1,
+        "DasType": "Data",
+        "DasTypeID": 1,
+        "DasOrigin": "Data collection",
+        "Progress": "Completed",
+        "AccessConstraint": "Attribution (CC BY)",
+        "AccConstrEN": "Attribution (CC BY)",
+        "AccConstrDisplay": "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\"><img alt=\"Creative Commons License\" style=\"border:0px;height:15px;width:80px;vertical-align:middle;\" src=\"https://www.marinespecies.org/aphia/images/cc/by.png\" /></a> This dataset is licensed under a <a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\">Creative Commons Attribution 4.0 International License</a>.",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "AccConstrDescription": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+        "Lineage": null,
+        "AccConID": 21,
+        "DOI": "10.15468/1u5tii",
+        "GBIF_UUID": "07bfe796-be47-488a-8635-9dcfd1017fa4"
+    },
+    "dois": null,
+    "spcols": [
+        {
+            "SpColID": 619,
+            "SpName": "available through EurOBIS"
+        },
+        {
+            "SpColID": 552,
+            "SpName": "EMODNET"
+        },
+        {
+            "SpColID": 730,
+            "SpName": "OBIS"
+        }
+    ],
+    "keywords": [
+        {
+            "ThesaurusTerm": "Citizen participation",
+            "ThesTypID": 4,
+            "ThesType": "CAB Thesaurus",
+            "Code": null,
+            "Description": null,
+            "OrigThesTerm": "Citizen participation",
+            "DutchTerm": null,
+            "URI": null
+        }
+    ],
+    "parents": null,
+    "children": null,
+    "othrel": null,
+    "othrelrev": [
+        {
+            "DasID": null,
+            "Acronym": "EurOBIS",
+            "StandardTitle": "European Ocean Biodiversity Information System",
+            "Relation": "Published dataset",
+            "RelationY": "Published in",
+            "RelID": 13,
+            "doi": null,
+            "vlizDoi": null
+        },
+        {
+            "DasID": null,
+            "Acronym": "GBIF",
+            "StandardTitle": "Global Biodiversity Information Facility Data Portal",
+            "Relation": "Published dataset",
+            "RelationY": "Published in",
+            "RelID": 13,
+            "doi": null,
+            "vlizDoi": null
+        }
+    ],
+    "ownerships": [
+        {
+            "OrderNr": 1,
+            "Surname": null,
+            "Firstname": null,
+            "Initials": null,
+            "PerPublicFlag": null,
+            "AdrID": null,
+            "Email": null,
+            "InsPublicFlag": 1,
+            "Acronym": "NBN",
+            "OrigNameLangCode": null,
+            "OrigNameLangID": null,
+            "FullOrigName": null,
+            "InsOwnerCNT": 1,
+            "PersID": null,
+            "InsID": 5899,
+            "FullInstitute": "National Biodiversity Network Trust",
+            "RoleID": 68,
+            "Role": "Data provider",
+            "OrigName": null,
+            "StandardName": "National Biodiversity Network Trust",
+            "FullAcronym": "NBN",
+            "ORC": null,
+            "ROR": null
+        },
+        {
+            "OrderNr": 2,
+            "Surname": null,
+            "Firstname": null,
+            "Initials": null,
+            "PerPublicFlag": null,
+            "AdrID": null,
+            "Email": null,
+            "InsPublicFlag": 1,
+            "Acronym": null,
+            "OrigNameLangCode": null,
+            "OrigNameLangID": null,
+            "FullOrigName": null,
+            "InsOwnerCNT": 2,
+            "PersID": null,
+            "InsID": null,
+            "FullInstitute": "Cumbria Biodiversity Data Centre",
+            "RoleID": 24,
+            "Role": "Contact",
+            "OrigName": null,
+            "StandardName": "Cumbria Biodiversity Data Centre",
+            "FullAcronym": null,
+            "ORC": null,
+            "ROR": null
+        },
+        {
+            "OrderNr": 3,
+            "Surname": null,
+            "Firstname": null,
+            "Initials": null,
+            "PerPublicFlag": null,
+            "AdrID": null,
+            "Email": null,
+            "InsPublicFlag": 1,
+            "Acronym": null,
+            "OrigNameLangCode": null,
+            "OrigNameLangID": null,
+            "FullOrigName": null,
+            "InsOwnerCNT": 2,
+            "PersID": null,
+            "InsID": null,
+            "FullInstitute": "Cumbria Biodiversity Data Centre",
+            "RoleID": 61,
+            "Role": "Data creator",
+            "OrigName": null,
+            "StandardName": "Cumbria Biodiversity Data Centre",
+            "FullAcronym": null,
+            "ORC": null,
+            "ROR": null
+        }
+    ],
+    "taxterms": [
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 19380,
+            "TaxTerm": "",
+            "AphiaID": 1837,
+            "DutchTerm": "Zoogdieren"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 20610,
+            "TaxTerm": "Actinopterygii",
+            "AphiaID": 10194,
+            "DutchTerm": null
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 23941,
+            "TaxTerm": "Algae",
+            "AphiaID": null,
+            "DutchTerm": "Algen"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 15155,
+            "TaxTerm": "Annelida",
+            "AphiaID": 882,
+            "DutchTerm": "Gelede wormen"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 15509,
+            "TaxTerm": "Araneae",
+            "AphiaID": 150467,
+            "DutchTerm": null
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 19527,
+            "TaxTerm": "Bryozoa",
+            "AphiaID": 146142,
+            "DutchTerm": "Mosdiertjes"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 22709,
+            "TaxTerm": "Chondrichthyes",
+            "AphiaID": 1517375,
+            "DutchTerm": null
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 38606,
+            "TaxTerm": "Chromista",
+            "AphiaID": 7,
+            "DutchTerm": null
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 14845,
+            "TaxTerm": "Cnidaria",
+            "AphiaID": 1267,
+            "DutchTerm": "Neteldieren"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 15633,
+            "TaxTerm": "Crustacea",
+            "AphiaID": 1066,
+            "DutchTerm": "Kreeftachtigen"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 14417,
+            "TaxTerm": "Ctenophora",
+            "AphiaID": 1248,
+            "DutchTerm": "Ribkwallen"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 15377,
+            "TaxTerm": "Echinodermata",
+            "AphiaID": 1806,
+            "DutchTerm": "Stekelhuidigen"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 15525,
+            "TaxTerm": "Insecta",
+            "AphiaID": 1307,
+            "DutchTerm": "insecten"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 11317,
+            "TaxTerm": "Molluscs",
+            "AphiaID": 51,
+            "DutchTerm": "Weekdieren"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 37379,
+            "TaxTerm": "Nemertea",
+            "AphiaID": 152391,
+            "DutchTerm": null
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 18378,
+            "TaxTerm": "Porifera",
+            "AphiaID": 558,
+            "DutchTerm": "Sponzen"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 15565,
+            "TaxTerm": "Pycnogonida",
+            "AphiaID": 1302,
+            "DutchTerm": "Zeespinnen"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 19286,
+            "TaxTerm": "Reptilia",
+            "AphiaID": 1838,
+            "DutchTerm": "reptielen"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 15376,
+            "TaxTerm": "Sipuncula",
+            "AphiaID": 1268,
+            "DutchTerm": null
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 14920,
+            "TaxTerm": "Turbellaria",
+            "AphiaID": 794,
+            "DutchTerm": "Platwormen"
+        },
+        {
+            "DasTaxtTypID": 1,
+            "DasTaxtType": "Taxonomic coverage",
+            "TaxtID": 13629,
+            "TaxTerm": "Urochordata",
+            "AphiaID": 146420,
+            "DutchTerm": "zakpijpen"
+        }
+    ],
+    "frameworks": null,
+    "otherterms": null,
+    "temporal": [
+        {
+            "DasDateID": 2649,
+            "StartYear": 1800,
+            "EndYear": 2005,
+            "StartDay": null,
+            "EndDay": null,
+            "StartDate": "1800-01-01",
+            "EndDate": "2005-01-01",
+            "Resolution": null,
+            "ResolutionNL": null,
+            "Notes": null,
+            "StartMonth0": null,
+            "StartMonth": null,
+            "StartMonthNL": null,
+            "EndMonth0": null,
+            "EndMonth": null,
+            "EndMonthNL": null,
+            "Progress": "Completed",
+            "ProgressNL": "Afgelopen"
+        }
+    ],
+    "geographical": [
+        {
+            "GeoTerm": "ANE, British Isles, Solway Firth",
+            "DasGeoID": 5884,
+            "DasGeoTerm": null,
+            "DasID": 3192,
+            "GeotID": 187,
+            "X": null,
+            "Y": null,
+            "MaxX": null,
+            "MaxY": null,
+            "StationName": null,
+            "Precision": null,
+            "CoordSystID": null,
+            "GeoDatumID": null,
+            "OrigCoordMinX": null,
+            "OrigCoordMinY": null,
+            "OrigCoordMaxX": null,
+            "OrigCoordMaxY": null,
+            "OrderNr": null,
+            "Projection": null,
+            "GeoDatum": null,
+            "GeoObjectID": 3280,
+            "OrigGeoTerm": "Solway Firth",
+            "DutchTerm": null
+        },
+        {
+            "GeoTerm": "ANE, Irish Sea",
+            "DasGeoID": 5883,
+            "DasGeoTerm": null,
+            "DasID": 3192,
+            "GeotID": 364,
+            "X": null,
+            "Y": null,
+            "MaxX": null,
+            "MaxY": null,
+            "StationName": null,
+            "Precision": null,
+            "CoordSystID": null,
+            "GeoDatumID": null,
+            "OrigCoordMinX": null,
+            "OrigCoordMinY": null,
+            "OrigCoordMaxX": null,
+            "OrigCoordMaxY": null,
+            "OrderNr": null,
+            "Projection": null,
+            "GeoDatum": null,
+            "GeoObjectID": 2357,
+            "OrigGeoTerm": "Irish Sea",
+            "DutchTerm": "Ierse Zee"
+        },
+        {
+            "GeoTerm": "EurOBIS calculated BBOX",
+            "DasGeoID": 12264,
+            "DasGeoTerm": null,
+            "DasID": 3192,
+            "GeotID": 9449,
+            "X": -5.667974402885534,
+            "Y": 52.69610916867383,
+            "MaxX": -2.773015208878666,
+            "MaxY": 55.721842497419985,
+            "StationName": "Bounding Box",
+            "Precision": null,
+            "CoordSystID": null,
+            "GeoDatumID": null,
+            "OrigCoordMinX": null,
+            "OrigCoordMinY": null,
+            "OrigCoordMaxX": null,
+            "OrigCoordMaxY": null,
+            "OrderNr": null,
+            "Projection": null,
+            "GeoDatum": null,
+            "GeoObjectID": null,
+            "OrigGeoTerm": "EurOBIS calculated BBOX",
+            "DutchTerm": null
+        }
+    ],
+    "meastypes": [
+        {
+            "MethID": null,
+            "DasMeasTypID": 8505,
+            "Matrix": null,
+            "MatrixNL": null,
+            "Parameter": "Animal sightings",
+            "ParameterNL": "Waarnemingen van dieren",
+            "Description": null,
+            "Unit": null,
+            "Methodology": null,
+            "Protocol": null,
+            "QualityControl": null,
+            "Precision": null,
+            "Detectionlimit": null,
+            "Instrument": null,
+            "InstrumentUrl": null,
+            "MethFull": "",
+            "ParaCategoryTitle": null,
+            "ParaCatCode": null
+        }
+    ],
+    "dasthemes": [
+        {
+            "DasThemeID": 21,
+            "DasTheme": "Biology",
+            "DasTheme0": "Biology",
+            "DutchTerm": "Biologie"
+        },
+        {
+            "DasThemeID": 30,
+            "DasTheme": "Biology > Ecology - biodiversity",
+            "DasTheme0": "Ecology - biodiversity",
+            "DutchTerm": "Ecologie - biodiversiteit"
+        }
+    ],
+    "projects": null,
+    "refs": null,
+    "urls": [
+        {
+            "URL": "https://data.nbn.org.uk/Datasets/GA000892",
+            "externalID": null,
+            "URLTypeCode": null,
+            "URLType": "Dataset information",
+            "URLTypID": 17,
+            "trimmedURL": "data.nbn.org.uk/Datasets/GA000892",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://doi.org/10.15468/1u5tii",
+            "externalID": "10.15468/1u5tii",
+            "URLTypeCode": "DOI",
+            "URLType": "DOI",
+            "URLTypID": 13,
+            "trimmedURL": "doi.org/10.15468/1u5tii",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000003192",
+            "externalID": null,
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000003192",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://www.eurobis.org/toolbox/en/download/occurrence/dataset/3192",
+            "externalID": "3192",
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "eurobis.org/toolbox/en/download/occurrence/dataset/3192",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://www.gbif.org/dataset/07bfe796-be47-488a-8635-9dcfd1017fa4",
+            "externalID": "07bfe796-be47-488a-8635-9dcfd1017fa4",
+            "URLTypeCode": "GBIF_UUID",
+            "URLType": "GBIF dataset",
+            "URLTypID": 43,
+            "trimmedURL": "gbif.org/dataset/07bfe796-be47-488a-8635-9dcfd1017fa4",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "ipt.vliz.be/eurobis/resource?r=gbif_13482",
+            "externalID": "gbif_13482",
+            "URLTypeCode": null,
+            "URLType": "IPT",
+            "URLTypID": 33,
+            "trimmedURL": "ipt.vliz.be/eurobis/resource?r=gbif_13482",
+            "downloadURL": null,
+            "FileName": null
+        },
+        {
+            "URL": "https://obis.org/dataset/da8bcf38-305f-4d2d-b526-f0e8d2e07dc4",
+            "externalID": "da8bcf38-305f-4d2d-b526-f0e8d2e07dc4",
+            "URLTypeCode": null,
+            "URLType": "Online dataset",
+            "URLTypID": 19,
+            "trimmedURL": "obis.org/dataset/da8bcf38-305f-4d2d-b526-f0e8d2e07dc4",
+            "downloadURL": null,
+            "FileName": null
+        }
+    ],
+    "pictures": [],
+    "urlmaps": null,
+    "spatreps": null,
+    "resmessage": "",
+    "complete": 1
+}

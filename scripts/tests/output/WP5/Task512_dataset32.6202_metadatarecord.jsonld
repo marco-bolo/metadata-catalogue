@@ -1,0 +1,131 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/6202",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/6202.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Distance travelled",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/DSRNCV01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"International Maritime Organisation identifier {IMO number}",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/IMOXXXXX/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Orientation (horizontal relative to true north) of measurement platform {heading} by unspecified GPS system",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/HDNGGP01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Speed of measurement platform relative to ground surface {speed over ground} by unspecified GPS system",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/APSAGP01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Speed of wind {wind speed} in the atmosphere by visual estimation and conversion to Beaufort scale",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/WMOCWFBF/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The CETUS dataset contains effort-based occurrence records collected during a cetacean monitoring programme in the Eastern North Atlantic, since 2012.",
+    "citation": "Correia, A.M., Oliveira-Rodrigues, C., Gandra, M., Liberal, M., Valente, R., Gil, A., Rosso, M., Pierce, G.J. &amp; Sousa-Pinto, I., CIIMAR - UP. (2022). CETUS: Cetacean monitoring surveys in the Eastern North Atlantic. Marine Data Archive.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "datePublished": "2019-03-04",
+    "dateModified": "2022-10-21",
+    "keywords": [
+        {
+            "name":"Data",
+            "inDefinedTermSet":"Assemble KO Types",
+            "termCode":"8",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Megafauna",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Pelagic",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"vessel of opportunity",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Visual Line Transects",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/2790",
+        "http://marineinfo.org/id/institute/2790",
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "Eastern North Atlantic" ,
+            "identifier": "http://www.marineregions.org/mrgid/18039"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-28.79569 14.57488 -8.65294 43.43458",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2012-07-06/.."
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "The CETUS dataset contains data collected within the CETUS Project (www.cetusproject.com), a cetacean monitoring programme in the Eastern North Atlantic, running since 2012. The project is led by the Interdisciplinary Centre of Marine and Environmental Research (CIIMAR - University of Porto, Portugal), in partnership with TRANSINSULAR - Grupo ETE, a Portuguese company for maritime transport, that offers its cargo ships to be used as a platforms of opportunity to monitor cetaceans along routes between Continental Portugal and Madeira, Azores, Canary and Cape Verde islands. On-board trained marine mammal observers collect data on: survey effort, cetacean and other megafauna occurrences, as well as marine traffic and meteorological conditions. Data is provided in the recent OBIS-ENV-DATA format, and comprises 8913 georeferenced positions associated with 3195 occurrences of 44 marine taxa.  Acknowledgements We are extremely grateful to TRANSINSULAR that provided all the logistic support for data collection, and to the ship crews for their hospitality. This research was partially funded by the EU FEDER/FEMP and Portuguese Foundation for Science and Technology (FCT) under the Portugal2020 (Lisboa2020, Algarve2020 and MAR2020) Programme through project OBSERVA.PT (MAR-01.04.02-FEAMP-0002). A special acknowledgement to all CETUS volunteers for their contribution and dedication during the monitoring campaigns between 2012 and 2017. They were: Ágatha Gil; Alberto Perez; Alexandra Pires; Amber Coleman; Amelie Gadbois; Ana Ayres; Andreia Pereira; Anicee Lombal; Anja Badenas; António Nogueira; Ayca Eleman; Barbara Matos; Catarina Fonseca; Catarina Morgado; Claúdia Ferreira; Corina Peter; Fadia Al Abbar; Francisco Cardeal; Jack Ball; Joana Romero; Julia Heiler; Juliana Moron; Julien Freyer; Lara Meras; Laura García; Layla Mpinou; Leonardo Berninsone; Lidia Lado; Mafalda Correia; Maria Ballesteros; Maria Jímenez; Mieke Weyn; Nicholas Blanc; Oleh Danduriants; Olga Azevedo; Patrícia Carvalho; Paula Carreño; Paula Silvar; Pedro Fernandes; Raul Valente; Rebecca Velasco; Rhiannon Nichol; Roosevelt Gutierrez; Ryan Mathews; Santiago Otero; Sara Pastorino; Sarah Drake; Sofia Silva; Svenja Halfter; Tanja Schwank; Torcuato Mantas; Valeria Aragão; Verónica Belchior; Zara Valquíria",
+    "identifier": "6202",
+    "name": "CETUS: Cetacean monitoring surveys in the Eastern North Atlantic",
+    "sameAs": "http://marineinfo.org/id/dataset/6202",
+    "url": "http://marineinfo.org/id/dataset/6202"
+}

@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset131",
+    "identifier": "Task511_dataset131",
+    
+    
+    "datePublished": "Completed" ,
+
+    
+    "description": "This dataset contains Amphipod distribution records and is based on literature from the years 1931 to 2018. The data were collected during a variety of cruises and sampling events while the majority was obtained during the Danish Ingolf expedition. Sampling events took place in the North Atlantic and Arctic waters which included the Artic Ocean; Barents Sea; Kara Sea; Labrador Sea; Buffin Bay and Greenland Sea. Amphipods were predominantly collected using dredges; epibenthic sledges and remotely operated vehicles but scuba divers and vehicle-free baited traps were also used. This way; over 1566 Amphipod samples were collected in total which include 45 families; 117 genera and 164 species.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Amphipod distribution data from the North Atlantic and Artic waters compiled from literature records published in 1931-2018" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000008070" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

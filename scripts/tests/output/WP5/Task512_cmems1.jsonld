@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task512_cmems1",
+    "identifier": "Task512_cmems1",
+    
+    
+
+    
+    "description": "The GLORYS12V1 product is the CMEMS global ocean eddy-resolving (1/12° horizontal resolution, 50 vertical levels) reanalysis covering the altimetry (1993 onward).",
+    "sdPublisher" : {
+        "email" : "johannes.nowe@vliz.be" ,
+        "url" : "https://www.vliz.be/nl/imis?module=person&amp;persid=44166" ,
+        "affiliation" : {
+            "email" : "data@vliz.be" ,
+            "url" : "https://www.vliz.be/en" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "BE" 
+            } ,
+            "name": "Flanders Marine Institute" ,
+            "identifier": "https://edmo.seadatanet.org/report/422" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "BE" 
+        } ,
+        "name": "Jo-Hannes Nowé" ,
+        "identifier": "https://orcid.org/0009-0000-1555-5867" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Global Ocean Physics Reanalysis" ,
+    "url": "https://doi.org/10.48670/moi-00021" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

@@ -1,0 +1,65 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/1994",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/1994.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Dataset information available at &lt;a href=http://seamap.env.duke.edu/datasets/detail/64 target=_blank&gt;http://seamap.env.duke.edu/datasets/detail/64&lt;/a&gt;",
+    "citation": "UK Royal Navy. UK Royal Navy Marine Mammal Observations. In: OBIS-SEAMAP . OBIS-SEAMAP, http://seamap.env.duke.edu, 2006-12-07 10:09:57-05, vector digital data.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "In Progress",
+    "datePublished": "2009-06-09",
+    "dateModified": "2011-04-07",
+    "keywords": [
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/1847"
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-122.43 -74.65 159.23 70.33",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            "name": "World Oceans" ,
+            "identifier": "http://www.marineregions.org/mrgid/1901"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1947-01-01/2003-01-01"
+    ],
+    "version": "1",
+    "description": "THe RN often operate in remote areas and it is hoped that by collecting this sort of data the RN may be able to contribute to a better scientific understanding of cetacean distributions/ breeding areas/ migration routese etc. By ensuring that RN personnel keep watch for cetaceans this helps them to comply with current risk mitigation measures.",
+    "identifier": "1994",
+    "name": "UK Royal Navy Marine Mammal Observations",
+    "sameAs": "http://marineinfo.org/id/dataset/1994",
+    "url": "http://marineinfo.org/id/dataset/1994"
+}

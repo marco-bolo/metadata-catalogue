@@ -1,0 +1,66 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/4843",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/4843.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Surveys from seven different vessels were merged. Each vessel contained two sightings platforms running concurrently – primary and tracker. This dataset includes sightings from the tracker platform. Sightings from the primary platform are registered in &lt;a href=&#39;/dataset/1150&#39; target=&#39;_blank&#39;&gt;SCANS II cetacean sightings on primary platform of vessel surveys 2005&lt;/a&gt;. Effort or vessel tracks for these surveys are provided with the primary platform dataset. Survey conditions such as sea state, glare, swell, wind are found in the effort data. In the tracker platform, Big-eye binoculars were used. The trackers used to track groups of animals as they came passed the boat and record them accordingly. However, this dataset does not contain such duplicates.",
+    "citation": "Hammond, P.S., Macleod, K., Berggren, P., Borchers, D.L., Burt, L., Cañadas, A., Desportes, G., Donovan, G.P., Gilles, A., Gillespie, D., et al. 2013. Cetacean abundance and distribution in European Atlantic shelf waters to inform conservation and management. Biological Conservation. 164, 107–122",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2015-03-23",
+    "dateModified": "2022-08-16",
+    "keywords": [
+        {
+            "name":"self-propelled boat",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"surface vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "geoOverlaps" : {
+            "name": "European Continental Shelf" ,
+            "identifier": "http://www.marineregions.org/mrgid/7130"
+            },
+            "@type": "Place"
+        },
+        {
+            "geoOverlaps" : {
+            },
+            "geo": {
+                "box" : "-11.76 35.95 12.62 62.1",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "identifier": "4843",
+    "name": "SCANS II cetacean sightings on tracker platform of vessel surveys 2005",
+    "sameAs": "http://marineinfo.org/id/dataset/4843",
+    "url": "http://marineinfo.org/id/dataset/4843"
+}

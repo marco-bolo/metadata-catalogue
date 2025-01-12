@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset92",
+    "identifier": "Task511_dataset92",
+    
+    
+    "datePublished": "Completed" ,
+
+    
+    "description": "Total numbers of individual fish identified during the Cefas Young Fish Survey (YFS) which ran from 1981 to 2010. The survey deployed a light 2-meter beam trawl to survey inshore locations for small / young fish around the British Isles; predominantly along the south and east coasts. Total numbers of fish (identified to species or if not to the highest taxonomic level) were recorded at each station; and were measured in the majority of cases. The surveys were primarily undertaken to evaluate the abundance of juvenile sole and plaice; as well as providing further information on the abundance of other species of fish. The YFS formed part of the International Young Fish Survey; coordinated by ICES.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Young Fish Survey Data 1981 to 2010" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006450" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

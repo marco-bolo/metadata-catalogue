@@ -1,0 +1,40 @@
+
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset37",
+    "identifier": "Task511_dataset37",
+    
+    
+    "datePublished": "In Progress" ,
+
+    
+    "description": "In the framework of the Lifewatch marine observatory a number of fixed stations on the Belgian Part of the North  Sea (BPNS) are visited on a monthly or seasonal basis using the RV Simon Stevin. A grid of nine stations covers the coastal zone and are sampled monthly. Eight additional stations; located further at sea; are sampled on a seasonal basis. This dataset contains zooplankton observations in  the Belgian Part of the North Sea (BPNS) since 2012.Zooplankton is sampled by vertical WP2 net tows; samples scanned with  ZooScanner and identification with plankton analyser software; followed  by manual validation.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "LifeWatch observatory data: zooplankton observations by imaging (ZooScan) in the Belgian Part of the North Sea" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000004687" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 
