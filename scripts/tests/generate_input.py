@@ -13,7 +13,8 @@ import logging
 import re
 import os
 
-#set logging config
+
+# set logging config
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s', 
@@ -21,17 +22,17 @@ logging.basicConfig(
     filemode='w'
 )
 
+
 # function to ensure folder existence
 def ensure_folder_exists(folder_path):
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
 
 # function to get marineinfo url in case of dasid
-def get_mi_json(wp:str, url:str, output_path:str) -> None:
-    
+def get_mi_json(wp: str, url: str, output_path: str) -> None:
     """
-    1.contructs marineinfo-url based on dasid (which follows 'module=dataset&dasid=' in the url)
-    2.retrieves the json record from the marineinfo-url 
+    1. contructs marineinfo-url based on dasid (which follows 'module=dataset&dasid=' in the url)
+    2. retrieves the json record from the marineinfo-url
     3.writes it to a file
     """
     

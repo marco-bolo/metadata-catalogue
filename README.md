@@ -8,5 +8,14 @@ Further, ODIS alignment will secure discoverability in the [Ocean InfoHub]([url]
 
 Dataset validation reports are available at <https://lab.marcobolo-project.eu/dataset-catalogue/>.
 
-**Datasets metadata gathering procedure**
+## Datasets metadata gathering procedure
+
 We are still working out the details of gathering the metadata for the described datasets. Our working version of this template, which has some example entries in it, can be found on https://docs.google.com/spreadsheets/d/1Wmjpvj4FI8RK926RU3XsM8yDyKGG53PLZFhfiugIRSk/edit#gid=0, which is on the MBO WP1 training materials googledrive. This version contains the dataset description metadata to be included in the OceanInfoHub json files, it does not also include the provenance metadata.
+
+## Updating JSON-LD output
+
+This assumes the working directory to be `scripts/tests`.
+
+- Download the latest spreadsheets using [scripts/tests/g_download.py](scripts/tests/g_download.py)
+- Run [scripts/tests/generate_input.py](scripts/tests/generate_input.py)
+- Run [scripts/tests/generate_output.py](scripts/tests/generate_output.py)

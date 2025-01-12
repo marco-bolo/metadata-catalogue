@@ -11,7 +11,12 @@ from pathlib import Path
 logging.basicConfig(level=logging.INFO)
 
 # set Workpackages
-wps = ['WP2', 'WP3', 'WP4', 'WP5']
+wps = [
+    'WP2',
+    'WP3',
+    # 'WP4',  # pysubyt fails on empty CSV
+    'WP5'
+]
 
 # triplize dataset metadata from g-spreadsheet of each WP
 for wp in wps: 

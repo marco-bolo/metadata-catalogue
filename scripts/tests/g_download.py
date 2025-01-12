@@ -1,15 +1,15 @@
 import gdown
 import pandas as pd
 
-#google_drive_urls of WP's
+# google_drive_urls of WP's
 MBO_WPs = {
-    'WP2':'https://drive.google.com/file/d/1qfNib1599OQBJ2QrbAVrMVxbCwxMlAj3/view?usp=sharing',
+    'WP2': 'https://drive.google.com/file/d/1qfNib1599OQBJ2QrbAVrMVxbCwxMlAj3/view?usp=sharing',
     'WP3': 'https://drive.google.com/file/d/1D-YJbsiO3KOJyRUrEvUKZjpiOrhXXKcS/view?usp=sharing',
-    'WP4':'https://drive.google.com/file/d/1GjFiBIG964WXEogLzb89qhGGLFDLHy63/view?usp=sharing',
-    'WP5':'https://drive.google.com/file/d/1jH8Gp50y9w_SsoFELYTKV6ohPlkO3nqm/view?usp=sharing'
+    'WP4': 'https://drive.google.com/file/d/1GjFiBIG964WXEogLzb89qhGGLFDLHy63/view?usp=sharing',
+    'WP5': 'https://drive.google.com/file/d/1jH8Gp50y9w_SsoFELYTKV6ohPlkO3nqm/view?usp=sharing'
 }
 
-for wp,gd_url in MBO_WPs.items():
+for wp, gd_url in MBO_WPs.items():
     # Extract file ID from the Google Drive URL
     file_id = gd_url.split('/')[-2]
 
@@ -24,4 +24,4 @@ for wp,gd_url in MBO_WPs.items():
     agent_df = pd.read_excel(output_file, sheet_name='Agent')
     agent_df.to_csv(f'input/MARCO-BOLO_Metadata_Dataset_Record_agent_{wp}.csv', index=False)
     # Now you have your data in a DataFrame
-    #print(df)
+    # print(df)
