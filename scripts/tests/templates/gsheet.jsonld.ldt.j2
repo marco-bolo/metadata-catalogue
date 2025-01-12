@@ -373,8 +373,6 @@
         {%- endfor %}
     ] ,
     {%- endif %}
-    {#todo: include spatial coverage in case of coordinates #}
-    {#note: column 'SpatialCoverageWKT' is never filled in --> don't know format to expect hence not included #}
     {%- if _.SpatialCoverageWKT %}
     "geosparql:hasGeometry": {
         "geosparql:asWKT": {
