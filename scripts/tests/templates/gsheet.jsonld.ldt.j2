@@ -112,25 +112,25 @@
             {%- if contributor == agent.AgentKey %}
             {
                 {%- if agent.Email %}
-                "email" : "{{agent.Email}}", 
+                "email": "{{agent.Email}}", 
                 {%- endif %}
                 {%- if agent.URL %}
-                "url" : "{{agent.URL}}",
+                "url": "{{agent.URL}}",
                 {%- endif %}
                 {%- if agent.AffiliationAgentKey %}
                     {%- for org in sets["agents"]  %}
                     {%- if org.AgentKey == agent.AffiliationAgentKey %}
-                "affiliation" : {
+                "affiliation": {
                     {%- if org.Email %}
-                    "email" : "{{org.Email}}", 
+                    "email": "{{org.Email}}", 
                     {%- endif %}
                     {%- if org.URL %}
-                    "url" : "{{org.URL}}",
+                    "url": "{{org.URL}}",
                     {%- endif %}
                     {%- if org.Country %}
-                    "address" : {
+                    "address": {
                         "@type": "https://schema.org/PostalAddress", 
-                        "addressCountry" : "{{org.Country}}" 
+                        "addressCountry": "{{org.Country}}" 
                     }, 
                     {%- endif %}
                     "name": "{{org.Name}}",
@@ -141,9 +141,9 @@
                     {%- endfor %}
                 {%- endif %}
                 {%- if agent.Country %}
-                "workLocation" : {
+                "workLocation": {
                     "@type": "https://schema.org/Country", 
-                    "name" : "{{agent.Country}}" 
+                    "name": "{{agent.Country}}" 
                 }, 
                 {%- endif %}
                 "name": "{{agent.Name}}",
@@ -173,25 +173,25 @@
                 {%- if funder == agent.AgentKey %}
                 {
                     {%- if agent.Email %}
-                    "email" : "{{agent.Email.strip()}}", 
+                    "email": "{{agent.Email.strip()}}", 
                     {%- endif %}
                     {%- if agent.URL %}
-                    "url" : "{{agent.URL}}",
+                    "url": "{{agent.URL}}",
                     {%- endif %}
                     {%- if agent.AffiliationAgentKey %}
                         {%- for org in sets["agents"]  %}
                         {%- if org.AgentKey == agent.AffiliationAgentKey %}
-                    "affiliation" : {
+                    "affiliation": {
                         {%- if org.Email %}
-                        "email" : "{{org.Email}}", 
+                        "email": "{{org.Email}}", 
                         {%- endif %}
                         {%- if org.URL %}
-                        "url" : "{{org.URL}}",
+                        "url": "{{org.URL}}",
                         {%- endif %}
                         {%- if org.Country %}
-                        "address" : {
+                        "address": {
                             "@type": "https://schema.org/PostalAddress", 
-                            "addressCountry" : "{{org.Country}}" 
+                            "addressCountry": "{{org.Country}}" 
                         },
                         {%- endif %}
                         "name": "{{org.Name}}",
@@ -202,9 +202,9 @@
                         {%- endfor %}
                     {%- endif %}
                     {%- if agent.Country %}
-                    "workLocation" : {
+                    "workLocation": {
                         "@type": "https://schema.org/Country", 
-                        "name" : "{{agent.Country}}" 
+                        "name": "{{agent.Country}}" 
                     },
                     {%- endif %}
                     "name": "{{agent.Name}}",
@@ -251,25 +251,25 @@
                 {%- if provider == agent.AgentKey %}
                 {
                     {%- if agent.Email %}
-                    "email" : "{{agent.Email}}",
+                    "email": "{{agent.Email}}",
                     {%- endif %}
                     {%- if agent.URL %}
-                    "url" : "{{agent.URL}}",
+                    "url": "{{agent.URL}}",
                     {%- endif %}
                     {%- if agent.AffiliationAgentKey %}
                         {%- for org in sets["agents"]  %}
                         {%- if org.AgentKey == agent.AffiliationAgentKey %}
-                    "affiliation" : {
+                    "affiliation": {
                         {%- if org.Email %}
-                        "email" : "{{org.Email}}",
+                        "email": "{{org.Email}}",
                         {%- endif %}
                         {%- if org.URL %}
-                        "url" : "{{org.URL}}",
+                        "url": "{{org.URL}}",
                         {%- endif %}
                         {%- if org.Country %}
-                        "address" : {
+                        "address": {
                             "@type": "https://schema.org/PostalAddress",
-                            "addressCountry" : "{{org.Country}}" 
+                            "addressCountry": "{{org.Country}}" 
                         },
                         {%- endif %}
                         "name": "{{org.Name}}",
@@ -280,9 +280,9 @@
                         {%- endfor %}
                     {%- endif %}
                     {%- if agent.Country %}
-                    "workLocation" : {
+                    "workLocation": {
                         "@type": "https://schema.org/Country",
-                        "name" : "{{agent.Country}}" 
+                        "name": "{{agent.Country}}" 
                     },
                     {%- endif %}
                     "name": "{{agent.Name}}",
@@ -304,25 +304,25 @@
                 {%- if provider == agent.AgentKey %}
                 {
                     {%- if agent.Email %}
-                    "email" : "{{agent.Email}}",
+                    "email": "{{agent.Email}}",
                     {%- endif %}
                     {%- if agent.URL %}
-                    "url" : "{{agent.URL}}",
+                    "url": "{{agent.URL}}",
                     {%- endif %}
                     {%- if agent.AffiliationAgentKey %}
                         {%- for org in sets["agents"]  %}
                         {%- if org.AgentKey == agent.AffiliationAgentKey %}
-                    "affiliation" : {
+                    "affiliation": {
                         {%- if org.Email %}
-                        "email" : "{{org.Email}}",
+                        "email": "{{org.Email}}",
                         {%- endif %}
                         {%- if org.URL %}
-                        "url" : "{{org.URL}}",
+                        "url": "{{org.URL}}",
                         {%- endif %}
                         {%- if org.Country %}
-                        "address" : {
+                        "address": {
                             "@type": "https://schema.org/PostalAddress",
-                            "addressCountry" : "{{org.Country}}" 
+                            "addressCountry": "{{org.Country}}" 
                         },
                         {%- endif %}
                         "name": "{{org.Name}}",
@@ -333,9 +333,9 @@
                         {%- endfor %}
                     {%- endif %}
                     {%- if agent.Country %}
-                    "workLocation" : {
+                    "workLocation": {
                         "@type": "https://schema.org/Country",
-                        "name" : "{{agent.Country}}" 
+                        "name": "{{agent.Country}}" 
                     },
                     {%- endif %}
                     "name": "{{agent.Name}}",
@@ -428,27 +428,27 @@
     {%- if _.DatasetDescriber %}
     {%- for agent in sets["agents"] %}
         {%- if _.DatasetDescriber == agent.AgentKey %}
-    "sdPublisher" : {
+    "sdPublisher": {
         {%- if agent.Email %}
-        "email" : "{{agent.Email}}",
+        "email": "{{agent.Email}}",
         {%- endif %}
         {%- if agent.URL %}
-        "url" : "{{agent.URL}}",
+        "url": "{{agent.URL}}",
         {%- endif %}
         {%- if agent.AffiliationAgentKey %}
             {%- for org in sets["agents"] %}
             {%- if org.AgentKey == agent.AffiliationAgentKey %}
-        "affiliation" : {
+        "affiliation": {
             {%- if org.Email %}
-            "email" : "{{org.Email}}",
+            "email": "{{org.Email}}",
             {%- endif %}
             {%- if org.URL %}
-            "url" : "{{org.URL}}",
+            "url": "{{org.URL}}",
             {%- endif %}
             {%- if org.Country %}
-            "address" : {
+            "address": {
                 "@type": "https://schema.org/PostalAddress",
-                "addressCountry" : "{{org.Country}}" 
+                "addressCountry": "{{org.Country}}" 
             },
             {%- endif %}
             "name": "{{org.Name}}",
@@ -459,9 +459,9 @@
             {%- endfor %}
         {%- endif %}
         {%- if agent.Country %}
-        "workLocation" : {
+        "workLocation": {
             "@type": "https://schema.org/Country",
-            "name" : "{{agent.Country}}" 
+            "name": "{{agent.Country}}" 
         },
         {%- endif %}
         "name": "{{agent.Name}}",
