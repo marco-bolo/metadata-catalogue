@@ -479,7 +479,7 @@
     {%- if _.DataLandingPageURL and " | " in _.DataLandingPageURL %}
     "url": [
         {%- for url in _.DataLandingPageURL.split(" | ") %}
-        {{url}} {%- if not loop.last %},{%- endif %}
+        "{{url|trim}}" {%- if not loop.last %},{%- endif %}
         {%- endfor %}
     ] ,         
     {%- else %}
