@@ -12,6 +12,7 @@ import json
 import os
 
 logging.basicConfig(level=logging.INFO)
+repair = True
 
 # set Workpackages
 
@@ -39,15 +40,16 @@ for wp in wps:
 
     # repair JSON-LD files
 
-    jsonld_files = [os.path.join(output_path, f) for f in os.listdir(output_path) if f.endswith(".jsonld")]
-    for jsonld_file in jsonld_files:
-        try:
-            with open(jsonld_file, "r") as input_file:
-                fixed = json_repair.load(input_file)
-            with open(jsonld_file, "w") as output_file:
-                output_file.write(json.dumps(fixed, indent=4))
-        except Exception as e:
-            logging.error(f"Failed to fix {jsonld_file}: {e}")
+    if repair:
+        jsonld_files = [os.path.join(output_path, f) for f in os.listdir(output_path) if f.endswith(".jsonld")]
+        for jsonld_file in jsonld_files:
+            try:
+                with open(jsonld_file, "r") as input_file:
+                    fixed = json_repair.load(input_file)
+                with open(jsonld_file, "w") as output_file:
+                    output_file.write(json.dumps(fixed, indent=4))
+            except Exception as e:
+                logging.error(f"Failed to fix {jsonld_file}: {e}")
 
 # triplize metadata record of datasets with retrievable metadata record
 
