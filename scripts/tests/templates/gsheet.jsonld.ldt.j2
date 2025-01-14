@@ -166,8 +166,7 @@
 
     {%- if _.FunderAgent %}
     "funder":
-    [
-        {%- for funder in _.FunderAgent.split(" | ") %}
+    [{%- for funder in _.FunderAgent.split(" | ") %}
             {%- for agent in sets["agents"]  %}
                 {%- if funder == agent.AgentKey %}
                 {
@@ -212,8 +211,7 @@
                 },
                 {%- endif %}
             {%- endfor %}
-        {%- endfor %}
-    ],
+        {%- endfor %}],
     {%- endif %}
     {%- if _.SourceDatasetIdentifier %}
     "isPartOf":

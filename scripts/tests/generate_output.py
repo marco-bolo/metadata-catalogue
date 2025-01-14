@@ -45,9 +45,10 @@ for wp in wps:
         for jsonld_file in jsonld_files:
             try:
                 with open(jsonld_file, "r") as input_file:
-                    fixed = json_repair.load(input_file)
+                    source = input_file.read()
+                    fixed = json_repair.repair_json(source)
                 with open(jsonld_file, "w") as output_file:
-                    output_file.write(json.dumps(fixed, indent=4))
+                    output_file.write(json.dumps(json.loads(fixed), indent=4))
             except Exception as e:
                 logging.error(f"Failed to fix {jsonld_file}: {e}")
 
