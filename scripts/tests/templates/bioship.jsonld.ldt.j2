@@ -179,12 +179,13 @@
     [
         {%- for geot in _.geographical %}
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             {%- if geot.OrigGeoTerm and geot.OrigGeoTerm != "EurOBIS calculated BBOX" %}
+            "@type": "Place",
             "name": "{{geot.OrigGeoTerm}}" , 
             {%- endif %}
             {%- if geot.GeoObjectID %}
-            "identifier": "http://www.marineregions.org/mrgid/{{geot.GeoObjectID}}"
+            "@id": "http://www.marineregions.org/mrgid/{{geot.GeoObjectID}}"
             {%- endif %}
             },
             {%- if geot.X and geot.Y and geot.MaxX and geot.MaxY %}
