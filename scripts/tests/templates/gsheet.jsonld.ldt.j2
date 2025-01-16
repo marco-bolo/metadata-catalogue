@@ -107,9 +107,9 @@
     {%- if _.DataContributorAgents %}
     "contributor":
     [
-        {%- for contributor in _.DataContributorAgents %}
+        {%- for contributor in _.DataContributorAgents.split(",") %}
             {%- for agent in sets["agents"]  %}
-            {%- if contributor == agent.AgentKey %}
+            {%- if contributor.strip() == agent.AgentKey %}
             {
                 {%- if agent.Email %}
                 "email": "{{agent.Email}}", 
@@ -166,9 +166,9 @@
 
     {%- if _.FunderAgent %}
     "funder":
-    [{%- for funder in _.FunderAgent.split(" | ") %}
+    [{%- for funder in _.FunderAgent.split(",") %}
             {%- for agent in sets["agents"]  %}
-                {%- if funder == agent.AgentKey %}
+                {%- if funder.strip() == agent.AgentKey %}
                 {
                     {%- if agent.Email %}
                     "email": "{{agent.Email.strip()}}", 
@@ -242,9 +242,9 @@
     {%- if _.DataProviderAgent %}
     "provider":
     [
-        {%- for provider in _.DataProviderAgent.split(" | ") %}
+        {%- for provider in _.DataProviderAgent.split(",") %}
             {% for agent in sets["agents"]  %}
-                {%- if provider == agent.AgentKey %}
+                {%- if provider.strip() == agent.AgentKey %}
                 {
                     {%- if agent.Email %}
                     "email": "{{agent.Email}}",
@@ -294,9 +294,9 @@
     {%- if _.DataContactAgent %}
     "publisher":
     [
-        {%- for provider in _.DataContactAgent.split(" | ") %}
+        {%- for provider in _.DataContactAgent.split(",") %}
             {% for agent in sets["agents"]  %}
-                {%- if provider == agent.AgentKey %}
+                {%- if provider.strip() == agent.AgentKey %}
                 {
                     {%- if agent.Email %}
                     "email": "{{agent.Email}}",
