@@ -8,7 +8,6 @@ import pandas as pd
 from pathlib import Path
 import requests
 import json
-from urllib.parse import urlparse
 import logging
 import re
 import os
@@ -28,6 +27,7 @@ def ensure_folder_exists(folder_path):
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
 
+
 # function to get marineinfo url in case of dasid
 def get_mi_json(wp: str, url: str, output_path: str) -> None:
     """
@@ -35,10 +35,10 @@ def get_mi_json(wp: str, url: str, output_path: str) -> None:
     2. retrieves the json record from the marineinfo-url
     3.writes it to a file
     """
-    
+
     if url.startswith('http'):
         dasid = re.search(r"dasid=(\d+)", url).group(1) if re.search(r"dasid=(\d+)", url) else None
-    
+
         response = requests.get(f'{url}&show=json')
         if response.status_code == 200:
             try:
@@ -46,14 +46,14 @@ def get_mi_json(wp: str, url: str, output_path: str) -> None:
                 file_path = f'{output_path}.{dasid}.json' if dasid else f'{output_path}.json'             #here name changed
                 with open(file_path, 'w') as json_file:
                     json.dump(data, json_file, indent=4)
-            except json.decoder.JSONDecodeError as e:
+            except (json.decoder.JSONDecodeError, requests.exceptions.JSONDecodeError) as e:
                 logging.info(f'{wp} - {url} - {e}')
         else:
             print(response.status_code)
             logging.info(f'{wp} - {url} - HTTP Status code:{response.status_code}')
 
 
-## Get input
+# Get input
 files = list(Path('./input/').glob('MARCO-BOLO_Metadata_Dataset_Record_description*.csv'))
 
 for wp_file in files:
@@ -61,10 +61,10 @@ for wp_file in files:
     wp_df = pd.read_csv(wp_file)
     wp_df['DataLandingPageURL'] = wp_df['DataLandingPageURL'].astype(str).str.split('|').apply(lambda x: [item.strip() for item in x])
 
-    for i,row in wp_df.iterrows():
+    for i, row in wp_df.iterrows():
         ensure_folder_exists(f"./input/{wp}/json/")
         output_path = f"./input/{wp}/json/{row['DatasetIdentifier']}"              #here name changed
-        
+
         for url in row['DataLandingPageURL']:
             get_mi_json(wp, url, output_path)
 
