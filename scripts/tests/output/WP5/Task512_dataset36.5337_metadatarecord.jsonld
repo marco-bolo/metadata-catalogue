@@ -39,9 +39,10 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North Atlantic" ,
-            "identifier": "http://www.marineregions.org/mrgid/1912"
+            "@id": "http://www.marineregions.org/mrgid/1912"
             },
             "geo": {
                 "box" : "-17.53 42.05 -2.29 60.06",
@@ -50,7 +51,7 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-17.53 42.05 -2.29 60.06",

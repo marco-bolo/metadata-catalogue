@@ -50,42 +50,47 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Biscay Bay" ,
-            "identifier": "http://www.marineregions.org/mrgid/2359"
+            "@id": "http://www.marineregions.org/mrgid/2359"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "British Isles" ,
-            "identifier": "http://www.marineregions.org/mrgid/3140"
+            "@id": "http://www.marineregions.org/mrgid/3140"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Kattegat" ,
-            "identifier": "http://www.marineregions.org/mrgid/2374"
+            "@id": "http://www.marineregions.org/mrgid/2374"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North Sea" ,
-            "identifier": "http://www.marineregions.org/mrgid/2350"
+            "@id": "http://www.marineregions.org/mrgid/2350"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Skagerrak" ,
-            "identifier": "http://www.marineregions.org/mrgid/2379"
+            "@id": "http://www.marineregions.org/mrgid/2379"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-11.9326334 35.95249557 12.62247086 62.10202789",

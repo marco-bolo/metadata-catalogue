@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Hammond, P.S., Macleod, K., Berggren, P., Borchers, D.L., Burt, L., Ca\u00f1adas, A., Desportes, G., Donovan, G.P., Gilles, A., Gillespie, D., et al. 2013. Cetacean abundance and distribution in European Atlantic shelf waters to inform conservation and management. Biological Conservation. 164, 107\u2013122",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2022-08-16",
         "CDate": "2015-03-23",
         "CurrencyDate": null,
@@ -72,10 +71,6 @@
         {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": [
@@ -184,31 +179,6 @@
             "OrigName": null,
             "StandardName": "Sea Mammal Research Unit",
             "FullAcronym": "USTAN-SMRU",
-            "ORC": null,
-            "ROR": null
-        },
-        {
-            "OrderNr": 3,
-            "Surname": null,
-            "Firstname": null,
-            "Initials": null,
-            "PerPublicFlag": null,
-            "AdrID": null,
-            "Email": null,
-            "InsPublicFlag": 1,
-            "Acronym": null,
-            "OrigNameLangCode": null,
-            "OrigNameLangID": null,
-            "FullOrigName": null,
-            "InsOwnerCNT": 1,
-            "PersID": null,
-            "InsID": null,
-            "FullInstitute": "Duke University; Nicholas School of the Environment and Earth Sciences; Marine Laboratory",
-            "RoleID": 30,
-            "Role": "Dataset describer",
-            "OrigName": null,
-            "StandardName": "Marine Laboratory",
-            "FullAcronym": null,
             "ORC": null,
             "ROR": null
         }
@@ -377,7 +347,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Bengil, F., Fujioka, E. 2011. Cetacean sightings off Turkey 2006-2011. SAD-DEMAG.",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2013-04-25",
         "CDate": "2012-08-01",
         "CurrencyDate": null,
@@ -72,10 +71,6 @@
         {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": [
@@ -160,31 +155,6 @@
             "FullInstitute": "Dokuz Eyl\u00fcl University; Institute of Marine Sciences and Technology",
             "RoleID": 68,
             "Role": "Data provider",
-            "OrigName": "Deniz Bilimleri ve Teknolojisi Enstit\u00fcs\u00fc",
-            "StandardName": "Institute of Marine Sciences and Technology",
-            "FullAcronym": null,
-            "ORC": null,
-            "ROR": null
-        },
-        {
-            "OrderNr": 3,
-            "Surname": "Bengil",
-            "Firstname": "Fethi",
-            "Initials": "F.",
-            "PerPublicFlag": 0,
-            "AdrID": null,
-            "Email": null,
-            "InsPublicFlag": 1,
-            "Acronym": null,
-            "OrigNameLangCode": "tr",
-            "OrigNameLangID": 56,
-            "FullOrigName": "Dokuz Eyl\u00fcl \u00dcniversitesi; Deniz Bilimleri ve Teknolojisi Enstit\u00fcs\u00fc",
-            "InsOwnerCNT": 3,
-            "PersID": null,
-            "InsID": null,
-            "FullInstitute": "Dokuz Eyl\u00fcl University; Institute of Marine Sciences and Technology",
-            "RoleID": 24,
-            "Role": "Contact",
             "OrigName": "Deniz Bilimleri ve Teknolojisi Enstit\u00fcs\u00fc",
             "StandardName": "Institute of Marine Sciences and Technology",
             "FullAcronym": null,
@@ -382,7 +352,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

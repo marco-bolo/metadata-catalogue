@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Dale Rostron. Marine records from Pembrokeshire Marine Species Atlas. Countryside Council for Wales, Gwynedd, UK.",
         "AccessConstraints": "",
-        "InputNotes": null,
         "UDate": "2014-04-28",
         "CDate": "2006-01-12",
         "CurrencyDate": null,
@@ -77,14 +76,6 @@
         {
             "SpColID": 38,
             "SpName": "Marine Biodiversity and Ecosystem Functioning"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
-        },
-        {
-            "SpColID": 507,
-            "SpName": "World Register of Marine Species"
         }
     ],
     "keywords": [
@@ -147,16 +138,6 @@
             "DasID": null,
             "Acronym": "EurOBIS",
             "StandardTitle": "European Ocean Biodiversity Information System",
-            "Relation": "Published dataset",
-            "RelationY": "Published in",
-            "RelID": 13,
-            "doi": null,
-            "vlizDoi": null
-        },
-        {
-            "DasID": null,
-            "Acronym": "GBIF",
-            "StandardTitle": "Global Biodiversity Information Facility Data Portal",
             "Relation": "Published dataset",
             "RelationY": "Published in",
             "RelID": 13,
@@ -234,31 +215,6 @@
             "FullInstitute": "Marine Biological Association of the UK",
             "RoleID": 68,
             "Role": "Data provider",
-            "OrigName": null,
-            "StandardName": "Marine Biological Association of the UK",
-            "FullAcronym": "MBA",
-            "ORC": null,
-            "ROR": null
-        },
-        {
-            "OrderNr": 4,
-            "Surname": null,
-            "Firstname": null,
-            "Initials": null,
-            "PerPublicFlag": null,
-            "AdrID": null,
-            "Email": null,
-            "InsPublicFlag": 1,
-            "Acronym": "MBA",
-            "OrigNameLangCode": null,
-            "OrigNameLangID": null,
-            "FullOrigName": null,
-            "InsOwnerCNT": 2,
-            "PersID": null,
-            "InsID": 1169,
-            "FullInstitute": "Marine Biological Association of the UK",
-            "RoleID": 30,
-            "Role": "Dataset describer",
             "OrigName": null,
             "StandardName": "Marine Biological Association of the UK",
             "FullAcronym": "MBA",
@@ -635,7 +591,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

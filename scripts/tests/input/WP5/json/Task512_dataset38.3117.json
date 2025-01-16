@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Vanermen N, Stienen EWM, Fijn R, Markones N, Holdsworth N, Osypchuk A, Pinto C, Desmet P (2022): European Seabirds at Sea (ESAS). ICES, Copenhagen, Denmark. <a href=\"https://esas.ices.dk\">https://esas.ices.dk</a>",
         "AccessConstraints": null,
-        "InputNotes": "Metadata modified in 23-08-2022 by request of data provider.\nOld Abstract seemed more complete so I will keep it here just in case it needs to be brought back or checked:\n\nThe purpose of this data capture was to record location and abundances of bird species in the NE Atlantic.<p>Data was collected  during ship and aircraft based surveys, using the ESAS full strip transect method with snapshot method for flying birds and scan data.<p>Data was recorded by research institutions, universities and the Joint Nature Conservation Committee (JNCC).<p>Some biological records have more precise location information than others. Often they are recorded using national grid references, which identify which 50km, 10km, 2km, 1km or 100m square they occur in. For this dataset, all records (264441) are at the 100m resolution.<p>Often the actual day on which records were made is not known precisely. However, they may be known to be within a particular month or year. For all records in this dataset, the date precision is \"day\".",
         "UDate": "2023-04-26",
         "CDate": "2012-07-17",
         "CurrencyDate": null,
@@ -247,16 +246,6 @@
     "othrelrev": [
         {
             "DasID": null,
-            "Acronym": null,
-            "StandardTitle": "ESAS cetacean sightings from 1980 to 2003",
-            "Relation": "Replaced by",
-            "RelationY": "Replaces",
-            "RelID": 14,
-            "doi": "https://doi.org/10.15468/vr9hor",
-            "vlizDoi": null
-        },
-        {
-            "DasID": null,
             "Acronym": "EurOBIS",
             "StandardTitle": "European Ocean Biodiversity Information System",
             "Relation": "Published dataset",
@@ -272,16 +261,6 @@
             "Relation": "Replaced by",
             "RelationY": "Replaces",
             "RelID": 14,
-            "doi": null,
-            "vlizDoi": null
-        },
-        {
-            "DasID": null,
-            "Acronym": "GBIF",
-            "StandardTitle": "Global Biodiversity Information Facility Data Portal",
-            "Relation": "Published dataset",
-            "RelationY": "Published in",
-            "RelID": 13,
             "doi": null,
             "vlizDoi": null
         },
@@ -345,31 +324,6 @@
             "StandardName": "Instituut voor Natuur- en Bosonderzoek",
             "FullAcronym": "LNE-INBO",
             "ORC": "https://orcid.org/0000-0003-0156-357X",
-            "ROR": null
-        },
-        {
-            "OrderNr": 3,
-            "Surname": "Stienen",
-            "Firstname": "Eric",
-            "Initials": "E.W.M.",
-            "PerPublicFlag": 0,
-            "AdrID": null,
-            "Email": null,
-            "InsPublicFlag": 1,
-            "Acronym": "INBO",
-            "OrigNameLangCode": "en",
-            "OrigNameLangID": 15,
-            "FullOrigName": "Flemish Government; Policy Domain Environment; Research Institute for Nature and Forest",
-            "InsOwnerCNT": 4,
-            "PersID": null,
-            "InsID": 5443,
-            "FullInstitute": "Vlaamse overheid; Beleidsdomein Omgeving; Instituut voor Natuur- en Bosonderzoek",
-            "RoleID": 61,
-            "Role": "Data creator",
-            "OrigName": "Research Institute for Nature and Forest",
-            "StandardName": "Instituut voor Natuur- en Bosonderzoek",
-            "FullAcronym": "LNE-INBO",
-            "ORC": "https://orcid.org/0000-0002-4315-0936",
             "ROR": null
         },
         {
@@ -995,7 +949,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

@@ -1,0 +1,40 @@
+{
+    "@type": "Dataset",
+    "@id": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006282",
+    "identifier": "Task511_dataset88",
+    
+    
+    
+    
+    
+    "description": "This dataset has been created to establish the reference situation of benthic macro-invertebrates (macro-; endobenthos en macro-epibenthos) and demersal fish in the Belgian windfarm area",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Monitoring of the effects of Belgian wind mill parks on benthic macro-invertebrates and the fish fauna of soft substrates - reference situation. (WINMON)" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006282" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+} 

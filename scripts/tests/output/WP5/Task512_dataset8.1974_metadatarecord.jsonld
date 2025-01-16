@@ -67,7 +67,7 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-2.319667 56.785667 -2.0225 57.148833",
@@ -76,9 +76,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "UK" ,
-            "identifier": "http://www.marineregions.org/mrgid/2208"
+            "@id": "http://www.marineregions.org/mrgid/2208"
             },
             "@type": "Place"
         }

@@ -1,0 +1,41 @@
+{
+    "@type": "Dataset",
+    "@id": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005725",
+    "identifier": "Task511_dataset54",
+    
+    
+    
+    
+    "datePublished": "In Progress" ,
+    
+    "description": "The POHJE database includes data on benthic macrofauna; covering the Finnish coastal areas as well as the offshore areas of the Baltic Sea. The quantitative data mainly stem  from the Finnish national monitoring program and statutory monitoring programs; but also data from surveys and research projects are included. In total the database contain aproximately 100 000 quantitative records including developmental stages; with a time span from 1965 to present. The database is regularly maintained and data is added continuously.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Finnish Baltic Sea benthic monitoring; POHJE database" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005725" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+} 

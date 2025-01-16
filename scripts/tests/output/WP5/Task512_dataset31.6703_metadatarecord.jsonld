@@ -29,21 +29,21 @@
     "creator" : [
     ] ,
     "contributor": [
-        "http://marineinfo.org/id/institute/1878",
     ] ,
     "publisher" : [
     ] ,
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "East Atlantic" ,
-            "identifier": "http://www.marineregions.org/mrgid/9237"
+            "@id": "http://www.marineregions.org/mrgid/9237"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-8.7906666 35.9821666 14.4576667 55.7553333",
@@ -52,9 +52,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Western Mediterranean" ,
-            "identifier": "http://www.marineregions.org/mrgid/4279"
+            "@id": "http://www.marineregions.org/mrgid/4279"
             },
             "@type": "Place"
         }

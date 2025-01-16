@@ -43,14 +43,15 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Anglesey" ,
-            "identifier": "http://www.marineregions.org/mrgid/20972"
+            "@id": "http://www.marineregions.org/mrgid/20972"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-4.8338 53.2555 -4.1973 53.5026",

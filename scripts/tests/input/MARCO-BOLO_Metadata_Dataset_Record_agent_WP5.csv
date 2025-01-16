@@ -1,5 +1,5 @@
 AgentKey,Type,ID,Name,AffiliationAgentKey,URL,Email,Country
-MBO,Project,none,Marco-Bolo,,https://marcobolo-project.eu,info@marcobolo-project.eu,EU
+MBO,Project,https://marcobolo-project.eu,Marco-Bolo,,https://marcobolo-project.eu,info@marcobolo-project.eu,EU
 CCB,Person,https://orcid.org/0000-0002-6482-5103,Carlos Cano-Barbacil,Senckenberg,,Carlos.cano-barbacil@senckenberg.de,DE
 Senckenberg,Organization,https://ror.org/01wz97s39,Senckenberg Research Institute and Natural History Museum Frankfurt,,https://www.senckenberg.de/en/,info@senckenberg.de,DE
 MO,Person,https://orcid.org/0000-0003-0264-9631,Matthias Obst,UGOT,,matthias.obst@marine.gu.se,SE
@@ -9,7 +9,8 @@ Kexter,Person,https://orcid.org/0000-0002-5911-1536,Katrina Exter,VLIZ,https://m
 JonasM,Person,https://orcid.org/0000-0002-8781-7915,Jonas Mortelmans,VLIZ,https://www.vliz.be/en/imis?module=person&persid=26622,jonas.mortelmans@vliz.be,BE
 KlaasD,Person,https://orcid.org/0000-0002-8559-3508,Klaas Deneudt,VLIZ,https://www.vliz.be/en/imis?module=person&persid=3362,klaas.deneudt@vliz.be,BE
 RuneL,Person,https://orcid.org/0000-0001-9191-9104,Rune Lagaisse,VLIZ,https://www.vliz.be/en/imis?module=person&persid=39431,rune.lagaisse@vliz.be,BE
-LW-BE,Project,none,LifeWatch Belgium,,https://www.lifewatch.be/, info@lifewatch.be,BE
+LW-BE,Project,https://www.lifewatch.be,LifeWatch Belgium,,https://www.lifewatch.be/, info@lifewatch.be,BE
 JulieM,Person,https://orcid.org/0000-0002-7481-0626,Julie Muyle,VLIZ,https://www.vliz.be/en/imis?module=person&persid=38210,julie.muyle@vliz.be,BE
 LuzAM,Person,https://orcid.org/0000-0001-5960-7972,Luz Amadei Martinez,VLIZ,https://www.vliz.be/en/imis?module=person&persid=34178,luz.amadeimartinez@ugent.be,BE
 JohannesN,Person,https://orcid.org/0009-0000-1555-5867,Jo-Hannes Nowé,VLIZ,https://www.vliz.be/nl/imis?module=person&persid=44166,johannes.nowe@vliz.be,BE
+ ,,,,,,,

@@ -1,0 +1,41 @@
+{
+    "@type": "Dataset",
+    "@id": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006386",
+    "identifier": "Task511_dataset89",
+    
+    
+    
+    
+    "datePublished": "In Progress" ,
+    
+    "description": "A requirement of the Water Framework Directive is that benthic macro-invertebrates must be sampled from coastal and transitional waters at least twice within a river basin cycle (6 years) in order to classify these waterbodies. Numerous samples will be taken from sites in matched habitats throughout the water body. Sampling and analysis is carried out according to established protocols. The Directive requires the sampling of nominated coastal and transitional waters for benthic macro-invertebrates. This includes the field sampling; processing and analysis of samples. In addition; grab samples have been taken on vessels of opportunity and are considered suitable to fulfill obligations under the WFD. For each grab sample collected this dataset contains: - lists and abundance of benthic species &gt;1mm; -sediment particle size analysis (PSA); -Folk (1954) sediment classification; and an estimate of organic matter (LOI).",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Irish Benthos monitoring as part of the Water framework directive since 2012" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006386" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+} 

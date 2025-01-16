@@ -27,14 +27,15 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Atlantic" ,
-            "identifier": "http://www.marineregions.org/mrgid/1902"
+            "@id": "http://www.marineregions.org/mrgid/1902"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-98 1.867 -5.333 63.983",
@@ -43,9 +44,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Pacific" ,
-            "identifier": "http://www.marineregions.org/mrgid/1903"
+            "@id": "http://www.marineregions.org/mrgid/1903"
             },
             "@type": "Place"
         }

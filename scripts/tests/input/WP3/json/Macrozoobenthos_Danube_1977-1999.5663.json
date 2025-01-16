@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Dumitrache C.; Abaza V.; Filimon A. (2017). Macrozoobenthos data collected in the Northern part of the Romanian littoral (Danube mouths) between 1977 and 1999. NIMRD-National Institute for Marine Research and Development \"Grigore Antipa\"",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2017-06-26",
         "CDate": "2017-06-26",
         "CurrencyDate": null,
@@ -580,7 +579,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

@@ -152,7 +152,6 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "creator" : [
         "http://marineinfo.org/id/institute/5443",
-        "http://marineinfo.org/id/institute/5443",
         "http://marineinfo.org/id/institute/4059",
         "http://marineinfo.org/id/institute/4059",
         "http://marineinfo.org/id/institute/4059",
@@ -166,42 +165,47 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North Atlantic" ,
-            "identifier": "http://www.marineregions.org/mrgid/1912"
+            "@id": "http://www.marineregions.org/mrgid/1912"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Baltic" ,
-            "identifier": "http://www.marineregions.org/mrgid/2401"
+            "@id": "http://www.marineregions.org/mrgid/2401"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Biscay Bay" ,
-            "identifier": "http://www.marineregions.org/mrgid/2359"
+            "@id": "http://www.marineregions.org/mrgid/2359"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "English Channel" ,
-            "identifier": "http://www.marineregions.org/mrgid/2389"
+            "@id": "http://www.marineregions.org/mrgid/2389"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North Sea" ,
-            "identifier": "http://www.marineregions.org/mrgid/2350"
+            "@id": "http://www.marineregions.org/mrgid/2350"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-54.2481 14.8788 20.2764 79.1508",

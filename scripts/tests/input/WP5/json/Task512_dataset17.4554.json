@@ -32,7 +32,6 @@
         "DescrTransFlag": 1,
         "Citation": "SPN - Service du Patrimoine naturel, Mus\u00e9um national d'Histoire naturelle, Paris: Inventaire National du Patrimoine Naturel : Donn\u00e9es des campagnes de Suivi A\u00e9rien de la M\u00e9gafaune Marine (SAMM) de France m\u00e9tropolitaine, 2013-06-20. Accessed via http://www.gbif.org/dataset/489cf485-b8de-4d38-a01a-6f426c658222 on yyyy-mm-dd",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2022-07-19",
         "CDate": "2014-02-25",
         "CurrencyDate": null,
@@ -73,10 +72,6 @@
         {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": [
@@ -114,16 +109,6 @@
             "RelID": 13,
             "doi": null,
             "vlizDoi": null
-        },
-        {
-            "DasID": null,
-            "Acronym": "GBIF",
-            "StandardTitle": "Global Biodiversity Information Facility Data Portal",
-            "Relation": "Published dataset",
-            "RelationY": "Published in",
-            "RelID": 13,
-            "doi": null,
-            "vlizDoi": null
         }
     ],
     "ownerships": [
@@ -146,31 +131,6 @@
             "FullInstitute": "National Natural History Museum Paris; Service du Patrimoine naturel",
             "RoleID": 24,
             "Role": "Contact",
-            "OrigName": null,
-            "StandardName": "Service du Patrimoine naturel",
-            "FullAcronym": "MNHN-SPN",
-            "ORC": null,
-            "ROR": null
-        },
-        {
-            "OrderNr": 2,
-            "Surname": "Vest",
-            "Firstname": "Fr\u00e9d\u00e9ric",
-            "Initials": "F.",
-            "PerPublicFlag": 1,
-            "AdrID": 155875,
-            "Email": "inpn@mnh.fr",
-            "InsPublicFlag": 1,
-            "Acronym": "SPN",
-            "OrigNameLangCode": null,
-            "OrigNameLangID": null,
-            "FullOrigName": null,
-            "InsOwnerCNT": 3,
-            "PersID": null,
-            "InsID": null,
-            "FullInstitute": "National Natural History Museum Paris; Service du Patrimoine naturel",
-            "RoleID": 30,
-            "Role": "Dataset describer",
             "OrigName": null,
             "StandardName": "Service du Patrimoine naturel",
             "FullAcronym": "MNHN-SPN",
@@ -468,7 +428,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

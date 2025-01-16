@@ -78,7 +78,7 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "27.8667 41.2667 32.9 45.15",
@@ -87,9 +87,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Black Sea" ,
-            "identifier": "http://www.marineregions.org/mrgid/3319"
+            "@id": "http://www.marineregions.org/mrgid/3319"
             },
             "@type": "Place"
         }

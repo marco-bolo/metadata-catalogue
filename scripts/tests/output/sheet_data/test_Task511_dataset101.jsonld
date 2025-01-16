@@ -1,0 +1,41 @@
+{
+    "@type": "Dataset",
+    "@id": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006507",
+    "identifier": "Task511_dataset101",
+    
+    
+    
+    
+    "datePublished": "In Progress" ,
+    
+    "description": "This series is part of the long term planktonic monitoring of Villefranche-sur-mer; which is one of the oldest and richest in the world. It aims at describing the dynamics of the mesozooplankton community. The data collection and processing has been funded by several projects over its lifetime. It is currently supported directly by the Institut de la Mer de Villefranche (IMEV); as part of its long term monitoring effort. This dataset contains the planktonic organisms collected by a Juday-Bogorov net (330μm mesh) and therefore cover organisms from ~300µm to ~2cm.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Plankton community in Juday-Bogorov (330µm) net; Point B; Villefranche-sur-Mer; France" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006507" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+} 

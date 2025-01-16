@@ -37,35 +37,39 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Baltic" ,
-            "identifier": "http://www.marineregions.org/mrgid/2401"
+            "@id": "http://www.marineregions.org/mrgid/2401"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Kattegat" ,
-            "identifier": "http://www.marineregions.org/mrgid/2374"
+            "@id": "http://www.marineregions.org/mrgid/2374"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North Sea" ,
-            "identifier": "http://www.marineregions.org/mrgid/2350"
+            "@id": "http://www.marineregions.org/mrgid/2350"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Skagerrak" ,
-            "identifier": "http://www.marineregions.org/mrgid/2379"
+            "@id": "http://www.marineregions.org/mrgid/2379"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-4.880817 50.142067 16.967917 57.771019",

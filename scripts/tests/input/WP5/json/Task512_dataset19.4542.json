@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Diveboard - Scuba diving citizen science observations. Online at http://www.diveboard.com and http://ipt.diveboard.com/resource.do?r=diveboard-occurrences.",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2022-08-16",
         "CDate": "2014-02-25",
         "CurrencyDate": null,
@@ -73,10 +72,6 @@
         {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": [
@@ -139,16 +134,6 @@
             "DasID": null,
             "Acronym": "EurOBIS",
             "StandardTitle": "European Ocean Biodiversity Information System",
-            "Relation": "Published dataset",
-            "RelationY": "Published in",
-            "RelID": 13,
-            "doi": null,
-            "vlizDoi": null
-        },
-        {
-            "DasID": null,
-            "Acronym": "GBIF",
-            "StandardTitle": "Global Biodiversity Information Facility Data Portal",
             "Relation": "Published dataset",
             "RelationY": "Published in",
             "RelID": 13,
@@ -544,7 +529,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

@@ -49,28 +49,31 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Baltic" ,
-            "identifier": "http://www.marineregions.org/mrgid/2401"
+            "@id": "http://www.marineregions.org/mrgid/2401"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Celtic Sea" ,
-            "identifier": "http://www.marineregions.org/mrgid/2351"
+            "@id": "http://www.marineregions.org/mrgid/2351"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North Sea" ,
-            "identifier": "http://www.marineregions.org/mrgid/2350"
+            "@id": "http://www.marineregions.org/mrgid/2350"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-11.391386 48.32745 12.518379 61.931247",

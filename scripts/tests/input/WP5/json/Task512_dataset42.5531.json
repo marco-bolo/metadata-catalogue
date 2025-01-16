@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Flanders Marine Institute (VLIZ), Belgium; (2021): LifeWatch observatory data: permanent Cetacean passive acoustic sensor network in the Belgian part of the North Sea. Marine Data Archive.",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2024-10-15",
         "CDate": "2017-01-03",
         "CurrencyDate": null,
@@ -93,22 +92,6 @@
     ],
     "spcols": [
         {
-            "SpColID": 990,
-            "SpName": "Assemble"
-        },
-        {
-            "SpColID": 952,
-            "SpName": "AssemblePlus"
-        },
-        {
-            "SpColID": 989,
-            "SpName": "AssemblePlus LTEDS"
-        },
-        {
-            "SpColID": 988,
-            "SpName": "AssemblePlus LTEDS: biological"
-        },
-        {
             "SpColID": 619,
             "SpName": "available through EurOBIS"
         },
@@ -117,32 +100,8 @@
             "SpName": "Belgian marine datasets"
         },
         {
-            "SpColID": 950,
-            "SpName": "EMBRC"
-        },
-        {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 867,
-            "SpName": "IMIS themes"
-        },
-        {
-            "SpColID": 923,
-            "SpName": "Lifewatch acknowledged"
-        },
-        {
-            "SpColID": 896,
-            "SpName": "LifeWatch Observatory"
-        },
-        {
-            "SpColID": 641,
-            "SpName": "Species diversity"
-        },
-        {
-            "SpColID": 667,
-            "SpName": "Species diversity: Mammals"
         }
     ],
     "keywords": [
@@ -369,31 +328,6 @@
             "FullInstitute": "Vlaams Instituut voor de Zee",
             "RoleID": 24,
             "Role": "Contact",
-            "OrigName": "Flanders Marine Institute",
-            "StandardName": "Vlaams Instituut voor de Zee",
-            "FullAcronym": "VLIZ",
-            "ORC": null,
-            "ROR": "https://ror.org/0496vr396"
-        },
-        {
-            "OrderNr": 2,
-            "Surname": null,
-            "Firstname": null,
-            "Initials": null,
-            "PerPublicFlag": null,
-            "AdrID": null,
-            "Email": null,
-            "InsPublicFlag": 1,
-            "Acronym": "VLIZ",
-            "OrigNameLangCode": "en",
-            "OrigNameLangID": 15,
-            "FullOrigName": "Flanders Marine Institute",
-            "InsOwnerCNT": 5,
-            "PersID": null,
-            "InsID": 36,
-            "FullInstitute": "Vlaams Instituut voor de Zee",
-            "RoleID": 30,
-            "Role": "Dataset describer",
             "OrigName": "Flanders Marine Institute",
             "StandardName": "Vlaams Instituut voor de Zee",
             "FullAcronym": "VLIZ",
@@ -1187,7 +1121,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

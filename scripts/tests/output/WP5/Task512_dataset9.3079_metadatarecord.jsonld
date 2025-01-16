@@ -55,16 +55,18 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "English Channel" ,
-            "identifier": "http://www.marineregions.org/mrgid/2389"
+            "@id": "http://www.marineregions.org/mrgid/2389"
             },
             "geo": {
                 "box" : "1.27 50.48 2.5 51.31",
@@ -73,7 +75,7 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "1.271033 50.4785 2.497683 51.308233",

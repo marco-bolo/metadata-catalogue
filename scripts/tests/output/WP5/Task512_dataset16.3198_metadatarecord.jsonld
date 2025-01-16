@@ -33,33 +33,31 @@
     ],
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "creator" : [
-        "http://marineinfo.org/id/institute/11984"
     ] ,
     "contributor": [
-        "http://marineinfo.org/id/institute/11984",
-        "http://marineinfo.org/id/institute/11984"
     ] ,
     "publisher" : [
-        "http://marineinfo.org/id/institute/11984"
     ] ,
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Sylt I." ,
-            "identifier": "http://www.marineregions.org/mrgid/3655"
+            "@id": "http://www.marineregions.org/mrgid/3655"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North Sea" ,
-            "identifier": "http://www.marineregions.org/mrgid/2350"
+            "@id": "http://www.marineregions.org/mrgid/2350"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "8.4205171818027 55.011968685189 8.4205171818027 55.011968685189",

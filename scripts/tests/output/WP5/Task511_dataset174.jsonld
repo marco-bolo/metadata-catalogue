@@ -1,39 +1,33 @@
-
 {
     "@type": "Dataset",
     "@id": "Task511_dataset174",
     "identifier": "Task511_dataset174",
-    
-    
-
-    
     "description": "Time series from FishGlob obtained from: Maureaud, A.A., Palacios-Abrantes, J., Kitchel, Z. et al. FISHGLOB_data: an integrated dataset of fish biodiversity sampled with scientific bottom-trawl surveys. Sci Data 11, 24 (2024). https://doi.org/10.1038/s41597-023-02866-w",
-    "sdPublisher" : {
-        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
-        "affiliation" : {
-            "email" : "info@senckenberg.de" ,
-            "url" : "https://www.senckenberg.de/en/" ,
-            "address" : {
-                "@type": "https://schema.org/PostalAddress" , 
-                "addressCountry" : "DE" 
-            } ,
-            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
-            "identifier": "https://ror.org/01wz97s39" , 
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
             "@type": "https://schema.org/Organization"
-        } ,
-        "workLocation" : {
-            "@type": "https://schema.org/Country" , 
-            "name" : "DE" 
-        } ,
-        "name": "Carlos Cano-Barbacil" ,
-        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
         "@type": "https://schema.org/Person"
     },
-    "name": "FISHGLOB_NS-IBTS" ,
-    "url": "https://github.com/AquaAuma/FishGlob_data/tree/main/outputs/Compiled_data" ,
-
-    "@context":
-    {
-        "@vocab": "http://schema.org/"
+    "name": "FISHGLOB_NS-IBTS",
+    "url": "https://github.com/AquaAuma/FishGlob_data/tree/main/outputs/Compiled_data",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
     }
-} 
+}

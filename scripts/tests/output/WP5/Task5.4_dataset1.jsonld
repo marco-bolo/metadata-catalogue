@@ -1,39 +1,34 @@
-
 {
     "@type": "Dataset",
     "@id": "Task5.4_dataset1",
     "identifier": "Task5.4_dataset1",
-    
-    
-    "datePublished": "July 2024" ,
-
-    
+    "datePublished": "July 2024",
     "description": "EurOBIS submitted DwC file with the results of the COI ARMS-MBON datasets frm 2018-2020 deployments",
-    "sdPublisher" : {
-        "email" : "matthias.obst@marine.gu.se" ,
-        "affiliation" : {
-            "url" : "https://www.gu.se/en/biological-environmental-sciences" ,
-            "address" : {
-                "@type": "https://schema.org/PostalAddress" , 
-                "addressCountry" : "SE" 
-            } ,
-            "name": "University of Gothenburg" ,
-            "identifier": "https://edmo.seadatanet.org/report/5074" , 
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
             "@type": "https://schema.org/Organization"
-        } ,
-        "workLocation" : {
-            "@type": "https://schema.org/Country" , 
-            "name" : "SE" 
-        } ,
-        "name": "Matthias Obst" ,
-        "identifier": "https://orcid.org/0000-0003-0264-9631" , 
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
         "@type": "https://schema.org/Person"
     },
-    "name": "ARMS-MBON COI data" ,
-    "url": "" ,
-
-    "@context":
-    {
-        "@vocab": "http://schema.org/"
+    "name": "ARMS-MBON COI data",
+    "url": "",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
     }
-} 
+}

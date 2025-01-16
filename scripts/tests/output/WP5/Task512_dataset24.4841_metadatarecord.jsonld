@@ -47,14 +47,15 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "European Continental Shelf" ,
-            "identifier": "http://www.marineregions.org/mrgid/7130"
+            "@id": "http://www.marineregions.org/mrgid/7130"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-10.75433 45.5765 9.81141 61.67141",

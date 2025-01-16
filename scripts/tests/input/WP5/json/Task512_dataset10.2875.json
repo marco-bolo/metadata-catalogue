@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": null,
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2022-08-12",
         "CDate": "2011-10-20",
         "CurrencyDate": null,
@@ -71,10 +70,6 @@
         {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": [
@@ -617,7 +612,7 @@
             "Extension": "XLSX"
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

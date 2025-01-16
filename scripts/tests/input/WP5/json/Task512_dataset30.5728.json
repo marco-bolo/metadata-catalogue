@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": null,
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2022-08-16",
         "CDate": "2017-07-07",
         "CurrencyDate": null,
@@ -131,31 +130,6 @@
         }
     ],
     "ownerships": [
-        {
-            "OrderNr": 1,
-            "Surname": "\u00d8ien",
-            "Firstname": "Nils",
-            "Initials": "N.",
-            "PerPublicFlag": 1,
-            "AdrID": 160248,
-            "Email": "nils.oien@imr.no",
-            "InsPublicFlag": 1,
-            "Acronym": "IMR",
-            "OrigNameLangCode": null,
-            "OrigNameLangID": null,
-            "FullOrigName": null,
-            "InsOwnerCNT": 3,
-            "PersID": null,
-            "InsID": null,
-            "FullInstitute": "Institute of Marine Research",
-            "RoleID": 30,
-            "Role": "Dataset describer",
-            "OrigName": null,
-            "StandardName": "Institute of Marine Research",
-            "FullAcronym": "IMR",
-            "ORC": null,
-            "ROR": null
-        },
         {
             "OrderNr": 2,
             "Surname": "\u00d8ien",
@@ -562,7 +536,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

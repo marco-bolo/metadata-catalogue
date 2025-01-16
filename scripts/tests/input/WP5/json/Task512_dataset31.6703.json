@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Hall-Spencer J.,Grall J., Gerovasileiou V.,Mavraki D.,Paranou P., Baily N.,Nikolopoulou S.,(2018): BIOMAERL.Maerl Biodiversity.Functional Structure And Antropogenic Impacts (1996-1998).Hellenic Center for Marine Research",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2022-08-16",
         "CDate": "2021-05-14",
         "CurrencyDate": null,
@@ -103,31 +102,6 @@
         }
     ],
     "ownerships": [
-        {
-            "OrderNr": null,
-            "Surname": null,
-            "Firstname": null,
-            "Initials": null,
-            "PerPublicFlag": null,
-            "AdrID": null,
-            "Email": null,
-            "InsPublicFlag": 1,
-            "Acronym": "HCMR",
-            "OrigNameLangCode": "el",
-            "OrigNameLangID": 25,
-            "FullOrigName": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03cc \u039a\u03ad\u03bd\u03c4\u03c1\u03bf \u0398\u03b1\u03bb\u03ac\u03c3\u03c3\u03b9\u03c9\u03bd \u0395\u03c1\u03b5\u03c5\u03bd\u03ce\u03bd",
-            "InsOwnerCNT": 1,
-            "PersID": null,
-            "InsID": 1878,
-            "FullInstitute": "Hellenic Centre for Marine Research",
-            "RoleID": 30,
-            "Role": "Dataset describer",
-            "OrigName": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03cc \u039a\u03ad\u03bd\u03c4\u03c1\u03bf \u0398\u03b1\u03bb\u03ac\u03c3\u03c3\u03b9\u03c9\u03bd \u0395\u03c1\u03b5\u03c5\u03bd\u03ce\u03bd",
-            "StandardName": "Hellenic Centre for Marine Research",
-            "FullAcronym": "HCMR",
-            "ORC": null,
-            "ROR": null
-        },
         {
             "OrderNr": 1,
             "Surname": "Hall-Spencer",
@@ -675,7 +649,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

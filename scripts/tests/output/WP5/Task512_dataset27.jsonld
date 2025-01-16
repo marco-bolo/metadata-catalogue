@@ -1,40 +1,34 @@
-
 {
     "@type": "Dataset",
     "@id": "Task512_dataset27",
     "identifier": "Task512_dataset27",
-    
-    
-
-    
     "description": "Original provider: Observatoire PELAGIS UMS 3462 University La Rochelle - CNRS Dataset credits: Observatoire PELAGIS UMS 3462, University La Rochelle - CNRS Abstract: Regulation (EC) No 812/2004 of 26 April 2004 is intended to assess the incidental catch of cetaceans in fisheries and to reduce bycatch in some fisheries. This regulation requires plans observation on vessels over 15 meters operating in pelagic trawl or large vertical opening in ICES zones VI, VII, VIII and IX, and vessesl over 15 meters operating with set nets in ICES VIa, VI-a,b and VIIIa,b,c and IX.The Ministry of Agriculture and Fisheries (Directorate of Marine Fisheries and Aquaculture - DPMA) is responsible for the implementation of the Regulation for France. An observation program of incidental catches of cetaceans started in 2006 on the French metropolitan coast.",
-    "sdPublisher" : {
-        "email" : "johannes.nowe@vliz.be" ,
-        "url" : "https://www.vliz.be/nl/imis?module=person&amp;persid=44166" ,
-        "affiliation" : {
-            "email" : "data@vliz.be" ,
-            "url" : "https://www.vliz.be/en" ,
-            "address" : {
-                "@type": "https://schema.org/PostalAddress" , 
-                "addressCountry" : "BE" 
-            } ,
-            "name": "Flanders Marine Institute" ,
-            "identifier": "https://edmo.seadatanet.org/report/422" , 
+    "sdPublisher": {
+        "email": "johannes.nowe@vliz.be",
+        "url": "https://www.vliz.be/nl/imis?module=person&amp;persid=44166",
+        "affiliation": {
+            "email": "data@vliz.be",
+            "url": "https://www.vliz.be/en",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "BE"
+            },
+            "name": "Flanders Marine Institute",
+            "identifier": "https://edmo.seadatanet.org/report/422",
             "@type": "https://schema.org/Organization"
-        } ,
-        "workLocation" : {
-            "@type": "https://schema.org/Country" , 
-            "name" : "BE" 
-        } ,
-        "name": "Jo-Hannes Nowé" ,
-        "identifier": "https://orcid.org/0009-0000-1555-5867" , 
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "BE"
+        },
+        "name": "Jo-Hannes Now\u00e9",
+        "identifier": "https://orcid.org/0009-0000-1555-5867",
         "@type": "https://schema.org/Person"
     },
-    "name": "Observatoire Pelagis sightings from fishery surveys 2004-2009" ,
-    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=5828" ,
-
-    "@context":
-    {
-        "@vocab": "http://schema.org/"
+    "name": "Observatoire Pelagis sightings from fishery surveys 2004-2009",
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=5828",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
     }
-} 
+}

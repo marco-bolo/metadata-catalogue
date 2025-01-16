@@ -42,7 +42,7 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-4.69021 52.1295 -4.09269 52.422",
@@ -51,9 +51,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Cardigan Bay" ,
-            "identifier": "http://www.marineregions.org/mrgid/23590"
+            "@id": "http://www.marineregions.org/mrgid/23590"
             },
             "@type": "Place"
         }

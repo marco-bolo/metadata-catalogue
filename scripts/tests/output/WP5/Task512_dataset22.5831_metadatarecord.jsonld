@@ -71,28 +71,31 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North Atlantic" ,
-            "identifier": "http://www.marineregions.org/mrgid/1912"
+            "@id": "http://www.marineregions.org/mrgid/1912"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "English Channel" ,
-            "identifier": "http://www.marineregions.org/mrgid/2389"
+            "@id": "http://www.marineregions.org/mrgid/2389"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North Sea" ,
-            "identifier": "http://www.marineregions.org/mrgid/2350"
+            "@id": "http://www.marineregions.org/mrgid/2350"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-11.193488 -25.61275 47.3583 55.280026",
@@ -101,9 +104,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Mozambique Channel" ,
-            "identifier": "http://www.marineregions.org/mrgid/4261"
+            "@id": "http://www.marineregions.org/mrgid/4261"
             },
             "@type": "Place"
         }

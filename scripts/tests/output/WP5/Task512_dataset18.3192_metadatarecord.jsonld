@@ -42,21 +42,23 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Solway Firth" ,
-            "identifier": "http://www.marineregions.org/mrgid/3280"
+            "@id": "http://www.marineregions.org/mrgid/3280"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Irish Sea" ,
-            "identifier": "http://www.marineregions.org/mrgid/2357"
+            "@id": "http://www.marineregions.org/mrgid/2357"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-5.667974402885534 52.69610916867383 -2.773015208878666 55.721842497419985",

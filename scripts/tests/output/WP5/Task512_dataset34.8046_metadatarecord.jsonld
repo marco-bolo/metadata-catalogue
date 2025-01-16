@@ -50,20 +50,22 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Ireland" ,
-            "identifier": "http://www.marineregions.org/mrgid/2114"
+            "@id": "http://www.marineregions.org/mrgid/2114"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Irish Exclusive Economic Zone" ,
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-10.514217 51.3558172 -5.298875 55.37968114",

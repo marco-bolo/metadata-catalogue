@@ -41,7 +41,6 @@
     ] ,
     "contributor": [
         "http://marineinfo.org/id/institute/1426",
-        "http://marineinfo.org/id/institute/1426",
         "http://marineinfo.org/id/institute/1426"
     ] ,
     "publisher" : [
@@ -51,14 +50,15 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Azores" ,
-            "identifier": "http://www.marineregions.org/mrgid/2454"
+            "@id": "http://www.marineregions.org/mrgid/2454"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-39.95 18.25 30 49.2",

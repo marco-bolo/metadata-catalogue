@@ -58,14 +58,15 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Atlantic" ,
-            "identifier": "http://www.marineregions.org/mrgid/1902"
+            "@id": "http://www.marineregions.org/mrgid/1902"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-74.74535 -36.00085 138.4473 68.094",
@@ -74,16 +75,18 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "South Australia" ,
-            "identifier": "http://www.marineregions.org/mrgid/8913"
+            "@id": "http://www.marineregions.org/mrgid/8913"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Mediterranean" ,
-            "identifier": "http://www.marineregions.org/mrgid/1905"
+            "@id": "http://www.marineregions.org/mrgid/1905"
             },
             "@type": "Place"
         }

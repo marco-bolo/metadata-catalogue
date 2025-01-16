@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Boisseau, Oliver. 2014. Visual sightings from Song of the Whale 1993-2013. Provided by International Fund for Animal Welfare, Song of the Whale Team and downloaded from OBIS-SEAMAP on (access date)",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2022-08-16",
         "CDate": "2015-03-25",
         "CurrencyDate": null,
@@ -72,10 +71,6 @@
         {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": [
@@ -180,31 +175,6 @@
             "FullInstitute": "Duke University; Nicholas School of the Environment and Earth Sciences; Marine Laboratory",
             "RoleID": 24,
             "Role": "Contact",
-            "OrigName": null,
-            "StandardName": "Marine Laboratory",
-            "FullAcronym": null,
-            "ORC": null,
-            "ROR": null
-        },
-        {
-            "OrderNr": 3,
-            "Surname": null,
-            "Firstname": null,
-            "Initials": null,
-            "PerPublicFlag": null,
-            "AdrID": null,
-            "Email": null,
-            "InsPublicFlag": 1,
-            "Acronym": null,
-            "OrigNameLangCode": null,
-            "OrigNameLangID": null,
-            "FullOrigName": null,
-            "InsOwnerCNT": 2,
-            "PersID": null,
-            "InsID": null,
-            "FullInstitute": "Duke University; Nicholas School of the Environment and Earth Sciences; Marine Laboratory",
-            "RoleID": 30,
-            "Role": "Dataset describer",
             "OrigName": null,
             "StandardName": "Marine Laboratory",
             "FullAcronym": null,
@@ -472,7 +442,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

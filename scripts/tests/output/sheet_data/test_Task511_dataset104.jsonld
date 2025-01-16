@@ -1,0 +1,41 @@
+{
+    "@type": "Dataset",
+    "@id": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006525",
+    "identifier": "Task511_dataset104",
+    
+    
+    
+    
+    "datePublished": "In Progress" ,
+    
+    "description": "Data collection on population size and distribution of cetaceans in Sicily; Ionian Sea; promoted by the MareCamp association thanks to the citizen science initiative &#39;Report a sighting and help the research&#39; through phone and e-mail communications made by yachtsmen and fishers; and also filling in the following online form https://forms.gle/mAx9ZHZDzrPfs9P59 Data here provided were collected in 2008-2019 period. The project is ongoing; sightings are reported in the database only if the advisories have good photos of reference able to distinguish the species and the area of observation.Presence of boats; fishing activities; other species like birds; fish; jellyfish; meteorological and sea conditions are also collected.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Presence of cetaceans in Sicilian waters; Ionian and Tyrrhenian Sea (records 2008-2019)" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006525" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+} 

@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "\tNorman and Florence Hammond records. Seawatch and coastal survey records. Cumbria Biodiversity Data Centre, UK - UK National Biodiversity Network.",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2022-08-10",
         "CDate": "2012-09-03",
         "CurrencyDate": null,
@@ -73,10 +72,6 @@
         {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": [
@@ -99,16 +94,6 @@
             "DasID": null,
             "Acronym": "EurOBIS",
             "StandardTitle": "European Ocean Biodiversity Information System",
-            "Relation": "Published dataset",
-            "RelationY": "Published in",
-            "RelID": 13,
-            "doi": null,
-            "vlizDoi": null
-        },
-        {
-            "DasID": null,
-            "Acronym": "GBIF",
-            "StandardTitle": "Global Biodiversity Information Facility Data Portal",
             "Relation": "Published dataset",
             "RelationY": "Published in",
             "RelID": 13,
@@ -574,7 +559,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

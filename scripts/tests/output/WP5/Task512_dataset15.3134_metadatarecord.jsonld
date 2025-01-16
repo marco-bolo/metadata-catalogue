@@ -41,7 +41,7 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "26.183333 36.317778 31.833333 41.541667",
@@ -50,9 +50,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Turkey" ,
-            "identifier": "http://www.marineregions.org/mrgid/25191"
+            "@id": "http://www.marineregions.org/mrgid/25191"
             },
             "geo": {
                 "box" : "26.18 36.32 31.83 41.54",

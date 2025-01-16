@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Fish trawl survey: ICES Baltic International Trawl Survey for commercial fish species. ICES Database of trawl surveys (DATRAS). The International Council for the Exploration of the Sea, Copenhagen. 2010. Online source: http://ecosystemdata.ices.dk.",
         "AccessConstraints": "ICES Data Policy: https://www.ices.dk/data/guidelines-and-policy/Pages/ICES-data-policy.aspx",
-        "InputNotes": null,
         "UDate": "2022-08-02",
         "CDate": "2010-12-22",
         "CurrencyDate": null,
@@ -71,10 +70,6 @@
         {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": [
@@ -399,7 +394,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

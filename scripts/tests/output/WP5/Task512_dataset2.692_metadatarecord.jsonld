@@ -55,7 +55,6 @@
     ] ,
     "contributor": [
         "http://marineinfo.org/id/institute/5899",
-        "http://marineinfo.org/id/institute/1169",
         "http://marineinfo.org/id/institute/1169"
     ] ,
     "publisher" : [
@@ -63,14 +62,15 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Pembrokeshire" ,
-            "identifier": "http://www.marineregions.org/mrgid/20965"
+            "@id": "http://www.marineregions.org/mrgid/20965"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-5.714378893551692 51.12186282641252 -4.287150550476719 52.17802280183089",

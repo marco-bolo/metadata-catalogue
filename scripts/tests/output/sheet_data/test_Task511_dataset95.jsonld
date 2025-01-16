@@ -1,0 +1,41 @@
+{
+    "@type": "Dataset",
+    "@id": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006456",
+    "identifier": "Task511_dataset95",
+    
+    
+    
+    
+    "datePublished": "In Progress" ,
+    
+    "description": "The dataset PHYTOENVDELTA contains the weekly values of abundance (cells/L) for more than 200 taxa of marine planktonic microalgae at 10 sampling stations located in the two embayments of the Ebro delta; together with the physico-chemical parameters (temperature (°C); salinity; oxygen saturation (%) measured at the same sampling stations during 30 years (1990-2019)",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Phytoplankton abundance and composition and physico-chemical parameters in the Ebro delta embayments (Alfacs Bay and Fangar Bay; North Western Mediterranean)  during 1990-2019" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006456" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+} 

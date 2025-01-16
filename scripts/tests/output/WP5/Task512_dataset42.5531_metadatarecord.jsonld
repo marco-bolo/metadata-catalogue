@@ -98,7 +98,6 @@
         "http://marineinfo.org/id/institute/36"
     ] ,
     "contributor": [
-        "http://marineinfo.org/id/institute/36",
         "http://marineinfo.org/id/institute/36"
     ] ,
     "publisher" : [
@@ -107,9 +106,10 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.2871667,
@@ -124,9 +124,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.4325,
@@ -141,9 +142,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.4611667,
@@ -158,9 +160,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.2325,
@@ -175,9 +178,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.6493333,
@@ -192,9 +196,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.2858333333,
@@ -209,9 +214,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.5666667,
@@ -226,9 +232,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.704417,
@@ -243,9 +250,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.2891666667,
@@ -260,9 +268,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.4491666667,
@@ -277,9 +286,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.704417,
@@ -294,9 +304,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.2575,
@@ -311,9 +322,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.45533333,
@@ -328,9 +340,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.2891666667,
@@ -345,9 +358,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Belgian Continental Shelf (BCS)" ,
-            "identifier": "http://www.marineregions.org/mrgid/3293"
+            "@id": "http://www.marineregions.org/mrgid/3293"
             },
             "geo": {
                 "latitude": 51.704417,
@@ -362,7 +376,7 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "2.3 51.2325 3.107 51.70495",

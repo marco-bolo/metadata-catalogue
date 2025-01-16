@@ -1,0 +1,41 @@
+{
+    "@type": "Dataset",
+    "@id": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005758",
+    "identifier": "Task511_dataset58",
+    
+    
+    
+    
+    "datePublished": "Completed" ,
+    
+    "description": "Long term measurements of phytoplankton composition in the Dutch national part of the North Sea. Samples were taken 12 - 24 times per year between 1990 and 1999 and analysed to the level of genus; species; or other taxon group. The dataset has been used for assessment of the marine environment and habitat quality in the scope of the OSPAR Quality Status Reports and the Marine Strategy Framework Directive. Currently; there are known issues concerning the quality of the data caused by changes in analytic procedures and labs. When more information is available; this will be published through EMODnet.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Dutch long term monitoring of phytoplankton in the Dutch Continental Economical Zone of the North Sea" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005758" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+} 

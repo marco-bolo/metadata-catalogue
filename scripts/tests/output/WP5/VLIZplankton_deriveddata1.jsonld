@@ -1,140 +1,225 @@
-
 {
     "@type": "Dataset",
     "@id": "VLIZplankton_deriveddata1",
     "identifier": "VLIZplankton_deriveddata1",
-    "variableMeasured":
-    [
-        "http://rs.tdwg.org/dwc/terms/Taxon" , 
-        "https://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/" , 
-        "https://vocab.nerc.ac.uk/collection/S06/current/S0600008/" 
+    "variableMeasured": [
+        "http://rs.tdwg.org/dwc/terms/Taxon",
+        "https://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+        "https://vocab.nerc.ac.uk/collection/S06/current/S0600008/"
     ],
     "about": [
-        "https://vocab.nerc.ac.uk/collection/S25/current/BE005887/" 
+        "https://vocab.nerc.ac.uk/collection/S25/current/BE005887/"
     ],
-    "conditionsOfAccess": " ",
-    "contributor":
-    [
-        {}
+    "conditionsOfAccess": "",
+    "contributor": [
+        {
+            "email": "jonas.mortelmans@vliz.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=26622",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Jonas Mortelmans",
+            "identifier": "https://orcid.org/0000-0002-8781-7915",
+            "@type": "https://schema.org/Person"
+        },
+        {
+            "email": "rune.lagaisse@vliz.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=39431",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Rune Lagaisse",
+            "identifier": "https://orcid.org/0000-0001-9191-9104",
+            "@type": "https://schema.org/Person"
+        },
+        {
+            "email": "klaas.deneudt@vliz.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=3362",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Klaas Deneudt",
+            "identifier": "https://orcid.org/0000-0002-8559-3508",
+            "@type": "https://schema.org/Person"
+        },
+        {
+            "email": "data@vliz.be",
+            "url": "https://www.vliz.be/en",
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Flanders Marine Institute",
+            "identifier": "https://edmo.seadatanet.org/report/422",
+            "@type": "https://schema.org/Organization"
+        },
+        {
+            "email": "luz.amadeimartinez@ugent.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=34178",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Luz Amadei Martinez",
+            "identifier": "https://orcid.org/0000-0001-5960-7972",
+            "@type": "https://schema.org/Person"
+        }
     ],
-    "encodingFormat":
-    [
-        "DwCA " 
+    "encodingFormat": [
+        "DwCA"
     ],
-    "funder":
-    [
-                {
-                    "email" : "info@lifewatch.be" ,
-                    "url" : "https://www.lifewatch.be/" ,
-                    "workLocation" : {
-                        "@type": "https://schema.org/Country" , 
-                        "name" : "BE" 
-                    } ,
-                    "name": "LifeWatch Belgium" ,
-                    "identifier": "none" , 
-                    "@type": "https://schema.org/Project"
-                } ,
-        {}
+    "funder": [
+        {
+            "email": "info@lifewatch.be",
+            "url": "https://www.lifewatch.be/",
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "LifeWatch Belgium",
+            "identifier": "https://www.lifewatch.be",
+            "@type": "https://schema.org/Project"
+        }
     ],
-    "isPartOf":
-    [
-        "VLIZplankton_sourcedata1" 
-    ] ,
-    "keywords":
-    [
-        "Marine Genomics" , 
-        "Zooplankton " 
+    "isPartOf": [
+        "VLIZplankton_sourcedata1"
     ],
-    "http://purl.org/dc/terms/bibliographicCitation" : "Flanders Marine Institute (VLIZ); Belgium (2022): LifeWatch observatory data: zooplankton observations in the Belgian Part of the North Sea (https://doi.org/10.14284/584)" ,
-    "provider":
-    [
-            
-                {
-                    "email" : "data@vliz.be" ,
-                    "url" : "https://www.vliz.be/en" ,
-                    "workLocation" : {
-                        "@type": "https://schema.org/Country" , 
-                        "name" : "BE" 
-                    } ,
-                    "name": "Flanders Marine Institute" ,
-                    "identifier": "https://edmo.seadatanet.org/report/422" , 
-                    "@type": "https://schema.org/Organization"
-                } ,
-        {}
+    "keywords": [
+        "Marine Genomics",
+        "Zooplankton"
     ],
-    "publisher":
-    [
-            
-                {
-                    "email" : "jonas.mortelmans@vliz.be" ,
-                    "url" : "https://www.vliz.be/en/imis?module=person&amp;persid=26622" ,
-                    "affiliation" : {
-                        "email" : "data@vliz.be" ,
-                        "url" : "https://www.vliz.be/en" ,
-                        "address" : {
-                            "@type": "https://schema.org/PostalAddress" , 
-                            "addressCountry" : "BE" 
-                        } ,
-                        "name": "Flanders Marine Institute" ,
-                        "identifier": "https://edmo.seadatanet.org/report/422" , 
-                        "@type": "https://schema.org/Organization"
-                    } ,
-                    "workLocation" : {
-                        "@type": "https://schema.org/Country" , 
-                        "name" : "BE" 
-                    } ,
-                    "name": "Jonas Mortelmans" ,
-                    "identifier": "https://orcid.org/0000-0002-8781-7915" , 
-                    "@type": "https://schema.org/Person"
-                } ,
-        {}
+    "http://purl.org/dc/terms/bibliographicCitation": "Flanders Marine Institute (VLIZ); Belgium (2022): LifeWatch observatory data: zooplankton observations in the Belgian Part of the North Sea (https://doi.org/10.14284/584)",
+    "provider": [
+        {
+            "email": "data@vliz.be",
+            "url": "https://www.vliz.be/en",
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Flanders Marine Institute",
+            "identifier": "https://edmo.seadatanet.org/report/422",
+            "@type": "https://schema.org/Organization"
+        }
+    ],
+    "publisher": [
+        {
+            "email": "jonas.mortelmans@vliz.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=26622",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Jonas Mortelmans",
+            "identifier": "https://orcid.org/0000-0002-8781-7915",
+            "@type": "https://schema.org/Person"
+        }
     ],
     "spatialCoverage": [
-        "http://marineregions.org/mrgid/2399" 
-    ] ,
-    
-    
-    "temporalCoverage":
-        "2012-07-24/indeed; ongoing monitoring; so no end date" ,
-    "version": "7.0" ,
-
-    
-    "description": "In the framework of the Lifewatch marine observatory; a number of fixed stations on the Belgian Part of the North Sea (BPNS) are visited using the RV Simon Stevin. A grid of nine stations covers the coastal zone and are sampled monthly; eight additional stations; located further at sea; are sampled on a seasonal basis. Zooplankton is sampled by vertical WP2 net tows; samples are scanned with ZooScanner; and identification is done with plankton analyser software followed by manual validation. This dataset contains the results of the zooplankton observations since 2012; and which are published in EurOBIS. ",
-    "sdPublisher" : {
-        "email" : "katrina.exter@vliz.be" ,
-        "url" : "https://marineinfo.org/imis?module=person&amp;persid=35548" ,
-        "affiliation" : {
-            "email" : "data@vliz.be" ,
-            "url" : "https://www.vliz.be/en" ,
-            "address" : {
-                "@type": "https://schema.org/PostalAddress" , 
-                "addressCountry" : "BE" 
-            } ,
-            "name": "Flanders Marine Institute" ,
-            "identifier": "https://edmo.seadatanet.org/report/422" , 
+        "http://marineregions.org/mrgid/2399"
+    ],
+    "geosparql:hasGeometry": {
+        "geosparql:asWKT": {
+            "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "@value": "POLYGON((0.7481867 52.1194948, 3.96861133 52.1194948, 3.96861133 50.1015429, 0.7481867 50.1015429, 0.7481867 52.1194948))"
+        },
+        "geosparql:crs": {
+            "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+        }
+    },
+    "temporalCoverage": "2012-07-24/indeed; ongoing monitoring; so no end date",
+    "version": "7.0",
+    "description": "In the framework of the Lifewatch marine observatory; a number of fixed stations on the Belgian Part of the North Sea (BPNS) are visited using the RV Simon Stevin. A grid of nine stations covers the coastal zone and are sampled monthly; eight additional stations; located further at sea; are sampled on a seasonal basis. Zooplankton is sampled by vertical WP2 net tows; samples are scanned with ZooScanner; and identification is done with plankton analyser software followed by manual validation. This dataset contains the results of the zooplankton observations since 2012; and which are published in EurOBIS.",
+    "sdPublisher": {
+        "email": "katrina.exter@vliz.be",
+        "url": "https://marineinfo.org/imis?module=person&amp;persid=35548",
+        "affiliation": {
+            "email": "data@vliz.be",
+            "url": "https://www.vliz.be/en",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "BE"
+            },
+            "name": "Flanders Marine Institute",
+            "identifier": "https://edmo.seadatanet.org/report/422",
             "@type": "https://schema.org/Organization"
-        } ,
-        "workLocation" : {
-            "@type": "https://schema.org/Country" , 
-            "name" : "BE" 
-        } ,
-        "name": "Katrina Exter" ,
-        "identifier": "https://orcid.org/0000-0002-5911-1536" , 
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "BE"
+        },
+        "name": "Katrina Exter",
+        "identifier": "https://orcid.org/0000-0002-5911-1536",
         "@type": "https://schema.org/Person"
     },
-    "name": "LifeWatch Observatory: zooplankton imagery results (2012-present)" ,
+    "name": "LifeWatch Observatory: zooplankton imagery results (2012-present)",
     "url": [
-        https://doi.org/10.14284/584,
-         https://rshiny.lifewatch.be/zooscan-data/,
-        
-https://doi.org/10.14284/543,
-        
-https://obis.org/dataset/afa5b0e8-826d-4433-b698-beb176ef7880,
-        https://geonode.goosocean.org/layers/geonode_data:geonode:zooplankton_observations_in_tea_lifewatch_observatory_data
-    ] ,
-
-    "@context":
-    {
-        "@vocab": "http://schema.org/"
+        "https://doi.org/10.14284/584",
+        "https://rshiny.lifewatch.be/zooscan-data/",
+        "https://doi.org/10.14284/543",
+        "https://obis.org/dataset/afa5b0e8-826d-4433-b698-beb176ef7880",
+        "https://geonode.goosocean.org/layers/geonode_data:geonode:zooplankton_observations_in_tea_lifewatch_observatory_data"
+    ],
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
     }
-} 
+}

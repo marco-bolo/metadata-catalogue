@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Flanders Marine Institute (VLIZ). Taxonomic Information System for the Belgian coastal area. 10 Aug 2004, Oostende, Belgium, Accessed on [dd/mm/yyyy].",
         "AccessConstraints": "",
-        "InputNotes": null,
         "UDate": "2019-01-02",
         "CDate": "2004-05-10",
         "CurrencyDate": null,
@@ -65,14 +64,6 @@
     "dois": null,
     "spcols": [
         {
-            "SpColID": 990,
-            "SpName": "Assemble"
-        },
-        {
-            "SpColID": 952,
-            "SpName": "AssemblePlus"
-        },
-        {
             "SpColID": 619,
             "SpName": "available through EurOBIS"
         },
@@ -81,52 +72,20 @@
             "SpName": "Belgian marine datasets"
         },
         {
-            "SpColID": 866,
-            "SpName": "Belgian marine, coastal & estuarine areas"
-        },
-        {
             "SpColID": 95,
             "SpName": "Biomare"
-        },
-        {
-            "SpColID": 950,
-            "SpName": "EMBRC"
         },
         {
             "SpColID": 552,
             "SpName": "EMODNET"
         },
         {
-            "SpColID": 867,
-            "SpName": "IMIS themes"
-        },
-        {
             "SpColID": 38,
             "SpName": "Marine Biodiversity and Ecosystem Functioning"
         },
         {
-            "SpColID": 730,
-            "SpName": "OBIS"
-        },
-        {
             "SpColID": 27,
             "SpName": "ScheldeMonitor"
-        },
-        {
-            "SpColID": 536,
-            "SpName": "SDN_FirstBatchSentByVLIZ"
-        },
-        {
-            "SpColID": 352,
-            "SpName": "SeaDataNet"
-        },
-        {
-            "SpColID": 641,
-            "SpName": "Species diversity"
-        },
-        {
-            "SpColID": 507,
-            "SpName": "World Register of Marine Species"
         }
     ],
     "keywords": [
@@ -726,7 +685,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

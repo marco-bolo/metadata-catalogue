@@ -1,40 +1,34 @@
-
 {
     "@type": "Dataset",
     "@id": "Task511_dataset62",
     "identifier": "Task511_dataset62",
-    
-    
-    "datePublished": "In Progress" ,
-
-    
+    "datePublished": "In Progress",
     "description": "The monitoring at station SOMLIT-Astan (north of Roscoff - France; Western English Channel) was designed to study long term changes in phytoplankton communities in a global change context (diversity; phenology).",
-    "sdPublisher" : {
-        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
-        "affiliation" : {
-            "email" : "info@senckenberg.de" ,
-            "url" : "https://www.senckenberg.de/en/" ,
-            "address" : {
-                "@type": "https://schema.org/PostalAddress" , 
-                "addressCountry" : "DE" 
-            } ,
-            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
-            "identifier": "https://ror.org/01wz97s39" , 
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
             "@type": "https://schema.org/Organization"
-        } ,
-        "workLocation" : {
-            "@type": "https://schema.org/Country" , 
-            "name" : "DE" 
-        } ,
-        "name": "Carlos Cano-Barbacil" ,
-        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
         "@type": "https://schema.org/Person"
     },
-    "name": "Long-term Monitoring of the Phytoplankton at the SOMLIT-Astan Station in the Western English Channel from 2000 to Present" ,
-    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005971" ,
-
-    "@context":
-    {
-        "@vocab": "http://schema.org/"
+    "name": "Long-term Monitoring of the Phytoplankton at the SOMLIT-Astan Station in the Western English Channel from 2000 to Present",
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005971",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
     }
-} 
+}

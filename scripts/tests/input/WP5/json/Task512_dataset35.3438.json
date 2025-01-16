@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Cetacean and Turtle Assessment Program, University of Rhode Island. 1982. A characterization of marine mammals and turtles in the mid- and north-Atlantic areas of the U.S. outer continental shelf, Final Report. Contract AA551-CT8-48. Bureau of Land Management, Washington, DC. (NTIS# PB-81-243289.)",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2023-04-07",
         "CDate": "2012-11-20",
         "CurrencyDate": null,
@@ -72,10 +71,6 @@
         {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": null,
@@ -403,7 +398,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

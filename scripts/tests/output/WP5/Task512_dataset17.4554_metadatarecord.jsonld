@@ -45,14 +45,15 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "France" ,
-            "identifier": "http://www.marineregions.org/mrgid/8762"
+            "@id": "http://www.marineregions.org/mrgid/8762"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-9.62795 40.12121 10.1635 51.4855",
@@ -61,9 +62,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "France" ,
-            "identifier": "http://www.marineregions.org/mrgid/8761"
+            "@id": "http://www.marineregions.org/mrgid/8761"
             },
             "@type": "Place"
         }

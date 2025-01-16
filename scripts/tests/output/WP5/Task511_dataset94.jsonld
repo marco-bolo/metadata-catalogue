@@ -1,40 +1,34 @@
-
 {
     "@type": "Dataset",
     "@id": "Task511_dataset94",
     "identifier": "Task511_dataset94",
-    
-    
-    "datePublished": "In Progress" ,
-
-    
+    "datePublished": "In Progress",
     "description": "The dataset consists of abundance records of 43 marine species in the Mediterranean Sea from 2001 to 2020. Selected species include some protected and non-indigenous species; ecosystem engineers; species sensitive to climate change; and/or threatened by human activities. Taken together; these taxa represent key ecological aspects of Mediterranean subtidal habitats (Cerrano et al.; 2017)  and can be used to calculate the MedSens; an index of the environmental status of subtidal rocky coastal habitats based on species sensitivity (Turicchia et al.; 2021). Observations were carried out by the EcoDivers (trained scuba divers; freedivers and snorkelers) according to a rigorous protocol (RCMed U-CEM) developed by the association Reef Check Italia onlus.",
-    "sdPublisher" : {
-        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
-        "affiliation" : {
-            "email" : "info@senckenberg.de" ,
-            "url" : "https://www.senckenberg.de/en/" ,
-            "address" : {
-                "@type": "https://schema.org/PostalAddress" , 
-                "addressCountry" : "DE" 
-            } ,
-            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
-            "identifier": "https://ror.org/01wz97s39" , 
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
             "@type": "https://schema.org/Organization"
-        } ,
-        "workLocation" : {
-            "@type": "https://schema.org/Country" , 
-            "name" : "DE" 
-        } ,
-        "name": "Carlos Cano-Barbacil" ,
-        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
         "@type": "https://schema.org/Person"
     },
-    "name": "Reef Check Med - key Mediterranean marine species 2001-2020" ,
-    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006454" ,
-
-    "@context":
-    {
-        "@vocab": "http://schema.org/"
+    "name": "Reef Check Med - key Mediterranean marine species 2001-2020",
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006454",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
     }
-} 
+}

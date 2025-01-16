@@ -1,0 +1,40 @@
+{
+    "@type": "Dataset",
+    "@id": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006660",
+    "identifier": "Task511_dataset110",
+    
+    
+    
+    
+    
+    "description": "Monthly mesoozooplankton samplings started in 1959; performed by vertical tows of Hensen net (73 cm mouth diameter; 330 μm mesh size) from 100–0 m at towing speed of 0.3 m s-1. Samples were fixed in 2 % formaldehyde solution buffered with borax. No flowmeter was used. From 1959-2017 mesozooplankton was sampled on approximately monthly basis and data are available from March 1959 to December 2017 (with gaps) and include the abundances expressed as no.ind.m-3 at group level of the zooplankton groups such as Copepoda; Cladocera; Appendicularia; Chaetognatha; Tunicata; Ostracoda; Polychaeta; Decapoda larvae; various meroplankton larvae; Pisces ova; Pisces larvae and Hydromedusae/Siphonophora. From 2004 - 2012 the sampling program was interrupted. The samples from 2012 - 2016 are currently being processed and not yet part of this series.",
+    "sdPublisher" : {
+        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
+        "affiliation" : {
+            "email" : "info@senckenberg.de" ,
+            "url" : "https://www.senckenberg.de/en/" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "DE" 
+            } ,
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
+            "identifier": "https://ror.org/01wz97s39" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "DE" 
+        } ,
+        "name": "Carlos Cano-Barbacil" ,
+        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Mesozooplankton abundance from 1959-2017 in the Middle Adriatic Sea" ,
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006660" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+} 

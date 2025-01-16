@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "Machete, M.; Institute of Marine Research (IMAR), Portugal; Department of Oceanography and Fisheries, University of the Azores (DOP/UAC), Portugal; (2016): POPA- Fisheries Observer Program of the Azores: Marine mammal sightings in the Azores tuna fishery from 1998 on: during navigation or search mode.",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2020-04-02",
         "CDate": "2015-01-16",
         "CurrencyDate": null,
@@ -80,28 +79,12 @@
     ],
     "spcols": [
         {
-            "SpColID": 990,
-            "SpName": "Assemble"
-        },
-        {
-            "SpColID": 952,
-            "SpName": "AssemblePlus"
-        },
-        {
             "SpColID": 619,
             "SpName": "available through EurOBIS"
         },
         {
-            "SpColID": 950,
-            "SpName": "EMBRC"
-        },
-        {
             "SpColID": 552,
             "SpName": "EMODNET"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": [
@@ -225,31 +208,6 @@
             "StandardName": "Department of Oceanography and Fisheries",
             "FullAcronym": "UAC-DOP",
             "ORC": "https://orcid.org/0000-0003-0635-6174",
-            "ROR": null
-        },
-        {
-            "OrderNr": 4,
-            "Surname": "Machete",
-            "Firstname": "Miguel",
-            "Initials": "M.",
-            "PerPublicFlag": 1,
-            "AdrID": null,
-            "Email": null,
-            "InsPublicFlag": 1,
-            "Acronym": "DOP",
-            "OrigNameLangCode": "pt",
-            "OrigNameLangID": 44,
-            "FullOrigName": "Universidade dos A\u00e7ores; Departamento de Oceanografia e Pescas",
-            "InsOwnerCNT": 7,
-            "PersID": null,
-            "InsID": 1426,
-            "FullInstitute": "University of the Azores; Department of Oceanography and Fisheries",
-            "RoleID": 30,
-            "Role": "Dataset describer",
-            "OrigName": "Departamento de Oceanografia e Pescas",
-            "StandardName": "Department of Oceanography and Fisheries",
-            "FullAcronym": "UAC-DOP",
-            "ORC": null,
             "ROR": null
         },
         {
@@ -533,7 +491,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

@@ -1,40 +1,34 @@
-
 {
     "@type": "Dataset",
     "@id": "Task511_dataset103",
     "identifier": "Task511_dataset103",
-    
-    
-    "datePublished": "In Progress" ,
-
-    
-    "description": "The PNMIR cruises sample zooplankton (and other variables) regularly within the Marine Protected Area &#39;Parc Naturel Marin d’Iroise&#39;; under the supervision of the Office Français de la Biodiversité.This monitoring is part of the general assessment of this Marine Protected Area and is to be linked with the small pelagic fish stock in the region. This dataset comes from collection with a WP2 net and therefore covers organisms from 200µm to ~2cm",
-    "sdPublisher" : {
-        "email" : "Carlos.cano-barbacil@senckenberg.de" ,
-        "affiliation" : {
-            "email" : "info@senckenberg.de" ,
-            "url" : "https://www.senckenberg.de/en/" ,
-            "address" : {
-                "@type": "https://schema.org/PostalAddress" , 
-                "addressCountry" : "DE" 
-            } ,
-            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt" ,
-            "identifier": "https://ror.org/01wz97s39" , 
+    "datePublished": "In Progress",
+    "description": "The PNMIR cruises sample zooplankton (and other variables) regularly within the Marine Protected Area &#39;Parc Naturel Marin d\u2019Iroise&#39;; under the supervision of the Office Franc\u0327ais de la Biodiversite\u0301.This monitoring is part of the general assessment of this Marine Protected Area and is to be linked with the small pelagic fish stock in the region. This dataset comes from collection with a WP2 net and therefore covers organisms from 200\u00b5m to ~2cm",
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
             "@type": "https://schema.org/Organization"
-        } ,
-        "workLocation" : {
-            "@type": "https://schema.org/Country" , 
-            "name" : "DE" 
-        } ,
-        "name": "Carlos Cano-Barbacil" ,
-        "identifier": "https://orcid.org/0000-0002-6482-5103" , 
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
         "@type": "https://schema.org/Person"
     },
-    "name": "Plankton community in WP2 net (200µm); PNMIR cruises; Parc Naturel Marin d&#39;Iroise; France" ,
-    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006511" ,
-
-    "@context":
-    {
-        "@vocab": "http://schema.org/"
+    "name": "Plankton community in WP2 net (200\u00b5m); PNMIR cruises; Parc Naturel Marin d&#39;Iroise; France",
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006511",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
     }
-} 
+}

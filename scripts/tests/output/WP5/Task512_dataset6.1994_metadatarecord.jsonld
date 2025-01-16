@@ -36,7 +36,7 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-122.43 -74.65 159.23 70.33",
@@ -45,9 +45,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "World Oceans" ,
-            "identifier": "http://www.marineregions.org/mrgid/1901"
+            "@id": "http://www.marineregions.org/mrgid/1901"
             },
             "@type": "Place"
         }

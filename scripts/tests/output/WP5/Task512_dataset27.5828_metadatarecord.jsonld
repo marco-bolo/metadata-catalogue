@@ -53,14 +53,15 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North Atlantic" ,
-            "identifier": "http://www.marineregions.org/mrgid/1912"
+            "@id": "http://www.marineregions.org/mrgid/1912"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-13.16086 42.66667 5.19233 52.15148",
@@ -69,9 +70,10 @@
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "Western Mediterranean" ,
-            "identifier": "http://www.marineregions.org/mrgid/4279"
+            "@id": "http://www.marineregions.org/mrgid/4279"
             },
             "@type": "Place"
         }

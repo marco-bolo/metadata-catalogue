@@ -32,7 +32,6 @@
         "DescrTransFlag": 0,
         "Citation": "UK Royal Navy. UK Royal Navy Marine Mammal Observations. In: OBIS-SEAMAP . OBIS-SEAMAP, http://seamap.env.duke.edu, 2006-12-07 10:09:57-05, vector digital data.",
         "AccessConstraints": null,
-        "InputNotes": null,
         "UDate": "2011-04-07",
         "CDate": "2009-06-09",
         "CurrencyDate": null,
@@ -76,10 +75,6 @@
         {
             "SpColID": 38,
             "SpName": "Marine Biodiversity and Ecosystem Functioning"
-        },
-        {
-            "SpColID": 730,
-            "SpName": "OBIS"
         }
     ],
     "keywords": [
@@ -296,7 +291,7 @@
             "FileName": null
         }
     ],
-    "pictures": [],
+    "pictures": null,
     "urlmaps": null,
     "spatreps": null,
     "resmessage": "",

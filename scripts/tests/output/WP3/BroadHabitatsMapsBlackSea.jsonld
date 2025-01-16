@@ -1,62 +1,53 @@
-
 {
     "@type": "Dataset",
     "@id": "BroadHabitatsMapsBlackSea",
     "identifier": "BroadHabitatsMapsBlackSea",
-    "publisher":
-    [
-            
-                {
-                    "email" : "mmuresan@geoecomar.ro" ,
-                    "affiliation" : {
-                        "url" : "https://www.geoecomar.ro/website/en/" ,
-                        "address" : {
-                            "@type": "https://schema.org/PostalAddress" , 
-                            "addressCountry" : "RO" 
-                        } ,
-                        "name": "National Institute of Research and Development for Marine Geology andGeoecology" ,
-                        "identifier": "https://ror.org/02qs41y18" , 
-                        "@type": "https://schema.org/Organization"
-                    } ,
-                    "workLocation" : {
-                        "@type": "https://schema.org/Country" , 
-                        "name" : "RO" 
-                    } ,
-                    "name": "Mihaela Muresan" ,
-                    "identifier": "https://orcid.org/0000-0002-8446-1263" , 
-                    "@type": "https://schema.org/Person"
-                } ,
-        {}
+    "publisher": [
+        {
+            "email": "mmuresan@geoecomar.ro",
+            "affiliation": {
+                "url": "https://www.geoecomar.ro/website/en/",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "RO"
+                },
+                "name": "National Institute of Research and Development for Marine Geology andGeoecology",
+                "identifier": "https://ror.org/02qs41y18",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "RO"
+            },
+            "name": "Mihaela Muresan",
+            "identifier": "https://orcid.org/0000-0002-8446-1263",
+            "@type": "https://schema.org/Person"
+        }
     ],
-    
-    
-
-    
     "description": "Broad scale habitats maps of the Black Sea",
-    "sdPublisher" : {
-        "email" : "mmuresan@geoecomar.ro" ,
-        "affiliation" : {
-            "url" : "https://www.geoecomar.ro/website/en/" ,
-            "address" : {
-                "@type": "https://schema.org/PostalAddress" , 
-                "addressCountry" : "RO" 
-            } ,
-            "name": "National Institute of Research and Development for Marine Geology andGeoecology" ,
-            "identifier": "https://ror.org/02qs41y18" , 
+    "sdPublisher": {
+        "email": "mmuresan@geoecomar.ro",
+        "affiliation": {
+            "url": "https://www.geoecomar.ro/website/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "RO"
+            },
+            "name": "National Institute of Research and Development for Marine Geology andGeoecology",
+            "identifier": "https://ror.org/02qs41y18",
             "@type": "https://schema.org/Organization"
-        } ,
-        "workLocation" : {
-            "@type": "https://schema.org/Country" , 
-            "name" : "RO" 
-        } ,
-        "name": "Mihaela Muresan" ,
-        "identifier": "https://orcid.org/0000-0002-8446-1263" , 
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "RO"
+        },
+        "name": "Mihaela Muresan",
+        "identifier": "https://orcid.org/0000-0002-8446-1263",
         "@type": "https://schema.org/Person"
     },
-    "url": "https://emodnet.ec.europa.eu/geoviewer/?layers=12701:1:1;12548:1:1;11952:1:1;12614:1:1;10538:1:1&amp;basemap=ebwbl&amp;active=undefined&amp;bounds=6.892904534994003;32.576939923538475;49.77985542488438;58.40925855707822&amp;filters=" ,
-
-    "@context":
-    {
-        "@vocab": "http://schema.org/"
+    "url": "https://emodnet.ec.europa.eu/geoviewer/?layers=12701:1:1;12548:1:1;11952:1:1;12614:1:1;10538:1:1&amp;basemap=ebwbl&amp;active=undefined&amp;bounds=6.892904534994003;32.576939923538475;49.77985542488438;58.40925855707822&amp;filters=",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
     }
-} 
+}

@@ -52,14 +52,15 @@
     "spatialCoverage":
     [
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
+            "@type": "Place",
             "name": "North West Atlantic" ,
-            "identifier": "http://www.marineregions.org/mrgid/7135"
+            "@id": "http://www.marineregions.org/mrgid/7135"
             },
             "@type": "Place"
         },
         {
-            "geoOverlaps" : {
+            "containedInPlace" : {
             },
             "geo": {
                 "box" : "-149.5667 -25.15 18.5667 79.7833",
