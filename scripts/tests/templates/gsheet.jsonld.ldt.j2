@@ -399,19 +399,96 @@
     "datePublished": "{{_.InProgressDataDate}}",
     {%- endif %}
 
-    {# EVDescription, EOV, IndicatorDescription and EBV values likely to change in the future #}
-    {%- if _.EVDescription %}
-    "additionalType": "{{_.EVDescription}}",
-    {%- endif %}
-    {%- if _.EOV %}
-    "additionalType": "{{_.EOV}}",
+    {# EOVDescription, EOVDescription-BioGeochemistry, IndicatorDescription and EBV values likely to change in the future #}
+    {%- if _.EOVDescriptionBiologyandEcosystems %}
+    "variableMeasured": [
+        {%- for var in _.EOVDescriptionBiologyandEcosystems.split(', ') %}
+            {%- if var == "Phytoplankton biomass and diversity" %}
+        "https://goosocean.org/document/17507"
+            {%- elif var == "Zooplankton biomass and diversity" %}
+        "https://goosocean.org/document/17509"
+            {%- elif var == "Fish abundance and distribution" %}
+        "https://goosocean.org/document/17510"
+            {%- elif var == "Marine turtles, birds, mammals abundance and distribution" %}
+        "https://goosocean.org/document/17511"
+            {%- elif var == "Hard coral cover and composition" %}
+        "https://goosocean.org/document/17512"
+            {%- elif var == "Seagrass cover and composition" %}
+        "https://goosocean.org/document/17513"
+            {%- elif var == "Macroalgal canopy cover and composition" %}
+        "https://goosocean.org/document/17515"
+            {%- elif var == "Mangrove cover and composition" %}
+        "https://goosocean.org/document/17514"
+            {%- endif %}
+        {% if not loop.last %},{% endif %}
+        {%- endfor %}
+    ] ,
     {%- endif %}
 
-    {%- if _.IndicatorDescription %}
-    "additionalType": "{{_.IndicatorDescription}}",
+    {%- if _.EOVDescriptionBioGeochemistry %}
+    "variableMeasured": [
+        {%- for var in _.EOVDescriptionBioGeochemistry.split(', ') %}
+            {%- if var == "Oxygen" %}
+        "https://goosocean.org/document/17473"
+            {%- elif var == "Nutrients" %}
+        "https://goosocean.org/document/17474"
+            {%- elif var == "Inorganic carbon" %}
+        "https://goosocean.org/document/17475"
+            {%- elif var == "Transient tracers" %}
+        "https://goosocean.org/document/17476"
+            {%- elif var == "Particulate matter" %}
+        "https://goosocean.org/document/17477"
+            {%- elif var == "Nitrous oxide" %}
+        "https://goosocean.org/document/17478"
+            {%- elif var == "Stable carbon isotopes" %}
+        "https://goosocean.org/document/17479"
+            {%- elif var == "Dissolved organic carbon" %}
+        "https://goosocean.org/document/17480"
+            {%- endif %}
+        {% if not loop.last %},{% endif %}
+        {%- endfor %}
+    ] ,
     {%- endif %}
+
+    {%- if _.EOVDescriptionPhysics %}
+    "variableMeasured": [
+        {%- for var in _.EOVDescriptionPhysics.split(', ') %}
+            {%- if var == "Sea state" %}
+        "https://goosocean.org/document/17462"
+            {%- elif var == "Ocean surface stress" %}
+        "https://goosocean.org/document/17463"
+            {%- elif var == "Sea ice" %}
+        "https://goosocean.org/document/17464"
+            {%- elif var == "Sea surface height" %}
+        "https://goosocean.org/document/17465"
+            {%- elif var == "Sea surface temperature" %}
+        "https://goosocean.org/document/17466"
+            {%- elif var == "Subsurface temperature" %}
+        "https://goosocean.org/document/17467"
+            {%- elif var == "Surface currents" %}
+        "https://goosocean.org/document/17468"
+            {%- elif var == "Subsurface currents" %}
+        "https://goosocean.org/document/17469"
+            {%- elif var == "Sea surface salinity" %}
+        "https://goosocean.org/document/17470"
+            {%- elif var == "Subsurface salinity" %}
+        "https://goosocean.org/document/17471"
+            {%- elif var == "Ocean surface heat flux" %}
+        "https://goosocean.org/document/17472"
+            {%- elif var == "Ocean bottom pressure" %}
+        "https://goosocean.org/document/32488"
+            {%- endif %}
+        {% if not loop.last %},{% endif %}
+        {%- endfor %}
+    ] ,
+    {%- endif %}
+
     {%- if _.EBV %}
-    "additionalType": "{{_.EBV}}",
+    "variableMeasured": "{{_.EBV}}",
+    {%- endif %}
+
+    {%- if _.Indicator %}
+    "variableMeasured": "{{_.Indicator}}",
     {%- endif %}
     
 
