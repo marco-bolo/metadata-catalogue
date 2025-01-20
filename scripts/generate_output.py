@@ -34,7 +34,7 @@ for wp in wps:
             },
         sink=f"{output_path}/{{DatasetIdentifier}}.jsonld",
         template_name="gsheet.jsonld.ldt.j2",
-        template_folder="./templates/",
+        template_folder="../templates/",
     )
     subyt_sheet.process()
 
@@ -65,7 +65,7 @@ for wp in wps:
                 },
             sink=sink,
             template_name="bioship.jsonld.ldt.j2",
-            template_folder="./templates/",
+            template_folder="../templates/",
             mode="it",
         )
         subyt_jsonrecord.process()

@@ -1,6 +1,6 @@
 # WP5 json files
-WP5_INPUT_DIR := ./scripts/tests/input/WP5_json
-WP5_OUTPUT_DIR := ./scripts/tests/output/WP5_jsonld
+WP5_INPUT_DIR := ./scripts/input/WP5_json
+WP5_OUTPUT_DIR := ./scripts/output/WP5_jsonld
 
 WP5_jsonld:
 	@echo "Processing files in $(WP5_INPUT_DIR):"
@@ -10,8 +10,8 @@ WP5_jsonld:
 		$(MAKE) populate_template INPUT_DIR=$(WP5_INPUT_DIR) OUTPUT_DIR=$(WP5_OUTPUT_DIR) FILE=$$file BASE_NAME=$$base_name; \
 	done
 
-WP3_INPUT_DIR := ./scripts/tests/input/WP3_json
-WP3_OUTPUT_DIR := ./scripts/tests/output/WP3_jsonld
+WP3_INPUT_DIR := ./scripts/input/WP3_json
+WP3_OUTPUT_DIR := ./scripts/output/WP3_jsonld
 
 WP3_jsonld:
 	@echo "Processing files in $(WP3_INPUT_DIR):"

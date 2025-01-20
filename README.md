@@ -14,21 +14,21 @@ We are still working out the details of gathering the metadata for the described
 
 ## Updating JSON-LD Output
 
-This workflow assumes the working directory is `scripts/tests`.
+This workflow assumes the working directory is `scripts`.
 
 ### 1. Download the Latest Spreadsheets
-Use [scripts/tests/g_download.py](scripts/tests/g_download.py) to download the latest version of Google Sheets, which lists the MBO datasets for each work package (WP).  
+Use [scripts/google_download.py](scripts/google_download.py) to download the latest version of Google Sheets, which lists the MBO datasets for each work package (WP).  
 - **Files updated**:  
   - `./input/MARCO-BOLO_Metadata_Dataset_Record_description_*.csv`  
   - `./input/MARCO-BOLO_Metadata_Dataset_Record_agent_*.csv`  
 
 ### 2. Generate Metadata Input
-Run [scripts/tests/generate_input.py](scripts/tests/generate_input.py) to retrieve metadata records for datasets that have retrievable metadata.  
+Run [scripts/generate_input.py](scripts/generate_input.py) to retrieve metadata records for datasets that have retrievable metadata.  
 - **Files updated**:  
   - Metadata records in `./input/WP*/json/*`  
 
 ### 3. Generate JSON-LD Output
-Run [scripts/tests/generate_output.py](scripts/tests/generate_output.py) to create JSON-LD for each dataset:  
+Run [scripts/generate_output.py](scripts/generate_output.py) to create JSON-LD for each dataset:  
 - Based on metadata from the Google Sheet.  
 - For datasets with retrievable metadata, additional JSON-LD is generated based on the retrieved metadata.  
 - **Files updated**:  
