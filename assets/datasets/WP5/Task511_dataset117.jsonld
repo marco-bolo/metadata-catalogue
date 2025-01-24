@@ -1,0 +1,34 @@
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset117",
+    "identifier": "Task511_dataset117",
+    "datePublished": "In Progress",
+    "description": "Benthic Haploniscidae (Iopoda) in this data set were collected during BIOICE (Benthic invertebrates of Icelandic waters); IceAGE (Icelandic marine Animals: Genetics and Ecology); IceAge 2 (Icelandic marine Animals: Genetics and Ecology 2); IceAGE RR (Icelandic marine Animals: Genetics and Ecology Reykjanes Ridge) and IceAge 3 (Icelandic marine Animals: Genetics and Ecology cruises 3) projects during 1992- 2020",
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
+            "@type": "https://schema.org/Organization"
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Benthic Haploniscidae (Isopoda) collected around Iceland during the BIOICE; IceAGE; IceAGE2;IceAGE_RR and IceAGE3 expedtions in 1992-2020",
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000007868",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+}

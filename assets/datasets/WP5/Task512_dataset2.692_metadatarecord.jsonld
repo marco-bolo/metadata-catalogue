@@ -1,0 +1,255 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/692",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/692.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "An atlas of marine species for Pembrokeshire including flora and fauna, intertidal and sublittoral data, funded by the Counytryside Council for Wales (CCW). It is a collation of data from various CCW and third party sources (both published and unpublished) that cover Pembrokeshire, held within 79 surveys. This is a historical collation which is not being updated. The data includes all records from the Dale Fort Marine Fauna survey plus additional data from subsequent and prior surveys. Data that are included in the MNCR database have been excluded from this dataset to avoid duplication.",
+    "citation": "Dale Rostron. Marine records from Pembrokeshire Marine Species Atlas. Countryside Council for Wales, Gwynedd, UK.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2006-01-12",
+    "dateModified": "2014-04-28",
+    "keywords": [
+        {
+            "name":"Algae",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Benthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Biodiversity",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Historical records",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Macrobenthos",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/5782"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/5899",
+        "http://marineinfo.org/id/institute/1169"
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Pembrokeshire" ,
+            "@id": "http://www.marineregions.org/mrgid/20965"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "-5.714378893551692 51.12186282641252 -4.287150550476719 52.17802280183089",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1899-01-01/1998-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Arthropoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1065"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Bryozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146142"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cephalorhyncha",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=22699"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chaetognatha",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2081"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chlorophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=801"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chordata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1821"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cnidaria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1267"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ctenophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1248"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinodermata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1806"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echiura",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1269"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Entoprocta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1271"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hemichordata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1818"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Nematoda",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=799"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Nemertea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=152391"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Nemertina",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1053"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ochrophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=345465"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phoronida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1789"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Platyhelminthes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=793"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Porifera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=558"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Rhodophyta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=852"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Sipuncula",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1268"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1",
+    "description": "The data is historic and Natural Resources Wales cannot guarantee its accuracy or validity. However, those data which were collated by Dale Rostron under contract to CCW (1997) was subject to basic validation, including the checking of all positional information against appropriate maps/charts.",
+    "identifier": "692",
+    "name": "Marine records from Pembrokeshire Marine Species Atlas",
+    "sameAs": "http://marineinfo.org/id/dataset/692",
+    "url": "http://marineinfo.org/id/dataset/692"
+}

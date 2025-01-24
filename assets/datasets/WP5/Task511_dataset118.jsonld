@@ -1,0 +1,34 @@
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset118",
+    "identifier": "Task511_dataset118",
+    "datePublished": "Completed",
+    "description": "Full community phytoplankton analysis results; expressed as cells per litre; from samples collected from the Gibraltar coastline between 2009 to 2019. The data were derived from water samples collected at a 2m depth using a Niskin sampler on an quarterly basis at four sites by HM Government of Gibraltar. Site positions are included in the dataset; and are accurate to +/- 30m.",
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
+            "@type": "https://schema.org/Organization"
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Phytoplankton abundance data from the Gibraltar coastline 2009-2019",
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000007885",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+}

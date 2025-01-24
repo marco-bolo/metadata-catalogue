@@ -1,0 +1,113 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/5989",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/5989.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Count (in assayed sample) of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Data collections",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Depth (spatial coordinate) relative to water surface in the water body",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Length of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Specimen weight of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The Royal Belgian Institute of Natural Sciences Mammalia collection contains 650 digitised specimens over 56 taxa (mostly species). This dataset only contains the marine species of the collection. The following classes are included: Mammalia Linnaeus, 1758, Reptilia Laurenti, 1768.",
+    "citation": "Semal, P. (2020) Royal Belgian Institute of Natural Sciences Mammalia collection",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2018-07-20",
+    "dateModified": "2020-04-30",
+    "keywords": [
+        {
+            "name":"Sea mammals",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "-162.1666666667 -78.15856 155.7333333333 72.5",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "World Oceans" ,
+            "@id": "http://www.marineregions.org/mrgid/1901"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1800-01-01/2017-04-27"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1837"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Reptilia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1838"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "identifier": "5989",
+    "name": "Royal Belgian Institute of Natural Sciences Mammalia Collection (Mammalia)",
+    "sameAs": "http://marineinfo.org/id/dataset/5989",
+    "url": "http://marineinfo.org/id/dataset/5989"
+}

@@ -1,0 +1,91 @@
+
+{
+    "@type": "Dataset",
+    "@id": "VLIZdataset1",
+    "identifier": "VLIZdataset1",
+    "variableMeasured":
+    [
+        "http://rs.tdwg.org/dwc/terms/Taxon" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/" , 
+        "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/PSALPR01/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/AUN08103/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/DET01ZIA/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/FIB01ZIA/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/" , 
+        "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/AMONAAD5/" , 
+        "http://vocab.nerc.ac.uk/collection/P01/current/PHOSAAD5/" , 
+        "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/" , 
+        "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/" 
+    ],
+    "about": [
+        "https://aims.fao.org/aos/agrovoc/c_15490.html" 
+    ],
+    "citation":
+    [
+        "https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.68" 
+    ],
+    "contributor":
+    [
+        {}
+    ],
+    "encodingFormat":
+    [
+        "CSV" , 
+        "images (jpg)" 
+    ],
+    "funder":
+    [
+        {}
+    ],
+    "keywords":
+    [
+        "zooplankton" 
+    ],
+    "http://purl.org/dc/terms/bibliographicCitation" : "Flanders Marine Institute (VLIZ), Belgium (2023): LifeWatch observatory data: zooplankton observations in the Belgian Part of the North Sea. https://doi.org/10.14284/584" ,
+    "spatialCoverage": [
+        "http://marineregions.org/mrgid/2399" 
+    ] ,
+    
+    
+    "temporalCoverage":
+        "2014-01-01/.." ,
+    "version": "7.0" ,
+
+    
+    "description": "In the framework of the LifeWatch Marine Observatory, a number of fixed stations on the Belgian Part of the North Sea (BPNS) are visited on a monthly or seasonal basis using the RV Simon Stevin. A grid of nine stations covers the coastal zone and are sampled monthly. Eight additional stations, located further at sea, are sampled on a seasonal basis. This dataset contains zooplankton observations in the Belgian Part of the North Sea (BPNS) since 2012. Zooplankton is sampled by vertical WP2 net tows, samples scanned with ZooScanner and identification with plankton analyser software, followed by manual validation.",
+    "sdPublisher" : {
+        "email" : "katrina.exter@vliz.be" ,
+        "url" : "https://marineinfo.org/imis?module=person&amp;persid=35548" ,
+        "affiliation" : {
+            "email" : "data@vliz.be" ,
+            "url" : "https://www.vliz.be/en" ,
+            "address" : {
+                "@type": "https://schema.org/PostalAddress" , 
+                "addressCountry" : "BE" 
+            } ,
+            "name": "Flanders Marine Institute" ,
+            "identifier": "https://edmo.seadatanet.org/report/422" , 
+            "@type": "https://schema.org/Organization"
+        } ,
+        "workLocation" : {
+            "@type": "https://schema.org/Country" , 
+            "name" : "BE" 
+        } ,
+        "name": "Katrina Exter" ,
+        "identifier": "https://orcid.org/0000-0002-5911-1536" , 
+        "@type": "https://schema.org/Person"
+    },
+    "name": "LifeWatch imagery plankton dataset:zooplankton" ,
+    "url": "https://doi.org/10.14284/584" ,
+
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    }
+} 

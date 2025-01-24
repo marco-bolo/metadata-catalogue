@@ -1,0 +1,104 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/1990",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/1990.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Point file data on all sighting events and associated parameters and data from the survey.",
+    "citation": "Sea Mammal Research Unit (SMRU) SMRU Small Cetacean Abundance in the North Sea (SCANS), 1994. In: OBIS-SEAMAP . OBIS-SEAMAP, http://seamap.env.duke.edu/, 2004-05-07 10:26:49.566991-04, vector digital data.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2009-06-09",
+    "dateModified": "2022-08-16",
+    "keywords": [
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"ship",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"surface vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Baltic" ,
+            "@id": "http://www.marineregions.org/mrgid/2401"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Celtic Sea" ,
+            "@id": "http://www.marineregions.org/mrgid/2351"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "North Sea" ,
+            "@id": "http://www.marineregions.org/mrgid/2350"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "-11.391386 48.32745 12.518379 61.931247",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1994-06-27/1994-07-25"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1",
+    "description": "The Small Cetacean Abundance in the North Sea (SCANS) project was initiated in 1993. Dedicated line transect shipboard surveys were conducted between 27 June and 26 July 1994. Transects covered 20,000km2 in an area of 890,000km2. The survey area included the region specified in the Agreement on Small Cetaceans Of the Baltic And North Seas (ASCOBANS) (excluding most of the Baltic Sea proper) and the Celtic Sea. The shipboard methodology involved simultaneous survey from two independent observation platforms, one of which searched farther ahead of the vessel than the other. There were two observation platforms on each of the nine vessels participating in the SCANS project. Three species dominate the dataset; the harbour porpoise (Phocoena phocoena), white-beaked dolphin (Lagenorhynchus albirostris) and minke whale (Balaenoptera acutorostrata). The dataset is a point file containing information on all sighting events from each platform on each vessel during survey effort. The effort file contains the start and end positions for each leg of survey effort for each vessel and associated parameters. The data have been extracted from the Joint Cetacean Database.  The status of small cetaceans, particularly the harbour porpoise, in the North Sea and adjacent waters was of considerable concern due to substantial incidental bycatch in fishing operations, declines in the number of stranding records and incidental sightings in coastal waters and from the possible risk of contaminants and pollution. The objective of SCANS was to provide essential information for conservation, management and future monitoring of small cetaceans by i) identifying concentrations of P. phocoena and other small cetaceans and ii) generating precise and unbiased abundance estimates.",
+    "identifier": "1990",
+    "name": "SCANS I cetacean sightings 1994",
+    "sameAs": "http://marineinfo.org/id/dataset/1990",
+    "url": "http://marineinfo.org/id/dataset/1990"
+}

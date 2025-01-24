@@ -1,0 +1,113 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/3079",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/3079.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": " In this study, systematic surveys were conducted to document the distribution of the harbor porpoise observed in the English Channel (North Sea, France).",
+    "citation": "&lt;p&gt; Bouveroux, T., Kot, C. 2011. OCEAMM harbor porpoise sightings in the North Sea. Observatoire pour la Conservation et l&#39;Etude des Animaux et Milieux Marins (OCEAMM).",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2012-05-14",
+    "dateModified": "2012-06-12",
+    "keywords": [
+        {
+            "name":"Cetacea",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Porpoises",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/12166"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/12166"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "English Channel" ,
+            "@id": "http://www.marineregions.org/mrgid/2389"
+            },
+            "geo": {
+                "box" : "1.27 50.48 2.5 51.31",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "1.271033 50.4785 2.497683 51.308233",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2009-03-18/2011-09-03"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phocoena phocoena (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1",
+    "description": "Small cetaceans can use a variety of habitats and are generally wide-ranging. For this reason, extensive sighting surveys to assess their distribution, abundance, and habitat preference are needed. In this study, we conducted systematic surveys to document the distribution of the harbor porpoise observed in the English Channel (North Sea, France). The English Channel is an epicontinental sea. It constitutes a relatively narrow link between the Atlantic Ocean and the North Sea and is influenced by strong tides and freshwater inputs, which create well-mixed waters. The harbor porpoise is placed under Appendix II of the European Union Habitats Directive, and an assessment of his status and distribution in the English Channel, very exposed to human activities, is much needed to identify conservation and management strategies.  Therefore, we conducted surveys following a series of predetermined saw-tooth transect lines to study the distribution of the harbor porpoise (&lt;i&gt;Phocoena phocoena&lt;/i&gt;). Boat transects were conducted using a Sealine Stateman 35, equipped with two 230 hp Volvo inboard engines at speed around 10 knots. Surveys were made as many days as possible throughout the season at sea state of Beaufort 3 or less, between March 2009 and September 2011.  For each animal sighting, the species, angle of sighting, the distance from the boat, the group size and composition, the general behavior and the swimming direction were recorded.",
+    "identifier": "3079",
+    "name": "OCEAMM harbor porpoise sightings in the North Sea",
+    "sameAs": "http://marineinfo.org/id/dataset/3079",
+    "url": "http://marineinfo.org/id/dataset/3079"
+}

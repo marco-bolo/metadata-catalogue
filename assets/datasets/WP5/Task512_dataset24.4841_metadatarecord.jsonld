@@ -1,0 +1,85 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/4841",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/4841.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Occurrence of biota",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The European Union (EU) Habitats Directive requires Member States to monitor and maintain at favourable conservation status those species identified to be in need of protection, including all cetaceans. In July 2005 we surveyed the entire EU Atlantic continental shelf to generate robust estimates of abundance for harbour porpoise and other cetacean species. The survey used line transect sampling methods and purpose built data collection equipment designed to minimise bias in estimates of abundance.",
+    "citation": "Hammond, P.S., Macleod, K., Berggren, P., Borchers, D.L., Burt, L., Cañadas, A., Desportes, G., Donovan, G.P., Gilles, A., Gillespie, D., et al. 2013. Cetacean abundance and distribution in European Atlantic shelf waters to inform conservation and management. Biological Conservation. 164, 107–122",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2015-03-23",
+    "dateModified": "2022-08-01",
+    "keywords": [
+        {
+            "name":"Aerial surveys",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "European Continental Shelf" ,
+            "@id": "http://www.marineregions.org/mrgid/7130"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "-10.75433 45.5765 9.81141 61.67141",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2005-06-27/2005-08-04"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "Shipboard transects covered 19,725 km in sea conditions 6Beaufort 4 in an area of 1,005,743 km2. Aerial transects covered 15,802 km in good/moderate conditions (6Beaufort 3) in an area of 364,371 km2. Thirteen cetacean species were recorded; abundance was estimated for harbour porpoise (375,358; CV = 0.197), bottlenose dolphin (16,485; CV = 0.422), white-beaked dolphin (16,536; CV = 0.303), short-beaked common dolphin (56,221; CV = 0.234) and minke whale (18,958; CV = 0.347). Abundance in 2005 was similar to that estimated in July 1994 for harbour porpoise, white-beaked dolphin and minke whale in a comparable area. However, model-based density surfaces showed a marked difference in harbour porpoise distribution between 1994 and 2005. Our results allow EU Member States to discharge their responsibilities under the Habitats Directive and inform other international organisations concerning the assessment of conservation status of cetaceans and the impact of bycatch at a large spatial scale. The lack of evidence for a change in harbour porpoise abundance in EU waters as a whole does not exclude the possibility of an impact of bycatch in some areas. Monitoring bycatch and estimation of abundance continue to be essential. Supplemental infomation: Data from three teams aboard different airplanes were merged. Teams are flagged &#39;A&#39;, &#39;B&#39; and &#39;C&#39; in &#39;computer&#39; attribute.",
+    "identifier": "4841",
+    "name": "SCANS II cetacean sightings from aerial surveys 2005",
+    "sameAs": "http://marineinfo.org/id/dataset/4841",
+    "url": "http://marineinfo.org/id/dataset/4841"
+}

@@ -1,0 +1,34 @@
+{
+    "@type": "Dataset",
+    "@id": "Task512_dataset2",
+    "identifier": "Task512_dataset2",
+    "description": "An atlas of marine species for Pembrokeshire including flora and fauna, intertidal and sublittoral data, funded by the Counytryside Council for Wales (CCW). It is a collation of data from various CCW and third party sources (both published and unpublished) that cover Pembrokeshire, held within 79 surveys. This is a historical collation which is not being updated. The data includes all records from the Dale Fort Marine Fauna survey plus additional data from subsequent and prior surveys. Data that are included in the MNCR database have been excluded from this dataset to avoid duplication.",
+    "sdPublisher": {
+        "email": "johannes.nowe@vliz.be",
+        "url": "https://www.vliz.be/nl/imis?module=person&amp;persid=44166",
+        "affiliation": {
+            "email": "data@vliz.be",
+            "url": "https://www.vliz.be/en",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "BE"
+            },
+            "name": "Flanders Marine Institute",
+            "identifier": "https://edmo.seadatanet.org/report/422",
+            "@type": "https://schema.org/Organization"
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "BE"
+        },
+        "name": "Jo-Hannes Now\u00e9",
+        "identifier": "https://orcid.org/0009-0000-1555-5867",
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Marine records from Pembrokeshire Marine Species Atlas",
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=692",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset55",
+    "identifier": "Task511_dataset55",
+    "datePublished": "In Progress",
+    "description": "The dataset include Finnish zooplankton monitoring data from the Baltic Sea. The Finnish zooplankton monitoring program started in 1979 and is still ongoing. The sampling has normally taken place in late summer (August); but since 2014 sampling is also carried out in early summer (May-June).The zooplankton monitoring was performed by Finnish Institute of Marine Research until 2008; thereafter the Finnish Environment Institute is responsible for the monitoring program. Samples are taken using a WP-2 net (normally 2550 cm2 opening and 100 um mesh size). The monitoring follows the HELCOM COMBINE guidelines; but subsampling is done using Folsom splitter.  The dataset is also accessible through the NOAA COPEPOD database.",
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
+            "@type": "https://schema.org/Organization"
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Finnish Baltic Sea zooplankton monitoring",
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005726",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+}

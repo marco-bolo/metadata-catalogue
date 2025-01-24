@@ -1,0 +1,186 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/5337",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/5337.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Occurrence of biota",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "The Cetacean Offshore Distribution and Abundance in the European Atlantic (CODA) project estimated the abundance and investigated the habitat use of cetacean species in waters beyond the continental shelf and developed a management framework for determining safe bycatch limits for the common dolphin in this area. The results were intended primarily to inform assessments of the conservation status of all cetacean species and to help assess the impact of bycatch of common dolphin.",
+    "citation": "Lacey C. 2015. CODA cetacean sightings on tracker platform of vessel surveys 2007.&amp;nbsp;",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2016-05-26",
+    "dateModified": "2023-04-07",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/5361"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "North Atlantic" ,
+            "@id": "http://www.marineregions.org/mrgid/1912"
+            },
+            "geo": {
+                "box" : "-17.53 42.05 -2.29 60.06",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "-17.53 42.05 -2.29 60.06",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2007-07-04/2007-07-30"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Balaenoptera acutorostrata Lacépède, 1804",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137087"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Balaenoptera borealis",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137088"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Balaenoptera physalus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137091"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Delphinus delphis Linnaeus, 1758",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137094"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Globicephala melas (Traill, 1809)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137097"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Grampus griseus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137098"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Hyperoodon ampullatus",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137120"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Lagenorhynchus acutus (Gray, 1828)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137100"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mesoplodon bidens (Sowerby, 1804)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137121"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Orcinus orca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137102"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Phocoena phocoena (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Physeter macrocephalus Linnaeus, 1758",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137119"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pseudorca crassidens",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137104"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Stenella coeruleoalba (Meyen, 1833)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137107"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Tursiops truncatus (Montagu, 1821)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137111"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ziphius cavirostris",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137127"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "Surveys from seven different vessels were merged. Each vessel contained two sightings platforms running concurrently – primary and tracker. This dataset includes sightings from the tracker platform. Sightings from the primary platform are registered in CODA cetacean sightings on primary platform of vessel surveys 2007. &lt;p&gt; Effort (vessel tracks) is associated with the primary platform dataset.",
+    "identifier": "5337",
+    "name": "CODA cetacean sightings on tracker platform of vessel surveys 2007",
+    "sameAs": "http://marineinfo.org/id/dataset/5337",
+    "url": "http://marineinfo.org/id/dataset/5337"
+}

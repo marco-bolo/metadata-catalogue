@@ -1,0 +1,34 @@
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset77",
+    "identifier": "Task511_dataset77",
+    "datePublished": "Completed",
+    "description": "The Royal Belgian Institute of Natural Sciences Rotifera collection contains 39 digitised specimens over 7 taxa (mostly species). This dataset only contains the marine species of the collection. The following classes are included: Eurotatoria De Ridder; 1957.",
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
+            "@type": "https://schema.org/Organization"
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Royal Belgian Institute of Natural Sciences Rotifera Collection (Rotifera)",
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005994",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+}

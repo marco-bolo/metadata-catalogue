@@ -1,0 +1,78 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/3198",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/3198.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "This dataset holds the observations recorded during the GEO Biodiversity Day &#34;Artenvielfalt der Nordsee - Sylt&#34; in List.",
+    "citation": "GEO-Tag der Artenvielfalt, Artenvielfalt der Nordsee - Sylt (accessed through GBIF data portal, http://data.gbif.org/datasets/resource/2839, yyyy-mm-dd)",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2012-09-06",
+    "dateModified": "2022-08-10",
+    "keywords": [
+        {
+            "name":"Biological monitoring",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Sylt I." ,
+            "@id": "http://www.marineregions.org/mrgid/3655"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "North Sea" ,
+            "@id": "http://www.marineregions.org/mrgid/2350"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "8.4205171818027 55.011968685189 8.4205171818027 55.011968685189",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2006-06-12/2006-01-01"
+    ],
+    "version": "1.0",
+    "identifier": "3198",
+    "name": "Biodiversity of the North Sea - Sylt",
+    "sameAs": "http://marineinfo.org/id/dataset/3198",
+    "url": "http://marineinfo.org/id/dataset/3198"
+}

@@ -1,0 +1,83 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/3133",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/3133.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "This dataset was collected during CIRCE&#39;s research survey on cetaceans with visual effort between 2001-2012.",
+    "citation": "Verborgh, P., Fujioka, E. 2012. CIRCE Marine mammals off Spain 2001-2012. CIRCE.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2012-08-01",
+    "dateModified": "2013-04-25",
+    "keywords": [
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Atlantic" ,
+            "@id": "http://www.marineregions.org/mrgid/18902"
+            },
+            "geo": {
+                "box" : "-10.27 35.79 -5.03 37.13",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "-10.26655 35.78583 -5.029083 37.12867",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1999-04-22/2012-02-06"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "This dataset was collected during CIRCE&#39;s research survey on cetaceans with visual effort between 2001-2012.&lt;p&gt;Sixty-five marine mammal observations identified as &#39;NO ID&#39;, &#39;NO ID BIG CETACEAN&#39;, &#39;NO ID SMALL DOLPHIN&#39;, &#39;None&#39; were removed.",
+    "identifier": "3133",
+    "name": "CIRCE Marine mammals off Spain 2001-2012",
+    "sameAs": "http://marineinfo.org/id/dataset/3133",
+    "url": "http://marineinfo.org/id/dataset/3133"
+}

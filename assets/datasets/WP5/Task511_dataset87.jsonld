@@ -1,0 +1,33 @@
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset87",
+    "identifier": "Task511_dataset87",
+    "description": "Every year; Wageningen Marine Research carries out shellfish surveys in the Dutch coastal waters (Wadden Sea; Oosterschelde; Westerschelde and Coastal Zone); investigating the distribution and size of the most important commercial shellfish species. These are mainly mussels; cockles; knife hives and Japanese oysters; but also other species with a certain importance for ecology or fishing are included. In addition; catch data from professional fishing are also collected. The data is used by the government when deciding whether or not to permit fishing.",
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
+            "@type": "https://schema.org/Organization"
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Dutch national shellfish monitoring in the coastal zone",
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006204",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+}

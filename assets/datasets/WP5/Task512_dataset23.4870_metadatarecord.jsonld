@@ -1,0 +1,111 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/4870",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/4870.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Occurrence of biota",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "Databases of visual sightings from the IFAW Song of the Whale vessel from 1993 to 2013 were merged into one dataset. Attributes recorded in these databases may differ. Since GPS data would become too huge to effectively visualize online, every 10th record was extracted. All GPS data can be requested. Environmental attributes were recorded less frequently than the GPS data and not all GPS records get environmental attributes attached.",
+    "citation": "Boisseau, Oliver. 2014. Visual sightings from Song of the Whale 1993-2013. Provided by International Fund for Animal Welfare, Song of the Whale Team and downloaded from OBIS-SEAMAP on (access date)",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2015-03-25",
+    "dateModified": "2022-08-16",
+    "keywords": [
+        {
+            "name":"GPS",
+            "inDefinedTermSet":"Transportation Research Thesaurus",
+            "termCode":"3",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"research vessel",
+            "inDefinedTermSet":"SeaVoX Platform categories (L06)",
+            "termCode":"15",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Song of the Whale",
+            "inDefinedTermSet":"ICES Platform codes (C17)",
+            "termCode":"14",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+        "http://marineinfo.org/id/institute/11055"
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Atlantic" ,
+            "@id": "http://www.marineregions.org/mrgid/1902"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "-74.74535 -36.00085 138.4473 68.094",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "South Australia" ,
+            "@id": "http://www.marineregions.org/mrgid/8913"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Mediterranean" ,
+            "@id": "http://www.marineregions.org/mrgid/1905"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1993-06-12/2013-09-26"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Animalia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "identifier": "4870",
+    "name": "Visual sightings from Song of the Whale 1993-2013",
+    "sameAs": "http://marineinfo.org/id/dataset/4870",
+    "url": "http://marineinfo.org/id/dataset/4870"
+}

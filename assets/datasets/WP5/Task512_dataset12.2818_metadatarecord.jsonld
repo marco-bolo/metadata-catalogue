@@ -1,0 +1,80 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/2818",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/2818.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "Since 1994, Ceredigion County Council and a network of shore-based volunteer observes have monitored levels of boat traffic and the occurrence of bottlenose dolphins at seven sites on the coast of Cardigan Bay, Wales. We report high rates of site use and site occupancy by this species during the summer. Although trends in site use may not reflect population trends in the wider region, these data were consistent with recent abundance estimates that indicate that the number of bottlenose dolphins using Cardigan Bay is stable or slightly increasing.  Cardigan Bay is a Special Area of Conservation for bottlenose dolphins and other species and habitats. Recreational boating is known to have the potential to cause disturbance to cetaceans and this monitoring study provides data that underpins the effectiveness of management.",
+    "conditionsOfAccess": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2011-03-31",
+    "dateModified": "2022-08-10",
+    "keywords": [
+        {
+            "name":"Citizen participation",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Maritime transport",
+            "inDefinedTermSet":"Transportation Research Thesaurus",
+            "termCode":"3",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0",
+    "creator" : [
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/11726"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/11726"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "-4.69021 52.1295 -4.09269 52.422",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Cardigan Bay" ,
+            "@id": "http://www.marineregions.org/mrgid/23590"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2004-01-01/2009-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1",
+    "identifier": "2818",
+    "name": "Marine mammal monitoring from coastal sites in Cardigan Bay, UK, 2004-2009",
+    "sameAs": "http://marineinfo.org/id/dataset/2818",
+    "url": "http://marineinfo.org/id/dataset/2818"
+}

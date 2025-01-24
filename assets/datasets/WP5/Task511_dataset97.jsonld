@@ -1,0 +1,34 @@
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset97",
+    "identifier": "Task511_dataset97",
+    "datePublished": "In Progress",
+    "description": "Gridded data of monitored fishing effort and relative bycatch of Mustelus mustelus; Squalus acanthias; Myliobatis aquila; Pteroplatytrygon violacea and Caretta caretta in mid-water pair trawl in the northern Adriatic Sea from; 2006-2017.",
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
+            "@type": "https://schema.org/Organization"
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Monitored bycatch of Mustelus mustelus; Squalus acanthias; Myliobatis aquila; Pteroplatytrygon violacea and Caretta caretta in mid-water pair trawl in the northern Adriatic Sea; from 2006-2017",
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006460",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+}

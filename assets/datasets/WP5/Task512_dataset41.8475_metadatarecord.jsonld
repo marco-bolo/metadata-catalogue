@@ -1,0 +1,72 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/8475",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/8475.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "abstract": "&lt;p&gt;Aerial surveys with bird observations around the off shore wind farm Borssele (North Sea). It is acquired for gaining insight in spatio-temporal behavior of patterns of birds. RWS case number: 31163291.&lt;/p&gt;",
+    "citation": "Rijkswaterstaat (2024) Bird observations at Borsele off shore wind farm",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2024-02-07",
+    "dateModified": "2024-11-25",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/36"
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "North Sea" ,
+            "@id": "http://www.marineregions.org/mrgid/2350"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "2.609538 51.450493 3.781826 52.251232",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2021-01-01/2022-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Aves",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1836"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "identifier": "8475",
+    "name": "Bird observations at Borsele off shore wind farm",
+    "sameAs": "http://marineinfo.org/id/dataset/8475",
+    "url": "http://marineinfo.org/id/dataset/8475"
+}

@@ -1,0 +1,162 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/6282",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/6282.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Abundance of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Ash-free dry weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL03/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Ash-free dry weight biomass production rate of biological entity specified elsewhere per day per unit area of the bed by computation from ash-free dry weight and temperature using a general allometric equation (Edgar, 1991)",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AFDWBP01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Gender of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Sample duration",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Volume of sample",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "This dataset has been created to establish the reference situation of benthic macro-invertebrates (macro-, endobenthos en macro-epibenthos) and demersal fish in the Belgian windfarm area",
+    "citation": "Scory, S. (2019) Monitoring of the effects of Belgian wind mill parks on benthic macro-invertebrates and the fish fauna of soft substrates - reference situation. (WINMON)",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "datePublished": "2019-05-07",
+    "dateModified": "2019-08-06",
+    "keywords": [
+        {
+            "name":"Biological monitoring",
+            "inDefinedTermSet":"CSA Technology Research Database Master Thesaurus",
+            "termCode":"2",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Offshore Wind Energy",
+            "inDefinedTermSet":"Assemble Sectors",
+            "termCode":"10",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Wind farms",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "2.308425 51.17230833 3.786158333 51.7407",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2005-01-01/2014-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1837"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Aves",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1836"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinodermata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1806"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Mollusca",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pisces",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=11676"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "identifier": "6282",
+    "name": "Monitoring of the effects of Belgian wind mill parks on benthic macro-invertebrates and the fish fauna of soft substrates - reference situation. (WINMON)",
+    "sameAs": "http://marineinfo.org/id/dataset/6282",
+    "url": "http://marineinfo.org/id/dataset/6282"
+}

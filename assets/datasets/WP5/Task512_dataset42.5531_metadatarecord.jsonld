@@ -1,0 +1,405 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/5531",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/5531.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Development stage of biological entity specified elsewhere",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"DPM = detection positive minutes",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Milliseconds= duration of clicks",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Number_clicks_filtered = total number of harbour porpoise clicks",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Number_clicks_total = total number of clicks recorded, regardless of origin",
+            "@type":"PropertyValue"
+        },
+         {
+            "name":"Presence or absence of biological entity specified elsewhere by using 0 or 1 binary classification",
+            "identifier":"http://vocab.nerc.ac.uk/collection/P01/current/PRESABS1/",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "As part of the Belgian LifeWatch observatory, a permanent Cetacean passive acoustic network is established in the Belgian Part of the North Sea. The sensor network uses C-PODs (Chelonia Limited) to register the presence of harbour porpoise (&lt;i&gt;Phocoena phocoena&lt;/i&gt;) in the neighbourhood. Click trains of harbour porpoises are detected and classified using the CPOD software and high and moderate quality click trains are selected. The dataset is published yearly aggregated per hour. In related datasets, described below, aggregated data per minute is available.",
+    "citation": "Flanders Marine Institute (VLIZ), Belgium; (2021): LifeWatch observatory data: permanent Cetacean passive acoustic sensor network in the Belgian part of the North Sea. Marine Data Archive.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "In Progress",
+    "datePublished": "2017-01-03",
+    "dateModified": "2024-10-15",
+    "hasPart": [
+      "http://marineinfo.org/id/dataset/None",
+      "http://marineinfo.org/id/dataset/None",
+      "http://marineinfo.org/id/dataset/None",
+      "http://marineinfo.org/id/dataset/None",
+      "http://marineinfo.org/id/dataset/None",
+      "http://marineinfo.org/id/dataset/None",
+      "http://marineinfo.org/id/dataset/None",
+      "http://marineinfo.org/id/dataset/None",
+      "http://marineinfo.org/id/dataset/None"
+    ] ,
+    "keywords": [
+        {
+            "name":"C-PODs",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Data",
+            "inDefinedTermSet":"Assemble KO Types",
+            "termCode":"8",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Echolocation",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Harbour porpoises",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"LifeWatch",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        },
+        {
+            "name":"Passive acoustic monitoring",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+        "http://marineinfo.org/id/institute/36",
+        "http://marineinfo.org/id/institute/36"
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/36"
+    ] ,
+    "publisher" : [
+        "http://marineinfo.org/id/institute/36"
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.2871667,
+                "longitude": 2.812594,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.4325,
+                "longitude": 2.802,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.4611667,
+                "longitude": 3.107,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.2325,
+                "longitude": 2.6431667,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.6493333,
+                "longitude": 2.5338333,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.2858333333,
+                "longitude": 2.43866666667,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.5666667,
+                "longitude": 2.983333,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.704417,
+                "longitude": 2.812594,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.2891666667,
+                "longitude": 2.86533333333,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.4491666667,
+                "longitude": 2.87866666667,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.704417,
+                "longitude": 2.812594,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.2575,
+                "longitude": 2.67783333333,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.45533333,
+                "longitude": 3.102,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.2891666667,
+                "longitude": 2.86533333333,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Belgian Continental Shelf (BCS)" ,
+            "@id": "http://www.marineregions.org/mrgid/3293"
+            },
+            "geo": {
+                "latitude": 51.704417,
+                "longitude": 2.86533333333,
+                "@type": "GeoCoordinates"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID":"http://dbpedia.org/resource/Spatial_reference_system",
+              "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "2.3 51.2325 3.107 51.70495",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2014-01-01/.."
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Phocoena phocoena (Linnaeus, 1758)",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "identifier": "5531",
+    "name": "LifeWatch observatory data: permanent Cetacean passive acoustic sensor network in the Belgian part of the North Sea",
+    "sameAs": "http://marineinfo.org/id/dataset/5531",
+    "url": "http://marineinfo.org/id/dataset/5531"
+}

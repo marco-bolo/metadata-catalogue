@@ -1,0 +1,34 @@
+{
+    "@type": "Dataset",
+    "@id": "Task512_dataset19",
+    "identifier": "Task512_dataset19",
+    "description": "Diveboard is an online scuba diving citizen science platform, where divers can digitize or log their dives, participate in citizen science surveys and projects, and interact with others. More then 10,000 divers have already registered with Diveboard and the community is still growing. This dataset contains all observations made by Diveboarders worldwide (mainly fishes) and are linked to the Encyclopedia of Life. The Diveboard community has dedicated the data to the public domain under a Creative Commons Zero waiver, so these can be used as widely as possible. If you have a specific survey need or question, get in touch: Diveboarders are everywhere and willing to help!",
+    "sdPublisher": {
+        "email": "johannes.nowe@vliz.be",
+        "url": "https://www.vliz.be/nl/imis?module=person&amp;persid=44166",
+        "affiliation": {
+            "email": "data@vliz.be",
+            "url": "https://www.vliz.be/en",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "BE"
+            },
+            "name": "Flanders Marine Institute",
+            "identifier": "https://edmo.seadatanet.org/report/422",
+            "@type": "https://schema.org/Organization"
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "BE"
+        },
+        "name": "Jo-Hannes Now\u00e9",
+        "identifier": "https://orcid.org/0009-0000-1555-5867",
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Diveboard - Scuba diving citizen science observations",
+    "url": "https://www.eurobis.org/imis?module=dataset&amp;dasid=4542",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+}

@@ -1,0 +1,229 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/3192",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/3192.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "This dataset comprises a collection of records of marine organisms, collated by Norman and Florence Hammond before 2005.",
+    "citation": " Norman and Florence Hammond records. Seawatch and coastal survey records. Cumbria Biodiversity Data Centre, UK - UK National Biodiversity Network.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2012-09-03",
+    "dateModified": "2022-08-10",
+    "keywords": [
+        {
+            "name":"Citizen participation",
+            "inDefinedTermSet":"CAB Thesaurus",
+            "termCode":"4",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+    ] ,
+    "contributor": [
+        "http://marineinfo.org/id/institute/5899"
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Solway Firth" ,
+            "@id": "http://www.marineregions.org/mrgid/3280"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Irish Sea" ,
+            "@id": "http://www.marineregions.org/mrgid/2357"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "-5.667974402885534 52.69610916867383 -2.773015208878666 55.721842497419985",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "1800-01-01/2005-01-01"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1837"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Actinopterygii",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=10194"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Algae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=None"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Annelida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=882"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Araneae",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=150467"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Bryozoa",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146142"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chondrichthyes",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1517375"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Chromista",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=7"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Cnidaria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1267"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Crustacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1066"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Ctenophora",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1248"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Echinodermata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1806"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Insecta",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1307"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Molluscs",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=51"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Nemertea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=152391"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Porifera",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=558"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Pycnogonida",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1302"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Reptilia",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1838"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Sipuncula",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1268"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Turbellaria",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=794"
+          },          
+          "@type" : "Taxon"
+        },
+        {
+          "taxonRank" : {
+            "name": "Urochordata",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146420"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "version": "1.0",
+    "description": "To represent the marine flora and fauna of the Solway and the wider Irish Sea more completely, Norman and Florence Hammond collated a collection of records of marine organisms, based on sightings from organised surveys, media reports and casual observations.  The geographical coverage comprises the Northern Irish Sea and the Solway coastal areas, stretching from Stranraer to North Wales and around the Isle of Man.   The dataset has been verified, as far as is practical, by local wildlife experts and organisations. The work was part of an active verification project, the report of which is available on request. However, a level of uncertainty around the dataset remains, and errors in geography almost certainly exist. Any queries should be directed in the first place to the Manager of the Cumbria Biodiversity Data Centre.",
+    "identifier": "3192",
+    "name": "Norman and Florence Hammond records. Seawatch and coastal survey records",
+    "sameAs": "http://marineinfo.org/id/dataset/3192",
+    "url": "http://marineinfo.org/id/dataset/3192"
+}

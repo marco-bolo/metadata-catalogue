@@ -1,0 +1,236 @@
+{
+    "@type": "Dataset",
+    "@id": "VLIZplankton_indicatordata3",
+    "identifier": "VLIZplankton_indicatordata3",
+    "conditionsOfAccess": "These data are in progress under Marco Bolo",
+    "contributor": [
+        {
+            "email": "jonas.mortelmans@vliz.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=26622",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Jonas Mortelmans",
+            "identifier": "https://orcid.org/0000-0002-8781-7915",
+            "@type": "https://schema.org/Person"
+        },
+        {
+            "email": "rune.lagaisse@vliz.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=39431",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Rune Lagaisse",
+            "identifier": "https://orcid.org/0000-0001-9191-9104",
+            "@type": "https://schema.org/Person"
+        },
+        {
+            "email": "klaas.deneudt@vliz.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=3362",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Klaas Deneudt",
+            "identifier": "https://orcid.org/0000-0002-8559-3508",
+            "@type": "https://schema.org/Person"
+        },
+        {
+            "email": "data@vliz.be",
+            "url": "https://www.vliz.be/en",
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Flanders Marine Institute",
+            "identifier": "https://edmo.seadatanet.org/report/422",
+            "@type": "https://schema.org/Organization"
+        },
+        {
+            "email": "julie.muyle@vliz.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=38210",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Julie Muyle",
+            "identifier": "https://orcid.org/0000-0002-7481-0626",
+            "@type": "https://schema.org/Person"
+        },
+        {
+            "email": "luz.amadeimartinez@ugent.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=34178",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Luz Amadei Martinez",
+            "identifier": "https://orcid.org/0000-0001-5960-7972",
+            "@type": "https://schema.org/Person"
+        }
+    ],
+    "funder": [
+        {
+            "email": "info@lifewatch.be",
+            "url": "https://www.lifewatch.be/",
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "LifeWatch Belgium",
+            "identifier": "https://www.lifewatch.be",
+            "@type": "https://schema.org/Project"
+        },
+        {
+            "email": "info@marcobolo-project.eu",
+            "url": "https://marcobolo-project.eu",
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "EU"
+            },
+            "name": "Marco-Bolo",
+            "identifier": "https://marcobolo-project.eu",
+            "@type": "https://schema.org/Project"
+        }
+    ],
+    "isPartOf": [
+        "VLIZplankton_deriveddata1",
+        "VLIZplankton_deriveddata2"
+    ],
+    "provider": [
+        {
+            "email": "data@vliz.be",
+            "url": "https://www.vliz.be/en",
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Flanders Marine Institute",
+            "identifier": "https://edmo.seadatanet.org/report/422",
+            "@type": "https://schema.org/Organization"
+        }
+    ],
+    "publisher": [
+        {
+            "email": "rune.lagaisse@vliz.be",
+            "url": "https://www.vliz.be/en/imis?module=person&amp;persid=39431",
+            "affiliation": {
+                "email": "data@vliz.be",
+                "url": "https://www.vliz.be/en",
+                "address": {
+                    "@type": "https://schema.org/PostalAddress",
+                    "addressCountry": "BE"
+                },
+                "name": "Flanders Marine Institute",
+                "identifier": "https://edmo.seadatanet.org/report/422",
+                "@type": "https://schema.org/Organization"
+            },
+            "workLocation": {
+                "@type": "https://schema.org/Country",
+                "name": "BE"
+            },
+            "name": "Rune Lagaisse",
+            "identifier": "https://orcid.org/0000-0001-9191-9104",
+            "@type": "https://schema.org/Person"
+        }
+    ],
+    "spatialCoverage": [
+        "http://marineregions.org/mrgid/2399"
+    ],
+    "geosparql:hasGeometry": {
+        "geosparql:asWKT": {
+            "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "@value": "POLYGON ((0.21032226 50.93134884, 5.18478656 50.93134884, 5.18478656 53.3832792, 0.21032226 53.3832792, 0.21032226 50.93134884))"
+        },
+        "geosparql:crs": {
+            "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+        }
+    },
+    "datePublished": "12-2024",
+    "description": "With respect to Pelagic Habitats; an OSPAR plankton-derived indicators was developed at the regional scale: \u201cPlankton lifeform index ratios\u201d (PH1/FW5). This is based on the data objects in the framework of the LifeWatch Marine Observatory in the Belgian Part of the North Sea.",
+    "sdPublisher": {
+        "email": "katrina.exter@vliz.be",
+        "url": "https://marineinfo.org/imis?module=person&amp;persid=35548",
+        "affiliation": {
+            "email": "data@vliz.be",
+            "url": "https://www.vliz.be/en",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "BE"
+            },
+            "name": "Flanders Marine Institute",
+            "identifier": "https://edmo.seadatanet.org/report/422",
+            "@type": "https://schema.org/Organization"
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "BE"
+        },
+        "name": "Katrina Exter",
+        "identifier": "https://orcid.org/0000-0002-5911-1536",
+        "@type": "https://schema.org/Person"
+    },
+    "name": "Indicators from LifeWatch Observatory: phytoplankton and zooplankton communities PH1",
+    "url": "",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+}

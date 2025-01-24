@@ -1,0 +1,83 @@
+
+{
+    "@context":
+    {
+        "@vocab": "http://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "http://marineinfo.org/id/dataset/3134",
+    "distribution": {
+      "@type": "DataDownload",
+        "contentUrl": "http://marineinfo.org/id/dataset/3134.jsonld" ,
+        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+    } ,
+    "variableMeasured": [
+         {
+            "name":"Animal sightings",
+            "@type":"PropertyValue"
+        }
+    ] ,
+    "abstract": "A contribution to the distribution of cetacean species in Turkish waters.",
+    "citation": "Bengil, F., Fujioka, E. 2011. Cetacean sightings off Turkey 2006-2011. SAD-DEMAG.",
+    "conditionsOfAccess": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+    "creativeWorkStatus": "Completed",
+    "datePublished": "2012-08-01",
+    "dateModified": "2013-04-25",
+    "keywords": [
+        {
+            "name":"Marine mammals",
+            "inDefinedTermSet":"ASFA Thesaurus List",
+            "termCode":"1",
+            "@type":"DefinedTerm"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator" : [
+    ] ,
+    "contributor": [
+    ] ,
+    "publisher" : [
+    ] ,
+    "spatialCoverage":
+    [
+        {
+            "containedInPlace" : {
+            },
+            "geo": {
+                "box" : "26.183333 36.317778 31.833333 41.541667",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        },
+        {
+            "containedInPlace" : {
+            "@type": "Place",
+            "name": "Turkey" ,
+            "@id": "http://www.marineregions.org/mrgid/25191"
+            },
+            "geo": {
+                "box" : "26.18 36.32 31.83 41.54",
+                "@type": "GeoShape"
+            },
+            "@type": "Place"
+        }
+    ],
+    "temporalCoverage":
+    [
+        "2006-06-12/2011-01-02"
+    ],
+    "about" : [ 
+        {
+          "taxonRank" : {
+            "name": "Cetacea",
+            "identifier": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=2688"
+          },          
+          "@type" : "Taxon"
+        }
+    ],
+    "description": "Some sporadic observations from Turkish waters are recorded between 2006-2011.&lt;p&gt;The time was not recorded and replaced with 12:00:00.",
+    "identifier": "3134",
+    "name": "Cetacean sightings off Turkey 2006-2011",
+    "sameAs": "http://marineinfo.org/id/dataset/3134",
+    "url": "http://marineinfo.org/id/dataset/3134"
+}

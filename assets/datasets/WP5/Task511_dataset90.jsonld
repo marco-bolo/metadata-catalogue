@@ -1,0 +1,34 @@
+{
+    "@type": "Dataset",
+    "@id": "Task511_dataset90",
+    "identifier": "Task511_dataset90",
+    "datePublished": "Completed",
+    "description": "The North Atlantic and Arctic Isopoda dataset contains three parts: 1. Distribution records collected from literature; 2. Distribution records of specimens collected by the BIOICE project (Benthic Invertebrates of Icelandic waters 1992-2004); 3. Distribution records of specimens collected by the IceAGE project (Icelandic marine animals: Genetics and Ecology; since 2011).This dataset contains distribution data regarding the 2nd group; isopods occurrences sampled during the BIOICE project",
+    "sdPublisher": {
+        "email": "Carlos.cano-barbacil@senckenberg.de",
+        "affiliation": {
+            "email": "info@senckenberg.de",
+            "url": "https://www.senckenberg.de/en/",
+            "address": {
+                "@type": "https://schema.org/PostalAddress",
+                "addressCountry": "DE"
+            },
+            "name": "Senckenberg Research Institute and Natural History Museum Frankfurt",
+            "identifier": "https://ror.org/01wz97s39",
+            "@type": "https://schema.org/Organization"
+        },
+        "workLocation": {
+            "@type": "https://schema.org/Country",
+            "name": "DE"
+        },
+        "name": "Carlos Cano-Barbacil",
+        "identifier": "https://orcid.org/0000-0002-6482-5103",
+        "@type": "https://schema.org/Person"
+    },
+    "name": "North Atlantic and Arctic Isopoda sampled during the BIOICE project",
+    "url": "https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000006401",
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    }
+}
