@@ -1,4 +1,4 @@
-# The MARCO-BOLO Dataset Catalogue
+# The MARCO-BOLO Metadata Catalogue
 
 As the MARCO-BOLO (MBO) consortium gathers and produces (meta)data across its work packages (WPs), we'll be building an index of its datasets in this repository. 
 
