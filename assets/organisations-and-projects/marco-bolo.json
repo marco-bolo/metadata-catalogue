@@ -7,20 +7,22 @@
     "name": "Marine Coastal Biodiversity Long-term Observations (MARCO-BOLO): Strengthening biodiversity observation in support of decision making.",
     "alternateName": "MARCO-BOLO", 
     "identifier": "https://doi.org/10.3030/101082021",
-    "url": https://marcobolo-project.eu/",
-    "description": "Description of org ...",
+    "url": "https://marcobolo-project.eu/",
+    "description": "MARCO-BOLO will connect existing initiatives, optimising and improving methods, and further innovating technologies to structure and strengthen European marine, coastal and freshwater biodiversity observation capabilities, linking them to global efforts to understand and restore ocean health.",
     "keywords": [
-        "Oceanography",
-        "Marine Physics"
+        "oceanography",
+        "marine science",
+        "freshwater science",
+        "biodiversity",
+        "eDNA",
+        "omics"
     ],
     "email": "info@marcobolo-project.eu",
     "contactPoint": {
         "@type": "ContactPoint",
-        "contactType": "Public Relations",
-        "description": "This contact point can have email and phone independent of the org itself",
-        "email": "nemo@nowhere.com",
-        "telephone": "( 33 1) 42 68 53 00",
-        "email": "secretariat(at)example.org"
+        "@id": "https://oceanexpert.org/expert/44123",
+        "contactType": "Project Coordinator",
+        "name": "Nicolas Pade"
     },
     "address": {
         "@type": "PostalAddress",
