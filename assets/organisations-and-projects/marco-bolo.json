@@ -20,8 +20,9 @@
     "email": "info@marcobolo-project.eu",
     "contactPoint": {
         "@type": "ContactPoint",
-        "@id": "https://oceanexpert.org/expert/44123",
+        "@id": "https://oceanexpert.org/expert/nhy390",
         "contactType": "Project Coordinator",
         "name": "Nicolas Pade"
-    }
+    },
+  "funding": {"@id": "LINK-TO-MONETARY-GRANT"}
  }
