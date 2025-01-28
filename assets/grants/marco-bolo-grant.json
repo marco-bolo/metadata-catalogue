@@ -9,7 +9,8 @@
     "10063994 (MBA)",
     "10048178 (NOC)"
    ],
-    "funder": {
+    "funder":
+      "@id": "LINK-TO-EU-JSON",
       "@type": "Organization",
       "name": "European Union"
      },
