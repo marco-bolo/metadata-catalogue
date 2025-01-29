@@ -9,7 +9,7 @@ To do so, we'll be using the conventions of the IOC-UNESCO [Ocean Data and Infor
 
 Further, ODIS alignment will secure discoverability in the [Ocean InfoHub]([url](https://oceaninfohub.org/)) system, and other systems leveraging ODIS, while aligning with the Cross-domain Interoperability Framework (CDIF) being developed through [WorldFAIR](https://worldfair-project.eu/).
 
-Dataset validation reports are available at <https://lab.marcobolo-project.eu/dataset-catalogue/>.
+Dataset validation reports are available at <https://lab.marcobolo-project.eu/metadata-catalogue/>.
 
 ## Metadata gathering & generation
 
