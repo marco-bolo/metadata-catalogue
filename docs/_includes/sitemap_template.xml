@@ -2,7 +2,7 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for dataset in datasets %}
-        {% if dataset.filename.startswith("datasets/") %}
+        {% if dataset.filename.startswith("assets/") %}
             <url>
                 <loc>{{ dataset.document_url_raw }}</loc>
                 <lastmod>{{ time }}</lastmod>

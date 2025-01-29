@@ -8,9 +8,9 @@ from pyld import jsonld
 from rdflib.plugins.sparql import prepareQuery
 
 
-DATASET_FOLDERS = ["datasets", "datasets-sandbox"]
-REPO_URL = "https://github.com/marco-bolo/dataset-catalogue"
-REPO_URL_RAW = "https://raw.githubusercontent.com/marco-bolo/dataset-catalogue"
+DATASET_FOLDERS = ["assets/datasets"]
+REPO_URL = "https://github.com/marco-bolo/metadata-catalogue"
+REPO_URL_RAW = "https://raw.githubusercontent.com/marco-bolo/metadata-catalogue"
 
 shape_graph = rdflib.Graph()
 shape_graph.parse("validation/shacl/dataset-shape.ttl", format="turtle")
