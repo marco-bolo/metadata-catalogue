@@ -10,10 +10,10 @@
     },
     "@type": "Dataset",
     "@id": "http://marineinfo.org/id/dataset/{{_.datasetrec.DasID}}",
-    "distribution": {
+    "subjectOf": {
       "@type": "DataDownload",
-        "contentUrl": "http://marineinfo.org/id/dataset/{{_.datasetrec.DasID}}.jsonld" ,
-        "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
+      "@id": "http://marineinfo.org/id/dataset/{{_.datasetrec.DasID}}.jsonld"
+      "encodingFormat": "https://www.iana.org/assignments/media-types/application/ld+json"
     } ,
     {#- meastypes#}
     {%- if _.meastypes %}
