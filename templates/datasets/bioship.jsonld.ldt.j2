@@ -193,6 +193,10 @@
                 "box" : "{{geot.X}} {{geot.Y}} {{geot.MaxX}} {{geot.MaxY}}",
                 "@type": "GeoShape"
             },
+            "geosparql:hasGeometry": {
+                "@type": "geosparql:Geometry",
+                "geosparql:asWKT": "POLYGON(({{geot.X}} {{geot.Y}},{{geot.MaxX}} {{geot.Y}},{{geot.MaxX}} {{geot.MaxY}},{{geot.X}} {{geot.MaxY}},{{geot.X}} {{geot.Y}}))"
+            },
             {%- endif %}
             {%- if geot.GeoDatum %}
               {%- if geot.OrigCoordMinX and geot.OrigCoordMinY %}
@@ -200,6 +204,10 @@
                 "latitude": {{geot.OrigCoordMinY}},
                 "longitude": {{geot.OrigCoordMinX}},
                 "@type": "GeoCoordinates"
+            },
+            "geosparql:hasGeometry": {
+                "@type": "geosparql:Geometry",
+                "geosparql:asWKT": "POINT({{geot.OrigCoordMinX}} {{geot.OrigCoordMinY}})"
             },
             {%- endif %}
             "additionalProperty": {
@@ -222,6 +230,10 @@
             "geo": {
                 "box" : "{{geot.OrigCoordMinX}} {{geot.OrigCoordMinY}} {{geot.OrigCoordMaxX}} {{geot.OrigCoordMaxY}}",
                 "@type": "GeoShape"
+            },
+            "geosparql:hasGeometry": {
+                "@type": "geosparql:Geometry",
+                "geosparql:asWKT": "POLYGON(({{geot.OrigCoordMinX}} {{geot.OrigCoordMinY}},{{geot.OrigCoordMaxX}} {{geot.OrigCoordMinY}},{{geot.OrigCoordMaxX}} {{geot.OrigCoordMaxY}},{{geot.OrigCoordMinX}} {{geot.OrigCoordMaxY}},{{geot.OrigCoordMinX}} {{geot.OrigCoordMinY}}))"
             },
             {%- endif %}
             {%- endif %}
