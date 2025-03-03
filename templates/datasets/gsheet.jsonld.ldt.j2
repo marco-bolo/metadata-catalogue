@@ -374,7 +374,11 @@
             "@value": "{{_.SpatialCoverageWKT}}"
         },
         "geosparql:crs": {
+            {%- if _.CoordinateProjection %}
+            "@id": "{{_.CoordinateProjection}}" {# assuming the URL is provided! #}
+            {% else %}
             "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+            {%- endif %}
         }
     },
     {%- endif %}
@@ -494,6 +498,10 @@
 
     {%- if _.DatasetDescription %}
     "description": "{{ _.DatasetDescription.replace("\n", "")}}",
+    {%- endif %}
+
+    {%- if _.Comment %}
+    "comment: ""{{_.Comment}}",
     {%- endif %}
 
     {%- if _.DatasetDescriber %}
