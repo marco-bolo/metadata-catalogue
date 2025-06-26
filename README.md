@@ -13,7 +13,7 @@ Dataset validation reports are available at <https://lab.marcobolo-project.eu/me
 
 ## Metadata gathering & generation
 
-We are still working out the details of gathering the metadata for MARCO-BOLO's digital assets. Our working version of this template, which has some example entries in it, can be found on our [googledrive](https://docs.google.com/spreadsheets/d/1Wmjpvj4FI8RK926RU3XsM8yDyKGG53PLZFhfiugIRSk/), which is on the MBO WP1 training materials googledrive. This version contains the dataset description metadata to be included in the OceanInfoHub json files, it does not also include the provenance metadata.
+We are still working out the details of gathering the metadata for MARCO-BOLO's digital assets. Our working version of this template, which has some example entries in it, can be found in this [google sheet](https://docs.google.com/spreadsheets/d/1Wmjpvj4FI8RK926RU3XsM8yDyKGG53PLZFhfiugIRSk/), which is on the MBO WP1 training materials googledrive. This version contains the dataset description metadata to be included in the OceanInfoHub json files, it does not also include the provenance metadata. The googlesheets in which metadata are entered and which we harvest are on our [google drive](https://drive.google.com/drive/folders/1L7Kpz75q0rh6hjZdc7365VV1_Yb07jmi).
 
 ## Updating JSON-LD Output
 
